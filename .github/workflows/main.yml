@@ -1,4 +1,4 @@
-name: Publish host2media on hostPanel
+name: Publish host2media on cPanel
 on:
   push:
     branches:
