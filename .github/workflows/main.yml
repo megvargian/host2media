@@ -1,27 +1,30 @@
-name: Publish host2media on cPanel
+name: Deploy to Netlify
+
 on:
   push:
     branches:
-      - main
+      - main  # Trigger the action on push to the main branch
+
 jobs:
-  FTP-Deploy-Action:
-    name: FTP-Deploy-Action
+  build:
     runs-on: ubuntu-latest
+
     steps:
-    -  uses: actions/checkout@v4
-       with:
-         fetch-depth: 2
-    -  name: Set up Node.js
-       uses: actions/setup-node@v3
-       with:
-         node-version: '20.16.0' # or specify the version you need
-    -  name: Install dependencies
-       run: npm install
-    -  name: Build project
-       run: npm run build
-    -  name: FTP-Deploy-Action
-       uses: SamKirkland/FTP-Deploy-Action@4.0.0
-       with:
-         server: ${{ secrets.FTP_SERVER }}
-         username: ${{ secrets.FTP_USERNAME }}
-         password: ${{ secrets.FTP_PASSWORD }}
+      - name: Checkout repository
+        uses: actions/checkout@v2
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: '20.16.0'
+
+      - name: Install dependencies
+        run: npm install
+
+      - name: Build project
+        run: npm run build
+
+      - name: Deploy to Netlify
+        env:
+          NETLIFY_AUTH_TOKEN: ${{ secrets.NETLIFY_AUTH_TOKEN }}
+        run: npx netlify-cli deploy --prod --dir=dist --site=c49c8967-21fd-4668-a9e7-e42e249bf3d3
