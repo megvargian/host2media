@@ -30,6 +30,7 @@ jobs:
       - name: Buidl and Deploy to Netlify
         env:
           NETLIFY_AUTH_TOKEN: ${{ secrets.NETLIFY_AUTH_TOKEN }}
+          NETLIFY_SITE_ID: ${{ secrets.NETLIFY_SITE_ID }}
         run: |
           netlify build
-          netlify deploy --prod --dir=dist --site=c49c8967-21fd-4668-a9e7-e42e249bf3d3
+          netlify deploy --prod --dir=dist
