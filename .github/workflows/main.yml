@@ -24,7 +24,12 @@ jobs:
       - name: Build project
         run: npm run build
 
-      - name: Deploy to Netlify
+      - name: Install Netlify CLI
+        run: npm install -g netlify-cli
+
+      - name: Buidl and Deploy to Netlify
         env:
           NETLIFY_AUTH_TOKEN: ${{ secrets.NETLIFY_AUTH_TOKEN }}
-        run: npx netlify-cli deploy --prod --dir=dist --site=c49c8967-21fd-4668-a9e7-e42e249bf3d3
+        run: |
+          netlify build
+          netlify deploy --prod --dir=dist --site=c49c8967-21fd-4668-a9e7-e42e249bf3d3
