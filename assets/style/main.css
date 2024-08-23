@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+html{
+    font-family: 'Mulish';
+}
+
+@font-face {
+  font-family: 'Mulish';
+  src: url('~/assets/fonts/Mulish-Regular.ttf') format('truetype');
+}
