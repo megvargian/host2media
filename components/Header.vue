@@ -27,8 +27,9 @@
                     </ul>
                 </div>
             </nav>
-            <nav class="py-5 flex flex-row justify-start lg:pl-64 md:pl-16 sm:pl-8">
-                <ul class="basic-2/4 flex bg-white font-bold ">
+            <nav class="py-5 flex flex-row justify-start items-center lg:px-16 md:px-16 sm:px-8">
+                <img class="h-12 w-18" src="~/assets/images/logo.svg">
+                <ul class="basic-2/4 flex bg-white font-bold pl-8">
                     <li class="mx-2">
                         <a href="#">
                             Website Hosting
