@@ -1,5 +1,5 @@
 <template>
-    <div class="w-[100vw]">
+    <div class="w-full">
         <header>
             <nav>
                 <div class="w-full py-3 bg-[#5564ad]">

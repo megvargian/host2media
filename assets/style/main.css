@@ -7,6 +7,17 @@ html{
     font-family: 'Mulish';
 }
 
+.custom-container{
+  max-width: 1224px;
+  margin: 0 auto;
+}
+
+@media(max-width: 1536px){
+  .container {
+    max-width: 1300px !important;
+  }
+}
+
 @font-face {
   font-family: 'Mulish';
   src: url('~/assets/fonts/Mulish-Regular.ttf') format('truetype');
