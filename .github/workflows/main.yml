@@ -2,32 +2,32 @@ name: Deploy to Netlify
 
 on:
   push:
-    branches:
-      - main  # Trigger the action on push to the main branch
+    branches: [ main ]
 
 jobs:
-  build:
+  build-and-deploy:
     runs-on: ubuntu-latest
-
     steps:
-      - name: Checkout repository
-        uses: actions/checkout@v2
+      - uses: actions/checkout@v4
 
-      - name: Set up Node.js
-        uses: actions/setup-node@v3
+      - name: Use Node.js 18.15.0
+        uses: actions/setup-node@v4
         with:
-          node-version: '18.15.0'
+          node-version: 18.15.0
+
+      - name: Clean (assuming you want to clean before install)
+        run: npm ci
 
       - name: Install dependencies
         run: npm install
 
-      - name: Install Netlify CLI
-        run: npm install -g netlify-cli
+      - name: Build Nuxt app
+        run: npm run build
 
-      - name: Build and Deploy to Netlify
+      - name: Linked Deploy to Netlify
         env:
           NETLIFY_AUTH_TOKEN: ${{ secrets.NETLIFY_AUTH_TOKEN }}
           NETLIFY_SITE_ID: ${{ secrets.NETLIFY_SITE_ID }}
-        run: |
-          netlify build
-          netlify deploy --prod --dir=.output/server
+        timeout-minutes: 1
+
+        run: netlify deploy --site ${{ secrets.NETLIFY_SITE_ID }} --auth ${{ secrets.NETLIFY_AUTH_TOKEN }} --prod
