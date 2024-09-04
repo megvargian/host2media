@@ -223,18 +223,18 @@
                         </div>
                         <div class="text-left">
                             <p class="font-black text-back text-lg">99.9% Uptime Guarantee</p>
-                            <p class="font-light pt-1">We guarantee 99.9% uptime and understand the importance of a stable online presence with our commitment to consistent availability, you can trust that your website will always be up and running smoothly and remain accessible to your audience. </p>
+                            <p class="font-light pt-1">We guarantee 99.9% uptime <br>and understand the importance of a <br>stable online presence with our <br>commitment to consistent <br>availability, you can trust that your <br>website will always be up and<br> running smoothly and remain<br> accessible to your audience. </p>
                         </div>
                     </div>
                 </div>
                 <div class="col-span-4 bg-white pb-5">
                     <div>
                         <div class="flex justify-start pl-10 items-center pb-3">
-                            <img class="w-16 h-16" src="~/assets/icons/security.svg" alt="security">
+                            <img class="w-16 h-16" src="~/assets/icons/supp.svg" alt="supp">
                         </div>
                         <div class="text-left">
-                            <p class="font-black text-back text-lg">Enhanced Security</p>
-                            <p class="font-light pt-1">Keep your websites up and <br> running, drawing in more visitors, <br> with our unique safeguard against <br> malware, exploits and DDoS <br> prevention. This helps prevent <br> hacks, protects your website, and <br>safeguards your reputation from <br>any potential damage, ensuring a <br>fast browsing experience.</p>
+                            <p class="font-black text-back text-lg">7/7 Support</p>
+                            <p class="font-light pt-1">We are dedicated to offering round-the-clock support services, addressing any questions or issues, regardless of their size. Our team of professionals is ready to assist with all your needs at any time.</p>
                         </div>
                     </div>
                 </div>
