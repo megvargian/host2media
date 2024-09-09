@@ -13,12 +13,12 @@
           </p>
         </div>
         <div class="col-span-6">
-          <img class="w-full h-auto" src="~/assets/images/main-image.png" />
+          <img class="h-auto w-[450px]" src="~/assets/images/main-image.png" />
         </div>
       </div>
     </div>
   </section>
-  <section class="my-12">
+  <section class="my-12 pt-32 mx-12">
     <div class="container mx-auto flex justify-center items-center pb-12">
       <h2 class="text-5xl font-bold">
         The all-in-one solution to get online quickly
@@ -81,6 +81,7 @@
                 <input
                   class="w-full rounded text-2xl p-4"
                   type="text"
+                  placeholder="Find your exceptional online name..."
                   required
                 />
                 <button
@@ -109,7 +110,7 @@
       <div class="px-10 flex justify-center items-center">
         <div class="rounded-[50px]">
           <div class="grid grid-cols-12 gap-10 flex">
-            <div class="col-span-6 pr-[13rem] flex justify-center items-center">
+            <div class="col-span-6 pr-[10rem] flex justify-center items-center">
               <div>
                 <h2 class="text-5xl font-black">
                   Host2Media <br />
@@ -173,7 +174,7 @@
       </div>
     </div>
     <section class="w-full bg-[#0F132A] pt-64 -z-10 text-white">
-      <div class="container mx-auto">
+      <div class="custom-container mx-auto">
         <div class="grid grid-cols-12 gap-10">
           <div class="col-span-6">
             <div class="text-left text-white pb-10">
@@ -230,7 +231,7 @@
       <div class="px-10 flex justify-center items-center">
         <div class="rounded-[50px]">
           <div class="grid grid-cols-12 gap-10 flex">
-            <div class="col-span-6 pr-[13rem] flex justify-center items-center">
+            <div class="col-span-6 pr-[5rem] flex justify-center items-center">
               <div>
                 <h2 class="text-5xl font-black">
                   Reseller Solutions <br />
