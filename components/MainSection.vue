@@ -3,17 +3,17 @@
     <div class="container mx-auto">
       <div class="grid grid-cols-12 gap-4">
         <div class="col-span-6">
-          <h2 class="text-5xl font-bold py-32 pb-16">
+          <h2 class="leading-tight text-5xl font-bold py-32 pb-16">
             New Web Hosting, <br />
             New Potential
           </h2>
-          <p class="text-base pt-8">Tap into the potential of managed Web Hosting</p>
-          <p class="text-base">
+          <p class="text-xl pt-8">Tap into the potential of managed Web Hosting</p>
+          <p class="text-xl">
             ensuring your website's speed, security, and constant availability.
           </p>
         </div>
         <div class="col-span-6">
-          <img class="h-auto w-[450px]" src="~/assets/images/main-image.png" />
+          <img class="h-auto w-[450px] pt-10" src="~/assets/images/main-image.png" />
         </div>
       </div>
     </div>
@@ -93,8 +93,8 @@
               </form>
             </div>
           </div>
-          <div class="col-span-6 flex justify-center">
-            <h2 class="text-5xl font-bold text-white">
+          <div class="col-span-6 flex justify-start pl-10">
+            <h2 class="leading-tight text-5xl font-bold text-white">
               Find Your Exceptional <br />
               Online Name
             </h2>
@@ -108,22 +108,22 @@
       class="custom-container mx-auto z-2 absolute left-0 top-[0%] right-0 bg-white rounded-[50px]"
     >
       <div class="px-10 flex justify-center items-center">
-        <div class="rounded-[50px]">
+        <div class="rounded-[50px] pt-10">
           <div class="grid grid-cols-12 gap-10 flex">
             <div class="col-span-6 pr-[10rem] flex justify-center items-center">
               <div>
-                <h2 class="text-5xl text-[#0F132A] font-black Mulish-Black">
+                <h2 class="leading-tight text-5xl text-[#0F132A] font-black Mulish-Black">
                   Host2Media <br />
                   contributes to <br />
                   your success.
                 </h2>
-                <p class="py-12">
+                <p class="py-12 Mulish-bold">
                   Customers are choosing to migrate their services to Host2Media
                   to benefit from our fast hosting and top-notch support.
                 </p>
                 <div class="flex justify-center items-center">
                   <button
-                    class="rounded-xl bg-[#5564AD] text-white font-bold py-3 px-8 Mulish-ExtraBold"
+                    class="rounded-[10px] bg-[#5564AD] text-white text-sm font-bold py-4 px-8 Mulish-ExtraBold"
                   >
                     Talk To Sales For Hosting Offers
                   </button>
@@ -132,7 +132,7 @@
             </div>
             <div class="col-span-6">
               <div class="text-left pb-6">
-                <p class="text-[#0F132A] text-lg Mulish-ExtraBold font-black">Easy Control Panel</p>
+                <p class="text-[#0F132A] text-lg Mulish-Black font-black">Easy Control Panel</p>
                 <p class="font-light pt-1">
                   We employ a user-friendly hosting <br />
                   control panel, simplifying the <br />
@@ -141,7 +141,7 @@
                 </p>
               </div>
               <div class="text-left pb-6">
-                <p class="text-[#0F132A] text-lg Mulish-ExtraBold font-black">
+                <p class="text-[#0F132A] text-lg Mulish-Black font-black">
                   Comprehensive in functionality.
                 </p>
                 <p class="font-light pt-1">
@@ -151,7 +151,7 @@
                 </p>
               </div>
               <div class="text-left pb-6">
-                <p class="text-[#0F132A] text-lg Mulish-ExtraBold font-black">Fast & Reliable</p>
+                <p class="text-[#0F132A] text-lg Mulish-Black font-black">Fast & Reliable</p>
                 <p class="font-light pt-1">
                   This leads to improved SEO rankings, <br />
                   reduced bounce rates, and increased <br />
@@ -178,42 +178,42 @@
         <div class="grid grid-cols-12 gap-10">
           <div class="col-span-6">
             <div class="text-left text-white pb-10">
-              <p class="text-lg text-white">Web Hosting</p>
+              <p class="text-lg text-white Mulish-Black">Web Hosting</p>
               <p class="font-light pt-1">
                 Shared Website Hosting gives you everything <br />
                 you need to get started, a free domain name,<br />
                 an easy control panel, a website builder, and <br />
                 email hosting for your website.
               </p>
-              <p class="font-bold pt-2">Starting at $24,99 /month</p>
+              <p class="font-semibold pt-2 Mulish-SemiBold">Starting at $24,99 /month</p>
             </div>
             <div class="text-left text-white pb-10">
-              <p class="text-lg">VPS</p>
+              <p class="text-lg Mulish-Black">VPS</p>
               <p class="font-light pt-1">
                 Our VPS solution offers flexibility for your <br />
                 expansion and allows for easy scalability <br />
                 without committing to long-term investments.
               </p>
-              <p class="font-bold pt-2">Starting at $30,00 /month</p>
+              <p class="font-bold pt-2 Mulish-SemiBold">Starting at $30,00 /month</p>
             </div>
             <div class="text-left text-white pb-10">
-              <p class="text-lg">Professional Email</p>
+              <p class="text-lg Mulish-Black">Professional Email</p>
               <p class="font-light pt-1">
                 Experience the benefits of professional email <br />
                 for your business and make your brand look <br />
                 more credible. with easy upgrades as you grow.
               </p>
-              <p class="font-bold pt-2">Starting at $4,00 /month</p>
+              <p class="font-bold pt-2 Mulish-SemiBold">Starting at $4,00 /month</p>
             </div>
           </div>
           <div class="col-span-6 flex justify-center items-center">
             <div>
-              <h2 class="text-5xl text-white pb-5">
+              <h2 class="leading-tight text-5xl text-white pb-5">
                 We Offer Hosting <br />
                 Solutions For all <br />
                 Your Needs.
               </h2>
-              <p class="py-12">
+              <p class="pb-12">
                 Host2Media offers comprehensive hosting <br />
                 solutions tailored to meet all your business <br />
                 needs. No matter your industry or the specific <br />
@@ -226,26 +226,26 @@
       </div>
     </section>
   </section>
-  <section class="py-32 bg-white block">
-    <div class="custom-container mx-auto">
+  <section class="py-32 block">
+    <div class="custom-container mx-auto bg-white rounded-[50px]">
       <div class="px-10 flex justify-center items-center">
-        <div class="rounded-[50px]">
+        <div class="rounded-[50px] bg-white pt-10">
           <div class="grid grid-cols-12 gap-10 flex">
-            <div class="col-span-6 pr-[5rem] flex justify-center items-center">
+            <div class="col-span-6 pr-[4rem] flex justify-center items-center">
               <div>
-                <h2 class="text-5xl text-[#0F132A]">
+                <h2 class="leading-tight text-5xl text-[#0F132A] font-black Mulish-Black">
                   Reseller Solutions <br />
                   for Agencies of <br />
                   All Sizes
                 </h2>
-                <p class="py-12">
+                <p class="py-12 Mulish-bold">
                   Resell Web Hosting, domain names, professional email, VPS and
                   SSL certificates at scale with Host2Media and set your own
                   margins and profits.
                 </p>
                 <div class="flex justify-center items-center">
                   <button
-                    class="rounded-xl bg-[#5564AD] text-white font-bold py-3 px-8"
+                    class="rounded-[10px] bg-[#5564AD] text-white text-sm font-bold py-4 px-8 Mulish-ExtraBold"
                   >
                     Check Out Our Reseller Offers
                   </button>
@@ -254,7 +254,7 @@
             </div>
             <div class="col-span-6">
               <div class="text-left pb-6">
-                <p class="text-[#0F132A] text-back text-lg">
+                <p class="text-[#0F132A] text-lg Mulish-Black font-black">
                   Flexible turn-key solutions to resell on your own terms
                 </p>
                 <p class="font-light pt-1">
@@ -266,7 +266,7 @@
                 </p>
               </div>
               <div class="text-left pb-6">
-                <p class="text-[#0F132A] text-back text-lg">
+                <p class="text-[#0F132A] text-lg Mulish-Black font-black">
                   Great Pricing without hidden cost
                 </p>
                 <p class="font-light pt-1">
@@ -276,7 +276,7 @@
                 </p>
               </div>
               <div class="text-left pb-6">
-                <p class="text-[#0F132A] text-back text-lg">Personalized Support</p>
+                <p class="text-[#0F132A] text-lg Mulish-Black font-black">Personalized Support</p>
                 <p class="font-light pt-1">
                   Our team is committed to ensuring your <br />
                   success. You'll be provided with a dedicated <br />
@@ -294,7 +294,7 @@
     </div>
   </section>
   <section class="pb-12">
-    <div class="container mx-auto flex justify-center items-center pb-12">
+    <div class="container mx-auto flex justify-center items-center pb-6">
       <h2 class="text-5xl font-bold">What Makes Host2Media Different?</h2>
     </div>
     <div class="container mx-auto flex justify-center itmes-center">
@@ -311,7 +311,7 @@
   <section>
     <div class="custom-container mx-auto">
       <div class="grid grid-cols-12 gap-12">
-        <div class="col-span-4 bg-white pb-5">
+        <div class="col-span-4 pb-5">
           <div>
             <div class="flex justify-start items-center pb-3 pl-10">
               <img
@@ -321,7 +321,7 @@
               />
             </div>
             <div class="text-left">
-              <p class="text-[#0F132A] text-back text-lg">Enhanced Security</p>
+              <p class="text-[#0F132A] font-black Mulish-Black text-lg">Enhanced Security</p>
               <p class="font-light pt-1 max-w-[250px]">
                 Keep your websites up and running, drawing in more visitors,
                 with our unique safeguard against malware, exploits and DDoS
@@ -332,13 +332,13 @@
             </div>
           </div>
         </div>
-        <div class="col-span-4 bg-white pb-5">
+        <div class="col-span-4 pb-5">
           <div>
             <div class="flex justify-start pl-10 items-center pb-3">
               <img class="w-16 h-16" src="~/assets/icons/sp.svg" alt="speed" />
             </div>
             <div class="text-left">
-              <p class="text-[#0F132A] text-back text-lg">Speed and Performance</p>
+              <p class="text-[#0F132A] font-black Mulish-Black text-lg">Speed and Performance</p>
               <p class="font-light pt-1 max-w-[250px]">
                 Guarantee minimal latency and attain maximum speed by delivering
                 swift browsing experiences through our optimized hardware and
@@ -348,7 +348,7 @@
             </div>
           </div>
         </div>
-        <div class="col-span-4 bg-white pb-5">
+        <div class="col-span-4 pb-5">
           <div>
             <div class="flex justify-start pl-10 items-center pb-3">
               <img
@@ -358,7 +358,7 @@
               />
             </div>
             <div class="text-left">
-              <p class="text-[#0F132A] text-back text-lg">99.9% Uptime Guarantee</p>
+              <p class="text-[#0F132A] font-black Mulish-Black text-lg">99.9% Uptime Guarantee</p>
               <p class="font-light pt-1 max-w-[250px]">
                 We guarantee 99.9% uptime and understand the importance of a
                 stable online presence with our commitment to consistent
@@ -368,13 +368,13 @@
             </div>
           </div>
         </div>
-        <div class="col-span-4 bg-white pb-5">
+        <div class="col-span-4 pb-5">
           <div>
             <div class="flex justify-start pl-10 items-center pb-3">
               <img class="w-16 h-16" src="~/assets/icons/supp.svg" alt="supp" />
             </div>
             <div class="text-left">
-              <p class="text-[#0F132A] text-back text-lg">7/7 Support</p>
+              <p class="text-[#0F132A] font-black Mulish-Black text-lg">7/7 Support</p>
               <p class="font-light pt-1 max-w-[250px]">
                 We are dedicated to offering round-the-clock support services,
                 addressing any questions or issues, regardless of their size.
@@ -384,7 +384,7 @@
             </div>
           </div>
         </div>
-        <div class="col-span-4 bg-white pb-5">
+        <div class="col-span-4 pb-5">
           <div>
             <div class="flex justify-start pl-10 items-center pb-3">
               <img
@@ -394,7 +394,7 @@
               />
             </div>
             <div class="text-left">
-              <p class="text-[#0F132A] text-back text-lg">Scalable</p>
+              <p class="text-[#0F132A] font-black Mulish-Black text-lg">Scalable</p>
               <p class="font-light pt-1 max-w-[250px]">
                 we offer dynamic resource allocation, to handle traffic surges
                 and growth without having performance issues. Utilizing elastic
@@ -403,13 +403,13 @@
             </div>
           </div>
         </div>
-        <div class="col-span-4 bg-white pb-5">
+        <div class="col-span-4 pb-5">
           <div>
             <div class="flex justify-start pl-10 items-center pb-3">
               <img class="w-16 h-16" src="~/assets/icons/opt.svg" alt="opt" />
             </div>
             <div class="text-left">
-              <p class="text-[#0F132A] text-back text-lg">Optimized servers</p>
+              <p class="text-[#0F132A] font-black Mulish-Black text-lg">Optimized servers</p>
               <p class="font-light pt-1 max-w-[250px]">
                 Our servers are daily monitored and optimized with the latest
                 server optimization solutions so we can assure you a faster
@@ -425,10 +425,10 @@
     <div class="custom-container mx-auto py-32">
       <div class="custom-bg-img w-full z-1 relative">
         <img class="w-full -z-1" src="~/assets/images/banner.png" alt="banner" />
-        <h4 class="text-white text-4xl text-[#0F132A] absolute top-10 left-10">LET US DO THE JOB!</h4>
-        <h2 class="text-white text-5xl text-[#0F132A] absolute bottom-12 left-12">YOU NAME IT,<br /> WE BUILD IT!</h2>
+        <h4 class="text-white text-4xl Mulish-Black font-bold text-[#0F132A] absolute top-10 left-10">LET US DO THE JOB!</h4>
+        <h2 class="leading-tight text-white text-5xl text-[#0F132A] absolute bottom-12 left-12">YOU NAME IT,<br /> WE BUILD IT!</h2>
         <button
-          class="rounded-xl bg-[#5564AD] text-white font-bold py-3 px-8 absolute bottom-12 left-[40%]"
+          class="rounded-[10px] bg-[#5564AD] text-white text-sm font-bold py-4 px-8 Mulish-ExtraBold absolute bottom-12 left-[40%]"
         >
           Learn More About Our Dev Service
         </button>
@@ -439,11 +439,11 @@
     <div class="custom-sm-container mx-auto pb-32">
       <div class="custom-bg-img w-full">
         <div class="flex justify-center items-center">
-          <h3 class="text-3xl text-[#0F132A]">Frequently Asked Questions</h3>
+          <h3 class="text-4xl text-[#0F132A] font-black Mulish-bold">Frequently Asked Questions</h3>
         </div>
       </div>
       <div class="pt-12">
-        <div class="w-full max-w-lg mx-auto mt-8">
+        <div class="w-full max-w-[700px] mx-auto mt-8">
           <!-- Accordion Item 1 -->
           <div class="mb-4">
             <h2 class="p-4">
@@ -451,7 +451,7 @@
                 @click="toggleAccordion(1)"
                 class="w-full text-left flex justify-between items-center"
               >
-                <span class="font-bold text-sm">How can I register or Transfer a Domain name?</span>
+                <span class="font-bold text-base">How can I register or Transfer a Domain name?</span>
                 <svg
                   class="w-4 h-4 transform transition-transform duration-200 icons"
                   id="icon-1"
@@ -481,7 +481,7 @@
                 @click="toggleAccordion(2)"
                 class="w-full text-left flex justify-between items-center"
               >
-                <span class="font-bold text-sm">Do you offer wordpress website builders?</span>
+                <span class="font-bold text-base">Do you offer wordpress website builders?</span>
                 <svg
                   class="w-4 h-4 transform transition-transform duration-200 icons"
                   id="icon-2"
@@ -510,7 +510,7 @@
                 @click="toggleAccordion(3)"
                 class="w-full text-left flex justify-between items-center"
               >
-                <span class="font-bold text-sm">Can I have an email without having a website?</span>
+                <span class="font-bold text-base">Can I have an email without having a website?</span>
                 <svg
                   class="w-4 h-4 transform transition-transform duration-200 icons"
                   id="icon-3"
@@ -539,7 +539,7 @@
                 @click="toggleAccordion(4)"
                 class="w-full text-left flex justify-between items-center"
               >
-                <span class="font-bold text-sm">Do I need a Domain name to have a web hosting and email address?</span>
+                <span class="font-bold text-base">Do I need a Domain name to have a web hosting and email address?</span>
                 <svg
                   class="w-4 h-4 transform transition-transform duration-200 icons"
                   id="icon-4"
@@ -568,7 +568,7 @@
                 @click="toggleAccordion(5)"
                 class="w-full text-left flex justify-between items-center"
               >
-                <span class="font-bold text-sm">Can I import my old host emails to host2media mail server?</span>
+                <span class="font-bold text-base">Can I import my old host emails to host2media mail server?</span>
                 <svg
                   class="w-4 h-4 transform transition-transform duration-200 icons"
                   id="icon-5"

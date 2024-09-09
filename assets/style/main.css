@@ -6,6 +6,7 @@
 html{
     font-family: 'Mulish';
     color: #0F132A;
+    background: #F9F9F9;
 }
 h2{
   font-family: 'Mulish-ExtraBold';
@@ -24,6 +25,9 @@ p{
 }
 .Mulish-light{
   font-family: 'Mulish-light';
+}
+.Mulish-SemiBold{
+  font-family: 'Mulish-SemiBold';
 }
 .custom-container{
   max-width: 1124px;
@@ -58,4 +62,8 @@ p{
 @font-face {
   font-family: 'Mulish-Black';
   src: url('~/assets/fonts/Mulish-Black.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'Mulish-SemiBold';
+  src: url('~/assets/fonts/Mulish-SemiBold.ttf') format('truetype');
 }
