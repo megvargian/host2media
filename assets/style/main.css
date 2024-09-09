@@ -5,8 +5,23 @@
 
 html{
     font-family: 'Mulish';
+    color: #0F132A;
 }
-
+h2{
+  font-family: 'Mulish-ExtraBold';
+}
+p{
+  font-family: 'Mulish-light';
+}
+.Mulish-ExtraBold{
+  font-family: 'Mulish-ExtraBold';
+}
+.Mulish-bold{
+  font-family: 'Mulish-bold';
+}
+.Mulish-light{
+  font-family: 'Mulish-light';
+}
 .custom-container{
   max-width: 1124px;
   margin: 0 auto;
@@ -24,4 +39,16 @@ html{
 @font-face {
   font-family: 'Mulish';
   src: url('~/assets/fonts/Mulish-Regular.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'Mulish-bold';
+  src: url('~/assets/fonts/Mulish-Bold.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'Mulish-light';
+  src: url('~/assets/fonts/Mulish-Light.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'Mulish-ExtraBold';
+  src: url('~/assets/fonts/Mulish-ExtraBold.ttf') format('truetype');
 }

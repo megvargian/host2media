@@ -3,11 +3,11 @@
     <div class="container mx-auto">
       <div class="grid grid-cols-12 gap-4">
         <div class="col-span-6">
-          <h2 class="text-5xl font-bold py-32">
+          <h2 class="text-5xl font-bold py-32 pb-16">
             New Web Hosting, <br />
             New Potential
           </h2>
-          <p class="text-base">Tap into the potential of managed Web Hosting</p>
+          <p class="text-base pt-8">Tap into the potential of managed Web Hosting</p>
           <p class="text-base">
             ensuring your website's speed, security, and constant availability.
           </p>
@@ -20,7 +20,7 @@
   </section>
   <section class="my-12 pt-32 mx-12">
     <div class="container mx-auto flex justify-center items-center pb-12">
-      <h2 class="text-5xl font-bold">
+      <h2 class="text-5xl font-black text-[#0F132A]">
         The all-in-one solution to get online quickly
       </h2>
     </div>
@@ -35,8 +35,8 @@
                 alt="server-icon"
               />
             </div>
-            <p class="text-black">Web Web Hosting</p>
-            <p class="text-black">Starting @ $24,99 /month</p>
+            <p class="text-[#0F132A]"> Web Hosting</p>
+            <p class="text-[#0F132A]">Starting @ $24,99 /month</p>
           </div>
           <div class="col-span-3 bg-white p-5 rounded-xl">
             <div class="flex justify-center items-center pb-10">
@@ -46,8 +46,8 @@
                 alt="domain-icon"
               />
             </div>
-            <p class="text-black">Domain name</p>
-            <p class="text-black">Starting @ $10,0 /Year</p>
+            <p class="text-[#0F132A]">Domain name</p>
+            <p class="text-[#0F132A]">Starting @ $10,0 /Year</p>
           </div>
           <div class="col-span-3 bg-white p-5 rounded-xl">
             <div class="flex justify-center items-center pb-10">
@@ -57,8 +57,8 @@
                 alt="email-icon"
               />
             </div>
-            <p class="text-black">Professional Email</p>
-            <p class="text-black">Starting @ $4,00 /month</p>
+            <p class="text-[#0F132A]">Professional Email</p>
+            <p class="text-[#0F132A]">Starting @ $4,00 /month</p>
           </div>
           <div class="col-span-3 bg-white p-5 rounded-xl">
             <div class="flex justify-center items-center pb-10">
@@ -68,8 +68,8 @@
                 alt="lock-icon"
               />
             </div>
-            <p class="text-black">SSL Certificates</p>
-            <p class="text-black">Starting @ $40,0 /Year</p>
+            <p class="text-[#0F132A]">SSL Certificates</p>
+            <p class="text-[#0F132A]">Starting @ $40,0 /Year</p>
           </div>
         </div>
       </div>
@@ -79,14 +79,14 @@
             <div class="w-full">
               <form class="flex w-full relative">
                 <input
-                  class="w-full rounded text-2xl p-4"
+                  class="w-full rounded text-base p-4 text-[#0F132A] placeholder-[#0F132A] Mulish-light"
                   type="text"
                   placeholder="Find your exceptional online name..."
                   required
                 />
                 <button
                   type="submit"
-                  class="bg-[#5564AD] p-4 rounded-r absolute right-0"
+                  class="bg-[#5564AD] p-3 rounded-r absolute right-0"
                 >
                   <img class="w-8 h-8" src="~/assets/icons/search.svg" />
                 </button>
@@ -112,7 +112,7 @@
           <div class="grid grid-cols-12 gap-10 flex">
             <div class="col-span-6 pr-[10rem] flex justify-center items-center">
               <div>
-                <h2 class="text-5xl font-black">
+                <h2 class="text-5xl text-[#0F132A] font-black">
                   Host2Media <br />
                   contributes to <br />
                   your success.
@@ -123,7 +123,7 @@
                 </p>
                 <div class="flex justify-center items-center">
                   <button
-                    class="rounded-xl bg-[#5564AD] text-white font-bold py-3 px-8"
+                    class="rounded-xl bg-[#5564AD] text-white font-bold py-3 px-8 Mulish-ExtraBold"
                   >
                     Talk To Sales For Hosting Offers
                   </button>
@@ -132,7 +132,7 @@
             </div>
             <div class="col-span-6">
               <div class="text-left pb-6">
-                <p class="font-black text-back text-lg">Easy Control Panel</p>
+                <p class="text-[#0F132A] text-lg Mulish-ExtraBold">Easy Control Panel</p>
                 <p class="font-light pt-1">
                   We employ a user-friendly hosting <br />
                   control panel, simplifying the <br />
@@ -141,7 +141,7 @@
                 </p>
               </div>
               <div class="text-left pb-6">
-                <p class="font-black text-back text-lg">
+                <p class="text-[#0F132A] text-back text-lg Mulish-ExtraBold">
                   Comprehensive in functionality.
                 </p>
                 <p class="font-light pt-1">
@@ -151,7 +151,7 @@
                 </p>
               </div>
               <div class="text-left pb-6">
-                <p class="font-black text-back text-lg">Fast & Reliable</p>
+                <p class="text-[#0F132A] text-back text-lg Mulish-ExtraBold">Fast & Reliable</p>
                 <p class="font-light pt-1">
                   This leads to improved SEO rankings, <br />
                   reduced bounce rates, and increased <br />
@@ -159,7 +159,7 @@
                 </p>
               </div>
               <div class="text-left pb-6">
-                <p class="font-black text-back text-lg">7/7 Support</p>
+                <p class="text-[#0F132A] text-back text-lg Mulish-ExtraBold">7/7 Support</p>
                 <p class="font-light pt-1">
                   Reach out to our customer service <br />
                   team at any time. Our dedicated <br />
@@ -178,7 +178,7 @@
         <div class="grid grid-cols-12 gap-10">
           <div class="col-span-6">
             <div class="text-left text-white pb-10">
-              <p class="font-black text-back text-lg">Web Hosting</p>
+              <p class="text-lg text-white">Web Hosting</p>
               <p class="font-light pt-1">
                 Shared Website Hosting gives you everything <br />
                 you need to get started, a free domain name,<br />
@@ -188,7 +188,7 @@
               <p class="font-bold pt-2">Starting at $24,99 /month</p>
             </div>
             <div class="text-left text-white pb-10">
-              <p class="font-black text-back text-lg">VPS</p>
+              <p class="text-lg">VPS</p>
               <p class="font-light pt-1">
                 Our VPS solution offers flexibility for your <br />
                 expansion and allows for easy scalability <br />
@@ -197,7 +197,7 @@
               <p class="font-bold pt-2">Starting at $30,00 /month</p>
             </div>
             <div class="text-left text-white pb-10">
-              <p class="font-black text-back text-lg">Professional Email</p>
+              <p class="text-lg">Professional Email</p>
               <p class="font-light pt-1">
                 Experience the benefits of professional email <br />
                 for your business and make your brand look <br />
@@ -208,7 +208,7 @@
           </div>
           <div class="col-span-6 flex justify-center items-center">
             <div>
-              <h2 class="text-5xl font-black pb-5">
+              <h2 class="text-5xl text-white pb-5">
                 We Offer Hosting <br />
                 Solutions For all <br />
                 Your Needs.
@@ -233,7 +233,7 @@
           <div class="grid grid-cols-12 gap-10 flex">
             <div class="col-span-6 pr-[5rem] flex justify-center items-center">
               <div>
-                <h2 class="text-5xl font-black">
+                <h2 class="text-5xl text-[#0F132A]">
                   Reseller Solutions <br />
                   for Agencies of <br />
                   All Sizes
@@ -254,7 +254,7 @@
             </div>
             <div class="col-span-6">
               <div class="text-left pb-6">
-                <p class="font-black text-back text-lg">
+                <p class="text-[#0F132A] text-back text-lg">
                   Flexible turn-key solutions to resell on your own terms
                 </p>
                 <p class="font-light pt-1">
@@ -266,7 +266,7 @@
                 </p>
               </div>
               <div class="text-left pb-6">
-                <p class="font-black text-back text-lg">
+                <p class="text-[#0F132A] text-back text-lg">
                   Great Pricing without hidden cost
                 </p>
                 <p class="font-light pt-1">
@@ -276,7 +276,7 @@
                 </p>
               </div>
               <div class="text-left pb-6">
-                <p class="font-black text-back text-lg">Personalized Support</p>
+                <p class="text-[#0F132A] text-back text-lg">Personalized Support</p>
                 <p class="font-light pt-1">
                   Our team is committed to ensuring your <br />
                   success. You'll be provided with a dedicated <br />
@@ -321,7 +321,7 @@
               />
             </div>
             <div class="text-left">
-              <p class="font-black text-back text-lg">Enhanced Security</p>
+              <p class="text-[#0F132A] text-back text-lg">Enhanced Security</p>
               <p class="font-light pt-1 max-w-[250px]">
                 Keep your websites up and running, drawing in more visitors,
                 with our unique safeguard against malware, exploits and DDoS
@@ -338,7 +338,7 @@
               <img class="w-16 h-16" src="~/assets/icons/sp.svg" alt="speed" />
             </div>
             <div class="text-left">
-              <p class="font-black text-back text-lg">Speed and Performance</p>
+              <p class="text-[#0F132A] text-back text-lg">Speed and Performance</p>
               <p class="font-light pt-1 max-w-[250px]">
                 Guarantee minimal latency and attain maximum speed by delivering
                 swift browsing experiences through our optimized hardware and
@@ -358,7 +358,7 @@
               />
             </div>
             <div class="text-left">
-              <p class="font-black text-back text-lg">99.9% Uptime Guarantee</p>
+              <p class="text-[#0F132A] text-back text-lg">99.9% Uptime Guarantee</p>
               <p class="font-light pt-1 max-w-[250px]">
                 We guarantee 99.9% uptime and understand the importance of a
                 stable online presence with our commitment to consistent
@@ -374,7 +374,7 @@
               <img class="w-16 h-16" src="~/assets/icons/supp.svg" alt="supp" />
             </div>
             <div class="text-left">
-              <p class="font-black text-back text-lg">7/7 Support</p>
+              <p class="text-[#0F132A] text-back text-lg">7/7 Support</p>
               <p class="font-light pt-1 max-w-[250px]">
                 We are dedicated to offering round-the-clock support services,
                 addressing any questions or issues, regardless of their size.
@@ -394,7 +394,7 @@
               />
             </div>
             <div class="text-left">
-              <p class="font-black text-back text-lg">Scalable</p>
+              <p class="text-[#0F132A] text-back text-lg">Scalable</p>
               <p class="font-light pt-1 max-w-[250px]">
                 we offer dynamic resource allocation, to handle traffic surges
                 and growth without having performance issues. Utilizing elastic
@@ -409,7 +409,7 @@
               <img class="w-16 h-16" src="~/assets/icons/opt.svg" alt="opt" />
             </div>
             <div class="text-left">
-              <p class="font-black text-back text-lg">Optimized servers</p>
+              <p class="text-[#0F132A] text-back text-lg">Optimized servers</p>
               <p class="font-light pt-1 max-w-[250px]">
                 Our servers are daily monitored and optimized with the latest
                 server optimization solutions so we can assure you a faster
@@ -425,8 +425,8 @@
     <div class="custom-container mx-auto py-32">
       <div class="custom-bg-img w-full z-1 relative">
         <img class="w-full -z-1" src="~/assets/images/banner.png" alt="banner" />
-        <h4 class="text-white text-4xl font-black absolute top-10 left-10">LET US DO THE JOB!</h4>
-        <h2 class="text-white text-5xl font-black absolute bottom-12 left-12">YOU NAME IT,<br /> WE BUILD IT!</h2>
+        <h4 class="text-white text-4xl text-[#0F132A] absolute top-10 left-10">LET US DO THE JOB!</h4>
+        <h2 class="text-white text-5xl text-[#0F132A] absolute bottom-12 left-12">YOU NAME IT,<br /> WE BUILD IT!</h2>
         <button
           class="rounded-xl bg-[#5564AD] text-white font-bold py-3 px-8 absolute bottom-12 left-[40%]"
         >
@@ -439,7 +439,7 @@
     <div class="custom-sm-container mx-auto pb-32">
       <div class="custom-bg-img w-full">
         <div class="flex justify-center items-center">
-          <h3 class="text-3xl font-black">Frequently Asked Questions</h3>
+          <h3 class="text-3xl text-[#0F132A]">Frequently Asked Questions</h3>
         </div>
       </div>
       <div class="pt-12">

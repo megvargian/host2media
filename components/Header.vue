@@ -32,27 +32,17 @@
                 <ul class="basic-2/4 flex bg-white font-bold pl-8">
                     <li class="mx-2">
                         <a href="#">
-                            Website Hosting
-                        </a>
-                    </li>
-                    <li class="mx-2">
-                        <a href="#">
                             Domains
                         </a>
                     </li>
                     <li class="mx-2">
                         <a href="#">
-                            VPS
+                            Website Hosting
                         </a>
                     </li>
                     <li class="mx-2">
                         <a href="#">
                             Professional Email
-                        </a>
-                    </li>
-                    <li class="mx-2">
-                        <a href="#">
-                            SSL Cerificates
                         </a>
                     </li>
                     <li class="mx-2">
@@ -63,6 +53,11 @@
                     <li class="mx-2">
                         <a href="#">
                             Dev Serices
+                        </a>
+                    </li>
+                    <li class="mx-2">
+                        <a href="#">
+                            Contact us
                         </a>
                     </li>
                 </ul>
