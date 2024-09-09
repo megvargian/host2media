@@ -16,6 +16,9 @@ p{
 .Mulish-ExtraBold{
   font-family: 'Mulish-ExtraBold';
 }
+.Mulish-Black{
+  font-family: 'Mulish-Black';
+}
 .Mulish-bold{
   font-family: 'Mulish-bold';
 }
@@ -51,4 +54,8 @@ p{
 @font-face {
   font-family: 'Mulish-ExtraBold';
   src: url('~/assets/fonts/Mulish-ExtraBold.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'Mulish-Black';
+  src: url('~/assets/fonts/Mulish-Black.ttf') format('truetype');
 }

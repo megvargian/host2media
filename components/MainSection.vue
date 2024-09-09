@@ -112,7 +112,7 @@
           <div class="grid grid-cols-12 gap-10 flex">
             <div class="col-span-6 pr-[10rem] flex justify-center items-center">
               <div>
-                <h2 class="text-5xl text-[#0F132A] font-black">
+                <h2 class="text-5xl text-[#0F132A] font-black Mulish-Black">
                   Host2Media <br />
                   contributes to <br />
                   your success.
@@ -132,7 +132,7 @@
             </div>
             <div class="col-span-6">
               <div class="text-left pb-6">
-                <p class="text-[#0F132A] text-lg Mulish-ExtraBold">Easy Control Panel</p>
+                <p class="text-[#0F132A] text-lg Mulish-ExtraBold font-black">Easy Control Panel</p>
                 <p class="font-light pt-1">
                   We employ a user-friendly hosting <br />
                   control panel, simplifying the <br />
@@ -141,7 +141,7 @@
                 </p>
               </div>
               <div class="text-left pb-6">
-                <p class="text-[#0F132A] text-back text-lg Mulish-ExtraBold">
+                <p class="text-[#0F132A] text-lg Mulish-ExtraBold font-black">
                   Comprehensive in functionality.
                 </p>
                 <p class="font-light pt-1">
@@ -151,7 +151,7 @@
                 </p>
               </div>
               <div class="text-left pb-6">
-                <p class="text-[#0F132A] text-back text-lg Mulish-ExtraBold">Fast & Reliable</p>
+                <p class="text-[#0F132A] text-lg Mulish-ExtraBold font-black">Fast & Reliable</p>
                 <p class="font-light pt-1">
                   This leads to improved SEO rankings, <br />
                   reduced bounce rates, and increased <br />
@@ -159,7 +159,7 @@
                 </p>
               </div>
               <div class="text-left pb-6">
-                <p class="text-[#0F132A] text-back text-lg Mulish-ExtraBold">7/7 Support</p>
+                <p class="text-[#0F132A] text-lg Mulish-ExtraBold font-black">7/7 Support</p>
                 <p class="font-light pt-1">
                   Reach out to our customer service <br />
                   team at any time. Our dedicated <br />
