@@ -245,10 +245,10 @@
       </div>
     </section>
   </section>
-  <section class="py-32 block">
-    <div class="custom-container mx-auto bg-white rounded-[50px]">
+  <section class="pb-32 block">
+    <div class="custom-container mx-auto bg-white rounded-[50px] rounded-t-[0px]">
       <div class="px-10 flex justify-center items-center">
-        <div class="rounded-[50px] bg-white pt-10">
+        <div class="rounded-[50px] bg-white pt-16">
           <div class="grid grid-cols-12 gap-10 flex">
             <div class="col-span-6 pr-[4rem] flex justify-center items-center">
               <div>
@@ -339,7 +339,7 @@
           <div>
             <div class="flex justify-start items-center pb-3 pl-10">
               <img
-                class="w-16 h-16"
+                class="w-12 h-12"
                 src="~/assets/icons/security.svg"
                 alt="security"
               />
@@ -361,7 +361,7 @@
         <div class="col-span-4 pb-5">
           <div>
             <div class="flex justify-start pl-10 items-center pb-3">
-              <img class="w-16 h-16" src="~/assets/icons/sp.svg" alt="speed" />
+              <img class="w-12 h-12" src="~/assets/icons/sp.svg" alt="speed" />
             </div>
             <div class="text-left">
               <p class="text-[#0F132A] font-black Mulish-Black text-lg">
@@ -380,9 +380,9 @@
           <div>
             <div class="flex justify-start pl-10 items-center pb-3">
               <img
-                class="w-16 h-16"
-                src="~/assets/icons/security.svg"
-                alt="security"
+                class="w-12 h-12"
+                src="~/assets/icons/ug.png"
+                alt="ug"
               />
             </div>
             <div class="text-left">
@@ -401,7 +401,7 @@
         <div class="col-span-4 pb-5">
           <div>
             <div class="flex justify-start pl-10 items-center pb-3">
-              <img class="w-16 h-16" src="~/assets/icons/supp.svg" alt="supp" />
+              <img class="w-12 h-12" src="~/assets/icons/supp.svg" alt="supp" />
             </div>
             <div class="text-left">
               <p class="text-[#0F132A] font-black Mulish-Black text-lg">
@@ -420,7 +420,7 @@
           <div>
             <div class="flex justify-start pl-10 items-center pb-3">
               <img
-                class="w-16 h-16"
+                class="w-12 h-12"
                 src="~/assets/icons/scalable.svg"
                 alt="scalable"
               />
@@ -440,7 +440,7 @@
         <div class="col-span-4 pb-5">
           <div>
             <div class="flex justify-start pl-10 items-center pb-3">
-              <img class="w-16 h-16" src="~/assets/icons/opt.svg" alt="opt" />
+              <img class="w-12 h-12" src="~/assets/icons/opt.svg" alt="opt" />
             </div>
             <div class="text-left">
               <p class="text-[#0F132A] font-black Mulish-Black text-lg">
@@ -466,12 +466,12 @@
           alt="banner"
         />
         <h4
-          class="text-white text-4xl Mulish-Black font-bold text-[#0F132A] absolute top-10 left-10"
+          class="text-white text-[1.5rem] Mulish-Black font-bold text-[#0F132A] absolute top-10 left-10"
         >
           LET US DO THE JOB!
         </h4>
         <h2
-          class="leading-tight text-white text-5xl text-[#0F132A] absolute bottom-12 left-12"
+          class="leading-tight text-white text-[2.5rem] text-[#0F132A] absolute bottom-12 left-12"
         >
           YOU NAME IT,<br />
           WE BUILD IT!
@@ -485,7 +485,7 @@
     </div>
   </section>
   <section>
-    <div class="custom-sm-container mx-auto pb-32">
+    <div class="custom-sm-container mx-auto pb-16">
       <div class="custom-bg-img w-full">
         <div class="flex justify-center items-center">
           <h3 class="text-4xl text-[#0F132A] font-black Mulish-bold">

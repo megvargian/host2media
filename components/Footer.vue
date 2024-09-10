@@ -5,9 +5,9 @@
                 <div class="grid grid-cols-12 gap-12 text-white">
                     <div class="col-span-3">
                         <div>
-                            <img class="pb-3 w-[90px] h-[64px]" src="~/assets/images/footer-logo.svg" alt="logo">
-                            <p class="text-sm font-light Mulish-light mb-2">Host2Media <br /> Makdesi 2034 1111 <br /> Hamra Beirut 07</p>
-                            <p class="text-sm font-light Mulish-light mb-2 pt-2">
+                            <img class="pb-3 w-[75px] h-[43px]" src="~/assets/images/footer-logo.svg" alt="logo">
+                            <p class="text-[0.5rem] font-light Mulish-light mb-2">Host2Media <br /> Makdesi 2034 1111 <br /> Hamra Beirut 07</p>
+                            <p class="text-[0.5rem] font-light Mulish-light mb-2 pt-2">
                                 +961 3 821114 <br />
                                 Office Hours: M-F,  9 am-16:30 CET
                             </p>
@@ -115,7 +115,7 @@
     </section>
     <section class="bg-[#5564AD] py-3 w-full">
         <div class="flex justify-center text-white">
-            <p class="Mulish-light text-base">Copyright © 2024, Host2Media,</p>
+            <p class="Mulish-light text-[0.6rem]">Copyright © 2024, Host2Media,</p>
         </div>
     </section>
 </template>
