@@ -7,13 +7,18 @@
             New Web Hosting, <br />
             New Potential
           </h2>
-          <p class="text-xl pt-8">Tap into the potential of managed Web Hosting</p>
+          <p class="text-xl pt-8">
+            Tap into the potential of managed Web Hosting
+          </p>
           <p class="text-xl">
             ensuring your website's speed, security, and constant availability.
           </p>
         </div>
         <div class="col-span-6">
-          <img class="h-auto w-[450px] pt-10" src="~/assets/images/main-image.png" />
+          <img
+            class="h-auto w-[450px] pt-10"
+            src="~/assets/images/main-image.png"
+          />
         </div>
       </div>
     </div>
@@ -35,7 +40,7 @@
                 alt="server-icon"
               />
             </div>
-            <p class="text-[#0F132A]"> Web Hosting</p>
+            <p class="text-[#0F132A]">Web Hosting</p>
             <p class="text-[#0F132A]">Starting @ $24,99 /month</p>
           </div>
           <div class="col-span-3 bg-white p-5 rounded-xl">
@@ -112,7 +117,9 @@
           <div class="grid grid-cols-12 gap-10 flex">
             <div class="col-span-6 pr-[10rem] flex justify-center items-center">
               <div>
-                <h2 class="leading-tight text-5xl text-[#0F132A] font-black Mulish-Black">
+                <h2
+                  class="leading-tight text-5xl text-[#0F132A] font-black Mulish-Black"
+                >
                   Host2Media <br />
                   contributes to <br />
                   your success.
@@ -132,7 +139,9 @@
             </div>
             <div class="col-span-6">
               <div class="text-left pb-6">
-                <p class="text-[#0F132A] text-lg Mulish-Black font-black">Easy Control Panel</p>
+                <p class="text-[#0F132A] text-lg Mulish-Black font-black">
+                  Easy Control Panel
+                </p>
                 <p class="font-light pt-1">
                   We employ a user-friendly hosting <br />
                   control panel, simplifying the <br />
@@ -151,7 +160,9 @@
                 </p>
               </div>
               <div class="text-left pb-6">
-                <p class="text-[#0F132A] text-lg Mulish-Black font-black">Fast & Reliable</p>
+                <p class="text-[#0F132A] text-lg Mulish-Black font-black">
+                  Fast & Reliable
+                </p>
                 <p class="font-light pt-1">
                   This leads to improved SEO rankings, <br />
                   reduced bounce rates, and increased <br />
@@ -159,7 +170,9 @@
                 </p>
               </div>
               <div class="text-left pb-6">
-                <p class="text-[#0F132A] text-lg Mulish-Black font-black">7/7 Support</p>
+                <p class="text-[#0F132A] text-lg Mulish-Black font-black">
+                  7/7 Support
+                </p>
                 <p class="font-light pt-1">
                   Reach out to our customer service <br />
                   team at any time. Our dedicated <br />
@@ -185,7 +198,9 @@
                 an easy control panel, a website builder, and <br />
                 email hosting for your website.
               </p>
-              <p class="font-semibold pt-2 Mulish-SemiBold">Starting at $24,99 /month</p>
+              <p class="font-semibold pt-2 Mulish-SemiBold">
+                Starting at $24,99 /month
+              </p>
             </div>
             <div class="text-left text-white pb-10">
               <p class="text-lg Mulish-Black">VPS</p>
@@ -194,7 +209,9 @@
                 expansion and allows for easy scalability <br />
                 without committing to long-term investments.
               </p>
-              <p class="font-bold pt-2 Mulish-SemiBold">Starting at $30,00 /month</p>
+              <p class="font-bold pt-2 Mulish-SemiBold">
+                Starting at $30,00 /month
+              </p>
             </div>
             <div class="text-left text-white pb-10">
               <p class="text-lg Mulish-Black">Professional Email</p>
@@ -203,7 +220,9 @@
                 for your business and make your brand look <br />
                 more credible. with easy upgrades as you grow.
               </p>
-              <p class="font-bold pt-2 Mulish-SemiBold">Starting at $4,00 /month</p>
+              <p class="font-bold pt-2 Mulish-SemiBold">
+                Starting at $4,00 /month
+              </p>
             </div>
           </div>
           <div class="col-span-6 flex justify-center items-center">
@@ -233,7 +252,9 @@
           <div class="grid grid-cols-12 gap-10 flex">
             <div class="col-span-6 pr-[4rem] flex justify-center items-center">
               <div>
-                <h2 class="leading-tight text-5xl text-[#0F132A] font-black Mulish-Black">
+                <h2
+                  class="leading-tight text-5xl text-[#0F132A] font-black Mulish-Black"
+                >
                   Reseller Solutions <br />
                   for Agencies of <br />
                   All Sizes
@@ -255,7 +276,8 @@
             <div class="col-span-6">
               <div class="text-left pb-6">
                 <p class="text-[#0F132A] text-lg Mulish-Black font-black">
-                  Flexible turn-key solutions to resell on your own terms
+                  Flexible turn-key solutions <br />
+                  to resell on your own terms
                 </p>
                 <p class="font-light pt-1">
                   Join our Reseller Program and Resell host2media's <br />
@@ -276,7 +298,9 @@
                 </p>
               </div>
               <div class="text-left pb-6">
-                <p class="text-[#0F132A] text-lg Mulish-Black font-black">Personalized Support</p>
+                <p class="text-[#0F132A] text-lg Mulish-Black font-black">
+                  Personalized Support
+                </p>
                 <p class="font-light pt-1">
                   Our team is committed to ensuring your <br />
                   success. You'll be provided with a dedicated <br />
@@ -321,7 +345,9 @@
               />
             </div>
             <div class="text-left">
-              <p class="text-[#0F132A] font-black Mulish-Black text-lg">Enhanced Security</p>
+              <p class="text-[#0F132A] font-black Mulish-Black text-lg">
+                Enhanced Security
+              </p>
               <p class="font-light pt-1 max-w-[250px]">
                 Keep your websites up and running, drawing in more visitors,
                 with our unique safeguard against malware, exploits and DDoS
@@ -338,7 +364,9 @@
               <img class="w-16 h-16" src="~/assets/icons/sp.svg" alt="speed" />
             </div>
             <div class="text-left">
-              <p class="text-[#0F132A] font-black Mulish-Black text-lg">Speed and Performance</p>
+              <p class="text-[#0F132A] font-black Mulish-Black text-lg">
+                Speed and Performance
+              </p>
               <p class="font-light pt-1 max-w-[250px]">
                 Guarantee minimal latency and attain maximum speed by delivering
                 swift browsing experiences through our optimized hardware and
@@ -358,7 +386,9 @@
               />
             </div>
             <div class="text-left">
-              <p class="text-[#0F132A] font-black Mulish-Black text-lg">99.9% Uptime Guarantee</p>
+              <p class="text-[#0F132A] font-black Mulish-Black text-lg">
+                99.9% Uptime Guarantee
+              </p>
               <p class="font-light pt-1 max-w-[250px]">
                 We guarantee 99.9% uptime and understand the importance of a
                 stable online presence with our commitment to consistent
@@ -374,7 +404,9 @@
               <img class="w-16 h-16" src="~/assets/icons/supp.svg" alt="supp" />
             </div>
             <div class="text-left">
-              <p class="text-[#0F132A] font-black Mulish-Black text-lg">7/7 Support</p>
+              <p class="text-[#0F132A] font-black Mulish-Black text-lg">
+                7/7 Support
+              </p>
               <p class="font-light pt-1 max-w-[250px]">
                 We are dedicated to offering round-the-clock support services,
                 addressing any questions or issues, regardless of their size.
@@ -394,7 +426,9 @@
               />
             </div>
             <div class="text-left">
-              <p class="text-[#0F132A] font-black Mulish-Black text-lg">Scalable</p>
+              <p class="text-[#0F132A] font-black Mulish-Black text-lg">
+                Scalable
+              </p>
               <p class="font-light pt-1 max-w-[250px]">
                 we offer dynamic resource allocation, to handle traffic surges
                 and growth without having performance issues. Utilizing elastic
@@ -409,7 +443,9 @@
               <img class="w-16 h-16" src="~/assets/icons/opt.svg" alt="opt" />
             </div>
             <div class="text-left">
-              <p class="text-[#0F132A] font-black Mulish-Black text-lg">Optimized servers</p>
+              <p class="text-[#0F132A] font-black Mulish-Black text-lg">
+                Optimized servers
+              </p>
               <p class="font-light pt-1 max-w-[250px]">
                 Our servers are daily monitored and optimized with the latest
                 server optimization solutions so we can assure you a faster
@@ -424,9 +460,22 @@
   <section>
     <div class="custom-container mx-auto py-32">
       <div class="custom-bg-img w-full z-1 relative">
-        <img class="w-full -z-1" src="~/assets/images/banner.png" alt="banner" />
-        <h4 class="text-white text-4xl Mulish-Black font-bold text-[#0F132A] absolute top-10 left-10">LET US DO THE JOB!</h4>
-        <h2 class="leading-tight text-white text-5xl text-[#0F132A] absolute bottom-12 left-12">YOU NAME IT,<br /> WE BUILD IT!</h2>
+        <img
+          class="w-full -z-1"
+          src="~/assets/images/banner.png"
+          alt="banner"
+        />
+        <h4
+          class="text-white text-4xl Mulish-Black font-bold text-[#0F132A] absolute top-10 left-10"
+        >
+          LET US DO THE JOB!
+        </h4>
+        <h2
+          class="leading-tight text-white text-5xl text-[#0F132A] absolute bottom-12 left-12"
+        >
+          YOU NAME IT,<br />
+          WE BUILD IT!
+        </h2>
         <button
           class="rounded-[10px] bg-[#5564AD] text-white text-sm font-bold py-4 px-8 Mulish-ExtraBold absolute bottom-12 left-[40%]"
         >
@@ -439,7 +488,9 @@
     <div class="custom-sm-container mx-auto pb-32">
       <div class="custom-bg-img w-full">
         <div class="flex justify-center items-center">
-          <h3 class="text-4xl text-[#0F132A] font-black Mulish-bold">Frequently Asked Questions</h3>
+          <h3 class="text-4xl text-[#0F132A] font-black Mulish-bold">
+            Frequently Asked Questions
+          </h3>
         </div>
       </div>
       <div class="pt-12">
@@ -451,7 +502,9 @@
                 @click="toggleAccordion(1)"
                 class="w-full text-left flex justify-between items-center"
               >
-                <span class="font-bold text-base">How can I register or Transfer a Domain name?</span>
+                <span class="font-bold text-base"
+                  >How can I register or Transfer a Domain name?</span
+                >
                 <svg
                   class="w-4 h-4 transform transition-transform duration-200 icons"
                   id="icon-1"
@@ -481,7 +534,9 @@
                 @click="toggleAccordion(2)"
                 class="w-full text-left flex justify-between items-center"
               >
-                <span class="font-bold text-base">Do you offer wordpress website builders?</span>
+                <span class="font-bold text-base"
+                  >Do you offer wordpress website builders?</span
+                >
                 <svg
                   class="w-4 h-4 transform transition-transform duration-200 icons"
                   id="icon-2"
@@ -510,7 +565,9 @@
                 @click="toggleAccordion(3)"
                 class="w-full text-left flex justify-between items-center"
               >
-                <span class="font-bold text-base">Can I have an email without having a website?</span>
+                <span class="font-bold text-base"
+                  >Can I have an email without having a website?</span
+                >
                 <svg
                   class="w-4 h-4 transform transition-transform duration-200 icons"
                   id="icon-3"
@@ -539,7 +596,10 @@
                 @click="toggleAccordion(4)"
                 class="w-full text-left flex justify-between items-center"
               >
-                <span class="font-bold text-base">Do I need a Domain name to have a web hosting and email address?</span>
+                <span class="font-bold text-base"
+                  >Do I need a Domain name to have a web hosting and email
+                  address?</span
+                >
                 <svg
                   class="w-4 h-4 transform transition-transform duration-200 icons"
                   id="icon-4"
@@ -568,7 +628,10 @@
                 @click="toggleAccordion(5)"
                 class="w-full text-left flex justify-between items-center"
               >
-                <span class="font-bold text-base">Can I import my old host emails to host2media mail server?</span>
+                <span class="font-bold text-base"
+                  >Can I import my old host emails to host2media mail
+                  server?</span
+                >
                 <svg
                   class="w-4 h-4 transform transition-transform duration-200 icons"
                   id="icon-5"
