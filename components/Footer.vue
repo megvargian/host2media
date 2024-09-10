@@ -42,7 +42,7 @@
                     </div>
                     <div class="col-span-3">
                         <div>
-                            <p class="text-lg font-black pb-5 h-16">Products</p>
+                            <p class="text-lg font-black pb-3">Products</p>
                             <ul>
                                 <li class="text-base font-light mb-2">
                                     <a>
@@ -79,7 +79,7 @@
                     </div>
                     <div class="col-span-3">
                         <div>
-                            <p class="text-lg font-black pb-5 h-16">Legal</p>
+                            <p class="text-lg font-black pb-3">Legal</p>
                             <ul>
                                 <li class="text-base font-light mb-2">
                                     <a>

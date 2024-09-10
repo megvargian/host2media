@@ -159,7 +159,7 @@
                 </p>
               </div>
               <div class="text-left pb-6">
-                <p class="text-[#0F132A] text-lg Mulish-ExtraBold font-black">7/7 Support</p>
+                <p class="text-[#0F132A] text-lg Mulish-Black font-black">7/7 Support</p>
                 <p class="font-light pt-1">
                   Reach out to our customer service <br />
                   team at any time. Our dedicated <br />
@@ -238,7 +238,7 @@
                   for Agencies of <br />
                   All Sizes
                 </h2>
-                <p class="py-12 Mulish-bold">
+                <p class="py-12 Mulish-SemiBold text-lg">
                   Resell Web Hosting, domain names, professional email, VPS and
                   SSL certificates at scale with Host2Media and set your own
                   margins and profits.
