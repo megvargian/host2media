@@ -29,7 +29,7 @@
             </nav>
             <nav class="py-5 flex flex-row justify-start items-center lg:px-16 md:px-16 sm:px-8 ">
                 <img class="h-12 w-18" src="~/assets/images/logo.svg">
-                <ul class="basic-2/4 flex font-bold pl-8 text-[#0F132A]">
+                <ul class="basic-2/4 flex font-medium text-lg pl-8 text-[#0F132A]">
                     <li class="mx-2">
                         <a class="text-[#0F132A]" href="#">
                             Domains

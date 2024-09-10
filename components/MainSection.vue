@@ -79,7 +79,7 @@
             <div class="w-full">
               <form class="flex w-full relative">
                 <input
-                  class="w-full rounded text-base p-4 text-[#0F132A] placeholder-[#0F132A] Mulish-light"
+                  class="w-full rounded text-base p-4 text-[#0F132A] placeholder-[#0F132A] Mulish-light outline-none"
                   type="text"
                   placeholder="Find your exceptional online name..."
                   required
