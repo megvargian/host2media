@@ -117,7 +117,7 @@
                   contributes to <br />
                   your success.
                 </h2>
-                <p class="py-12 Mulish-bold">
+                <p class="py-12 Mulish-SemiBold text-lg">
                   Customers are choosing to migrate their services to Host2Media
                   to benefit from our fast hosting and top-notch support.
                 </p>

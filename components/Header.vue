@@ -4,22 +4,22 @@
             <nav>
                 <div class="w-full py-3 bg-[#5564ad]">
                     <ul class="flex justify-end text-white px-5">
-                        <li class="mx-2 Mulish-light text-[0.875rem]">
+                        <li class="mx-2 Mulish-light text-[0.75rem]">
                             <a href="#">
                                 Blog
                             </a>
                         </li>
-                        <li class="mx-2 Mulish-light text-[0.875rem]">
+                        <li class="mx-2 Mulish-light text-[0.75rem]">
                             <a href="#">
                                 Knowladge Base
                             </a>
                         </li>
-                        <li class="mx-2 Mulish-light text-[0.875rem]">
+                        <li class="mx-2 Mulish-light text-[0.75rem]">
                             <a href="#">
                                 Status
                             </a>
                         </li>
-                        <li class="mx-2 Mulish-light font-semibold text-[0.875rem]">
+                        <li class="mx-2 Mulish-light font-semibold text-[0.75rem]">
                             <a href="#">
                                 Customer Portal
                             </a>
