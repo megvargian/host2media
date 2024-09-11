@@ -124,7 +124,7 @@
                   contributes to <br />
                   your success.
                 </h2>
-                <p class="py-12 Mulish-SemiBold text-lg">
+                <p class="py-12 font-normal text-lg">
                   Customers are choosing to migrate their services to Host2Media
                   to benefit from our fast hosting and top-notch support.
                 </p>
@@ -142,7 +142,7 @@
                 <p class="text-[#0F132A] text-lg Mulish-Black font-black">
                   Easy Control Panel
                 </p>
-                <p class="font-light pt-1">
+                <p class="font-light Mulish-light pt-1">
                   We employ a user-friendly hosting <br />
                   control panel, simplifying the <br />
                   management of your web hosting and <br />
@@ -153,7 +153,7 @@
                 <p class="text-[#0F132A] text-lg Mulish-Black font-black">
                   Comprehensive in functionality.
                 </p>
-                <p class="font-light pt-1">
+                <p class="font-light Mulish-light pt-1">
                   We go beyond web hosting, providing <br />
                   a tool suite that Incorporates all the <br />
                   essential elements for your success.
@@ -163,7 +163,7 @@
                 <p class="text-[#0F132A] text-lg Mulish-Black font-black">
                   Fast & Reliable
                 </p>
-                <p class="font-light pt-1">
+                <p class="font-light Mulish-light pt-1">
                   This leads to improved SEO rankings, <br />
                   reduced bounce rates, and increased <br />
                   conversion rates!
@@ -173,7 +173,7 @@
                 <p class="text-[#0F132A] text-lg Mulish-Black font-black">
                   7/7 Support
                 </p>
-                <p class="font-light pt-1">
+                <p class="font-light Mulish-light pt-1">
                   Reach out to our customer service <br />
                   team at any time. Our dedicated <br />
                   support team is ever-ready to address <br />
@@ -191,8 +191,8 @@
         <div class="grid grid-cols-12 gap-10">
           <div class="col-span-6">
             <div class="text-left text-white pb-10">
-              <p class="text-lg text-white Mulish-Black">Web Hosting</p>
-              <p class="font-light pt-1">
+              <p class="text-lg Mulish-Black font-black">Web Hosting</p>
+              <p class="font-light Mulish-light pt-1">
                 Shared Website Hosting gives you everything <br />
                 you need to get started, a free domain name,<br />
                 an easy control panel, a website builder, and <br />
@@ -203,8 +203,8 @@
               </p>
             </div>
             <div class="text-left text-white pb-10">
-              <p class="text-lg Mulish-Black">VPS</p>
-              <p class="font-light pt-1">
+              <p class="text-lg Mulish-Black font-black">VPS</p>
+              <p class="font-light Mulish-light pt-1">
                 Our VPS solution offers flexibility for your <br />
                 expansion and allows for easy scalability <br />
                 without committing to long-term investments.
@@ -214,8 +214,8 @@
               </p>
             </div>
             <div class="text-left text-white pb-10">
-              <p class="text-lg Mulish-Black">Professional Email</p>
-              <p class="font-light pt-1">
+              <p class="text-lg Mulish-Black font-black">Professional Email</p>
+              <p class="font-light Mulish-light pt-1">
                 Experience the benefits of professional email <br />
                 for your business and make your brand look <br />
                 more credible. with easy upgrades as you grow.
@@ -227,12 +227,12 @@
           </div>
           <div class="col-span-6 flex justify-center items-center">
             <div>
-              <h2 class="leading-tight text-5xl text-white pb-5">
+              <h2 class="leading-tight text-5xl text-[#fff] font-black Mulish-Black">
                 We Offer Hosting <br />
                 Solutions For all <br />
                 Your Needs.
               </h2>
-              <p class="pb-12">
+              <p class="py-12 font-normal text-lg">
                 Host2Media offers comprehensive hosting <br />
                 solutions tailored to meet all your business <br />
                 needs. No matter your industry or the specific <br />
@@ -259,7 +259,7 @@
                   for Agencies of <br />
                   All Sizes
                 </h2>
-                <p class="py-12 Mulish-SemiBold text-lg">
+                <p class="py-12 font-normal text-lg">
                   Resell Web Hosting, domain names, professional email, VPS and
                   SSL certificates at scale with Host2Media and set your own
                   margins and profits.
@@ -279,7 +279,7 @@
                   Flexible turn-key solutions <br />
                   to resell on your own terms
                 </p>
-                <p class="font-light pt-1">
+                <p class="font-light Mulish-light pt-1">
                   Join our Reseller Program and Resell host2media's <br />
                   hosting services under your own brand name using <br />
                   the white-label solution and directly invoice your <br />
@@ -291,7 +291,7 @@
                 <p class="text-[#0F132A] text-lg Mulish-Black font-black">
                   Great Pricing without hidden cost
                 </p>
-                <p class="font-light pt-1">
+                <p class="font-light Mulish-light pt-1">
                   We provide reduced pricing for our Resellers,<br />
                   enabling you to stay competitive in your market <br />
                   while delivering high-quality hosting services.
@@ -301,7 +301,7 @@
                 <p class="text-[#0F132A] text-lg Mulish-Black font-black">
                   Personalized Support
                 </p>
-                <p class="font-light pt-1">
+                <p class="font-light Mulish-light pt-1">
                   Our team is committed to ensuring your <br />
                   success. You'll be provided with a dedicated <br />
                   account manager, round-the-clock technical <br />
@@ -319,7 +319,7 @@
   </section>
   <section class="pb-12">
     <div class="container mx-auto flex justify-center items-center pb-6">
-      <h2 class="text-5xl font-bold">What Makes Host2Media Different?</h2>
+      <h2 class="leading-tight text-5xl text-[#0F132A] font-black Mulish-Black">What Makes Host2Media Different?</h2>
     </div>
     <div class="container mx-auto flex justify-center itmes-center">
       <p class="text-center">
