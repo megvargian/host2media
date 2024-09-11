@@ -3,7 +3,7 @@
     <div class="container mx-auto">
       <div class="grid grid-cols-12 gap-4">
         <div class="col-span-12 lg:col-span-6">
-          <h2 class="leading-tight sm:text-5xl text-4xl lg:text-left text-center font-bold lg:py-32 pt-0 sm:pb-16 pb-5">
+          <h2 class="leading-tight sm:text-4xl md:lg:text-5xl md:text-4xl text-[36px] lg:text-left text-center text-[36px] lg:text-left text-center font-bold lg:py-32 pt-0 sm:pb-16 pb-5">
             New Web Hosting, <br />
             New Potential
           </h2>
@@ -23,19 +23,19 @@
       </div>
     </div>
   </section>
-  <section class="my-12 lg:pt-32 mx-12">
+  <section class="my-12 lg:pt-32 lg:mx-12">
     <div class="container mx-auto flex justify-center items-center pb-12">
-      <h2 class="text-5xl sm:text-5xl text-4xl lg:text-left text-center font-black text-[#0F132A]">
+      <h2 class="lg:text-5xl md:text-4xl text-[36px] lg:text-left text-center sm:text-5xl md:text-4xl text-[36px] lg:text-left text-center font-black text-[#0F132A]">
         The all-in-one solution to get online quickly
       </h2>
     </div>
-    <div class="w-full rounded-3xl bg-[#0F132A] mt-10 relative lg:pt-32">
+    <div class="w-full lg:rounded-3xl rounded-tl-[50px] rounded-bl-[50px] bg-[#0F132A] mt-10 relative lg:pt-32">
       <div class="container w-full mx-auto lg:absolute lg:right-0 lg:left-0 top-[-30%]">
-        <div class="grid grid-cols-12 gap-5 py-10">
-          <div class="lg:col-span-3 col-span-6 bg-white p-5 rounded-xl">
-            <div class="flex justify-center items-center pb-10">
+        <div class="grid grid-cols-12 gap-5 py-10 mx-5">
+          <div class="lg:col-span-3 col-span-6 bg-white sm:p-5 p-3 rounded-xl">
+            <div class="flex justify-center items-center sm:pb-10 pb-5">
               <img
-                class="w-12 h-12"
+                class="md:w-12 md:h-12 w-8 h-8"
                 src="~/assets/icons/server.svg"
                 alt="server-icon"
               />
@@ -43,10 +43,10 @@
             <p class="text-[#0F132A]">Web Hosting</p>
             <p class="text-[#0F132A]">Starting @ $24,99 /month</p>
           </div>
-          <div class="lg:col-span-3 col-span-6 bg-white p-5 rounded-xl">
-            <div class="flex justify-center items-center pb-10">
+          <div class="lg:col-span-3 col-span-6 bg-white sm:p-5 p-3 rounded-xl">
+            <div class="flex justify-center items-center sm:pb-10 pb-5">
               <img
-                class="w-12 h-12"
+                class="md:w-12 md:h-12 w-8 h-8"
                 src="~/assets/icons/domain.svg"
                 alt="domain-icon"
               />
@@ -54,10 +54,10 @@
             <p class="text-[#0F132A]">Domain name</p>
             <p class="text-[#0F132A]">Starting @ $10,0 /Year</p>
           </div>
-          <div class="lg:col-span-3 col-span-6 bg-white p-5 rounded-xl">
-            <div class="flex justify-center items-center pb-10">
+          <div class="lg:col-span-3 col-span-6 bg-white sm:p-5 p-3 rounded-xl">
+            <div class="flex justify-center items-center sm:pb-10 pb-5">
               <img
-                class="w-12 h-12"
+                class="md:w-12 md:h-12 w-8 h-8"
                 src="~/assets/icons/email.svg"
                 alt="email-icon"
               />
@@ -65,10 +65,10 @@
             <p class="text-[#0F132A]">Professional Email</p>
             <p class="text-[#0F132A]">Starting @ $4,00 /month</p>
           </div>
-          <div class="lg:col-span-3 col-span-6 bg-white p-5 rounded-xl">
-            <div class="flex justify-center items-center pb-10">
+          <div class="lg:col-span-3 col-span-6 bg-white sm:p-5 p-3 rounded-xl">
+            <div class="flex justify-center items-center sm:pb-10 pb-5">
               <img
-                class="w-12 h-12"
+                class="md:w-12 md:h-12 w-8 h-8"
                 src="~/assets/icons/lock.svg"
                 alt="lock-icon"
               />
@@ -80,7 +80,7 @@
       </div>
       <div class="container w-full mx-auto">
         <div class="grid grid-cols-12 gap-4 py-10">
-          <div class="col-span-6 flex justify-center items-center">
+          <div class="lg:col-span-6 col-span-12 order-2 lg:order-1 flex justify-center items-center mx-5">
             <div class="w-full">
               <form class="flex w-full relative">
                 <input
@@ -98,8 +98,8 @@
               </form>
             </div>
           </div>
-          <div class="col-span-6 flex justify-start pl-10">
-            <h2 class="leading-tight text-5xl font-bold text-white">
+          <div class="lg:col-span-6 col-span-12 order-1 lg:order-2 flex lg:justify-start justify-center lg:pl-10">
+            <h2 class="leading-tight sm:text-5xl md:text-4xl text-[36px] font-bold text-white lg:text-left text-center">
               Find Your Exceptional <br />
               Online Name
             </h2>
@@ -110,21 +110,21 @@
   </section>
   <section class="pt-[30rem] relative z-1">
     <div
-      class="custom-container mx-auto z-2 absolute left-0 top-[0%] right-0 bg-white rounded-[50px]"
+      class="custom-container mx-auto z-2 absolute left-0 top-[0%] right-0 bg-white rounded-[50px] mx-10 lg:mx-0"
     >
       <div class="px-10 flex justify-center items-center">
         <div class="rounded-[50px] pt-10">
           <div class="grid grid-cols-12 gap-10 flex">
-            <div class="col-span-6 pr-[10rem] flex justify-center items-center">
+            <div class="lg:col-span-6 col-span-12 lg:pr-[10rem] flex justify-center items-center">
               <div>
                 <h2
-                  class="leading-tight text-5xl text-[#0F132A] font-black Mulish-Black"
+                  class="leading-tight lg:text-5xl md:text-4xl text-[36px] lg:text-left text-center text-[#0F132A] font-black Mulish-Black"
                 >
                   Host2Media <br />
                   contributes to <br />
                   your success.
                 </h2>
-                <p class="py-12 font-normal text-lg">
+                <p class="lg:py-12 py-8 font-normal text-lg lg:text-left text-center">
                   Customers are choosing to migrate their services to Host2Media
                   to benefit from our fast hosting and top-notch support.
                 </p>
@@ -137,59 +137,67 @@
                 </div>
               </div>
             </div>
-            <div class="col-span-6">
-              <div class="text-left pb-6">
-                <p class="text-[#0F132A] text-lg Mulish-Black font-black">
-                  Easy Control Panel
-                </p>
-                <p class="font-light Mulish-light pt-1">
-                  We employ a user-friendly hosting <br />
-                  control panel, simplifying the <br />
-                  management of your web hosting and <br />
-                  alleviating any associated challenges.
-                </p>
+            <div class="lg:col-span-6 col-span-12">
+              <div class="text-left pb-6 flex lg:block justify-center">
+               <div>
+                  <p class="text-[#0F132A] text-lg Mulish-Black font-black">
+                    Easy Control Panel
+                  </p>
+                  <p class="font-light Mulish-light pt-1">
+                    We employ a user-friendly hosting <br />
+                    control panel, simplifying the <br />
+                    management of your web hosting and <br />
+                    alleviating any associated challenges.
+                  </p>
+               </div>
               </div>
-              <div class="text-left pb-6">
-                <p class="text-[#0F132A] text-lg Mulish-Black font-black">
-                  Comprehensive in functionality.
-                </p>
-                <p class="font-light Mulish-light pt-1">
-                  We go beyond web hosting, providing <br />
-                  a tool suite that Incorporates all the <br />
-                  essential elements for your success.
-                </p>
+              <div class="text-left pb-6 lg:block flex justify-center">
+                <div>
+                  <p class="text-[#0F132A] text-lg Mulish-Black font-black">
+                    Comprehensive in functionality.
+                  </p>
+                  <p class="font-light Mulish-light pt-1">
+                    We go beyond web hosting, providing <br />
+                    a tool suite that Incorporates all the <br />
+                    essential elements for your success.
+                  </p>
+                </div>
               </div>
-              <div class="text-left pb-6">
-                <p class="text-[#0F132A] text-lg Mulish-Black font-black">
-                  Fast & Reliable
-                </p>
-                <p class="font-light Mulish-light pt-1">
-                  This leads to improved SEO rankings, <br />
-                  reduced bounce rates, and increased <br />
-                  conversion rates!
-                </p>
+              <div class="text-left pb-6 lg:block flex justify-center">
+                <div>
+                  <p class="text-[#0F132A] text-lg Mulish-Black font-black">
+                    Fast & Reliable
+                  </p>
+                  <p class="font-light Mulish-light pt-1">
+                    This leads to improved SEO rankings, <br />
+                    reduced bounce rates, and increased <br />
+                    conversion rates!
+                  </p>
+                </div>
               </div>
-              <div class="text-left pb-6">
-                <p class="text-[#0F132A] text-lg Mulish-Black font-black">
-                  7/7 Support
-                </p>
-                <p class="font-light Mulish-light pt-1">
-                  Reach out to our customer service <br />
-                  team at any time. Our dedicated <br />
-                  support team is ever-ready to address <br />
-                  and resolve any questions or concerns <br />
-                  you may have.
-                </p>
+              <div class="text-left pb-6 lg:block flex justify-center">
+                <div>
+                  <p class="text-[#0F132A] text-lg Mulish-Black font-black">
+                    7/7 Support
+                  </p>
+                  <p class="font-light Mulish-light pt-1">
+                    Reach out to our customer service <br />
+                    team at any time. Our dedicated <br />
+                    support team is ever-ready to address <br />
+                    and resolve any questions or concerns <br />
+                    you may have.
+                  </p>
+                </div>
               </div>
             </div>
           </div>
         </div>
       </div>
     </div>
-    <section class="w-full bg-[#0F132A] pt-64 -z-10 text-white">
+    <section class="w-full bg-[#0F132A] lg:pt-64 pt-[35rem] -z-10 text-white">
       <div class="custom-container mx-auto">
         <div class="grid grid-cols-12 gap-10">
-          <div class="col-span-6">
+          <div class="lg:col-span-6 col-span-12">
             <div class="text-left text-white pb-10">
               <p class="text-lg Mulish-Black font-black">Web Hosting</p>
               <p class="font-light Mulish-light pt-1">
@@ -225,9 +233,9 @@
               </p>
             </div>
           </div>
-          <div class="col-span-6 flex justify-center items-center">
+          <div class="lg:col-span-6 col-span-12 flex justify-center items-center">
             <div>
-              <h2 class="leading-tight text-5xl text-[#fff] font-black Mulish-Black">
+              <h2 class="leading-tight lg:text-5xl md:text-4xl text-[36px] lg:text-left text-center text-[#fff] font-black Mulish-Black">
                 We Offer Hosting <br />
                 Solutions For all <br />
                 Your Needs.
@@ -250,10 +258,10 @@
       <div class="px-10 flex justify-center items-center">
         <div class="rounded-[50px] bg-white pt-16">
           <div class="grid grid-cols-12 gap-10 flex">
-            <div class="col-span-6 pr-[4rem] flex justify-center items-center">
+            <div class="lg:col-span-6 col-span-12 lg:pr-[4rem] flex justify-center items-center">
               <div>
                 <h2
-                  class="leading-tight text-5xl text-[#0F132A] font-black Mulish-Black"
+                  class="leading-tight lg:text-5xl md:text-4xl text-[36px] lg:text-left text-center text-[#0F132A] font-black Mulish-Black"
                 >
                   Reseller Solutions <br />
                   for Agencies of <br />
@@ -273,7 +281,7 @@
                 </div>
               </div>
             </div>
-            <div class="col-span-6">
+            <div class="lg:col-span-6 col-span-12">
               <div class="text-left pb-6">
                 <p class="text-[#0F132A] text-lg Mulish-Black font-black">
                   Flexible turn-key solutions <br />
@@ -319,7 +327,7 @@
   </section>
   <section class="pb-12">
     <div class="container mx-auto flex justify-center items-center pb-6">
-      <h2 class="leading-tight text-5xl text-[#0F132A] font-black Mulish-Black">What Makes Host2Media Different?</h2>
+      <h2 class="leading-tight lg:text-5xl md:text-4xl text-[36px] lg:text-left text-center text-[#0F132A] font-black Mulish-Black">What Makes Host2Media Different?</h2>
     </div>
     <div class="container mx-auto flex justify-center itmes-center">
       <p class="text-center">
@@ -334,12 +342,12 @@
   </section>
   <section>
     <div class="custom-container mx-auto">
-      <div class="grid grid-cols-12 gap-12">
-        <div class="col-span-4 pb-5">
+      <div class="grid grid-cols-12 lg:gap-12 gap-5">
+        <div class="lg:col-span-4 md:col-span-6 col-span-12 pb-5 lg:block flex justify-center">
           <div>
             <div class="flex justify-start items-center pb-3 pl-10">
               <img
-                class="w-12 h-12"
+                class="md:w-12 md:h-12 w-8 h-8"
                 src="~/assets/icons/security.svg"
                 alt="security"
               />
@@ -358,7 +366,7 @@
             </div>
           </div>
         </div>
-        <div class="col-span-4 pb-5">
+        <div class="lg:col-span-4 md:col-span-6 col-span-12 pb-5 lg:block flex justify-center">
           <div>
             <div class="flex justify-start pl-10 items-center pb-3">
               <img class="w-12 h-12" src="~/assets/icons/sp.svg" alt="speed" />
@@ -376,7 +384,7 @@
             </div>
           </div>
         </div>
-        <div class="col-span-4 pb-5">
+        <div class="lg:col-span-4 md:col-span-6 col-span-12 pb-5 lg:block flex justify-center">
           <div>
             <div class="flex justify-start pl-10 items-center pb-3">
               <img
@@ -398,7 +406,7 @@
             </div>
           </div>
         </div>
-        <div class="col-span-4 pb-5">
+        <div class="lg:col-span-4 md:col-span-6 col-span-12 pb-5 lg:block flex justify-center">
           <div>
             <div class="flex justify-start pl-10 items-center pb-3">
               <img class="w-12 h-12" src="~/assets/icons/supp.svg" alt="supp" />
@@ -416,7 +424,7 @@
             </div>
           </div>
         </div>
-        <div class="col-span-4 pb-5">
+        <div class="lg:col-span-4 md:col-span-6 col-span-12 pb-5 lg:block flex justify-center">
           <div>
             <div class="flex justify-start pl-10 items-center pb-3">
               <img
@@ -437,7 +445,7 @@
             </div>
           </div>
         </div>
-        <div class="col-span-4 pb-5">
+        <div class="lg:col-span-4 md:col-span-6 col-span-12 pb-5 lg:block flex justify-center">
           <div>
             <div class="flex justify-start pl-10 items-center pb-3">
               <img class="w-12 h-12" src="~/assets/icons/opt.svg" alt="opt" />

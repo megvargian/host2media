@@ -2,8 +2,8 @@
     <section class="bg-[#0F132A] w-full py-12">
         <div class="container mx-auto">
             <footer>
-                <div class="grid grid-cols-12 gap-12 text-white">
-                    <div class="col-span-3">
+                <div class="grid grid-cols-12 lg:gap-12 gap-5 text-white sm:mx-0 mx-5">
+                    <div class="lg:col-span-3 col-span-6">
                         <div>
                             <img class="pb-3 w-[75px] h-[43px]" src="~/assets/images/footer-logo.svg" alt="logo">
                             <p class="text-[0.5rem] font-light Mulish-light mb-2">Host2Media <br /> Makdesi 2034 1111 <br /> Hamra Beirut 07</p>
@@ -13,7 +13,7 @@
                             </p>
                         </div>
                     </div>
-                    <div class="col-span-3">
+                    <div class="lg:col-span-3 col-span-6">
                         <div>
                             <p class="text-lg font-black pb-3">Links</p>
                             <ul>
@@ -40,7 +40,7 @@
                             </ul>
                         </div>
                     </div>
-                    <div class="col-span-3">
+                    <div class="lg:col-span-3 col-span-6">
                         <div>
                             <p class="text-lg font-black pb-3">Products</p>
                             <ul>
@@ -77,7 +77,7 @@
                             </ul>
                         </div>
                     </div>
-                    <div class="col-span-3">
+                    <div class="lg:col-span-3 col-span-6">
                         <div>
                             <p class="text-lg font-black pb-3">Legal</p>
                             <ul>
