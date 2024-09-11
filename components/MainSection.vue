@@ -2,19 +2,19 @@
   <section>
     <div class="container mx-auto">
       <div class="grid grid-cols-12 gap-4">
-        <div class="col-span-6">
-          <h2 class="leading-tight text-5xl font-bold py-32 pb-16">
+        <div class="col-span-12 lg:col-span-6">
+          <h2 class="leading-tight sm:text-5xl text-4xl lg:text-left text-center font-bold lg:py-32 pt-0 sm:pb-16 pb-5">
             New Web Hosting, <br />
             New Potential
           </h2>
-          <p class="text-xl pt-8">
+          <p class="sm:text-xl text-sm lg:text-left text-center sm:pt-8">
             Tap into the potential of managed Web Hosting
           </p>
-          <p class="text-xl">
+          <p class="sm:text-xl text-sm lg:text-left text-center">
             ensuring your website's speed, security, and constant availability.
           </p>
         </div>
-        <div class="col-span-6">
+        <div class="col-span-12 lg:col-span-6 flex justify-center">
           <img
             class="h-auto w-[450px] pt-10"
             src="~/assets/images/main-image.png"
@@ -23,16 +23,16 @@
       </div>
     </div>
   </section>
-  <section class="my-12 pt-32 mx-12">
+  <section class="my-12 lg:pt-32 mx-12">
     <div class="container mx-auto flex justify-center items-center pb-12">
-      <h2 class="text-5xl font-black text-[#0F132A]">
+      <h2 class="text-5xl sm:text-5xl text-4xl lg:text-left text-center font-black text-[#0F132A]">
         The all-in-one solution to get online quickly
       </h2>
     </div>
-    <div class="w-full rounded-3xl bg-[#0F132A] mt-10 relative pt-32">
-      <div class="container w-full mx-auto absolute right-0 left-0 top-[-30%]">
+    <div class="w-full rounded-3xl bg-[#0F132A] mt-10 relative lg:pt-32">
+      <div class="container w-full mx-auto lg:absolute lg:right-0 lg:left-0 top-[-30%]">
         <div class="grid grid-cols-12 gap-5 py-10">
-          <div class="col-span-3 bg-white p-5 rounded-xl">
+          <div class="lg:col-span-3 col-span-6 bg-white p-5 rounded-xl">
             <div class="flex justify-center items-center pb-10">
               <img
                 class="w-12 h-12"
@@ -43,7 +43,7 @@
             <p class="text-[#0F132A]">Web Hosting</p>
             <p class="text-[#0F132A]">Starting @ $24,99 /month</p>
           </div>
-          <div class="col-span-3 bg-white p-5 rounded-xl">
+          <div class="lg:col-span-3 col-span-6 bg-white p-5 rounded-xl">
             <div class="flex justify-center items-center pb-10">
               <img
                 class="w-12 h-12"
@@ -54,7 +54,7 @@
             <p class="text-[#0F132A]">Domain name</p>
             <p class="text-[#0F132A]">Starting @ $10,0 /Year</p>
           </div>
-          <div class="col-span-3 bg-white p-5 rounded-xl">
+          <div class="lg:col-span-3 col-span-6 bg-white p-5 rounded-xl">
             <div class="flex justify-center items-center pb-10">
               <img
                 class="w-12 h-12"
@@ -65,7 +65,7 @@
             <p class="text-[#0F132A]">Professional Email</p>
             <p class="text-[#0F132A]">Starting @ $4,00 /month</p>
           </div>
-          <div class="col-span-3 bg-white p-5 rounded-xl">
+          <div class="lg:col-span-3 col-span-6 bg-white p-5 rounded-xl">
             <div class="flex justify-center items-center pb-10">
               <img
                 class="w-12 h-12"
