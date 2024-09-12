@@ -114,7 +114,7 @@
     >
       <div class="px-10 flex justify-center items-center">
         <div class="rounded-[50px] pt-10">
-          <div class="grid grid-cols-12 gap-10 flex">
+          <div class="grid grid-cols-12 lg:gap-10 gap-5 flex">
             <div class="lg:col-span-6 col-span-12 lg:pr-[10rem] flex justify-center items-center">
               <div>
                 <h2
@@ -196,7 +196,7 @@
     </div>
     <section class="w-full bg-[#0F132A] lg:pt-64 pt-[10rem] mt-[25rem] -z-10 text-white">
       <div class="custom-container mx-auto">
-        <div class="grid grid-cols-12 gap-10">
+        <div class="grid grid-cols-12 lg:gap-10 gap-5">
           <div class="lg:col-span-6 col-span-12 order-2 lg:order-1">
             <div class="lg:block flex justify-center">
               <div class="text-left text-white pb-10">
@@ -263,7 +263,7 @@
     <div class="custom-container mx-auto bg-white rounded-[50px] rounded-t-[0px]">
       <div class="px-10 flex justify-center items-center">
         <div class="rounded-[50px] bg-white pt-16">
-          <div class="grid grid-cols-12 gap-10 flex">
+          <div class="grid grid-cols-12 lg:gap-10 gap-5 flex">
             <div class="lg:col-span-6 col-span-12 lg:pr-[4rem] flex justify-center items-center">
               <div>
                 <h2
@@ -288,42 +288,48 @@
               </div>
             </div>
             <div class="lg:col-span-6 col-span-12">
-              <div class="text-left pb-6">
-                <p class="text-[#0F132A] text-lg Mulish-Black font-black">
-                  Flexible turn-key solutions <br class="sm:flex hidden" />
-                  to resell on your own terms
-                </p>
-                <p class="font-light Mulish-light pt-1">
-                  Join our Reseller Program and Resell host2media's <br class="sm:flex hidden" />
-                  hosting services under your own brand name using <br class="sm:flex hidden" />
-                  the white-label solution and directly invoice your <br class="sm:flex hidden" />
-                  end-users, or make profits by offering Host2media <br class="sm:flex hidden" />
-                  services as affiliation.
-                </p>
+              <div class="lg:block flex justify-center">
+                <div class="text-left pb-6">
+                  <p class="text-[#0F132A] text-lg Mulish-Black font-black">
+                    Flexible turn-key solutions <br class="sm:flex hidden" />
+                    to resell on your own terms
+                  </p>
+                  <p class="font-light Mulish-light pt-1">
+                    Join our Reseller Program and Resell host2media's <br class="sm:flex hidden" />
+                    hosting services under your own brand name using <br class="sm:flex hidden" />
+                    the white-label solution and directly invoice your <br class="sm:flex hidden" />
+                    end-users, or make profits by offering Host2media <br class="sm:flex hidden" />
+                    services as affiliation.
+                  </p>
+                </div>
               </div>
-              <div class="text-left pb-6">
-                <p class="text-[#0F132A] text-lg Mulish-Black font-black">
-                  Great Pricing without hidden cost
-                </p>
-                <p class="font-light Mulish-light pt-1">
-                  We provide reduced pricing for our Resellers,<br class="sm:flex hidden" />
-                  enabling you to stay competitive in your market <br class="sm:flex hidden" />
-                  while delivering high-quality hosting services.
-                </p>
+              <div class="lg:block flex justify-center">
+                <div class="text-left pb-6">
+                  <p class="text-[#0F132A] text-lg Mulish-Black font-black">
+                    Great Pricing without hidden cost
+                  </p>
+                  <p class="font-light Mulish-light pt-1">
+                    We provide reduced pricing for our Resellers,<br class="sm:flex hidden" />
+                    enabling you to stay competitive in your market <br class="sm:flex hidden" />
+                    while delivering high-quality hosting services.
+                  </p>
+                </div>
               </div>
-              <div class="text-left pb-6">
-                <p class="text-[#0F132A] text-lg Mulish-Black font-black">
-                  Personalized Support
-                </p>
-                <p class="font-light Mulish-light pt-1">
-                  Our team is committed to ensuring your <br class="sm:flex hidden" />
-                  success. You'll be provided with a dedicated <br class="sm:flex hidden" />
-                  account manager, round-the-clock technical <br class="sm:flex hidden" />
-                  support for you and your clients, and an <br class="sm:flex hidden" />
-                  extensive knowledge base, ensuring you have <br class="sm:flex hidden" />
-                  the assistance you require whenever it's <br class="sm:flex hidden" />
-                  needed.
-                </p>
+              <div class="lg:block flex justify-center">
+                <div class="text-left pb-6">
+                  <p class="text-[#0F132A] text-lg Mulish-Black font-black">
+                    Personalized Support
+                  </p>
+                  <p class="font-light Mulish-light pt-1">
+                    Our team is committed to ensuring your <br class="sm:flex hidden" />
+                    success. You'll be provided with a dedicated <br class="sm:flex hidden" />
+                    account manager, round-the-clock technical <br class="sm:flex hidden" />
+                    support for you and your clients, and an <br class="sm:flex hidden" />
+                    extensive knowledge base, ensuring you have <br class="sm:flex hidden" />
+                    the assistance you require whenever it's <br class="sm:flex hidden" />
+                    needed.
+                  </p>
+                </div>
               </div>
             </div>
           </div>
