@@ -4,7 +4,7 @@
       <div class="grid grid-cols-12 gap-4">
         <div class="col-span-12 lg:col-span-6">
           <h2 class="leading-tight sm:text-4xl md:lg:text-5xl md:text-4xl text-[36px] lg:text-left text-center text-[36px] lg:text-left text-center font-bold lg:py-32 pt-0 sm:pb-16 pb-5">
-            New Web Hosting, <br />
+            New Web Hosting, <br class="sm:flex hidden" />
             New Potential
           </h2>
           <p class="sm:text-xl text-sm lg:text-left text-center sm:pt-8">
@@ -100,7 +100,7 @@
           </div>
           <div class="lg:col-span-6 col-span-12 order-1 lg:order-2 flex lg:justify-start justify-center lg:pl-10">
             <h2 class="leading-tight sm:text-5xl md:text-4xl text-[36px] font-bold text-white lg:text-left text-center">
-              Find Your Exceptional <br />
+              Find Your Exceptional <br class="sm:flex hidden" />
               Online Name
             </h2>
           </div>
@@ -120,8 +120,8 @@
                 <h2
                   class="leading-tight lg:text-5xl md:text-4xl text-[36px] lg:text-left text-center text-[#0F132A] font-black Mulish-Black"
                 >
-                  Host2Media <br />
-                  contributes to <br />
+                  Host2Media <br class="sm:flex hidden" />
+                  contributes to <br class="sm:flex hidden" />
                   your success.
                 </h2>
                 <p class="lg:py-12 py-8 font-normal text-lg lg:text-left text-center">
@@ -144,9 +144,9 @@
                     Easy Control Panel
                   </p>
                   <p class="font-light Mulish-light pt-1">
-                    We employ a user-friendly hosting <br />
-                    control panel, simplifying the <br />
-                    management of your web hosting and <br />
+                    We employ a user-friendly hosting <br class="sm:flex hidden" />
+                    control panel, simplifying the <br class="sm:flex hidden" />
+                    management of your web hosting and <br class="sm:flex hidden" />
                     alleviating any associated challenges.
                   </p>
                </div>
@@ -157,8 +157,8 @@
                     Comprehensive in functionality.
                   </p>
                   <p class="font-light Mulish-light pt-1">
-                    We go beyond web hosting, providing <br />
-                    a tool suite that Incorporates all the <br />
+                    We go beyond web hosting, providing <br class="sm:flex hidden" />
+                    a tool suite that Incorporates all the <br class="sm:flex hidden" />
                     essential elements for your success.
                   </p>
                 </div>
@@ -169,8 +169,8 @@
                     Fast & Reliable
                   </p>
                   <p class="font-light Mulish-light pt-1">
-                    This leads to improved SEO rankings, <br />
-                    reduced bounce rates, and increased <br />
+                    This leads to improved SEO rankings, <br class="sm:flex hidden" />
+                    reduced bounce rates, and increased <br class="sm:flex hidden" />
                     conversion rates!
                   </p>
                 </div>
@@ -181,10 +181,10 @@
                     7/7 Support
                   </p>
                   <p class="font-light Mulish-light pt-1">
-                    Reach out to our customer service <br />
-                    team at any time. Our dedicated <br />
-                    support team is ever-ready to address <br />
-                    and resolve any questions or concerns <br />
+                    Reach out to our customer service <br class="sm:flex hidden" />
+                    team at any time. Our dedicated <br class="sm:flex hidden" />
+                    support team is ever-ready to address <br class="sm:flex hidden" />
+                    and resolve any questions or concerns <br class="sm:flex hidden" />
                     you may have.
                   </p>
                 </div>
@@ -202,9 +202,9 @@
               <div class="text-left text-white pb-10">
                 <p class="text-lg Mulish-Black font-black">Web Hosting</p>
                 <p class="font-light Mulish-light pt-1">
-                  Shared Website Hosting gives you everything <br />
-                  you need to get started, a free domain name,<br />
-                  an easy control panel, a website builder, and <br />
+                  Shared Website Hosting gives you everything <br class="sm:flex hidden" />
+                  you need to get started, a free domain name,<br class="sm:flex hidden" />
+                  an easy control panel, a website builder, and <br class="sm:flex hidden" />
                   email hosting for your website.
                 </p>
                 <p class="font-semibold pt-2 Mulish-SemiBold">
@@ -216,8 +216,8 @@
               <div class="text-left text-white pb-10">
                 <p class="text-lg Mulish-Black font-black">VPS</p>
                 <p class="font-light Mulish-light pt-1">
-                  Our VPS solution offers flexibility for your <br />
-                  expansion and allows for easy scalability <br />
+                  Our VPS solution offers flexibility for your <br class="sm:flex hidden" />
+                  expansion and allows for easy scalability <br class="sm:flex hidden" />
                   without committing to long-term investments.
                 </p>
                 <p class="font-bold pt-2 Mulish-SemiBold">
@@ -229,8 +229,8 @@
               <div class="text-left text-white pb-10">
                 <p class="text-lg Mulish-Black font-black">Professional Email</p>
                 <p class="font-light Mulish-light pt-1">
-                  Experience the benefits of professional email <br />
-                  for your business and make your brand look <br />
+                  Experience the benefits of professional email <br class="sm:flex hidden" />
+                  for your business and make your brand look <br class="sm:flex hidden" />
                   more credible. with easy upgrades as you grow.
                 </p>
                 <p class="font-bold pt-2 Mulish-SemiBold">
@@ -242,15 +242,15 @@
           <div class="lg:col-span-6 col-span-12 order-1 lg:order-2 flex justify-center items-center">
             <div>
               <h2 class="leading-tight lg:text-5xl md:text-4xl text-[36px] lg:text-left text-center text-[#fff] font-black Mulish-Black">
-                We Offer Hosting <br />
-                Solutions For all <br />
+                We Offer Hosting <br class="sm:flex hidden" />
+                Solutions For all <br class="sm:flex hidden" />
                 Your Needs.
               </h2>
               <p class="py-12 font-normal text-lg">
-                Host2Media offers comprehensive hosting <br />
-                solutions tailored to meet all your business <br />
-                needs. No matter your industry or the specific <br />
-                solution you're seeking, we've got you covered <br />
+                Host2Media offers comprehensive hosting <br class="sm:flex hidden" />
+                solutions tailored to meet all your business <br class="sm:flex hidden" />
+                needs. No matter your industry or the specific <br class="sm:flex hidden" />
+                solution you're seeking, we've got you covered <br class="sm:flex hidden" />
                 with a range of hosting options.
               </p>
             </div>
@@ -269,8 +269,8 @@
                 <h2
                   class="leading-tight lg:text-5xl md:text-4xl text-[36px] lg:text-left text-center text-[#0F132A] font-black Mulish-Black"
                 >
-                  Reseller Solutions <br />
-                  for Agencies of <br />
+                  Reseller Solutions <br class="sm:flex hidden" />
+                  for Agencies of <br class="sm:flex hidden" />
                   All Sizes
                 </h2>
                 <p class="py-12 font-normal text-lg">
@@ -290,14 +290,14 @@
             <div class="lg:col-span-6 col-span-12">
               <div class="text-left pb-6">
                 <p class="text-[#0F132A] text-lg Mulish-Black font-black">
-                  Flexible turn-key solutions <br />
+                  Flexible turn-key solutions <br class="sm:flex hidden" />
                   to resell on your own terms
                 </p>
                 <p class="font-light Mulish-light pt-1">
-                  Join our Reseller Program and Resell host2media's <br />
-                  hosting services under your own brand name using <br />
-                  the white-label solution and directly invoice your <br />
-                  end-users, or make profits by offering Host2media <br />
+                  Join our Reseller Program and Resell host2media's <br class="sm:flex hidden" />
+                  hosting services under your own brand name using <br class="sm:flex hidden" />
+                  the white-label solution and directly invoice your <br class="sm:flex hidden" />
+                  end-users, or make profits by offering Host2media <br class="sm:flex hidden" />
                   services as affiliation.
                 </p>
               </div>
@@ -306,8 +306,8 @@
                   Great Pricing without hidden cost
                 </p>
                 <p class="font-light Mulish-light pt-1">
-                  We provide reduced pricing for our Resellers,<br />
-                  enabling you to stay competitive in your market <br />
+                  We provide reduced pricing for our Resellers,<br class="sm:flex hidden" />
+                  enabling you to stay competitive in your market <br class="sm:flex hidden" />
                   while delivering high-quality hosting services.
                 </p>
               </div>
@@ -316,12 +316,12 @@
                   Personalized Support
                 </p>
                 <p class="font-light Mulish-light pt-1">
-                  Our team is committed to ensuring your <br />
-                  success. You'll be provided with a dedicated <br />
-                  account manager, round-the-clock technical <br />
-                  support for you and your clients, and an <br />
-                  extensive knowledge base, ensuring you have <br />
-                  the assistance you require whenever it's <br />
+                  Our team is committed to ensuring your <br class="sm:flex hidden" />
+                  success. You'll be provided with a dedicated <br class="sm:flex hidden" />
+                  account manager, round-the-clock technical <br class="sm:flex hidden" />
+                  support for you and your clients, and an <br class="sm:flex hidden" />
+                  extensive knowledge base, ensuring you have <br class="sm:flex hidden" />
+                  the assistance you require whenever it's <br class="sm:flex hidden" />
                   needed.
                 </p>
               </div>
@@ -338,9 +338,9 @@
     <div class="container mx-auto flex justify-center itmes-center">
       <p class="text-center">
         With over 15 years of robust presence in the web hosting market,
-        catering to a diverse clientele globally.<br />
+        catering to a diverse clientele globally.<br class="sm:flex hidden" />
         Our extensive experience sets us apart, ensuring that your hosting needs
-        are met with expertise and reliability.<br />
+        are met with expertise and reliability.<br class="sm:flex hidden" />
         At Host2Media, we prioritize customer support, acknowledging its
         significance in delivering a seamless experience for our clients.
       </p>
@@ -487,7 +487,7 @@
         <h2
           class="leading-tight text-white md:text-[2.5rem] sm:text-[2rem] text[1.5rem] text-[#0F132A] absolute bottom-12 left-12"
         >
-          YOU NAME IT,<br />
+          YOU NAME IT,<br class="sm:flex hidden" />
           WE BUILD IT!
         </h2>
         <button
