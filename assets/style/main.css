@@ -50,6 +50,36 @@ p{
 		margin: 0 20px;
 	}
 }
+@media(max-width: 460px){
+	.custom-mobile-position{
+		top: -2%;
+	}
+}
+@media(max-width: 440px){
+	.custom-mobile-position{
+		top: -4%;
+	}
+}
+@media(max-width: 420px){
+	.custom-mobile-position{
+		top: -8%;
+	}
+}
+@media(max-width: 400px){
+	.custom-mobile-position{
+		top: -12%;
+	}
+}
+@media(max-width: 391px){
+	.custom-mobile-position{
+		top: -14%;
+	}
+}
+@media(max-width: 321px){
+	.custom-mobile-position{
+		top: -18%;
+	}
+}
 .hamburger{
 	padding: 0px!important;
 	position: relative;

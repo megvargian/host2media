@@ -108,9 +108,9 @@
       </div>
     </div>
   </section>
-  <section class="pt-[30rem] relative z-1">
+  <section class="sm:pt-[30rem] pt-[35rem]  relative z-1">
     <div
-      class="custom-container mx-auto z-2 absolute left-0 top-[0%] right-0 bg-white rounded-[50px] mx-10"
+      class="custom-container mx-auto z-2 absolute left-0 top-[0%] custom-mobile-position right-0 bg-white rounded-[50px] mx-10"
     >
       <div class="px-10 flex justify-center items-center">
         <div class="rounded-[50px] pt-10">
@@ -194,7 +194,7 @@
         </div>
       </div>
     </div>
-    <section class="w-full bg-[#0F132A] lg:pt-64 pt-[10rem] sm:mt-[25rem] lg:mt-0 mt-[10rem] -z-10 text-white">
+    <section class="w-full bg-[#0F132A] lg:pt-64 pt-[10rem] sm:mt-[25rem] lg:mt-0 mt-[10rem] custom-mobile-margin -z-10 text-white">
       <div class="custom-container mx-auto">
         <div class="grid grid-cols-12 lg:gap-10 gap-5">
           <div class="lg:col-span-6 col-span-12 order-2 lg:order-1">
@@ -273,7 +273,7 @@
                   for Agencies of <br class="sm:flex hidden" />
                   All Sizes
                 </h2>
-                <p class="py-12 font-normal text-lg">
+                <p class="py-12 font-normal text-lg lg:text-left text-center">
                   Resell Web Hosting, domain names, professional email, VPS and
                   SSL certificates at scale with Host2Media and set your own
                   margins and profits.
@@ -342,7 +342,7 @@
       <h2 class="leading-tight lg:text-5xl md:text-4xl sm:text-[36px] text-[25px] lg:text-left text-center text-[#0F132A] font-black Mulish-Black">What Makes Host2Media Different?</h2>
     </div>
     <div class="container mx-auto flex justify-center itmes-center">
-      <p class="text-center">
+      <p class="text-center sm:mx-0 mx-4">
         With over 15 years of robust presence in the web hosting market,
         catering to a diverse clientele globally.<br class="sm:flex hidden" />
         Our extensive experience sets us apart, ensuring that your hosting needs
