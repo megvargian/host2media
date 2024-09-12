@@ -194,7 +194,7 @@
         </div>
       </div>
     </div>
-    <section class="w-full bg-[#0F132A] lg:pt-64 pt-[10rem] mt-[25rem] -z-10 text-white">
+    <section class="w-full bg-[#0F132A] lg:pt-64 pt-[10rem] sm:mt-[25rem] lg:mt-0 mt-[10rem] -z-10 text-white">
       <div class="custom-container mx-auto">
         <div class="grid grid-cols-12 lg:gap-10 gap-5">
           <div class="lg:col-span-6 col-span-12 order-2 lg:order-1">

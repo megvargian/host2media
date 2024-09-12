@@ -7,7 +7,7 @@
                         <div class="col-span-6 hidden lg:block"></div>
                         <div class="col-span-12 lg:col-span-6">
                             <ul class="flex lg:justify-end justify-center items-center text-white">
-                                <li class="lg:hidden block mr-8">
+                                <li class="lg:hidden block sm:mr-8 mr-2">
                                     <img class="h-6 w-12" src="~/assets/images/logo.svg">
                                 </li>
                                 <li class="mx-2 Mulish-light text-[0.75rem]">
