@@ -31,7 +31,7 @@
     </div>
     <div class="w-full lg:rounded-3xl rounded-tl-[50px] rounded-bl-[50px] bg-[#0F132A] mt-10 relative lg:pt-32">
       <div class="container w-full mx-auto lg:absolute lg:right-0 lg:left-0 top-[-30%]">
-        <div class="grid grid-cols-12 gap-5 py-10 mx-5">
+        <div class="grid grid-cols-12 gap-5 py-10 lg:mx-0 mx-5">
           <div class="lg:col-span-3 col-span-6 bg-white sm:p-5 p-3 rounded-xl">
             <div class="flex justify-center items-center sm:pb-10 pb-5">
               <img
@@ -478,7 +478,7 @@
     </div>
   </section>
   <section>
-    <div class="custom-container mx-auto py-32">
+    <div class="custom-container mx-auto py-16">
       <div class="custom-bg-img w-full z-1 relative">
         <img
           class="w-full -z-1"

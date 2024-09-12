@@ -4,8 +4,8 @@
             <footer>
                 <div class="grid grid-cols-12 lg:gap-12 gap-5 text-white sm:mx-0 mx-5">
                     <div class="lg:col-span-3 col-span-6">
-                        <div>
-                            <img class="pb-3 w-[75px] h-[43px]" src="~/assets/images/footer-logo.svg" alt="logo">
+                        <div class="lg:pl-10">
+                            <img class="mb-3 w-[75px] h-[43px]" src="~/assets/images/footer-logo.svg" alt="logo">
                             <p class="text-[0.5rem] font-light Mulish-light mb-2">Host2Media <br /> Makdesi 2034 1111 <br /> Hamra Beirut 07</p>
                             <p class="text-[0.5rem] font-light Mulish-light mb-2 pt-2">
                                 +961 3 821114 <br />
@@ -17,22 +17,22 @@
                         <div>
                             <p class="text-lg font-black pb-3">Links</p>
                             <ul>
-                                <li class="sm:text-base text-sm font-light mb-2">
+                                <li class="sm:text-[0.75rem] text-sm font-light mb-2">
                                     <a>
                                         Customer Portal
                                     </a>
                                 </li>
-                                <li class="sm:text-base text-sm font-light mb-2">
+                                <li class="sm:text-[0.75rem] sm:leading-4 text-sm font-light mb-2">
                                     <a>
                                         Status
                                     </a>
                                 </li>
-                                <li class="sm:text-base text-sm font-light mb-2">
+                                <li class="sm:text-[0.75rem] sm:leading-4 text-sm font-light mb-2">
                                     <a>
                                         Host2Media Blog
                                     </a>
                                 </li>
-                                <li class="sm:text-base text-sm font-light mb-2">
+                                <li class="sm:text-[0.75rem] sm:leading-4 text-sm font-light mb-2">
                                     <a>
                                         Knowladge Base
                                     </a>
@@ -44,32 +44,32 @@
                         <div>
                             <p class="text-lg font-black pb-3">Products</p>
                             <ul>
-                                <li class="sm:text-base text-sm font-light mb-2">
+                                <li class="sm:text-[0.75rem] sm:leading-4 text-sm font-light mb-2">
                                     <a>
                                         Website Hosting
                                     </a>
                                 </li>
-                                <li class="sm:text-base text-sm font-light mb-2">
+                                <li class="sm:text-[0.75rem] sm:leading-4 text-sm font-light mb-2">
                                     <a>
                                         Domain name
                                     </a>
                                 </li>
-                                <li class="sm:text-base text-sm font-light mb-2">
+                                <li class="sm:text-[0.75rem] sm:leading-4 text-sm font-light mb-2">
                                     <a>
                                         VPS
                                     </a>
                                 </li>
-                                <li class="sm:text-base text-sm font-light mb-2">
+                                <li class="sm:text-[0.75rem] sm:leading-4 text-sm font-light mb-2">
                                     <a>
                                         Professional Email
                                     </a>
                                 </li>
-                                <li class="sm:text-base text-sm font-light mb-2">
+                                <li class="sm:text-[0.75rem] sm:leading-4 text-sm font-light mb-2">
                                     <a>
                                         Dev Services
                                     </a>
                                 </li>
-                                <li class="sm:text-base text-sm font-light mb-2">
+                                <li class="sm:text-[0.75rem] sm:leading-4 text-sm font-light mb-2">
                                     <a>
                                         Reseller & Affiliate Program
                                     </a>
@@ -81,27 +81,27 @@
                         <div>
                             <p class="text-lg font-black pb-3">Legal</p>
                             <ul>
-                                <li class="sm:text-base text-sm font-light mb-2">
+                                <li class="sm:text-[0.75rem] sm:leading-4 text-sm font-light mb-2">
                                     <a>
                                         Terms Of Service
                                     </a>
                                 </li>
-                                <li class="sm:text-base text-sm font-light mb-2">
+                                <li class="sm:text-[0.75rem] sm:leading-4 text-sm font-light mb-2">
                                     <a>
                                         Privacy Policy
                                     </a>
                                 </li>
-                                <li class="sm:text-base text-sm font-light mb-2">
+                                <li class="sm:text-[0.75rem] sm:leading-4 text-sm font-light mb-2">
                                     <a>
                                         Cookie Settings
                                     </a>
                                 </li>
-                                <li class="sm:text-base text-sm font-light mb-2">
+                                <li class="sm:text-[0.75rem] sm:leading-4 text-sm font-light mb-2">
                                     <a>
                                         Acceptable Use Policy
                                     </a>
                                 </li>
-                                <li class="sm:text-base text-sm font-light mb-2">
+                                <li class="sm:text-[0.75rem] sm:leading-4 text-sm font-light mb-2">
                                     <a>
                                         Report Abuse
                                     </a>
