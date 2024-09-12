@@ -80,7 +80,7 @@
       </div>
       <div class="container w-full mx-auto">
         <div class="grid grid-cols-12 gap-4 py-10">
-          <div class="lg:col-span-6 col-span-12 order-2 lg:order-1 flex justify-center items-center mx-5">
+          <div class="lg:col-span-6 col-span-12 order-2 lg:order-1 flex justify-center items-center mx-5 lg:pb-0 pb-32">
             <div class="w-full">
               <form class="flex w-full relative">
                 <input
@@ -198,7 +198,7 @@
       <div class="custom-container mx-auto">
         <div class="grid grid-cols-12 lg:gap-10 gap-5">
           <div class="lg:col-span-6 col-span-12 order-2 lg:order-1">
-            <div class="lg:block flex justify-center">
+            <div class="lg:block flex justify-center sm:mx-0 mx-10">
               <div class="text-left text-white pb-10">
                 <p class="text-lg Mulish-Black font-black">Web Hosting</p>
                 <p class="font-light Mulish-light pt-1">
@@ -212,7 +212,7 @@
                 </p>
               </div>
             </div>
-            <div class="lg:block flex justify-center">
+            <div class="lg:block flex justify-center sm:mx-0 mx-10">
               <div class="text-left text-white pb-10">
                 <p class="text-lg Mulish-Black font-black">VPS</p>
                 <p class="font-light Mulish-light pt-1">
@@ -225,7 +225,7 @@
                 </p>
               </div>
             </div>
-            <div class="lg:block flex justify-center">
+            <div class="lg:block flex justify-center sm:mx-0 mx-10">
               <div class="text-left text-white pb-10">
                 <p class="text-lg Mulish-Black font-black">Professional Email</p>
                 <p class="font-light Mulish-light pt-1">
@@ -246,7 +246,7 @@
                 Solutions For all <br class="sm:flex hidden" />
                 Your Needs.
               </h2>
-              <p class="py-12 font-normal text-lg">
+              <p class="py-12 font-normal text-lg lg:text-left text-center">
                 Host2Media offers comprehensive hosting <br class="sm:flex hidden" />
                 solutions tailored to meet all your business <br class="sm:flex hidden" />
                 needs. No matter your industry or the specific <br class="sm:flex hidden" />
