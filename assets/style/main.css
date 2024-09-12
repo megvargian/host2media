@@ -54,30 +54,48 @@ p{
 	.custom-mobile-position{
 		top: -2%;
 	}
+	.custom-margin-bottom{
+		margin-bottom: 10rem;
+	}
 }
 @media(max-width: 440px){
 	.custom-mobile-position{
 		top: -4%;
+	}
+	.custom-margin-bottom{
+		margin-bottom: 8rem;
 	}
 }
 @media(max-width: 420px){
 	.custom-mobile-position{
 		top: -8%;
 	}
+	.custom-margin-bottom{
+		margin-bottom: 12rem;
+	}
 }
 @media(max-width: 400px){
 	.custom-mobile-position{
 		top: -12%;
+	}
+	.custom-margin-bottom{
+		margin-bottom: 15rem;
 	}
 }
 @media(max-width: 391px){
 	.custom-mobile-position{
 		top: -14%;
 	}
+	.custom-margin-bottom{
+		margin-bottom: 17rem;
+	}
 }
 @media(max-width: 321px){
 	.custom-mobile-position{
 		top: -18%;
+	}
+	.custom-margin-bottom{
+		margin-bottom: 19rem;
 	}
 }
 .hamburger{

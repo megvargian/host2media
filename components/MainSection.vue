@@ -23,7 +23,7 @@
       </div>
     </div>
   </section>
-  <section class="my-12 lg:pt-32 lg:mx-12">
+  <section class="my-12 lg:pt-32 lg:mx-12 custom-margin-bottom">
     <div class="container mx-auto flex justify-center items-center pb-12">
       <h2 class="lg:text-5xl md:text-4xl sm:text-[36px] text-[25px] lg:text-left text-center sm:text-5xl md:text-4xl text-[36px] lg:text-left text-center font-black text-[#0F132A]">
         The all-in-one solution to get online quickly
