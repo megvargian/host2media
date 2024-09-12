@@ -110,7 +110,7 @@
   </section>
   <section class="pt-[30rem] relative z-1">
     <div
-      class="custom-container mx-auto z-2 absolute left-0 top-[0%] right-0 bg-white rounded-[50px] mx-10 lg:mx-0"
+      class="custom-container mx-auto z-2 absolute left-0 top-[0%] right-0 bg-white rounded-[50px] mx-10"
     >
       <div class="px-10 flex justify-center items-center">
         <div class="rounded-[50px] pt-10">
@@ -194,46 +194,52 @@
         </div>
       </div>
     </div>
-    <section class="w-full bg-[#0F132A] lg:pt-64 pt-[35rem] -z-10 text-white">
+    <section class="w-full bg-[#0F132A] lg:pt-64 pt-[10rem] mt-[25rem] -z-10 text-white">
       <div class="custom-container mx-auto">
         <div class="grid grid-cols-12 gap-10">
-          <div class="lg:col-span-6 col-span-12">
-            <div class="text-left text-white pb-10">
-              <p class="text-lg Mulish-Black font-black">Web Hosting</p>
-              <p class="font-light Mulish-light pt-1">
-                Shared Website Hosting gives you everything <br />
-                you need to get started, a free domain name,<br />
-                an easy control panel, a website builder, and <br />
-                email hosting for your website.
-              </p>
-              <p class="font-semibold pt-2 Mulish-SemiBold">
-                Starting at $24,99 /month
-              </p>
+          <div class="lg:col-span-6 col-span-12 order-2 lg:order-1">
+            <div class="lg:block flex justify-center">
+              <div class="text-left text-white pb-10">
+                <p class="text-lg Mulish-Black font-black">Web Hosting</p>
+                <p class="font-light Mulish-light pt-1">
+                  Shared Website Hosting gives you everything <br />
+                  you need to get started, a free domain name,<br />
+                  an easy control panel, a website builder, and <br />
+                  email hosting for your website.
+                </p>
+                <p class="font-semibold pt-2 Mulish-SemiBold">
+                  Starting at $24,99 /month
+                </p>
+              </div>
             </div>
-            <div class="text-left text-white pb-10">
-              <p class="text-lg Mulish-Black font-black">VPS</p>
-              <p class="font-light Mulish-light pt-1">
-                Our VPS solution offers flexibility for your <br />
-                expansion and allows for easy scalability <br />
-                without committing to long-term investments.
-              </p>
-              <p class="font-bold pt-2 Mulish-SemiBold">
-                Starting at $30,00 /month
-              </p>
+            <div class="lg:block flex justify-center">
+              <div class="text-left text-white pb-10">
+                <p class="text-lg Mulish-Black font-black">VPS</p>
+                <p class="font-light Mulish-light pt-1">
+                  Our VPS solution offers flexibility for your <br />
+                  expansion and allows for easy scalability <br />
+                  without committing to long-term investments.
+                </p>
+                <p class="font-bold pt-2 Mulish-SemiBold">
+                  Starting at $30,00 /month
+                </p>
+              </div>
             </div>
-            <div class="text-left text-white pb-10">
-              <p class="text-lg Mulish-Black font-black">Professional Email</p>
-              <p class="font-light Mulish-light pt-1">
-                Experience the benefits of professional email <br />
-                for your business and make your brand look <br />
-                more credible. with easy upgrades as you grow.
-              </p>
-              <p class="font-bold pt-2 Mulish-SemiBold">
-                Starting at $4,00 /month
-              </p>
+            <div class="lg:block flex justify-center">
+              <div class="text-left text-white pb-10">
+                <p class="text-lg Mulish-Black font-black">Professional Email</p>
+                <p class="font-light Mulish-light pt-1">
+                  Experience the benefits of professional email <br />
+                  for your business and make your brand look <br />
+                  more credible. with easy upgrades as you grow.
+                </p>
+                <p class="font-bold pt-2 Mulish-SemiBold">
+                  Starting at $4,00 /month
+                </p>
+              </div>
             </div>
           </div>
-          <div class="lg:col-span-6 col-span-12 flex justify-center items-center">
+          <div class="lg:col-span-6 col-span-12 order-1 lg:order-2 flex justify-center items-center">
             <div>
               <h2 class="leading-tight lg:text-5xl md:text-4xl text-[36px] lg:text-left text-center text-[#fff] font-black Mulish-Black">
                 We Offer Hosting <br />
@@ -253,7 +259,7 @@
       </div>
     </section>
   </section>
-  <section class="pb-32 block">
+  <section class="lg:pb-32 pb-10 block">
     <div class="custom-container mx-auto bg-white rounded-[50px] rounded-t-[0px]">
       <div class="px-10 flex justify-center items-center">
         <div class="rounded-[50px] bg-white pt-16">
@@ -474,18 +480,18 @@
           alt="banner"
         />
         <h4
-          class="text-white text-[1.5rem] Mulish-Black font-bold text-[#0F132A] absolute top-10 left-10"
+          class="text-white md:text-[1.5rem] sm:text-[1.25rem] text-[1rem] Mulish-Black font-bold text-[#0F132A] absolute top-10 left-10"
         >
           LET US DO THE JOB!
         </h4>
         <h2
-          class="leading-tight text-white text-[2.5rem] text-[#0F132A] absolute bottom-12 left-12"
+          class="leading-tight text-white md:text-[2.5rem] sm:text-[2rem] text[1.5rem] text-[#0F132A] absolute bottom-12 left-12"
         >
           YOU NAME IT,<br />
           WE BUILD IT!
         </h2>
         <button
-          class="rounded-[10px] bg-[#5564AD] text-white text-sm font-bold py-4 px-8 Mulish-ExtraBold absolute bottom-12 left-[40%]"
+          class="rounded-[10px] bg-[#5564AD] text-white text-sm font-bold md:py-4 md:px-8 md:block hidden py-3 px-6 Mulish-ExtraBold absolute bottom-12 left-[40%]"
         >
           Learn More About Our Dev Service
         </button>

@@ -70,7 +70,7 @@
                         </a>
                     </li>
                 </ul>
-                <button class="hamburger hamburger--collapse block lg:hidden" type="button">
+                <button class="hamburger hamburger--collapse block lg:mr-0 mr-5 lg:hidden" type="button">
                     <div @click="activeHamburgerButton()" class="menu_mobile_nav">
                         <div class="hamburger_menu_icon">
                             <div class="line bg-[#5564AD]"></div>
