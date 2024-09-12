@@ -3,7 +3,7 @@
     <div class="container mx-auto">
       <div class="grid grid-cols-12 gap-4">
         <div class="col-span-12 lg:col-span-6">
-          <h2 class="leading-tight sm:text-4xl md:lg:text-5xl md:text-4xl text-[36px] lg:text-left text-center text-[36px] lg:text-left text-center font-bold lg:py-32 pt-0 sm:pb-16 pb-5">
+          <h2 class="leading-tight sm:text-4xl md:lg:text-5xl md:text-4xl sm:text-[36px] text-[25px] lg:text-left text-center text-[36px] lg:text-left text-center font-bold lg:py-32 pt-0 sm:pb-16 pb-5">
             New Web Hosting, <br class="sm:flex hidden" />
             New Potential
           </h2>
@@ -25,7 +25,7 @@
   </section>
   <section class="my-12 lg:pt-32 lg:mx-12">
     <div class="container mx-auto flex justify-center items-center pb-12">
-      <h2 class="lg:text-5xl md:text-4xl text-[36px] lg:text-left text-center sm:text-5xl md:text-4xl text-[36px] lg:text-left text-center font-black text-[#0F132A]">
+      <h2 class="lg:text-5xl md:text-4xl sm:text-[36px] text-[25px] lg:text-left text-center sm:text-5xl md:text-4xl text-[36px] lg:text-left text-center font-black text-[#0F132A]">
         The all-in-one solution to get online quickly
       </h2>
     </div>
@@ -118,7 +118,7 @@
             <div class="lg:col-span-6 col-span-12 lg:pr-[10rem] flex justify-center items-center">
               <div>
                 <h2
-                  class="leading-tight lg:text-5xl md:text-4xl text-[36px] lg:text-left text-center text-[#0F132A] font-black Mulish-Black"
+                  class="leading-tight lg:text-5xl md:text-4xl sm:text-[36px] text-[25px] lg:text-left text-center text-[#0F132A] font-black Mulish-Black"
                 >
                   Host2Media <br class="sm:flex hidden" />
                   contributes to <br class="sm:flex hidden" />
@@ -241,7 +241,7 @@
           </div>
           <div class="lg:col-span-6 col-span-12 order-1 lg:order-2 flex justify-center items-center">
             <div>
-              <h2 class="leading-tight lg:text-5xl md:text-4xl text-[36px] lg:text-left text-center text-[#fff] font-black Mulish-Black">
+              <h2 class="leading-tight lg:text-5xl md:text-4xl sm:text-[36px] text-[25px] lg:text-left text-center text-[#fff] font-black Mulish-Black">
                 We Offer Hosting <br class="sm:flex hidden" />
                 Solutions For all <br class="sm:flex hidden" />
                 Your Needs.
@@ -267,7 +267,7 @@
             <div class="lg:col-span-6 col-span-12 lg:pr-[4rem] flex justify-center items-center">
               <div>
                 <h2
-                  class="leading-tight lg:text-5xl md:text-4xl text-[36px] lg:text-left text-center text-[#0F132A] font-black Mulish-Black"
+                  class="leading-tight lg:text-5xl md:text-4xl sm:text-[36px] text-[25px] lg:text-left text-center text-[#0F132A] font-black Mulish-Black"
                 >
                   Reseller Solutions <br class="sm:flex hidden" />
                   for Agencies of <br class="sm:flex hidden" />
@@ -333,7 +333,7 @@
   </section>
   <section class="pb-12">
     <div class="container mx-auto flex justify-center items-center pb-6">
-      <h2 class="leading-tight lg:text-5xl md:text-4xl text-[36px] lg:text-left text-center text-[#0F132A] font-black Mulish-Black">What Makes Host2Media Different?</h2>
+      <h2 class="leading-tight lg:text-5xl md:text-4xl sm:text-[36px] text-[25px] lg:text-left text-center text-[#0F132A] font-black Mulish-Black">What Makes Host2Media Different?</h2>
     </div>
     <div class="container mx-auto flex justify-center itmes-center">
       <p class="text-center">
