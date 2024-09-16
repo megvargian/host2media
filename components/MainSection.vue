@@ -30,7 +30,7 @@
         The all-in-one solution to get online quickly
       </h2>
     </div>
-    <div class="w-full lg:rounded-3xl rounded-tl-[50px] rounded-bl-[50px] bg-[#0F132A] mt-10 relative lg:pt-32">
+    <div class="w-full lg:rounded-3xl rounded-tl-[50px] rounded-bl-[50px] bg-[#5564AD] mt-10 relative lg:pt-32">
       <div class="container w-full mx-auto lg:absolute lg:right-0 lg:left-0 top-[-30%]">
         <div class="grid grid-cols-12 gap-5 py-10 lg:mx-0 mx-5">
           <div class="lg:col-span-3 col-span-6 bg-white sm:p-5 p-3 rounded-xl">
@@ -195,7 +195,7 @@
         </div>
       </div>
     </div>
-    <section class="w-full bg-[#0F132A] lg:pt-64 pt-[10rem] sm:mt-[25rem] lg:mt-0 mt-[10rem] custom-mobile-margin -z-10 text-white">
+    <section class="w-full bg-[#5564AD] lg:pt-64 pt-[10rem] sm:mt-[25rem] lg:mt-0 mt-[10rem] custom-mobile-margin -z-10 text-white">
       <div class="custom-container mx-auto">
         <div class="grid grid-cols-12 lg:gap-10 gap-5">
           <div class="lg:col-span-6 col-span-12 order-2 lg:order-1">

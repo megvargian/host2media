@@ -1,5 +1,5 @@
 <template>
-    <section class="bg-[#0F132A] w-full py-12">
+    <section class="bg-[#5564AD] w-full py-12">
         <div class="container mx-auto">
             <footer>
                 <div class="grid grid-cols-12 lg:gap-12 gap-5 text-white sm:mx-0 mx-5">
@@ -113,8 +113,8 @@
             </footer>
         </div>
     </section>
-    <section class="bg-[#5564AD] py-3 w-full">
-        <div class="flex justify-center text-white">
+    <section class="bg-white py-3 w-full">
+        <div class="flex justify-center">
             <p class="Mulish-light text-[0.6rem]">Copyright © 2024, Host2Media,</p>
         </div>
     </section>
