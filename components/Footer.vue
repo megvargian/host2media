@@ -5,7 +5,7 @@
                 <div class="grid grid-cols-12 lg:gap-12 gap-5 text-white sm:mx-0 mx-5">
                     <div class="lg:col-span-3 col-span-6">
                         <div class="lg:pl-10">
-                            <img class="mb-3 w-[75px] h-[43px]" src="~/assets/images/footer-logo.svg" alt="logo">
+                            <img class="mb-3 sm:w-[75px] sm:h-[43px] w-[50px] h-[29px]" src="~/assets/images/footer-logo.svg" alt="logo">
                             <p class="text-[0.5rem] font-light Mulish-light mb-2">Host2Media <br /> Makdesi 2034 1111 <br /> Hamra Beirut 07</p>
                             <p class="text-[0.5rem] font-light Mulish-light mb-2 pt-2">
                                 +961 3 821114 <br />

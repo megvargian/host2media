@@ -3,20 +3,20 @@
     <div class="container mx-auto">
       <div class="grid grid-cols-12 gap-4">
         <div class="col-span-12 lg:col-span-6">
-          <h2 class="leading-tight sm:text-4xl md:lg:text-5xl md:text-4xl sm:text-[36px] text-[25px] lg:text-left text-center text-[36px] lg:text-left text-center font-bold lg:py-32 pt-0 sm:pb-16 pb-5">
+          <h2 class="leading-tight sm:text-4xl md:lg:text-5xl md:text-4xl sm:text-[36px] text-[25px] lg:text-left text-center text-[36px] font-bold lg:py-32 pt-0 sm:pb-16 pb-5">
             New Web Hosting, <br class="sm:flex hidden" />
             New Potential
           </h2>
-          <p class="sm:text-xl text-sm lg:text-left text-center sm:pt-8">
+          <p class="sm:text-xl text-sm lg:text-left text-center sm:pt-8 sm:px-0 px-3">
             Tap into the potential of managed Web Hosting
           </p>
-          <p class="sm:text-xl text-sm lg:text-left text-center">
+          <p class="sm:text-xl text-sm lg:text-left text-center sm:px-0 px-3">
             ensuring your website's speed, security, and constant availability.
           </p>
         </div>
         <div class="col-span-12 lg:col-span-6 flex justify-center">
           <img
-            class="h-auto w-[450px] pt-10"
+            class="h-auto sm:w-[450px] w-[300px] pt-10"
             src="~/assets/images/main-image.png"
           />
         </div>
@@ -25,6 +25,7 @@
   </section>
   <section class="my-12 lg:pt-32 lg:mx-12 custom-margin-bottom">
     <div class="container mx-auto flex justify-center items-center pb-12">
+
       <h2 class="lg:text-5xl md:text-4xl sm:text-[36px] text-[25px] lg:text-left text-center sm:text-5xl md:text-4xl text-[36px] lg:text-left text-center font-black text-[#0F132A]">
         The all-in-one solution to get online quickly
       </h2>
@@ -118,7 +119,7 @@
             <div class="lg:col-span-6 col-span-12 lg:pr-[10rem] flex justify-center items-center">
               <div>
                 <h2
-                  class="leading-tight lg:text-5xl md:text-4xl sm:text-[36px] text-[25px] lg:text-left text-center text-[#0F132A] font-black Mulish-Black"
+                  class="leading-tight lg:text-5xl md:text-4xl sm:text-[36px] text-[25px] lg:text-left text-center text-[#0F132A] font-black"
                 >
                   Host2Media <br class="sm:flex hidden" />
                   contributes to <br class="sm:flex hidden" />
@@ -502,13 +503,20 @@
           Learn More About Our Dev Service
         </button>
       </div>
+     <div class="md:hidden block py-4 flex justify-center">
+      <button
+          class="rounded-[10px] bg-[#5564AD] text-white text-sm font-bold md:py-4 md:px-8 md:hidden block py-3 px-6 Mulish-ExtraBold"
+        >
+        Learn More About Our Dev Service
+      </button>
+     </div>
     </div>
   </section>
   <section>
     <div class="custom-sm-container mx-auto pb-16">
       <div class="custom-bg-img w-full">
         <div class="flex justify-center items-center">
-          <h3 class="text-4xl text-[#0F132A] font-black Mulish-bold">
+          <h3 class="text-4xl text-[#0F132A] font-black Mulish-bold lg:text-left text-center">
             Frequently Asked Questions
           </h3>
         </div>
@@ -543,7 +551,14 @@
               </button>
             </h2>
             <div id="content-1" class="p-4 hidden">
-              <p>This is the content of the first accordion item.</p>
+              <ul class="Mulish-light">
+                <li>
+                  1- Use the domain search tool to check the availability of your desired domain name.
+                </li>
+                <li>
+                  2- If the domain is available, proceed to register it by providing the necessary information
+                </li>
+              </ul>
             </div>
           </div>
 
@@ -555,7 +570,7 @@
                 class="w-full text-left flex justify-between items-center"
               >
                 <span class="font-bold text-base"
-                  >Do you offer wordpress website builders?</span
+                  >Transfer a Domain name</span
                 >
                 <svg
                   class="w-4 h-4 transform transition-transform duration-200 icons"
@@ -575,7 +590,26 @@
               </button>
             </h2>
             <div id="content-2" class="p-4 hidden">
-              <p>This is the content of the second accordion item.</p>
+              <ul class="Mulish-light">
+                <li>
+                  1 - Unlock the domain at your current registrar. This involves removing any domain locks or privacy settings.
+                </li>
+                <li>
+                  2 - Obtain the authorization code
+                </li>
+                <li>
+                  3 - Use the domain search tool to initiate the domain transfer process
+                </li>
+                <li>
+                  4 - Provide the domain name and authorization code during the transfer request
+                </li>
+                <li>
+                  5 - Check your email for a confirmation message and follow any additional instructions provided by both the old registrar and Host2Media
+                </li>
+                <p>
+                  Keep in mind that domain transfers may take up to 7 days to complete. Additionally, it's crucial to ensure that your domain registration information is accurate and up-to-date to avoid any issues during the process.
+                </p>
+              </ul>
             </div>
           </div>
           <!-- Accordion Item 3 -->
@@ -606,7 +640,7 @@
               </button>
             </h2>
             <div id="content-3" class="p-4 hidden">
-              <p>This is the content of the second accordion item.</p>
+              <p>Yes, you can have an email without having a website, sign up for the host2media business email.</p>
             </div>
           </div>
           <!-- Accordion Item 4 -->
@@ -617,8 +651,7 @@
                 class="w-full text-left flex justify-between items-center"
               >
                 <span class="font-bold text-base"
-                  >Do I need a Domain name to have a web hosting and email
-                  address?</span
+                  >Do I need a Domain name to have a web hosting and email address?</span
                 >
                 <svg
                   class="w-4 h-4 transform transition-transform duration-200 icons"
@@ -638,7 +671,8 @@
               </button>
             </h2>
             <div id="content-4" class="p-4 hidden">
-              <p>This is the content of the second accordion item.</p>
+              <p>You can get web hosting services without having a domain name. In such cases, your website can be accessed using a subdomain from our private domain list. (e.g., yourname.anydomain.com).</p>
+              <p>This is common for development or testing purposes, but for a professional or public website, having your own domain is recommended.</p>
             </div>
           </div>
           <!-- Accordion Item 5 -->
@@ -649,8 +683,7 @@
                 class="w-full text-left flex justify-between items-center"
               >
                 <span class="font-bold text-base"
-                  >Can I import my old host emails to host2media mail
-                  server?</span
+                  >Email without a domain name</span
                 >
                 <svg
                   class="w-4 h-4 transform transition-transform duration-200 icons"
@@ -670,7 +703,39 @@
               </button>
             </h2>
             <div id="content-5" class="p-4 hidden">
-              <p>This is the content of the second accordion item.</p>
+              <p>If you want a more professional appearance, consider getting a custom domain for your email.</p>
+              <p>However, having your own domain name is generally advisable for a professional online presence. It provides branding consistency across your website and email, and it often looks more credible to users. If you decide to get both web hosting and email services, you can often manage them together under your custom domain for a unified online identity.</p>
+            </div>
+          </div>
+          <!-- Accordion Item 6 -->
+          <div class="mb-4">
+            <h2 class="p-4">
+              <button
+                @click="toggleAccordion(6)"
+                class="w-full text-left flex justify-between items-center"
+              >
+                <span class="font-bold text-base"
+                  >Can I import my old host emails to host2media mail server? </span
+                >
+                <svg
+                  class="w-4 h-4 transform transition-transform duration-200 icons"
+                  id="icon-6"
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke="currentColor"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    d="M5 15l7-7 7 7"
+                  />
+                </svg>
+              </button>
+            </h2>
+            <div id="content-6" class="p-4 hidden">
+              <p>Yes, you can important your entire old host emails, to host2media mail server. all you need to do is go to mail migration section in your client portal and follow the steps</p>
             </div>
           </div>
         </div>
