@@ -1,5 +1,5 @@
 <template>
-  <Header />
-  <MainSection />
-  <Footer />
+  <NuxtLayout :name="'main'">
+    <NuxtPage />
+  </NuxtLayout >
 </template>
