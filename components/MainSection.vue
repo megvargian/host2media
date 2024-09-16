@@ -92,7 +92,7 @@
                 />
                 <button
                   type="submit"
-                  class="bg-[#5564AD] p-3 rounded-r absolute right-0"
+                  class="bg-[#90A1FF] p-3 rounded-r absolute right-0"
                 >
                   <img class="w-8 h-8" src="~/assets/icons/search.svg" />
                 </button>
