@@ -340,7 +340,7 @@
   </section>
   <section class="pb-12">
     <div class="container mx-auto flex justify-center items-center pb-6">
-      <h2 class="leading-tight lg:text-5xl md:text-4xl sm:text-[36px] text-[25px] lg:text-left text-center text-[#0F132A] font-black Mulish-Black">What Makes Host2Media Different?</h2>
+      <h2 class="leading-tight lg:text-5xl md:text-4xl sm:text-[36px] text-[25px] lg:text-left text-center text-[#0F132A] font-black">What Makes Host2Media Different?</h2>
     </div>
     <div class="container mx-auto flex justify-center itmes-center">
       <p class="text-center sm:mx-0 mx-4">
