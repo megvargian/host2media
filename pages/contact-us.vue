@@ -2,22 +2,22 @@
   <section class="pt-[42px]">
     <div class="w-full z-1 relative">
       <img
-        class="w-full -z-1"
+        class="w-full -z-1 sm:h-auto h-[200px]"
         src="~/assets/images/contact-us-main.png"
         alt="banner"
       />
       <h1
-        class="leading-tight sm:text-4xl md:lg:text-5xl md:text-4xl sm:text-[36px] text-center text-[36px] text-white font-bold absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2"
+        class="leading-tight sm:text-4xl md:lg:text-5xl md:text-4xl sm:text-[36px] text-center text-[36px] text-white font-bold absolute left-0 right-0 top-[5%] lg:top-1/2 lg:left-1/2 lg:transform lg:-translate-x-1/2 lg:-translate-y-1/2"
       >
-        Contact Us, <br />
+        Contact Us, <br/>
         We’re Just a Click Away!
       </h1>
       <div
-        class="container w-full mx-auto lg:absolute lg:right-0 lg:left-0 bottom-[-45%]"
+        class="container w-full mx-auto lg:absolute lg:right-0 lg:left-0 relative top-[80%]"
       >
-        <div class="grid grid-cols-12 lg:gap-10 gap-5 py-10 lg:mx-0">
+        <div class="grid grid-cols-12 lg:gap-10 gap-5 lg:py-10 pb-10 lg:mx-0 relative top-[-20px]">
           <div
-            class="lg:col-span-4 col-span-6 bg-white sm:p-5 p-3 rounded-md !pb-16"
+            class="lg:col-span-4 col-span-12 bg-white sm:p-5 p-3 rounded-md xl:!pb-16 sm:mx-0 mx-6"
           >
             <div class="flex justify-center items-center pr-32 sm:pb-10 pb-5">
               <img
@@ -36,7 +36,7 @@
             </p>
           </div>
           <div
-            class="lg:col-span-4 col-span-6 bg-white sm:p-5 p-3 rounded-md !pb-16"
+            class="lg:col-span-4 col-span-12 bg-white sm:p-5 p-3 rounded-md xl:!pb-16 sm:mx-0 mx-6"
           >
             <div class="flex justify-center items-center pr-32 sm:pb-10 pb-5">
               <img
@@ -54,7 +54,7 @@
             </p>
           </div>
           <div
-            class="lg:col-span-4 col-span-6 bg-white sm:p-5 p-3 rounded-md !pb-16"
+            class="lg:col-span-4 col-span-12 bg-white sm:p-5 p-3 rounded-md xl:!pb-16 sm:mx-0 mx-6"
           >
             <div class="flex justify-center items-center pr-32 sm:pb-10 pb-5">
               <img
@@ -76,7 +76,7 @@
       </div>
     </div>
   </section>
-  <section class="pt-64 pb-10">
+  <section class="lg:pt-64 pb-10">
     <div class="container mx-auto flex justify-center items-center pb-6">
       <h2
         class="leading-tight lg:text-5xl md:text-4xl sm:text-[36px] text-[25px] lg:text-left text-center text-[#0F132A] font-black pb-5"
@@ -112,10 +112,10 @@
             </h2>
           </div>
           <div
-            class="lg:col-span-6 col-span-12 order-2 flex justify-center items-center mx-5 lg:pb-0 pb-32"
+            class="lg:col-span-6 col-span-12 order-2 flex justify-center items-center mx-5 lg:pb-0 sm:pb-32"
           >
             <div class="w-full">
-              <p class="text-white">
+              <p class="text-white lg:text-left text-center">
                 Our Technical Support team is fully empowered to collaborate
                 effectively in reaching your online goals. Whether you need
                 assistance with your hosting solutions or guidance for enhancing
@@ -129,7 +129,7 @@
       </div>
     </div>
   </section>
-  <section class="relative h-screen" style="margin-bottom: 35rem;">
+  <section class="relative">
     <div
       class="custom-container mx-auto z-2 bg-white rounded-[50px] mx-10 relative top-[-50px]"
     >
@@ -145,7 +145,7 @@
                 </h2>
               </div>
             </div>
-            <div class="col-span-4">
+            <div class="lg:col-span-4 sm:col-span-6 col-span-12">
               <p class="text-[#0F132A] text-lg Mulish-Black font-black pb-4">
                 Business Hours
               </p>
@@ -154,7 +154,7 @@
                 Monday - Friday
               </p>
             </div>
-            <div class="col-span-4">
+            <div class="lg:col-span-4 sm:col-span-6 col-span-12">
               <p class="text-[#0F132A] text-lg Mulish-Black font-black pb-4">
                 Telephone / WhatsApp
               </p>
@@ -163,7 +163,7 @@
                 Monday - Friday
               </p>
             </div>
-            <div class="col-span-4">
+            <div class="lg:col-span-4 sm:col-span-6 col-span-12">
               <p class="text-[#0F132A] text-lg Mulish-Black font-black pb-4">
                 Chamber of commerce
               </p>
@@ -172,13 +172,13 @@
                 MOF : 2386821
               </p>
             </div>
-            <div class="col-span-4">
+            <div class="lg:col-span-4 sm:col-span-6 col-span-12">
               <p class="text-[#0F132A] text-lg Mulish-Black font-black pb-4">
                 Public Holidays
               </p>
               <p class="text-[#0F132A]">View holidays</p>
             </div>
-            <div class="col-span-4">
+            <div class="lg:col-span-4 sm:col-span-6 col-span-12">
               <p class="text-[#0F132A] text-lg Mulish-Black font-black pb-4">
                 Address
               </p>
@@ -187,7 +187,7 @@
                 Makdesi 2034 1111 <br class="sm:flex hidden" />Hamra Beirut 07
               </p>
             </div>
-            <div class="col-span-4">
+            <div class="lg:col-span-4 sm:col-span-6 col-span-12">
               <p class="text-[#0F132A] text-lg Mulish-Black font-black pb-4">
                 Email
               </p>
@@ -202,7 +202,7 @@
           <div class="contact-us-form py-8">
             <form @submit.prevent="">
               <div class="grid grid-cols-12 lg:gap-7 gap-5">
-                <div class="col-span-6">
+                <div class="lg:col-span-6 col-span-12">
                   <div>
                     <label class="block text-[18px] p-2" for="names"
                       >First Name</label
@@ -214,7 +214,7 @@
                     />
                   </div>
                 </div>
-                <div class="col-span-6">
+                <div class="lg:col-span-6 col-span-12">
                   <div>
                     <label class="block text-[18px] p-2" for="names"
                       >Last Name</label
@@ -226,7 +226,7 @@
                     />
                   </div>
                 </div>
-                <div class="col-span-6">
+                <div class="lg:col-span-6 col-span-12">
                   <div>
                     <label class="block text-[18px] p-2" for="names"
                       >Company Name</label
@@ -238,7 +238,7 @@
                     />
                   </div>
                 </div>
-                <div class="col-span-6">
+                <div class="lg:col-span-6 col-span-12">
                   <div>
                     <label class="block text-[18px] p-2" for="names"
                       >Phone Number</label
@@ -250,7 +250,7 @@
                     />
                   </div>
                 </div>
-                <div class="col-span-6">
+                <div class="lg:col-span-6 col-span-12">
                   <div>
                     <label class="block text-[18px] p-2" for="names"
                       >Email</label
@@ -262,7 +262,7 @@
                     />
                   </div>
                 </div>
-                <div class="col-span-6">
+                <div class="lg:col-span-6 col-span-12">
                   <div>
                     <label class="block text-[18px] p-2" for="numberOfPeople"
                       >Number of people</label
