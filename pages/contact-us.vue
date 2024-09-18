@@ -269,7 +269,7 @@
                     >
                     <div class="relative">
                       <select
-                        class="appearance-none rounded-[10px] text-[#000] w-full border border-solid p-2 border-gray-700 bg-transparent outline-none focus:outline-none"
+                        class="appearance-none rounded-[10px] text-[#000] w-full border border-solid border-[#0F132A80] p-2 bg-transparent outline-none focus:outline-none"
                         required
                       >
                         <option selected>Please select</option>
