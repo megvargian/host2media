@@ -265,7 +265,7 @@
                 <div class="lg:col-span-6 col-span-12">
                   <div>
                     <label class="block text-[18px] p-2" for="numberOfPeople"
-                      >Number of people</label
+                      >Inquiry Department</label
                     >
                     <div class="relative">
                       <select
