@@ -9,4 +9,7 @@ export default defineNuxtConfig({
       autoprefixer: {},
     },
   },
+  plugins: [
+    { src: "~/plugins/jquery.js", mode: "client" },
+  ],
 })

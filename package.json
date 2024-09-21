@@ -10,12 +10,17 @@
     "postinstall": "nuxt prepare"
   },
   "dependencies": {
+    "@types/gsap": "^3.0.0",
+    "@types/jquery": "^3.5.30",
+    "gsap": "^1.20.6",
+    "jquery": "^2.2.2",
     "nuxt": "^3.12.4",
     "vue": "latest"
   },
   "devDependencies": {
     "autoprefixer": "^10.4.20",
     "postcss": "^8.4.41",
+    "sass-embedded": "^1.79.1",
     "tailwindcss": "^3.4.10"
   }
 }
