@@ -11,7 +11,7 @@ export default defineNuxtConfig({
   },
   nitro: {
     routeRules: {
-      '/api/whois/': {
+      '/api/whois/**': {
         cors: true,
         proxy:
           'https://host2media.com/includes/api.php'

@@ -754,6 +754,9 @@
 </template>
 
 <script setup lang="ts">
+import { useNuxtApp } from '#app';
+
+const nuxtApp = useNuxtApp();
 const loading = ref(false);
 const searchDomain = ref({
   name: ''
@@ -794,6 +797,6 @@ const getResultFromWhois = async (name: string) => {
 }
 const SubmitFormSearchDomain = async () => {
   loading.value = true;
-  await getResultFromWhois(searchDomain.value.name)
+  await getResultFromWhois(searchDomain.value.name);
 }
 </script>
