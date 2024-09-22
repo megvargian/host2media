@@ -83,20 +83,29 @@
         <div class="grid grid-cols-12 gap-4 py-10">
           <div class="lg:col-span-6 col-span-12 order-2 lg:order-1 flex justify-center items-center mx-5 lg:pb-0 pb-32">
             <div class="w-full">
-              <form class="flex w-full relative">
+              <form @submit.prevent="SubmitFormSearchDomain" class="flex w-full relative" data-netlify-recaptcha="true">
                 <input
                   class="w-full rounded text-base p-4 text-[#0F132A] placeholder-[#0F132A] Mulish-light outline-none"
                   type="text"
                   placeholder="Find your exceptional online name..."
+                  v-model="searchDomain.name"
                   required
                 />
                 <button
                   type="submit"
+                  :disabled="loading"
                   class="bg-[#90A1FF] p-3 rounded-r absolute right-0"
                 >
-                  <img class="w-8 h-8" src="~/assets/icons/search.svg" />
+                  <img
+                    v-if="loading"
+                    src="../assets/images/loading.svg"
+                    class="animate-spin loading-spinner w-8 h-8 flex m-auto"
+                    alt="loading"
+                  />
+                  <img v-else class="w-8 h-8" src="~/assets/icons/search.svg" />
                 </button>
               </form>
+              <span v-if="!loading">{{ response }}</span>
             </div>
           </div>
           <div class="lg:col-span-6 col-span-12 order-1 lg:order-2 flex lg:justify-start justify-center lg:pl-10">
@@ -745,10 +754,46 @@
 </template>
 
 <script setup lang="ts">
+const loading = ref(false);
+const searchDomain = ref({
+  name: ''
+})
+const response = ref('');
 const toggleAccordion = (id: Number) => {
   const content = document.getElementById(`content-${id}`);
   const icon = document.getElementById(`icon-${id}`);
   content?.classList.toggle("hidden");
   icon?.classList.toggle("rotate-180");
 };
+
+const getResultFromWhois = async (name: string) => {
+  const {data, refresh, error} = useFetch('/api/whois/',
+  {
+      method: 'POST',
+      body: {
+        action: 'DomainWhois',
+        domain: name,
+        username: 'FOuY9jTbETM34gj9ovw66cE9gkd8CTVb',
+        password: 'sBA0YKhVXGBydyzwdYJdOinhDSdYT8c2',
+        responsetype: true,
+      },
+      immediate: false,
+    },
+  )
+  await refresh();
+  if(error.value){
+    console.log(name);
+    console.error(error.value);
+    response.value = name + '404 forbidden';
+    loading.value = false;
+  } else{
+    console.log(name);
+    console.log(data.value);
+    loading.value = false;
+  }
+}
+const SubmitFormSearchDomain = async () => {
+  loading.value = true;
+  await getResultFromWhois(searchDomain.value.name)
+}
 </script>

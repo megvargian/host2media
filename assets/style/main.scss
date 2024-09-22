@@ -179,6 +179,10 @@ body.hide_scroll{
 	padding-right: 17px;
 	overflow: hidden !important;
 }
+.loading-spinner {
+	color: #d1d5db;
+	fill: #fff;
+}
 @font-face {
   font-family: 'Mulish';
   src: url('~/assets/fonts/Mulish-Regular.ttf') format('truetype');
