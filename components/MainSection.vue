@@ -754,9 +754,7 @@
 </template>
 
 <script setup lang="ts">
-import { useNuxtApp } from '#app';
 
-const nuxtApp = useNuxtApp();
 const loading = ref(false);
 const searchDomain = ref({
   name: ''
@@ -786,8 +784,8 @@ const getResultFromWhois = async (name: string) => {
   await refresh();
   if(error.value){
     console.log(name);
-    console.error(error.value);
-    response.value = name + '404 forbidden';
+    console.log(error.value);
+    response.value = error.value+'';
     loading.value = false;
   } else{
     console.log(name);
