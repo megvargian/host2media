@@ -15,11 +15,18 @@ jobs:
         with:
           node-version: 18.15.0
 
+      - name: Clean (assuming you want to clean before install)
+        run: npm ci
+
       - name: Install dependencies
         run: npm install
 
-      - name: Build Nuxt
-        run: npm run build
+      - name: Build Netlify
+        env:
+          NETLIFY_AUTH_TOKEN: ${{ secrets.NETLIFY_AUTH_TOKEN }}
+          NETLIFY_SITE_ID: ${{ secrets.NETLIFY_SITE_ID }}
+        timeout-minutes: 10
+        run: netlify build
 
       - name: Linked Deploy to Netlify
         env:
@@ -27,4 +34,4 @@ jobs:
           NETLIFY_SITE_ID: ${{ secrets.NETLIFY_SITE_ID }}
         timeout-minutes: 10
 
-        run: netlify build && netlify deploy --site ${{ secrets.NETLIFY_SITE_ID }} --auth ${{ secrets.NETLIFY_AUTH_TOKEN }} --prod
+        run: netlify deploy --site ${{ secrets.NETLIFY_SITE_ID }} --auth ${{ secrets.NETLIFY_AUTH_TOKEN }} --prod
