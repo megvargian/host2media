@@ -774,8 +774,8 @@ const getResultFromWhois = async (name: string) => {
       body: {
         action: 'DomainWhois',
         domain: name,
-        username: 'FOuY9jTbETM34gj9ovw66cE9gkd8CTVb',
-        password: 'sBA0YKhVXGBydyzwdYJdOinhDSdYT8c2',
+        username: process.env.WHOIS_USERNAME,
+        password: process.env.WHOIS_PASSWORD,
         responsetype: true,
       },
       immediate: false,
