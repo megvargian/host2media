@@ -21,6 +21,8 @@ jobs:
       - name: Install dependencies
         run: npm install
 
+      - name: Build Nuxt
+        run: npm run build
 
       - name: Linked Deploy to Netlify
         env:
