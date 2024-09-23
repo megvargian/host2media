@@ -23,6 +23,8 @@ export default defineNuxtConfig({
   mail: {
     message: {
       to: process.env.SMTP_TO,
+      cc: '',
+      bcc: ''
     },
     smtp: {
       host: process.env.SMTP_HOST,
