@@ -15,9 +15,6 @@ jobs:
         with:
           node-version: 18.15.0
 
-      - name: Clean (assuming you want to clean before install)
-        run: npm ci
-
       - name: Install dependencies
         run: npm install
 
