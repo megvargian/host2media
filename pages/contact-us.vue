@@ -9,13 +9,15 @@
       <h1
         class="leading-tight sm:text-4xl md:lg:text-5xl md:text-4xl sm:text-[36px] text-center text-[36px] text-white font-bold absolute left-0 right-0 top-[5%] lg:top-1/2 lg:left-1/2 lg:transform lg:-translate-x-1/2 lg:-translate-y-1/2"
       >
-        Contact Us, <br/>
+        Contact Us, <br />
         We’re Just a Click Away!
       </h1>
       <div
         class="container w-full mx-auto lg:absolute lg:right-0 lg:left-0 relative top-[80%]"
       >
-        <div class="grid grid-cols-12 lg:gap-10 gap-5 lg:py-10 pb-10 lg:mx-0 relative top-[-20px]">
+        <div
+          class="grid grid-cols-12 lg:gap-10 gap-5 lg:py-10 pb-10 lg:mx-0 relative top-[-20px]"
+        >
           <div
             class="lg:col-span-4 col-span-12 bg-white sm:p-5 p-3 rounded-md xl:!pb-16 sm:mx-0 mx-6"
           >
@@ -200,7 +202,7 @@
             </div>
           </div>
           <div class="contact-us-form py-8">
-            <form @submit.prevent="">
+            <form @submit.prevent="submitContactUsForm">
               <div class="grid grid-cols-12 lg:gap-7 gap-5">
                 <div class="lg:col-span-6 col-span-12">
                   <div>
@@ -211,6 +213,7 @@
                       class="rounded-[10px] text-[#000] w-full border border-solid border-[#0F132A80] p-2 outline-none"
                       type="text"
                       required
+                      v-model="contactFormData.name"
                     />
                   </div>
                 </div>
@@ -223,6 +226,7 @@
                       class="rounded-[10px] text-[#000] w-full border border-solid border-[#0F132A80] p-2 outline-none"
                       type="text"
                       required
+                      v-model="contactFormData.lastName"
                     />
                   </div>
                 </div>
@@ -235,6 +239,7 @@
                       class="rounded-[10px] text-[#000] w-full border border-solid border-[#0F132A80] p-2 outline-none"
                       type="text"
                       required
+                      v-model="contactFormData.companyName"
                     />
                   </div>
                 </div>
@@ -247,6 +252,7 @@
                       class="rounded-[10px] text-[#000] w-full border border-solid border-[#0F132A80] p-2 outline-none"
                       type="tel"
                       required
+                      v-model="contactFormData.phoneNumber"
                     />
                   </div>
                 </div>
@@ -259,6 +265,7 @@
                       class="rounded-[10px] text-[#000] w-full border border-solid border-[#0F132A80] p-2 outline-none"
                       type="email"
                       required
+                      v-model="contactFormData.email"
                     />
                   </div>
                 </div>
@@ -271,6 +278,7 @@
                       <select
                         class="appearance-none rounded-[10px] text-[#000] w-full border border-solid border-[#0F132A80] p-2 bg-transparent outline-none focus:outline-none"
                         required
+                        v-model="contactFormData.inquiryDepartment"
                       >
                         <option selected>Please select</option>
                       </select>
@@ -286,59 +294,95 @@
                       class="rounded-[10px] text-[#000] w-full border border-solid border-[#0F132A80] p-2 outline-none"
                       type="text"
                       required
+                      v-model="contactFormData.questionsOrComments"
                     >
                     </textarea>
                   </div>
                 </div>
                 <div class="col-span-12 flex">
-                  <input class="mr-3" type="checkbox" required name="consent">
+                  <input class="mr-3" type="checkbox" required name="consent"
+                  v-model="contactFormData.receiveSalesCommunications"
+                  />
                   <label for="consent">
-                    I give my consent to receiving sales communications related to my inquiry.*
+                    I give my consent to receiving sales communications related
+                    to my inquiry.*
                   </label>
                 </div>
                 <div class="col-span-12">
-                  <p class="mb-3">We occasionally wish to reach out to you regarding our products, services,<br class="sm:flex hidden" /> and other content that might interest you. If you agree to be contacted for <br class="sm:flex hidden" /> this purpose, please select your preferred method of communication <br class="sm:flex hidden" /> below:</p>
+                  <p class="mb-3">
+                    We occasionally wish to reach out to you regarding our
+                    products, services,<br class="sm:flex hidden" />
+                    and other content that might interest you. If you agree to
+                    be contacted for <br class="sm:flex hidden" />
+                    this purpose, please select your preferred method of
+                    communication <br class="sm:flex hidden" />
+                    below:
+                  </p>
                   <div class="flex mb-3">
-                    <input class="mr-3" type="checkbox" required name="newsletter">
-                    <label for="newsletter">
-                      Monthly Newsletter
-                    </label>
+                    <input
+                      class="mr-3"
+                      type="checkbox"
+                      name="newsletter"
+                      v-model="contactFormData.newsletter"
+                    />
+                    <label for="newsletter"> Monthly Newsletter </label>
                   </div>
                   <div class="flex mb-3">
-                    <input class="mr-3" type="checkbox" required name="promotion-offers">
+                    <input
+                      class="mr-3"
+                      type="checkbox"
+                      required
+                      name="promotion-offers"
+                      v-model="contactFormData.promotionOffers"
+                    />
                     <label for="promotion-offers">
                       Special Promotions & Offers
                     </label>
                   </div>
                   <div class="flex mb-3">
-                    <input class="mr-3" type="checkbox" required name="products">
-                    <label for="products">
-                      Release of New Products
-                    </label>
+                    <input
+                      class="mr-3"
+                      type="checkbox"
+                      name="products"
+                      v-model="contactFormData.releaseNewProducts"
+                    />
+                    <label for="products"> Release of New Products </label>
                   </div>
                   <div class="flex mb-3">
-                    <input class="mr-3" type="checkbox" required name="events">
-                    <label for="events">
-                      Events
-                    </label>
+                    <input
+                      class="mr-3"
+                      type="checkbox"
+                      name="events"
+                      v-model="contactFormData.events"
+                    />
+                    <label for="events"> Events </label>
                   </div>
                   <p>
-                    You can unsubscribe from these communications at any time. <br class="sm:flex hidden" />To learn more about how to unsubscribe, our privacy practices, and our <br class="sm:flex hidden" />commitment to safeguarding your privacy, please refer to our Privacy Policy.
+                    You can unsubscribe from these communications at any time.
+                    <br class="sm:flex hidden" />To learn more about how to
+                    unsubscribe, our privacy practices, and our
+                    <br class="sm:flex hidden" />commitment to safeguarding your
+                    privacy, please refer to our Privacy Policy.
                   </p>
                 </div>
                 <div class="col-span-12 text-left">
                   <button
                     class="text-center text-white mt-5 bg-[#5564AD] flex justify-center rounded-[10px] px-9 py-3 Mulish-Black font-black"
                     type="submit"
+                    :disabled="loading"
                   >
                     <img
                       v-if="loading"
                       src="~/assets/images/loading.svg"
-                      class="animate-spin loading-spinner w-6 h-6 flex m-auto custom-spinner-slide-7"
+                      class="animate-spin loading-spinner w-6 h-6 flex m-auto"
                       alt="loading"
                     />
                     <span v-else class="set-roxborough"> Submit </span>
                   </button>
+                </div>
+                <div class="col-span-12 text-left">
+                  <span class="text-green-700 font-bold">{{ responseMessageSuccess }}</span>
+                  <span class="text-red-800 font-bold">{{ responseMessageError }}</span>
                 </div>
               </div>
             </form>
@@ -351,13 +395,61 @@
 
 <script setup lang="ts">
 const loading = ref(false);
+const responseMessageSuccess = ref('');
+const responseMessageError = ref('');
 const mail = useMail();
-
-onMounted(() => {
-  mail.send({
-    from: 'John Doe',
-    subject: 'Incredible',
-    text: 'This is an incredible test message',
-  });
-})
+const contactFormData = ref({
+  name: "",
+  lastName: "",
+  companyName: "",
+  phoneNumber: "",
+  email: "",
+  inquiryDepartment: "",
+  questionsOrComments: "",
+  receiveSalesCommunications: false,
+  newsletter: false,
+  promotionOffers: false,
+  releaseNewProducts: false,
+  events: false,
+} as {
+  name: string;
+  lastName: string;
+  companyName: string;
+  phoneNumber: string;
+  email: string;
+  inquiryDepartment: string;
+  questionsOrComments: string;
+  receiveSalesCommunications: boolean;
+  newsletter: boolean;
+  promotionOffers: boolean;
+  releaseNewProducts: boolean;
+  events: boolean;
+});
+const submitContactUsForm = async () => {
+  try {
+    loading.value = true;
+    await mail.send({
+      from: "Host2Media",
+      subject: "Contact Form Info",
+      text: `
+        name: ${contactFormData.value.name},
+        lastName: ${contactFormData.value.lastName},
+        companyName: ${contactFormData.value.companyName},
+        phoneNumber: ${contactFormData.value.phoneNumber},
+        email: ${contactFormData.value.email},
+        inquiryDepartment: ${contactFormData.value.inquiryDepartment},
+        questionsOrComments: ${contactFormData.value.questionsOrComments},
+        receiveSalesCommunications: ${contactFormData.value.receiveSalesCommunications},
+        newsletter: ${contactFormData.value.newsletter},
+        promotionOffers: ${contactFormData.value.promotionOffers},
+        releaseNewProducts: ${contactFormData.value.releaseNewProducts},
+        events: ${contactFormData.value.events},
+      `,
+    });
+    loading.value = false;
+    responseMessageSuccess.value = 'Submitted Succefully';
+  } catch (error){
+    responseMessageError.value = 'Something went wrong, Please try again later'
+  }
+};
 </script>

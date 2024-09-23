@@ -22,17 +22,17 @@ export default defineNuxtConfig({
   modules: ["nuxt-mail"],
   mail: {
     message: {
-      from: 'no-reply@host2media.com', // Define the sender's email
-      to: 'kouyoumdjianmike@gmail.com',    // Add at least one recipient
-      cc: 'no-reply@host2media.com', // Optional: Add cc recipient(s)
-      bcc: 'bno-reply@host2media.com' // Optional: Add bcc recipient(s)
+      from: process.env.SMTP_USER, // Define the sender's email
+      to: process.env.SMTP_TO, // Add at least one recipient
+      cc: process.env.SMTP_USER, // Optional: Add cc recipient(s)
+      bcc: process.env.SMTP_USER, // Optional: Add bcc recipient(s)
     },
     smtp: {
-      host: 'mail-server.h2mdns.net',
-      port: 465,
+      host: process.env.SMTP_HOST,
+      port: process.env.SMTP_PORT,
       auth: {
-        user: 'no-reply@host2media.com',
-        pass: 'Mypassw0rd987$$',
+        user: process.env.SMTP_USER,
+        pass: process.env.SMTP_PASS,
       },
     },
   },
