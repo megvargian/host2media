@@ -351,4 +351,13 @@
 
 <script setup lang="ts">
 const loading = ref(false);
+const mail = useMail();
+
+onMounted(() => {
+  mail.send({
+    from: 'John Doe',
+    subject: 'Incredible',
+    text: 'This is an incredible test message',
+  });
+})
 </script>
