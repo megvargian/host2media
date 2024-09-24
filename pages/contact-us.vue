@@ -202,7 +202,7 @@
             </div>
           </div>
           <div class="contact-us-form py-8">
-            <form @submit.prevent="submitContactUsForm">
+            <form v-if="!sendSuccess" @submit.prevent="submitContactUsForm">
               <div class="grid grid-cols-12 lg:gap-7 gap-5">
                 <div class="lg:col-span-6 col-span-12">
                   <div>
@@ -280,7 +280,10 @@
                         required
                         v-model="contactFormData.inquiryDepartment"
                       >
-                        <option selected>Please select</option>
+                        <option>Sales</option>
+                        <option>Billing</option>
+                        <option>Support</option>
+                        <option>Other</option>
                       </select>
                     </div>
                   </div>
@@ -385,6 +388,15 @@
                 </div>
               </div>
             </form>
+            <div v-else class="container-success-response">
+              <svg xmlns="http://www.w3.org/2000/svg" class="svg-success" viewBox="0 0 24 24">
+                <g stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10">
+                  <circle class="success-circle-outline" cx="12" cy="12" r="11.5"/>
+                  <circle class="success-circle-fill" cx="12" cy="12" r="11.5"/>
+                  <polyline class="success-tick" points="17,8.5 9.5,15.5 7,13"/>
+                </g>
+              </svg>
+            </div>
           </div>
         </div>
       </div>
@@ -396,6 +408,7 @@
 const loading = ref(false);
 const responseMessageSuccess = ref('');
 const responseMessageError = ref('');
+const sendSuccess = ref(false);
 const mail = useMail();
 const contactFormData = ref({
   name: "",
@@ -447,8 +460,10 @@ const submitContactUsForm = async () => {
     });
     loading.value = false;
     responseMessageSuccess.value = 'Submitted Succefully';
+    sendSuccess.value = true;
   } catch (error){
     responseMessageError.value = 'Something went wrong, Please try again later'
+    sendSuccess.value = false;
   }
 };
 </script>
