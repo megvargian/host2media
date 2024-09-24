@@ -331,7 +331,6 @@
                     <input
                       class="mr-3"
                       type="checkbox"
-                      required
                       name="promotion-offers"
                       v-model="contactFormData.promotionOffers"
                     />
