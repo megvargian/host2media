@@ -15,7 +15,7 @@ export default defineNuxtConfig({
     routeRules: {
       "/api/whois/**": {
         cors: true,
-        proxy: "https://host2media.com/includes/api.php",
+        proxy: "https://domain-availability.whoisxmlapi.com/api/v1",
       },
     },
   },

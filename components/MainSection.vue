@@ -768,33 +768,36 @@ const toggleAccordion = (id: Number) => {
 };
 
 const getResultFromWhois = async (name: string) => {
-  const {data, refresh, error} = useFetch('/api/whois/',
-  {
-      method: 'POST',
-      body: {
-        action: 'DomainWhois',
-        domain: name,
-        username: process.env.WHOIS_USERNAME,
-        password: process.env.WHOIS_PASSWORD,
-        responsetype: true,
-      },
+  const { data, refresh, error } = useFetch(`/api/whois/?apiKey=at_UBnljMwAUWbyMR34rPOj6aGIayY3q&domainName=${name}&credits=WHOIS`,
+    {
+      method: 'GET',
       immediate: false,
     },
   )
+  const config = data as {
+    value: {
+      DomainInfo: {
+        domainAvailability: string,
+        domainName: string,
+      }
+    }
+  }
   await refresh();
-  if(error.value){
-    console.log(name);
-    console.log(error.value);
-    response.value = error.value+'';
+  if (error.value) {
     loading.value = false;
-  } else{
-    console.log(name);
-    console.log(data.value);
+    response.value = 'Something went wrong please try again later';
+    console.error(error.value);
+  } else {
+    response.value = config.value.DomainInfo.domainAvailability;
     loading.value = false;
   }
 }
 const SubmitFormSearchDomain = async () => {
-  loading.value = true;
-  await getResultFromWhois(searchDomain.value.name);
+  if(!searchDomain.value.name.includes('.com')){
+    response.value = 'please make you domain search .com format';
+  } else {
+    loading.value = true;
+    await getResultFromWhois(searchDomain.value.name);
+  }
 }
 </script>
