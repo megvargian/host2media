@@ -795,7 +795,9 @@ const getResultFromWhois = async (name: string) => {
 const SubmitFormSearchDomain = async () => {
   if(!searchDomain.value.name.includes('.com')){
     response.value = 'please make you domain search .com format';
-  } else {
+  } else if (searchDomain.value.name.includes(' ')){
+    response.value = 'please remove any space in your search for domain names';
+  }else {
     loading.value = true;
     await getResultFromWhois(searchDomain.value.name);
   }
