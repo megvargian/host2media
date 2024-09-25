@@ -85,12 +85,27 @@
             </div>
           </div>
         </button>
-        <div id="menu_mobile" class="menu_on_mobile block lg:hidden">
-          <div class="menu_on_mobile_wrapper">
-            <div class="menu_on_mobile_inner_wrapper relative">
+        <div id="menu_mobile" class="menu_on_mobile block lg:hidden h-[100dvh]">
+          <div class="menu_on_mobile_wrapper h-[100dvh]">
+            <div class="menu_on_mobile_inner_wrapper relative flex justify-center items-center h-[100dvh]">
               <div>
                 <a class="block my-3 page_font animated_menu_el" href="#">
-                  <div class="menu_item">Test</div>
+                  <div class="menu_item">Domains</div>
+                </a>
+                <a class="block my-3 page_font animated_menu_el" href="#">
+                  <div class="menu_item">Website Hosting</div>
+                </a>
+                <a class="block my-3 page_font animated_menu_el" href="#">
+                  <div class="menu_item">Professional Email</div>
+                </a>
+                <a class="block my-3 page_font animated_menu_el" href="#">
+                  <div class="menu_item">Reseller Program</div>
+                </a>
+                <a class="block my-3 page_font animated_menu_el" href="#">
+                  <div class="menu_item">Dev Serices</div>
+                </a>
+                <a class="block my-3 page_font animated_menu_el" href="/contact-us">
+                  <div class="menu_item">Contact US</div>
                 </a>
               </div>
             </div>
