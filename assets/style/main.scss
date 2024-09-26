@@ -176,7 +176,6 @@ p{
 	position: fixed;
 }
 body.hide_scroll{
-	padding-right: 17px;
 	overflow: hidden !important;
 }
 .loading-spinner {
@@ -303,3 +302,260 @@ overflow: visible;
   font-family: 'Mulish-SemiBold';
   src: url('~/assets/fonts/Mulish-SemiBold.ttf') format('truetype');
 }
+
+// root settings / variables
+$app-hide-overflow: true; // set to false to see everything that's going on
+$app-width: 500px;
+$app-aspect: 0.762;
+
+.wrapper {
+  position:  relative;
+  flex:      0 0 auto;
+  font-size: 12px;
+  width: 100%;
+}
+
+body {
+  $app-height: 100dvh;
+  position:   relative;
+  background: #F9F9F9;
+  flex:       0 0 auto;
+  width:      100%;
+  height:     $app-height;
+
+  // @if $app-hide-overflow { overflow: hidden; }
+}
+
+.nav {
+  $btn-bar-width:   1.34em;
+  $btn-bar-height:  3px;
+  $btn-bar-spacing: 3px;
+
+  .nav-bar {
+    display:   flex;
+    flex-flow: row;
+    position:  relative;
+    z-index:   3;
+  }
+
+  .logo {
+    flex: 1 1 100%;
+  }
+
+  .nav-btn {
+    display:     flex;
+    flex-flow:   column;
+    align-items: center;
+    position:    relative;
+    cursor:      pointer;
+
+    flex:    0;
+    padding: 5px;
+  }
+
+  .nav-btn .btn-bar {
+    position: relative;
+
+    width:         $btn-bar-width;
+    height:        $btn-bar-height;
+    border-radius: 5px;
+    background:    #444;
+
+    &.menu:not(:first-child) {
+      margin-top: $btn-bar-spacing;
+    }
+
+    &.close {
+      transform-origin: center center;
+      position:         absolute;
+
+      margin-top: -$btn-bar-height / 2;
+      opacity:    0;
+      top:        50%;
+    }
+  }
+
+  .nav-content {
+    position:   absolute;
+    height: 100dvh;
+    top:      0;
+    left:     0;
+    right:    0;
+    bottom:   0;
+    z-index: -1;
+
+    .background {
+      position:    absolute;
+      display:     flex;
+      flex-flow:   column;
+      align-items: stretch;
+
+      top:     0;
+      left:    0;
+      right:   0;
+      bottom: -2px;
+    }
+
+    .portion {
+      background: #5564ad;
+
+      &:not(:first-child) { margin-top: -1px; }
+    }
+  }
+
+  &.open {
+    .nav-bar .nav-btn .btn-bar.menu  { opacity: 0; }
+    .nav-bar .nav-btn .btn-bar.close { opacity: 1; }
+  }
+}
+
+.wrapper .app .nav {
+
+  /*///////////////////////////////////
+  // Region: Nav Animations
+  ///////////////////////////////////*/
+
+  $menu-bar-anim-time:   0.3s;
+  $menu-bar-anim-offset: 400%;
+
+  $close-bar-anim-time:   0.5s;
+  $close-bar-anim-offset: 250%;
+
+  $background-anim-time: $close-bar-anim-time;
+
+  /*///////////////////////////////////
+  // Region: Initial (Closed) States
+  ///////////////////////////////////*/
+
+  .nav-btn { align-items: flex-end; }
+
+  .btn-bar.menu {
+    &:nth-child(1) {
+      transform-origin: top right;
+      transform: rotate(-45deg);
+      width: 1.8em;
+    }
+
+    &:nth-child(2) {
+      transform: rotate(-45deg) translate(0, -4px);
+    }
+
+    &:nth-child(3) {
+      transform: rotate(-45deg) translate(0, 1px);
+      width: 0.8em;
+    }
+  }
+
+  .btn-bar.close {
+    &:not(:last-child) { transform: rotate( 45deg) translateX(-$close-bar-anim-offset); }
+    &:last-child       { transform: rotate(-45deg) translateX( $close-bar-anim-offset); }
+  }
+
+  .nav-content .background {
+    transform-origin: center;
+    transform: rotate(-45deg) scale(2, 1.2);
+  }
+
+  .nav-content .background .portion {
+    flex: 1 1 100%;
+
+    &:nth-child(odd)  { transform: translateX(-100%); }
+    &:nth-child(even) { transform: translateX( 100%); }
+  }
+
+  /*///////////////////////////////////
+  // Region: Expanded (Open) States
+  ///////////////////////////////////*/
+
+  &.open {
+    .nav-btn .btn-bar:nth-child(1) {
+      transform: rotate(-45deg) translateX(-$menu-bar-anim-offset);
+    }
+
+    .nav-btn .btn-bar:nth-child(2) {
+      transform: rotate(-45deg) translate(0, -4px) translateX( $menu-bar-anim-offset / 2);
+    }
+
+    .nav-btn .btn-bar:nth-child(3) {
+      transform: rotate(-45deg) translate(0, 1px) translateX( $menu-bar-anim-offset / 2);
+    }
+
+    .nav-btn .btn-bar.close {
+      &:not(:last-child) { transform: rotate( 45deg); }
+      &:last-child       { transform: rotate(-45deg); }
+    }
+
+    .nav-content {
+      z-index: 1;
+
+      .background .portion {
+        transform: translateX(0%);
+      }
+    }
+  }
+
+  /*///////////////////////////////////
+  // Region: Transition -> Menu Opening
+  ///////////////////////////////////*/
+
+  &.open .btn-bar.menu {
+
+    // transition when menu is opening
+    transition:
+        transform $menu-bar-anim-time ease-in-out,
+        opacity ($menu-bar-anim-time / 2) ease-in-out ($menu-bar-anim-time / 2);
+  }
+
+  &.open .btn-bar.close {
+
+    // transition when menu is opening
+    transition:
+        transform $close-bar-anim-time ease-in-out $menu-bar-anim-time,
+        opacity ($close-bar-anim-time / 4) ease-in-out $menu-bar-anim-time;
+  }
+
+  &.open .nav-content {
+
+    // transition when menu is opening
+    transition: z-index 0.01s ease-in-out $menu-bar-anim-time;
+  }
+
+  &.open .nav-content .background .portion {
+
+    // transition when menu is opening
+    transition: transform $background-anim-time ease-in-out $menu-bar-anim-time;
+  }
+
+  /*///////////////////////////////////
+  // Region: Transition -> Menu Closing
+  ///////////////////////////////////*/
+
+  .btn-bar.menu {
+
+    // transition when menu is closing
+    transition:
+        transform $menu-bar-anim-time ease-in-out $close-bar-anim-time,
+        opacity ($menu-bar-anim-time / 2) ease-in-out $close-bar-anim-time;
+  }
+
+  .btn-bar.close {
+
+    // transition when menu is closing
+    transition:
+        transform $close-bar-anim-time ease-in-out,
+        opacity ($close-bar-anim-time / 4) ease-in-out $close-bar-anim-time;
+  }
+
+  .nav-content {
+
+    // transition when menu is closing
+    transition: z-index 0.01s ease-in-out $background-anim-time;
+  }
+
+  .nav-content .background .portion {
+
+    // transition when menu is closing
+    transition: transform $background-anim-time ease-in-out;
+  }
+}
+

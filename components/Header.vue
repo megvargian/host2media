@@ -73,7 +73,7 @@
             <NuxtLink class="" to="contact-us"> Contact us </NuxtLink>
           </li>
         </ul>
-        <button
+        <!-- <button
           class="hamburger hamburger--collapse block lg:mr-0 mr-5 lg:hidden"
           type="button"
         >
@@ -110,6 +110,49 @@
               </div>
             </div>
           </div>
+        </div> -->
+        <div class="wrapper lg:hidden">
+          <div class="app">
+            <div class="nav">
+              <div class="nav-bar">
+                <div class="logo"></div>
+                <div class="nav-btn" @click="activateMenu()">
+                  <div class="btn-bar menu"></div>
+                  <div class="btn-bar menu"></div>
+                  <div class="btn-bar menu"></div>
+                  <div class="btn-bar close"></div>
+                  <div class="btn-bar close"></div>
+                </div>
+              </div>
+              <div class="nav-content z-20">
+                <div class="background">
+                  <div class="portion"></div>
+                  <div class="portion"></div>
+                  <div class="portion"></div>
+                </div>
+                <div class="relative">
+                  <a class="block my-3 page_font animated_menu_el" href="#">
+                    <div class="menu_item text-white">Domains</div>
+                  </a>
+                  <a class="block my-3 page_font animated_menu_el" href="#">
+                    <div class="menu_item text-white">Website Hosting</div>
+                  </a>
+                  <a class="block my-3 page_font animated_menu_el" href="#">
+                    <div class="menu_item text-white">Professional Email</div>
+                  </a>
+                  <a class="block my-3 page_font animated_menu_el" href="#">
+                    <div class="menu_item text-white">Reseller Program</div>
+                  </a>
+                  <a class="block my-3 page_font animated_menu_el" href="#">
+                    <div class="menu_item text-white">Dev Serices</div>
+                  </a>
+                  <a class="block my-3 page_font animated_menu_el" href="/contact-us">
+                    <div class="menu_item text-white">Contact US</div>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
       </nav>
     </header>
@@ -127,4 +170,10 @@ const activeHamburgerButton = () => {
   HtmlBody.classList.toggle("hide_scroll");
   mobileMenu.classList.toggle("active");
 };
+const activateMenu = () => {
+  const HtmlBody = document.querySelector(".html, body") as HTMLElement;
+  const mainNav = document.querySelector(".nav") as HTMLElement;
+  HtmlBody.classList.toggle("hide_scroll");
+  mainNav.classList.toggle("open");
+}
 </script>

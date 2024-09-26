@@ -206,72 +206,77 @@
               <div class="grid grid-cols-12 lg:gap-7 gap-5">
                 <div class="lg:col-span-6 col-span-12">
                   <div>
-                    <label class="block text-[18px] p-2" for="names"
+                    <label class="block text-[18px] p-2" for="name"
                       >First Name</label
                     >
                     <input
                       class="rounded-[10px] text-[#000] w-full border border-solid border-[#0F132A80] p-2 outline-none"
                       type="text"
                       required
+                      name="name"
                       v-model="contactFormData.name"
                     />
                   </div>
                 </div>
                 <div class="lg:col-span-6 col-span-12">
                   <div>
-                    <label class="block text-[18px] p-2" for="names"
+                    <label class="block text-[18px] p-2" for="lastName"
                       >Last Name</label
                     >
                     <input
                       class="rounded-[10px] text-[#000] w-full border border-solid border-[#0F132A80] p-2 outline-none"
                       type="text"
                       required
+                      name="lastName"
                       v-model="contactFormData.lastName"
                     />
                   </div>
                 </div>
                 <div class="lg:col-span-6 col-span-12">
                   <div>
-                    <label class="block text-[18px] p-2" for="names"
+                    <label class="block text-[18px] p-2" for="companyName"
                       >Company Name</label
                     >
                     <input
                       class="rounded-[10px] text-[#000] w-full border border-solid border-[#0F132A80] p-2 outline-none"
                       type="text"
                       required
+                      name="companyName"
                       v-model="contactFormData.companyName"
                     />
                   </div>
                 </div>
                 <div class="lg:col-span-6 col-span-12">
                   <div>
-                    <label class="block text-[18px] p-2" for="names"
+                    <label class="block text-[18px] p-2" for="phoneNumber"
                       >Phone Number</label
                     >
                     <input
                       class="rounded-[10px] text-[#000] w-full border border-solid border-[#0F132A80] p-2 outline-none"
                       type="tel"
                       required
+                      name="phoneNumber"
                       v-model="contactFormData.phoneNumber"
                     />
                   </div>
                 </div>
                 <div class="lg:col-span-6 col-span-12">
                   <div>
-                    <label class="block text-[18px] p-2" for="names"
+                    <label class="block text-[18px] p-2" for="email"
                       >Email</label
                     >
                     <input
                       class="rounded-[10px] text-[#000] w-full border border-solid border-[#0F132A80] p-2 outline-none"
                       type="email"
                       required
+                      name="email"
                       v-model="contactFormData.email"
                     />
                   </div>
                 </div>
                 <div class="lg:col-span-6 col-span-12">
                   <div>
-                    <label class="block text-[18px] p-2" for="numberOfPeople"
+                    <label class="block text-[18px] p-2" for="inquiry"
                       >Inquiry Department</label
                     >
                     <div class="relative">
@@ -279,6 +284,7 @@
                         class="appearance-none rounded-[10px] text-[#000] w-full border border-solid border-[#0F132A80] p-2 bg-transparent outline-none focus:outline-none"
                         required
                         v-model="contactFormData.inquiryDepartment"
+                        name="inquiry"
                       >
                         <option>Sales</option>
                         <option>Billing</option>
@@ -290,16 +296,18 @@
                 </div>
                 <div class="col-span-12">
                   <div>
-                    <label class="block text-[18px] p-2" for="names"
+                    <label class="block text-[18px] p-2" for="message"
                       >Your question or comments</label
                     >
-                    <textarea
-                      class="rounded-[10px] text-[#000] w-full border border-solid border-[#0F132A80] p-2 outline-none"
-                      type="text"
-                      required
-                      v-model="contactFormData.questionsOrComments"
-                    >
-                    </textarea>
+                    <ClientOnly>
+                      <textarea
+                        class="rounded-[10px] text-[#000] w-full border border-solid border-[#0F132A80] p-2 outline-none"
+                        required
+                        name="message"
+                        v-model="contactFormData.questionsOrComments"
+                      >
+                      </textarea>
+                    </ClientOnly>
                   </div>
                 </div>
                 <div class="col-span-12 flex">
