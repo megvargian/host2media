@@ -15,6 +15,10 @@ export default defineNuxtConfig({
         cors: true,
         proxy: "https://domain-availability.whoisxmlapi.com/api/v1",
       },
+      "/api/recapv3/**": {
+        cors: true,
+        proxy: "https://www.google.com/recaptcha/api/siteverify",
+      },
     },
   },
   plugins: [{src: '~/plugins/recaptcha.js'}],
@@ -37,7 +41,8 @@ export default defineNuxtConfig({
   },
   runtimeConfig: {
     public: {
-      siteKey: process.env.RECAPTCHA_SITE_KEY
+      siteKey: process.env.RECAPTCHA_SITE_KEY,
+      siteSecret: process.env.RECAPTCHA_SITE_SECRET,
     }
   },
   security: {
@@ -45,6 +50,17 @@ export default defineNuxtConfig({
       directives: {
         'frame-ancestors': ["'self'", 'https://recaptcha.net'],
       },
+    },
+  },
+  app: {
+    head: {
+      script: [
+        {
+          src: `https://www.google.com/recaptcha/api.js`,
+          async: true,
+          defer: true,
+        },
+      ],
     },
   },
 });

@@ -111,22 +111,6 @@
             </div>
           </div>
         </div>
-        <!-- <div class="wrapper lg:hidden z-30">
-          <div class="app">
-            <div class="nav">
-              <div class="nav-bar">
-                <div class="logo"></div>
-                <div class="nav-btn" @click="activeHamburgerButton()">
-                  <div class="btn-bar menu"></div>
-                  <div class="btn-bar menu"></div>
-                  <div class="btn-bar menu"></div>
-                  <div class="btn-bar close"></div>
-                  <div class="btn-bar close"></div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div> -->
       </nav>
     </header>
   </div>
@@ -138,17 +122,9 @@ const activeHamburgerButton = () => {
   const HamButton = document.querySelector(".menu_mobile_nav") as HTMLElement;
   const HtmlBody = document.querySelector(".html, body") as HTMLElement;
   const mobileMenu = document.querySelector(".menu_on_mobile") as HTMLElement;
-  // const mainNav = document.querySelector(".nav") as HTMLElement;
-  // mainNav.classList.toggle("open");
 
   HamButton.classList.toggle("active");
   HtmlBody.classList.toggle("hide_scroll");
   mobileMenu.classList.toggle("active");
 };
-// const activateMenu = () => {
-//   const HtmlBody = document.querySelector(".html, body") as HTMLElement;
-//   const mainNav = document.querySelector(".nav") as HTMLElement;
-//   HtmlBody.classList.toggle("hide_scroll");
-//   mainNav.classList.toggle("open");
-// }
 </script>

@@ -429,6 +429,9 @@ const responseMessageSuccess = ref('');
 const responseMessageError = ref('');
 const sendSuccess = ref(false);
 const mail = useMail();
+const runTimeConfig = useRuntimeConfig();
+const { executeRecaptcha } = useGoogleRecaptcha();
+
 const contactFormData = ref({
   name: "",
   lastName: "",
@@ -456,37 +459,55 @@ const contactFormData = ref({
   releaseNewProducts: boolean;
   events: boolean;
 });
-const { executeRecaptcha } = useGoogleRecaptcha()
 
 const submitContactUsForm = async () => {
   const { token } = await executeRecaptcha('submit');
-  console.log(token)
-  try {
-    loading.value = true;
-    await mail.send({
-      from: "Host2Media",
-      subject: "Contact Form Info",
-      text: `
-        name: ${contactFormData.value.name},
-        lastName: ${contactFormData.value.lastName},
-        companyName: ${contactFormData.value.companyName},
-        phoneNumber: ${contactFormData.value.phoneNumber},
-        email: ${contactFormData.value.email},
-        inquiryDepartment: ${contactFormData.value.inquiryDepartment},
-        questionsOrComments: ${contactFormData.value.questionsOrComments},
-        receiveSalesCommunications: ${contactFormData.value.receiveSalesCommunications},
-        newsletter: ${contactFormData.value.newsletter},
-        promotionOffers: ${contactFormData.value.promotionOffers},
-        releaseNewProducts: ${contactFormData.value.releaseNewProducts},
-        events: ${contactFormData.value.events},
-      `,
-    });
-    loading.value = false;
-    responseMessageSuccess.value = 'Submitted Succefully';
-    sendSuccess.value = true;
-  } catch (error){
-    responseMessageError.value = 'Something went wrong, Please try again later'
-    sendSuccess.value = false;
+  const { data, refresh, error } = useFetch('/api/recapv3', {
+    method: 'POST',
+    body: {
+      secret: runTimeConfig.public.siteSecret,
+      response: token,
+    }
+  })
+  await refresh();
+  const config = data as {
+    value: {
+      success: boolean;
+      'error-codes': string[];
+    }
+  }
+  if(config.value.success === true){
+    try {
+      loading.value = true;
+      await mail.send({
+        from: "Host2Media",
+        subject: "Contact Form Info",
+        text: `
+          name: ${contactFormData.value.name},
+          lastName: ${contactFormData.value.lastName},
+          companyName: ${contactFormData.value.companyName},
+          phoneNumber: ${contactFormData.value.phoneNumber},
+          email: ${contactFormData.value.email},
+          inquiryDepartment: ${contactFormData.value.inquiryDepartment},
+          questionsOrComments: ${contactFormData.value.questionsOrComments},
+          receiveSalesCommunications: ${contactFormData.value.receiveSalesCommunications},
+          newsletter: ${contactFormData.value.newsletter},
+          promotionOffers: ${contactFormData.value.promotionOffers},
+          releaseNewProducts: ${contactFormData.value.releaseNewProducts},
+          events: ${contactFormData.value.events},
+        `,
+      });
+      loading.value = false;
+      responseMessageSuccess.value = 'Submitted Succefully';
+      sendSuccess.value = true;
+    } catch (error){
+      responseMessageError.value = 'Something went wrong, Please try again later'
+      sendSuccess.value = false;
+    }
+  } else {
+    console.log(data.value)
+    console.error(error.value)
+    console.log(runTimeConfig.public.siteSecret)
   }
 };
 </script>

@@ -282,6 +282,12 @@ overflow: visible;
 	animation: success-circle-fill 300ms ease-out 1100ms forwards;
 }
 
+.recaptcha-badge {
+  position: fixed;
+  bottom: 10px;
+  right: 10px;
+}
+
 // Can't animate stroke-dashoffset on IE 10 and 11, just show svg instead
 @media screen and (-ms-high-contrast: active), screen and (-ms-high-contrast: none) {
 	.success-tick {
