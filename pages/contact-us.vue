@@ -161,8 +161,7 @@
                 Telephone / WhatsApp
               </p>
               <p class="text-[#0F132A]">
-                9:00 am - 16:30 CET <br class="sm:flex hidden" />
-                Monday - Friday
+                T: +961 (70) 153115
               </p>
             </div>
             <div class="lg:col-span-4 sm:col-span-6 col-span-12">
