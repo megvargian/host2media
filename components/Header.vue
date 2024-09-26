@@ -73,7 +73,7 @@
             <NuxtLink class="" to="contact-us"> Contact us </NuxtLink>
           </li>
         </ul>
-        <!-- <button
+        <button
           class="hamburger hamburger--collapse block lg:mr-0 mr-5 lg:hidden"
           type="button"
         >
@@ -84,7 +84,7 @@
               <div class="line bg-[#5564AD]"></div>
             </div>
           </div>
-        </button> -->
+        </button>
         <div id="menu_mobile" class="menu_on_mobile block lg:hidden h-[100dvh]">
           <div class="menu_on_mobile_wrapper h-[100dvh]">
             <div class="menu_on_mobile_inner_wrapper relative flex justify-center items-center h-[100dvh]">
@@ -111,7 +111,7 @@
             </div>
           </div>
         </div>
-        <div class="wrapper lg:hidden z-30">
+        <!-- <div class="wrapper lg:hidden z-30">
           <div class="app">
             <div class="nav">
               <div class="nav-bar">
@@ -126,7 +126,7 @@
               </div>
             </div>
           </div>
-        </div>
+        </div> -->
       </nav>
     </header>
   </div>
@@ -135,20 +135,20 @@
 <script setup lang="ts">
 const route = useRoute();
 const activeHamburgerButton = () => {
-  // const HamButton = document.querySelector(".menu_mobile_nav") as HTMLElement;
+  const HamButton = document.querySelector(".menu_mobile_nav") as HTMLElement;
   const HtmlBody = document.querySelector(".html, body") as HTMLElement;
   const mobileMenu = document.querySelector(".menu_on_mobile") as HTMLElement;
-  const mainNav = document.querySelector(".nav") as HTMLElement;
-  mainNav.classList.toggle("open");
+  // const mainNav = document.querySelector(".nav") as HTMLElement;
+  // mainNav.classList.toggle("open");
 
-  // HamButton.classList.toggle("active");
+  HamButton.classList.toggle("active");
   HtmlBody.classList.toggle("hide_scroll");
   mobileMenu.classList.toggle("active");
 };
-const activateMenu = () => {
-  const HtmlBody = document.querySelector(".html, body") as HTMLElement;
-  const mainNav = document.querySelector(".nav") as HTMLElement;
-  HtmlBody.classList.toggle("hide_scroll");
-  mainNav.classList.toggle("open");
-}
+// const activateMenu = () => {
+//   const HtmlBody = document.querySelector(".html, body") as HTMLElement;
+//   const mainNav = document.querySelector(".nav") as HTMLElement;
+//   HtmlBody.classList.toggle("hide_scroll");
+//   mainNav.classList.toggle("open");
+// }
 </script>
