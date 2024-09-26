@@ -84,71 +84,44 @@
               <div class="line bg-[#5564AD]"></div>
             </div>
           </div>
-        </button>
+        </button> -->
         <div id="menu_mobile" class="menu_on_mobile block lg:hidden h-[100dvh]">
           <div class="menu_on_mobile_wrapper h-[100dvh]">
             <div class="menu_on_mobile_inner_wrapper relative flex justify-center items-center h-[100dvh]">
               <div>
                 <a class="block my-3 page_font animated_menu_el" href="#">
-                  <div class="menu_item">Domains</div>
+                  <div class="menu_item text-white">Domains</div>
                 </a>
                 <a class="block my-3 page_font animated_menu_el" href="#">
-                  <div class="menu_item">Website Hosting</div>
+                  <div class="menu_item text-white">Website Hosting</div>
                 </a>
                 <a class="block my-3 page_font animated_menu_el" href="#">
-                  <div class="menu_item">Professional Email</div>
+                  <div class="menu_item text-white">Professional Email</div>
                 </a>
                 <a class="block my-3 page_font animated_menu_el" href="#">
-                  <div class="menu_item">Reseller Program</div>
+                  <div class="menu_item text-white">Reseller Program</div>
                 </a>
                 <a class="block my-3 page_font animated_menu_el" href="#">
-                  <div class="menu_item">Dev Serices</div>
+                  <div class="menu_item text-white">Dev Serices</div>
                 </a>
                 <a class="block my-3 page_font animated_menu_el" href="/contact-us">
-                  <div class="menu_item">Contact US</div>
+                  <div class="menu_item text-white">Contact US</div>
                 </a>
               </div>
             </div>
           </div>
-        </div> -->
-        <div class="wrapper lg:hidden">
+        </div>
+        <div class="wrapper lg:hidden z-30">
           <div class="app">
             <div class="nav">
               <div class="nav-bar">
                 <div class="logo"></div>
-                <div class="nav-btn" @click="activateMenu()">
+                <div class="nav-btn" @click="activeHamburgerButton()">
                   <div class="btn-bar menu"></div>
                   <div class="btn-bar menu"></div>
                   <div class="btn-bar menu"></div>
                   <div class="btn-bar close"></div>
                   <div class="btn-bar close"></div>
-                </div>
-              </div>
-              <div class="nav-content z-20">
-                <div class="background">
-                  <div class="portion"></div>
-                  <div class="portion"></div>
-                  <div class="portion"></div>
-                </div>
-                <div class="relative">
-                  <a class="block my-3 page_font animated_menu_el" href="#">
-                    <div class="menu_item text-white">Domains</div>
-                  </a>
-                  <a class="block my-3 page_font animated_menu_el" href="#">
-                    <div class="menu_item text-white">Website Hosting</div>
-                  </a>
-                  <a class="block my-3 page_font animated_menu_el" href="#">
-                    <div class="menu_item text-white">Professional Email</div>
-                  </a>
-                  <a class="block my-3 page_font animated_menu_el" href="#">
-                    <div class="menu_item text-white">Reseller Program</div>
-                  </a>
-                  <a class="block my-3 page_font animated_menu_el" href="#">
-                    <div class="menu_item text-white">Dev Serices</div>
-                  </a>
-                  <a class="block my-3 page_font animated_menu_el" href="/contact-us">
-                    <div class="menu_item text-white">Contact US</div>
-                  </a>
                 </div>
               </div>
             </div>
@@ -162,11 +135,13 @@
 <script setup lang="ts">
 const route = useRoute();
 const activeHamburgerButton = () => {
-  const HamButton = document.querySelector(".menu_mobile_nav") as HTMLElement;
+  // const HamButton = document.querySelector(".menu_mobile_nav") as HTMLElement;
   const HtmlBody = document.querySelector(".html, body") as HTMLElement;
   const mobileMenu = document.querySelector(".menu_on_mobile") as HTMLElement;
+  const mainNav = document.querySelector(".nav") as HTMLElement;
+  mainNav.classList.toggle("open");
 
-  HamButton.classList.toggle("active");
+  // HamButton.classList.toggle("active");
   HtmlBody.classList.toggle("hide_scroll");
   mobileMenu.classList.toggle("active");
 };

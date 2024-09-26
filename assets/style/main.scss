@@ -148,13 +148,39 @@ p{
 	top: 0px;
 	right: 0px;
 	transform: translateX(100vw);
-	transition: cubic-bezier(0.32, 0.17, 0, 1) 1s;
-	background-color: white;
+	// transition: cubic-bezier(0.32, 0.17, 0, 1) 1s;
+  transition: all 2s cubic-bezier(0.5, 0, 0.1, 1);
+	background-color: #5564AD;
 	text-align: right;
 	font-size: 20px;
 	text-align: center;
 	z-index: 10;
 	padding: 0px 30px;
+  // animation: ease-in slider;
+}
+@keyframes slider {
+  0% {
+    transform: translate3d(120vw, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg);
+  }
+  20%{
+      transform: translate3d(80vw, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg);
+
+  }
+  40%{
+      transform: translate3d(60vw, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg);
+  }
+  60%{
+      transform: translate3d(40vw, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg);
+
+  }
+  80%{
+      transform: translate3d(20vw, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg);
+
+  }
+  100%{
+      transform: translate3d(0vw, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg);
+
+  }
 }
 .page_font{
 	font-size: 30px;
@@ -172,7 +198,8 @@ p{
 }
 .menu_on_mobile.active{
 	transform: translateX(0%);
-	transition: cubic-bezier(0.32, 0.17, 0, 1) 0.5s;
+	// transition: cubic-bezier(0.32, 0.17, 0, 1) 1s;
+  transition: all 2s cubic-bezier(0.5, 0, 0.1, 1);
 	position: fixed;
 }
 body.hide_scroll{
@@ -314,18 +341,6 @@ $app-aspect: 0.762;
   font-size: 12px;
   width: 100%;
 }
-
-body {
-  $app-height: 100dvh;
-  position:   relative;
-  background: #F9F9F9;
-  flex:       0 0 auto;
-  width:      100%;
-  height:     $app-height;
-
-  // @if $app-hide-overflow { overflow: hidden; }
-}
-
 .nav {
   $btn-bar-width:   1.34em;
   $btn-bar-height:  3px;
@@ -352,14 +367,19 @@ body {
     flex:    0;
     padding: 5px;
   }
-
+  .nav-btn .btn-bar.menu{
+    background-color: #5564AD !important;
+  }
+  .nav-btn .btn-bar.close{
+    background-color: #F9F9F9 !important;
+  }
   .nav-btn .btn-bar {
     position: relative;
 
     width:         $btn-bar-width;
     height:        $btn-bar-height;
     border-radius: 5px;
-    background:    #444;
+    // background:    #444;
 
     &.menu:not(:first-child) {
       margin-top: $btn-bar-spacing;
@@ -372,34 +392,6 @@ body {
       margin-top: -$btn-bar-height / 2;
       opacity:    0;
       top:        50%;
-    }
-  }
-
-  .nav-content {
-    position:   absolute;
-    height: 100dvh;
-    top:      0;
-    left:     0;
-    right:    0;
-    bottom:   0;
-    z-index: -1;
-
-    .background {
-      position:    absolute;
-      display:     flex;
-      flex-flow:   column;
-      align-items: stretch;
-
-      top:     0;
-      left:    0;
-      right:   0;
-      bottom: -2px;
-    }
-
-    .portion {
-      background: #5564ad;
-
-      &:not(:first-child) { margin-top: -1px; }
     }
   }
 
@@ -421,7 +413,6 @@ body {
   $close-bar-anim-time:   0.5s;
   $close-bar-anim-offset: 250%;
 
-  $background-anim-time: $close-bar-anim-time;
 
   /*///////////////////////////////////
   // Region: Initial (Closed) States
@@ -484,14 +475,6 @@ body {
       &:not(:last-child) { transform: rotate( 45deg); }
       &:last-child       { transform: rotate(-45deg); }
     }
-
-    .nav-content {
-      z-index: 1;
-
-      .background .portion {
-        transform: translateX(0%);
-      }
-    }
   }
 
   /*///////////////////////////////////
@@ -514,17 +497,6 @@ body {
         opacity ($close-bar-anim-time / 4) ease-in-out $menu-bar-anim-time;
   }
 
-  &.open .nav-content {
-
-    // transition when menu is opening
-    transition: z-index 0.01s ease-in-out $menu-bar-anim-time;
-  }
-
-  &.open .nav-content .background .portion {
-
-    // transition when menu is opening
-    transition: transform $background-anim-time ease-in-out $menu-bar-anim-time;
-  }
 
   /*///////////////////////////////////
   // Region: Transition -> Menu Closing
@@ -544,18 +516,6 @@ body {
     transition:
         transform $close-bar-anim-time ease-in-out,
         opacity ($close-bar-anim-time / 4) ease-in-out $close-bar-anim-time;
-  }
-
-  .nav-content {
-
-    // transition when menu is closing
-    transition: z-index 0.01s ease-in-out $background-anim-time;
-  }
-
-  .nav-content .background .portion {
-
-    // transition when menu is closing
-    transition: transform $background-anim-time ease-in-out;
   }
 }
 
