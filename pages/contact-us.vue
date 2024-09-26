@@ -456,7 +456,11 @@ const contactFormData = ref({
   releaseNewProducts: boolean;
   events: boolean;
 });
+const { executeRecaptcha } = useGoogleRecaptcha()
+
 const submitContactUsForm = async () => {
+  const { token } = await executeRecaptcha('submit');
+  console.log(token)
   try {
     loading.value = true;
     await mail.send({

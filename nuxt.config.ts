@@ -3,14 +3,12 @@ export default defineNuxtConfig({
   compatibilityDate: "2024-04-03",
   devtools: { enabled: false },
   css: ["~/assets/style/main.scss"],
-
   postcss: {
     plugins: {
       tailwindcss: {},
       autoprefixer: {},
     },
   },
-
   nitro: {
     routeRules: {
       "/api/whois/**": {
@@ -19,6 +17,7 @@ export default defineNuxtConfig({
       },
     },
   },
+  plugins: [{src: '~/plugins/recaptcha.js'}],
   modules: ["nuxt-mail"],
   mail: {
     message: {
@@ -33,6 +32,18 @@ export default defineNuxtConfig({
       auth: {
         user: process.env.SMTP_USER,
         pass: process.env.SMTP_PASS,
+      },
+    },
+  },
+  runtimeConfig: {
+    public: {
+      siteKey: process.env.RECAPTCHA_SITE_KEY
+    }
+  },
+  security: {
+    csp: {
+      directives: {
+        'frame-ancestors': ["'self'", 'https://recaptcha.net'],
       },
     },
   },
