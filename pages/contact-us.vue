@@ -405,6 +405,17 @@
                 </g>
               </svg>
             </div>
+            <div v-if="sendSuccess">
+              <p class="mb-4 text-center">
+                We appreciate you reaching out to us. Your message has been received, <br class="sm:flex hidden" />  and a member of our team will get back to you as soon as possible. <br class="sm:flex hidden" />If your inquiry is urgent, feel free to reach us directly at <br class="sm:flex hidden" />00961 (70) 153115 or support@host2media.com.
+              </p>
+              <p class="mb-4 text-center">
+                At Host2Media, we're committed to providing top-notch hosting services,<br class="sm:flex hidden" /> and we're here to assist you with any questions or concerns.
+              </p>
+              <p class="mb-4 text-center">
+                Thank you for choosing Host2Media!
+              </p>
+            </div>
           </div>
         </div>
       </div>
