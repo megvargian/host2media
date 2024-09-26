@@ -2,36 +2,47 @@
   <section>
     <div class="container mx-auto">
       <div class="grid grid-cols-12 gap-4">
-        <div class="col-span-12 lg:col-span-6">
-          <h2 class="leading-tight sm:text-4xl md:lg:text-5xl md:text-4xl sm:text-[36px] text-[25px] lg:text-left text-center text-[36px] font-bold lg:py-32 pt-0 sm:pb-16 pb-5">
-            New Web Hosting, <br class="sm:flex hidden" />
-            New Potential
-          </h2>
-          <p class="sm:text-xl text-sm lg:text-left text-center sm:pt-8 sm:px-0 px-3">
-            Tap into the potential of managed Web Hosting
-          </p>
-          <p class="sm:text-xl text-sm lg:text-left text-center sm:px-0 px-3">
-            ensuring your website's speed, security, and constant availability.
-          </p>
+        <div class="col-span-12 flex justify-center items-center">
+          <div>
+            <h2
+              class="leading-tight sm:text-4xl md:lg:text-5xl md:text-4xl sm:text-[36px] text-[25px] text-center text-[36px] font-bold lg:py-16 pt-0 sm:pb-16 pb-5"
+            >
+              New Web Hosting, <br class="sm:flex hidden" />
+              New Potential
+            </h2>
+            <p
+              class="sm:text-xl text-sm text-center sm:pt-8 sm:px-0 px-3"
+            >
+              Tap into the potential of managed Web Hosting
+            </p>
+            <p class="sm:text-xl text-sm text-center sm:px-0 px-3">
+              ensuring your website's speed, security, and constant availability.
+            </p>
+          </div>
         </div>
-        <div class="col-span-12 lg:col-span-6 flex justify-center">
+        <!-- <div class="col-span-12 lg:col-span-6 flex justify-center">
           <img
             class="h-auto sm:w-[450px] w-[300px] pt-10"
             src="~/assets/images/main-image.png"
           />
-        </div>
+        </div> -->
       </div>
     </div>
   </section>
   <section class="my-12 lg:pt-32 lg:mx-12 custom-margin-bottom">
     <div class="container mx-auto flex justify-center items-center pb-12">
-
-      <h2 class="lg:text-5xl md:text-4xl sm:text-[36px] text-[25px] lg:text-left text-center sm:text-5xl md:text-4xl text-[36px] lg:text-left text-center font-black text-[#0F132A]">
+      <h2
+        class="lg:text-5xl md:text-4xl sm:text-[36px] text-[25px] lg:text-left text-center sm:text-5xl md:text-4xl text-[36px] lg:text-left text-center font-black text-[#0F132A]"
+      >
         The all-in-one solution to get online quickly
       </h2>
     </div>
-    <div class="w-full lg:rounded-3xl rounded-tl-[50px] rounded-bl-[50px] bg-[#5564AD] mt-10 relative lg:pt-32">
-      <div class="container w-full mx-auto lg:absolute lg:right-0 lg:left-0 top-[-30%]">
+    <div
+      class="w-full lg:rounded-3xl rounded-tl-[50px] rounded-bl-[50px] bg-[#5564AD] mt-10 relative lg:pt-32"
+    >
+      <div
+        class="container w-full mx-auto lg:absolute lg:right-0 lg:left-0 top-[-30%]"
+      >
         <div class="grid grid-cols-12 gap-5 py-10 lg:mx-0 mx-5">
           <div class="lg:col-span-3 col-span-6 bg-white sm:p-5 p-3 rounded-xl">
             <div class="flex justify-center items-center sm:pb-10 pb-5">
@@ -81,9 +92,15 @@
       </div>
       <div class="container w-full mx-auto">
         <div class="grid grid-cols-12 gap-4 py-10">
-          <div class="lg:col-span-6 col-span-12 order-2 lg:order-1 flex justify-center items-center mx-5 lg:pb-0 pb-32">
+          <div
+            class="lg:col-span-6 col-span-12 order-2 lg:order-1 flex justify-center items-center mx-5 lg:pb-0 pb-32"
+          >
             <div class="w-full">
-              <form @submit.prevent="SubmitFormSearchDomain" class="flex w-full relative" data-netlify-recaptcha="true">
+              <form
+                @submit.prevent="SubmitFormSearchDomain"
+                class="flex w-full relative"
+                data-netlify-recaptcha="true"
+              >
                 <input
                   class="w-full rounded text-base p-4 text-[#0F132A] placeholder-[#0F132A] Mulish-light outline-none"
                   type="text"
@@ -105,11 +122,26 @@
                   <img v-else class="w-8 h-8" src="~/assets/icons/search.svg" />
                 </button>
               </form>
-              <span v-if="!loading">{{ response }}</span>
+              <span class="text-white" v-if="!loading"
+                >{{ response }}
+                <span
+                  class="font-bold"
+                  :class="
+                    isAvailibleMsg === 'available'
+                      ? 'text-green-600'
+                      : 'text-red-800'
+                  "
+                  >{{ isAvailibleMsg }}</span
+                ></span
+              >
             </div>
           </div>
-          <div class="lg:col-span-6 col-span-12 order-1 lg:order-2 flex lg:justify-start justify-center lg:pl-10">
-            <h2 class="leading-tight sm:text-5xl md:text-4xl text-[36px] font-bold text-white lg:text-left text-center">
+          <div
+            class="lg:col-span-6 col-span-12 order-1 lg:order-2 flex lg:justify-start justify-center lg:pl-10"
+          >
+            <h2
+              class="leading-tight sm:text-5xl md:text-4xl text-[36px] font-bold text-white lg:text-left text-center"
+            >
               Find Your Exceptional <br class="sm:flex hidden" />
               Online Name
             </h2>
@@ -118,14 +150,16 @@
       </div>
     </div>
   </section>
-  <section class="sm:pt-[30rem] pt-[35rem]  relative z-1">
+  <section class="sm:pt-[30rem] pt-[35rem] relative z-1">
     <div
       class="custom-container mx-auto z-2 absolute left-0 top-[0%] custom-mobile-position right-0 bg-white rounded-[50px] mx-10"
     >
       <div class="px-10 flex justify-center items-center">
         <div class="rounded-[50px] pt-10">
           <div class="grid grid-cols-12 lg:gap-10 gap-5 flex">
-            <div class="lg:col-span-6 col-span-12 lg:pr-[10rem] flex justify-center items-center">
+            <div
+              class="lg:col-span-6 col-span-12 lg:pr-[10rem] flex justify-center items-center"
+            >
               <div>
                 <h2
                   class="leading-tight lg:text-5xl md:text-4xl sm:text-[36px] text-[25px] lg:text-left text-center text-[#0F132A] font-black"
@@ -134,7 +168,9 @@
                   contributes to <br class="sm:flex hidden" />
                   your success.
                 </h2>
-                <p class="lg:py-12 py-8 font-normal text-lg lg:text-left text-center">
+                <p
+                  class="lg:py-12 py-8 font-normal text-lg lg:text-left text-center"
+                >
                   Customers are choosing to migrate their services to Host2Media
                   to benefit from our fast hosting and top-notch support.
                 </p>
@@ -149,17 +185,19 @@
             </div>
             <div class="lg:col-span-6 col-span-12">
               <div class="text-left pb-6 flex lg:block justify-center">
-               <div>
+                <div>
                   <p class="text-[#0F132A] text-lg Mulish-Black font-black">
                     Easy Control Panel
                   </p>
                   <p class="font-light Mulish-light pt-1">
-                    We employ a user-friendly hosting <br class="sm:flex hidden" />
+                    We employ a user-friendly hosting
+                    <br class="sm:flex hidden" />
                     control panel, simplifying the <br class="sm:flex hidden" />
-                    management of your web hosting and <br class="sm:flex hidden" />
+                    management of your web hosting and
+                    <br class="sm:flex hidden" />
                     alleviating any associated challenges.
                   </p>
-               </div>
+                </div>
               </div>
               <div class="text-left pb-6 lg:block flex justify-center">
                 <div>
@@ -167,8 +205,10 @@
                     Comprehensive in functionality.
                   </p>
                   <p class="font-light Mulish-light pt-1">
-                    We go beyond web hosting, providing <br class="sm:flex hidden" />
-                    a tool suite that Incorporates all the <br class="sm:flex hidden" />
+                    We go beyond web hosting, providing
+                    <br class="sm:flex hidden" />
+                    a tool suite that Incorporates all the
+                    <br class="sm:flex hidden" />
                     essential elements for your success.
                   </p>
                 </div>
@@ -179,8 +219,10 @@
                     Fast & Reliable
                   </p>
                   <p class="font-light Mulish-light pt-1">
-                    This leads to improved SEO rankings, <br class="sm:flex hidden" />
-                    reduced bounce rates, and increased <br class="sm:flex hidden" />
+                    This leads to improved SEO rankings,
+                    <br class="sm:flex hidden" />
+                    reduced bounce rates, and increased
+                    <br class="sm:flex hidden" />
                     conversion rates!
                   </p>
                 </div>
@@ -191,10 +233,14 @@
                     7/7 Support
                   </p>
                   <p class="font-light Mulish-light pt-1">
-                    Reach out to our customer service <br class="sm:flex hidden" />
-                    team at any time. Our dedicated <br class="sm:flex hidden" />
-                    support team is ever-ready to address <br class="sm:flex hidden" />
-                    and resolve any questions or concerns <br class="sm:flex hidden" />
+                    Reach out to our customer service
+                    <br class="sm:flex hidden" />
+                    team at any time. Our dedicated
+                    <br class="sm:flex hidden" />
+                    support team is ever-ready to address
+                    <br class="sm:flex hidden" />
+                    and resolve any questions or concerns
+                    <br class="sm:flex hidden" />
                     you may have.
                   </p>
                 </div>
@@ -204,7 +250,9 @@
         </div>
       </div>
     </div>
-    <section class="w-full bg-[#5564AD] lg:pt-64 pt-[10rem] sm:mt-[25rem] lg:mt-0 mt-[10rem] custom-mobile-margin -z-10 text-white">
+    <section
+      class="w-full bg-[#5564AD] lg:pt-64 pt-[10rem] sm:mt-[25rem] lg:mt-0 mt-[10rem] custom-mobile-margin -z-10 text-white"
+    >
       <div class="custom-container mx-auto">
         <div class="grid grid-cols-12 lg:gap-10 gap-5">
           <div class="lg:col-span-6 col-span-12 order-2 lg:order-1">
@@ -212,9 +260,13 @@
               <div class="text-left text-white pb-10">
                 <p class="text-lg Mulish-Black font-black">Web Hosting</p>
                 <p class="font-light Mulish-light pt-1">
-                  Shared Website Hosting gives you everything <br class="sm:flex hidden" />
-                  you need to get started, a free domain name,<br class="sm:flex hidden" />
-                  an easy control panel, a website builder, and <br class="sm:flex hidden" />
+                  Shared Website Hosting gives you everything
+                  <br class="sm:flex hidden" />
+                  you need to get started, a free domain name,<br
+                    class="sm:flex hidden"
+                  />
+                  an easy control panel, a website builder, and
+                  <br class="sm:flex hidden" />
                   email hosting for your website.
                 </p>
                 <p class="font-semibold pt-2 Mulish-SemiBold">
@@ -226,8 +278,10 @@
               <div class="text-left text-white pb-10">
                 <p class="text-lg Mulish-Black font-black">VPS</p>
                 <p class="font-light Mulish-light pt-1">
-                  Our VPS solution offers flexibility for your <br class="sm:flex hidden" />
-                  expansion and allows for easy scalability <br class="sm:flex hidden" />
+                  Our VPS solution offers flexibility for your
+                  <br class="sm:flex hidden" />
+                  expansion and allows for easy scalability
+                  <br class="sm:flex hidden" />
                   without committing to long-term investments.
                 </p>
                 <p class="font-bold pt-2 Mulish-SemiBold">
@@ -237,10 +291,14 @@
             </div>
             <div class="lg:block flex justify-center sm:mx-0 mx-10">
               <div class="text-left text-white pb-10">
-                <p class="text-lg Mulish-Black font-black">Professional Email</p>
+                <p class="text-lg Mulish-Black font-black">
+                  Professional Email
+                </p>
                 <p class="font-light Mulish-light pt-1">
-                  Experience the benefits of professional email <br class="sm:flex hidden" />
-                  for your business and make your brand look <br class="sm:flex hidden" />
+                  Experience the benefits of professional email
+                  <br class="sm:flex hidden" />
+                  for your business and make your brand look
+                  <br class="sm:flex hidden" />
                   more credible. with easy upgrades as you grow.
                 </p>
                 <p class="font-bold pt-2 Mulish-SemiBold">
@@ -249,18 +307,26 @@
               </div>
             </div>
           </div>
-          <div class="lg:col-span-6 col-span-12 order-1 lg:order-2 flex justify-center items-center">
+          <div
+            class="lg:col-span-6 col-span-12 order-1 lg:order-2 flex justify-center items-center"
+          >
             <div>
-              <h2 class="leading-tight lg:text-5xl md:text-4xl sm:text-[36px] text-[25px] lg:text-left text-center text-[#fff] font-black Mulish-Black">
+              <h2
+                class="leading-tight lg:text-5xl md:text-4xl sm:text-[36px] text-[25px] lg:text-left text-center text-[#fff] font-black Mulish-Black"
+              >
                 We Offer Hosting <br class="sm:flex hidden" />
                 Solutions For all <br class="sm:flex hidden" />
                 Your Needs.
               </h2>
               <p class="py-12 font-normal text-lg lg:text-left text-center">
-                Host2Media offers comprehensive hosting <br class="sm:flex hidden" />
-                solutions tailored to meet all your business <br class="sm:flex hidden" />
-                needs. No matter your industry or the specific <br class="sm:flex hidden" />
-                solution you're seeking, we've got you covered <br class="sm:flex hidden" />
+                Host2Media offers comprehensive hosting
+                <br class="sm:flex hidden" />
+                solutions tailored to meet all your business
+                <br class="sm:flex hidden" />
+                needs. No matter your industry or the specific
+                <br class="sm:flex hidden" />
+                solution you're seeking, we've got you covered
+                <br class="sm:flex hidden" />
                 with a range of hosting options.
               </p>
             </div>
@@ -270,11 +336,15 @@
     </section>
   </section>
   <section class="lg:pb-32 pb-10 block">
-    <div class="custom-container mx-auto bg-white rounded-[50px] rounded-t-[0px]">
+    <div
+      class="custom-container mx-auto bg-white rounded-[50px] rounded-t-[0px]"
+    >
       <div class="px-10 flex justify-center items-center">
         <div class="rounded-[50px] bg-white pt-16">
           <div class="grid grid-cols-12 lg:gap-10 gap-5 flex">
-            <div class="lg:col-span-6 col-span-12 lg:pr-[4rem] flex justify-center items-center">
+            <div
+              class="lg:col-span-6 col-span-12 lg:pr-[4rem] flex justify-center items-center"
+            >
               <div>
                 <h2
                   class="leading-tight lg:text-5xl md:text-4xl sm:text-[36px] text-[25px] lg:text-left text-center text-[#0F132A] font-black Mulish-Black"
@@ -305,10 +375,14 @@
                     to resell on your own terms
                   </p>
                   <p class="font-light Mulish-light pt-1">
-                    Join our Reseller Program and Resell host2media's <br class="sm:flex hidden" />
-                    hosting services under your own brand name using <br class="sm:flex hidden" />
-                    the white-label solution and directly invoice your <br class="sm:flex hidden" />
-                    end-users, or make profits by offering Host2media <br class="sm:flex hidden" />
+                    Join our Reseller Program and Resell host2media's
+                    <br class="sm:flex hidden" />
+                    hosting services under your own brand name using
+                    <br class="sm:flex hidden" />
+                    the white-label solution and directly invoice your
+                    <br class="sm:flex hidden" />
+                    end-users, or make profits by offering Host2media
+                    <br class="sm:flex hidden" />
                     services as affiliation.
                   </p>
                 </div>
@@ -319,8 +393,11 @@
                     Great Pricing without hidden cost
                   </p>
                   <p class="font-light Mulish-light pt-1">
-                    We provide reduced pricing for our Resellers,<br class="sm:flex hidden" />
-                    enabling you to stay competitive in your market <br class="sm:flex hidden" />
+                    We provide reduced pricing for our Resellers,<br
+                      class="sm:flex hidden"
+                    />
+                    enabling you to stay competitive in your market
+                    <br class="sm:flex hidden" />
                     while delivering high-quality hosting services.
                   </p>
                 </div>
@@ -331,12 +408,18 @@
                     Personalized Support
                   </p>
                   <p class="font-light Mulish-light pt-1">
-                    Our team is committed to ensuring your <br class="sm:flex hidden" />
-                    success. You'll be provided with a dedicated <br class="sm:flex hidden" />
-                    account manager, round-the-clock technical <br class="sm:flex hidden" />
-                    support for you and your clients, and an <br class="sm:flex hidden" />
-                    extensive knowledge base, ensuring you have <br class="sm:flex hidden" />
-                    the assistance you require whenever it's <br class="sm:flex hidden" />
+                    Our team is committed to ensuring your
+                    <br class="sm:flex hidden" />
+                    success. You'll be provided with a dedicated
+                    <br class="sm:flex hidden" />
+                    account manager, round-the-clock technical
+                    <br class="sm:flex hidden" />
+                    support for you and your clients, and an
+                    <br class="sm:flex hidden" />
+                    extensive knowledge base, ensuring you have
+                    <br class="sm:flex hidden" />
+                    the assistance you require whenever it's
+                    <br class="sm:flex hidden" />
                     needed.
                   </p>
                 </div>
@@ -349,7 +432,11 @@
   </section>
   <section class="pb-12">
     <div class="container mx-auto flex justify-center items-center pb-6">
-      <h2 class="leading-tight lg:text-5xl md:text-4xl sm:text-[36px] text-[25px] lg:text-left text-center text-[#0F132A] font-black">What Makes Host2Media Different?</h2>
+      <h2
+        class="leading-tight lg:text-5xl md:text-4xl sm:text-[36px] text-[25px] lg:text-left text-center text-[#0F132A] font-black"
+      >
+        What Makes Host2Media Different?
+      </h2>
     </div>
     <div class="container mx-auto flex justify-center itmes-center">
       <p class="text-center sm:mx-0 mx-4">
@@ -365,7 +452,9 @@
   <section>
     <div class="custom-container mx-auto">
       <div class="grid grid-cols-12 lg:gap-12 gap-5">
-        <div class="lg:col-span-4 md:col-span-6 col-span-12 pb-5 lg:block flex justify-center">
+        <div
+          class="lg:col-span-4 md:col-span-6 col-span-12 pb-5 lg:block flex justify-center"
+        >
           <div>
             <div class="flex justify-start items-center pb-3 pl-10">
               <img
@@ -388,7 +477,9 @@
             </div>
           </div>
         </div>
-        <div class="lg:col-span-4 md:col-span-6 col-span-12 pb-5 lg:block flex justify-center">
+        <div
+          class="lg:col-span-4 md:col-span-6 col-span-12 pb-5 lg:block flex justify-center"
+        >
           <div>
             <div class="flex justify-start pl-10 items-center pb-3">
               <img class="w-12 h-12" src="~/assets/icons/sp.svg" alt="speed" />
@@ -406,14 +497,12 @@
             </div>
           </div>
         </div>
-        <div class="lg:col-span-4 md:col-span-6 col-span-12 pb-5 lg:block flex justify-center">
+        <div
+          class="lg:col-span-4 md:col-span-6 col-span-12 pb-5 lg:block flex justify-center"
+        >
           <div>
             <div class="flex justify-start pl-10 items-center pb-3">
-              <img
-                class="w-12 h-12"
-                src="~/assets/icons/ug.png"
-                alt="ug"
-              />
+              <img class="w-12 h-12" src="~/assets/icons/ug.png" alt="ug" />
             </div>
             <div class="text-left">
               <p class="text-[#0F132A] font-black Mulish-Black text-lg">
@@ -428,7 +517,9 @@
             </div>
           </div>
         </div>
-        <div class="lg:col-span-4 md:col-span-6 col-span-12 pb-5 lg:block flex justify-center">
+        <div
+          class="lg:col-span-4 md:col-span-6 col-span-12 pb-5 lg:block flex justify-center"
+        >
           <div>
             <div class="flex justify-start pl-10 items-center pb-3">
               <img class="w-12 h-12" src="~/assets/icons/supp.svg" alt="supp" />
@@ -446,7 +537,9 @@
             </div>
           </div>
         </div>
-        <div class="lg:col-span-4 md:col-span-6 col-span-12 pb-5 lg:block flex justify-center">
+        <div
+          class="lg:col-span-4 md:col-span-6 col-span-12 pb-5 lg:block flex justify-center"
+        >
           <div>
             <div class="flex justify-start pl-10 items-center pb-3">
               <img
@@ -467,7 +560,9 @@
             </div>
           </div>
         </div>
-        <div class="lg:col-span-4 md:col-span-6 col-span-12 pb-5 lg:block flex justify-center">
+        <div
+          class="lg:col-span-4 md:col-span-6 col-span-12 pb-5 lg:block flex justify-center"
+        >
           <div>
             <div class="flex justify-start pl-10 items-center pb-3">
               <img class="w-12 h-12" src="~/assets/icons/opt.svg" alt="opt" />
@@ -512,20 +607,22 @@
           Learn More About Our Dev Service
         </button>
       </div>
-     <div class="md:hidden block py-4 flex justify-center">
-      <button
+      <div class="md:hidden block py-4 flex justify-center">
+        <button
           class="rounded-[10px] bg-[#5564AD] text-white text-sm font-bold md:py-4 md:px-8 md:hidden block py-3 px-6 Mulish-ExtraBold"
         >
-        Learn More About Our Dev Service
-      </button>
-     </div>
+          Learn More About Our Dev Service
+        </button>
+      </div>
     </div>
   </section>
   <section>
     <div class="custom-sm-container mx-auto pb-16">
       <div class="custom-bg-img w-full">
         <div class="flex justify-center items-center">
-          <h3 class="text-4xl text-[#0F132A] font-black Mulish-bold lg:text-left text-center">
+          <h3
+            class="text-4xl text-[#0F132A] font-black Mulish-bold lg:text-left text-center"
+          >
             Frequently Asked Questions
           </h3>
         </div>
@@ -562,10 +659,12 @@
             <div id="content-1" class="p-4 hidden">
               <ul class="Mulish-light">
                 <li>
-                  1- Use the domain search tool to check the availability of your desired domain name.
+                  1- Use the domain search tool to check the availability of
+                  your desired domain name.
                 </li>
                 <li>
-                  2- If the domain is available, proceed to register it by providing the necessary information
+                  2- If the domain is available, proceed to register it by
+                  providing the necessary information
                 </li>
               </ul>
             </div>
@@ -578,9 +677,7 @@
                 @click="toggleAccordion(2)"
                 class="w-full text-left flex justify-between items-center"
               >
-                <span class="font-bold text-base"
-                  >Transfer a Domain name</span
-                >
+                <span class="font-bold text-base">Transfer a Domain name</span>
                 <svg
                   class="w-4 h-4 transform transition-transform duration-200 icons"
                   id="icon-2"
@@ -601,22 +698,28 @@
             <div id="content-2" class="p-4 hidden">
               <ul class="Mulish-light">
                 <li>
-                  1 - Unlock the domain at your current registrar. This involves removing any domain locks or privacy settings.
+                  1 - Unlock the domain at your current registrar. This involves
+                  removing any domain locks or privacy settings.
+                </li>
+                <li>2 - Obtain the authorization code</li>
+                <li>
+                  3 - Use the domain search tool to initiate the domain transfer
+                  process
                 </li>
                 <li>
-                  2 - Obtain the authorization code
+                  4 - Provide the domain name and authorization code during the
+                  transfer request
                 </li>
                 <li>
-                  3 - Use the domain search tool to initiate the domain transfer process
-                </li>
-                <li>
-                  4 - Provide the domain name and authorization code during the transfer request
-                </li>
-                <li>
-                  5 - Check your email for a confirmation message and follow any additional instructions provided by both the old registrar and Host2Media
+                  5 - Check your email for a confirmation message and follow any
+                  additional instructions provided by both the old registrar and
+                  Host2Media
                 </li>
                 <p>
-                  Keep in mind that domain transfers may take up to 7 days to complete. Additionally, it's crucial to ensure that your domain registration information is accurate and up-to-date to avoid any issues during the process.
+                  Keep in mind that domain transfers may take up to 7 days to
+                  complete. Additionally, it's crucial to ensure that your
+                  domain registration information is accurate and up-to-date to
+                  avoid any issues during the process.
                 </p>
               </ul>
             </div>
@@ -649,7 +752,10 @@
               </button>
             </h2>
             <div id="content-3" class="p-4 hidden">
-              <p>Yes, you can have an email without having a website, sign up for the host2media business email.</p>
+              <p>
+                Yes, you can have an email without having a website, sign up for
+                the host2media business email.
+              </p>
             </div>
           </div>
           <!-- Accordion Item 4 -->
@@ -660,7 +766,8 @@
                 class="w-full text-left flex justify-between items-center"
               >
                 <span class="font-bold text-base"
-                  >Do I need a Domain name to have a web hosting and email address?</span
+                  >Do I need a Domain name to have a web hosting and email
+                  address?</span
                 >
                 <svg
                   class="w-4 h-4 transform transition-transform duration-200 icons"
@@ -680,8 +787,16 @@
               </button>
             </h2>
             <div id="content-4" class="p-4 hidden">
-              <p>You can get web hosting services without having a domain name. In such cases, your website can be accessed using a subdomain from our private domain list. (e.g., yourname.anydomain.com).</p>
-              <p>This is common for development or testing purposes, but for a professional or public website, having your own domain is recommended.</p>
+              <p>
+                You can get web hosting services without having a domain name.
+                In such cases, your website can be accessed using a subdomain
+                from our private domain list. (e.g., yourname.anydomain.com).
+              </p>
+              <p>
+                This is common for development or testing purposes, but for a
+                professional or public website, having your own domain is
+                recommended.
+              </p>
             </div>
           </div>
           <!-- Accordion Item 5 -->
@@ -712,8 +827,18 @@
               </button>
             </h2>
             <div id="content-5" class="p-4 hidden">
-              <p>If you want a more professional appearance, consider getting a custom domain for your email.</p>
-              <p>However, having your own domain name is generally advisable for a professional online presence. It provides branding consistency across your website and email, and it often looks more credible to users. If you decide to get both web hosting and email services, you can often manage them together under your custom domain for a unified online identity.</p>
+              <p>
+                If you want a more professional appearance, consider getting a
+                custom domain for your email.
+              </p>
+              <p>
+                However, having your own domain name is generally advisable for
+                a professional online presence. It provides branding consistency
+                across your website and email, and it often looks more credible
+                to users. If you decide to get both web hosting and email
+                services, you can often manage them together under your custom
+                domain for a unified online identity.
+              </p>
             </div>
           </div>
           <!-- Accordion Item 6 -->
@@ -724,8 +849,8 @@
                 class="w-full text-left flex justify-between items-center"
               >
                 <span class="font-bold text-base"
-                  >Can I import my old host emails to host2media mail server? </span
-                >
+                  >Can I import my old host emails to host2media mail server?
+                </span>
                 <svg
                   class="w-4 h-4 transform transition-transform duration-200 icons"
                   id="icon-6"
@@ -744,7 +869,11 @@
               </button>
             </h2>
             <div id="content-6" class="p-4 hidden">
-              <p>Yes, you can important your entire old host emails, to host2media mail server. all you need to do is go to mail migration section in your client portal and follow the steps</p>
+              <p>
+                Yes, you can important your entire old host emails, to
+                host2media mail server. all you need to do is go to mail
+                migration section in your client portal and follow the steps
+              </p>
             </div>
           </div>
         </div>
@@ -754,12 +883,12 @@
 </template>
 
 <script setup lang="ts">
-
 const loading = ref(false);
 const searchDomain = ref({
-  name: ''
-})
-const response = ref('');
+  name: "",
+});
+const response = ref("");
+const isAvailibleMsg = ref("");
 const toggleAccordion = (id: Number) => {
   const content = document.getElementById(`content-${id}`);
   const icon = document.getElementById(`icon-${id}`);
@@ -768,38 +897,46 @@ const toggleAccordion = (id: Number) => {
 };
 
 const getResultFromWhois = async (name: string) => {
-  const { data, refresh, error } = useFetch(`/api/whois/?apiKey=at_UBnljMwAUWbyMR34rPOj6aGIayY3q&domainName=${name}&credits=WHOIS`,
+  const { data, refresh, error } = useFetch(
+    `/api/whois/?apiKey=at_UBnljMwAUWbyMR34rPOj6aGIayY3q&domainName=${name}&credits=WHOIS`,
     {
-      method: 'GET',
+      method: "GET",
       immediate: false,
-    },
-  )
+    }
+  );
   const config = data as {
     value: {
       DomainInfo: {
-        domainAvailability: string,
-        domainName: string,
-      }
-    }
-  }
+        domainAvailability: string;
+        domainName: string;
+      };
+    };
+  };
   await refresh();
   if (error.value) {
     loading.value = false;
-    response.value = 'Something went wrong please try again later';
+    response.value = "Something went wrong please try again later";
     console.error(error.value);
   } else {
-    response.value = config.value.DomainInfo.domainAvailability;
+    response.value = `Woah! this domain is`;
+    isAvailibleMsg.value =
+      config.value.DomainInfo.domainAvailability.toLowerCase() === "available"
+        ? "available"
+        : "taken";
     loading.value = false;
   }
-}
+};
 const SubmitFormSearchDomain = async () => {
-  if(!searchDomain.value.name.includes('.com')){
-    response.value = 'please make you domain search .com format';
-  } else if (searchDomain.value.name.includes(' ')){
-    response.value = 'please remove any space in your search for domain names';
-  }else {
+  if (searchDomain.value.name.includes(" ")) {
+    response.value = "Please remove any space in your search for domain name";
+    isAvailibleMsg.value = "";
+  } else if (!searchDomain.value.name.includes(".")) {
+    response.value =
+      "Please make sure the domain main is properly formated like .com, .org etc";
+    isAvailibleMsg.value = "";
+  } else {
     loading.value = true;
     await getResultFromWhois(searchDomain.value.name);
   }
-}
+};
 </script>
