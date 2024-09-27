@@ -89,6 +89,9 @@
           <div class="menu_on_mobile_wrapper h-[100dvh]">
             <div class="menu_on_mobile_inner_wrapper relative flex justify-center items-center h-[100dvh]">
               <div>
+                <a class="block my-3 page_font animated_menu_el" href="/">
+                    <img class="w-[5rem] mx-auto" src="~/assets/images/h2m-mob.png" alt="host2media">
+                </a>
                 <a class="block my-3 page_font animated_menu_el" href="#">
                   <div class="menu_item text-white">Domains</div>
                 </a>
