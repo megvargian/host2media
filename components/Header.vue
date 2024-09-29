@@ -89,27 +89,29 @@
           <div class="menu_on_mobile_wrapper h-[100dvh]">
             <div class="menu_on_mobile_inner_wrapper relative flex justify-center items-center h-[100dvh]">
               <div>
-                <a class="block my-3 page_font animated_menu_el" href="/">
-                    <img class="w-[5rem] mx-auto" src="~/assets/images/h2m-mob.png" alt="host2media">
-                </a>
-                <a class="block my-3 page_font animated_menu_el" href="#">
-                  <div class="menu_item text-white">Domains</div>
-                </a>
-                <a class="block my-3 page_font animated_menu_el" href="#">
-                  <div class="menu_item text-white">Website Hosting</div>
-                </a>
-                <a class="block my-3 page_font animated_menu_el" href="#">
-                  <div class="menu_item text-white">Professional Email</div>
-                </a>
-                <a class="block my-3 page_font animated_menu_el" href="#">
-                  <div class="menu_item text-white">Reseller Program</div>
-                </a>
-                <a class="block my-3 page_font animated_menu_el" href="#">
-                  <div class="menu_item text-white">Dev Serices</div>
-                </a>
-                <a class="block my-3 page_font animated_menu_el" href="/contact-us">
-                  <div class="menu_item text-white">Contact US</div>
-                </a>
+                <ClientOnly>
+                  <a class="block my-3 page_font animated_menu_el" @click="deactivateHamburgerButton('/')" >
+                      <img class="w-[5rem] mx-auto" src="~/assets/images/h2m-mob.png" alt="host2media">
+                  </a>
+                  <a class="block my-3 page_font animated_menu_el" href="#">
+                    <div class="menu_item text-white">Domains</div>
+                  </a>
+                  <a class="block my-3 page_font animated_menu_el" href="#">
+                    <div class="menu_item text-white">Website Hosting</div>
+                  </a>
+                  <a class="block my-3 page_font animated_menu_el" href="#">
+                    <div class="menu_item text-white">Professional Email</div>
+                  </a>
+                  <a class="block my-3 page_font animated_menu_el" href="#">
+                    <div class="menu_item text-white">Reseller Program</div>
+                  </a>
+                  <a class="block my-3 page_font animated_menu_el" href="#">
+                    <div class="menu_item text-white">Dev Serices</div>
+                  </a>
+                  <a class="block my-3 page_font animated_menu_el" @click="deactivateHamburgerButton('/contact-us')">
+                    <div class="menu_item text-white">Contact US</div>
+                  </a>
+                </ClientOnly>
               </div>
             </div>
           </div>
@@ -121,13 +123,22 @@
 
 <script setup lang="ts">
 const route = useRoute();
+const router = useRouter();
 const activeHamburgerButton = () => {
   const HamButton = document.querySelector(".menu_mobile_nav") as HTMLElement;
   const HtmlBody = document.querySelector(".html, body") as HTMLElement;
   const mobileMenu = document.querySelector(".menu_on_mobile") as HTMLElement;
-
   HamButton.classList.toggle("active");
   HtmlBody.classList.toggle("hide_scroll");
   mobileMenu.classList.toggle("active");
 };
+const deactivateHamburgerButton = (route: string) => {
+  const HamButton = document.querySelector(".menu_mobile_nav") as HTMLElement;
+  const HtmlBody = document.querySelector(".html, body") as HTMLElement;
+  const mobileMenu = document.querySelector(".menu_on_mobile") as HTMLElement;
+  HamButton.classList.remove("active");
+  HtmlBody.classList.remove("hide_scroll");
+  mobileMenu.classList.remove("active");
+  router.push(route);
+}
 </script>
