@@ -420,6 +420,7 @@
       </div>
     </div>
   </section>
+  <button @click="testgoogleApi()">test</button>
 </template>
 
 <script setup lang="ts">
@@ -458,7 +459,22 @@ const contactFormData = ref({
   releaseNewProducts: boolean;
   events: boolean;
 });
+const testgoogleApi = async () => {
+  const { token } = await executeRecaptcha('submit');
+  const {data, refresh, error} = useFetch('/.netlify/functions/verify-recaptcha', {
+    method: 'POST',
+    headers: { 'Content-Type': 'application/json' },
+    body: JSON.stringify({ token }),
+  });
 
+  await refresh();
+
+  if (data.value?.success) {
+    console.log('reCAPTCHA verified successfully!');
+  } else {
+    console.log('reCAPTCHA verification failed:', error.value);
+  }
+}
 const submitContactUsForm = async () => {
   const { token } = await executeRecaptcha('submit');
   // const { data, refresh, error } = useFetch('/api/recapv3', {
