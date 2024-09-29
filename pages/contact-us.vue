@@ -460,21 +460,25 @@ const contactFormData = ref({
   events: boolean;
 });
 const testgoogleApi = async () => {
-  const { token } = await executeRecaptcha('submit');
-  const {data, refresh, error} = useFetch('/.netlify/functions/verify-recaptcha', {
+  const { token, headerOptions } = await executeRecaptcha('submit_contact_form');
+  const { data, refresh, error } = useFetch('/api/recapv3', {
     method: 'POST',
-    headers: { 'Content-Type': 'application/json' },
-    body: JSON.stringify({ token }),
-    server: false,
-    immediate: false,
-  });
-
+    headers: {
+      'Content-Type': 'application/json',
+      ...headerOptions
+    },
+    body: JSON.stringify({
+      secret: runTimeConfig.public.siteSecret,
+      response: token,
+    })
+  })
   await refresh();
-
-  if (data.value?.success) {
-    console.log('reCAPTCHA verified successfully!');
-  } else {
-    console.log('reCAPTCHA verification failed:', error.value);
+  const config = data as {
+    value: {
+      success: boolean;
+      'error-codes': string[];
+      hostname: string,
+    }
   }
 }
 const submitContactUsForm = async () => {
