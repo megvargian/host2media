@@ -420,7 +420,6 @@
       </div>
     </div>
   </section>
-  <button @click="testgoogleApi()">test</button>
 </template>
 
 <script setup lang="ts">
@@ -459,9 +458,6 @@ const contactFormData = ref({
   releaseNewProducts: boolean;
   events: boolean;
 });
-const testgoogleApi = async () => {
-
-}
 const submitContactUsForm = async () => {
   const { token, headerOptions } = await executeRecaptcha('submit_contact_form');
   // const { data, refresh, error } = useFetch('/api/recapv3', {
