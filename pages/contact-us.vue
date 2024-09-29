@@ -460,35 +460,20 @@ const contactFormData = ref({
   events: boolean;
 });
 const testgoogleApi = async () => {
-  const { token, headerOptions } = await executeRecaptcha('submit_contact_form');
-  const { data, refresh, error } = useFetch('/api/recapv3', {
-    method: 'POST',
-    headers: {
-      'Content-Type': 'application/json',
-      ...headerOptions
-    },
-    body: JSON.stringify({
-      secret: runTimeConfig.public.siteSecret,
-      response: token,
-    })
-  })
-  await refresh();
-  const config = data as {
-    value: {
-      success: boolean;
-      'error-codes': string[];
-      hostname: string,
-    }
-  }
+
 }
 const submitContactUsForm = async () => {
-  const { token } = await executeRecaptcha('submit');
+  const { token, headerOptions } = await executeRecaptcha('submit_contact_form');
   // const { data, refresh, error } = useFetch('/api/recapv3', {
   //   method: 'POST',
-  //   body: {
+  //   headers: {
+  //     'Content-Type': 'application/json',
+  //     ...headerOptions
+  //   },
+  //   body: JSON.stringify({
   //     secret: runTimeConfig.public.siteSecret,
   //     response: token,
-  //   }
+  //   })
   // })
   // await refresh();
   // const config = data as {

@@ -10,7 +10,6 @@
     "postinstall": "nuxt prepare"
   },
   "dependencies": {
-    "node-fetch": "^2.7.0",
     "nuxt": "^3.12.4",
     "nuxt-mail": "^5.0.1",
     "vue": "latest",
