@@ -918,7 +918,7 @@ const getResultFromWhois = async (name: string) => {
     response.value = "Something went wrong please try again later";
     console.error(error.value);
   } else {
-    response.value = `Woah! this domain is`;
+    response.value = config.value.DomainInfo.domainAvailability.toLowerCase() === "available" ? 'Woah! this domain is' : 'Woops! this domain is ';
     isAvailibleMsg.value =
       config.value.DomainInfo.domainAvailability.toLowerCase() === "available"
         ? "available"
