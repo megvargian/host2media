@@ -5,6 +5,6 @@
 </template>
 <script setup lang="ts">
 useHead({
-  link: [{ rel: 'icon', type: 'image/png', href: '/assets/icons/favicon.png' }]
+  link: [{ rel: 'icon', type: 'image/png', href: '/favicon.png' }]
 });
 </script>
