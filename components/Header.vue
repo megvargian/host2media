@@ -22,7 +22,7 @@
                   </NuxtLink>
                 </li>
                 <li class="mx-2 Mulish-light text-[0.75rem]">
-                  <a href="#"> Blog </a>
+                  <a href="https://blog.host2media.com/"> Blog </a>
                 </li>
                 <li class="mx-2 Mulish-light text-[0.75rem]">
                   <a href="#"> Knowladge Base </a>
@@ -55,7 +55,7 @@
             "
         >
           <li class="mx-2">
-            <a class="" href="#"> Domains </a>
+            <NuxtLink class="" to="domains"> Domains </NuxtLink>
           </li>
           <li class="mx-2">
             <a class="" href="#"> Website Hosting </a>
