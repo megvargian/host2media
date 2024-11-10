@@ -25,10 +25,8 @@ export default defineNuxtConfig({
   modules: ["nuxt-mail"],
   mail: {
     message: {
-      from: process.env.SMTP_USER, // Define the sender's email
-      to: process.env.SMTP_TO, // Add at least one recipient
-      cc: process.env.SMTP_USER, // Optional: Add cc recipient(s)
-      bcc: process.env.SMTP_USER, // Optional: Add bcc recipient(s)
+      from: 'no-reply@host2media.com',
+      to: 'support@host2media.com',
     },
     smtp: {
       host: process.env.SMTP_HOST,
