@@ -8,7 +8,7 @@
             <p class="text-center text-white sm:text-xl text-sm pt-10 pb-5">
                 Search for your online name and register it, before someone else does.
             </p>
-            <div class="flex justify-center items-center mx-auto max-w-[35rem]">
+            <div class="block justify-center items-center mx-auto max-w-[35rem]">
               <form
                 @submit.prevent="SubmitFormSearchDomain"
                 class="flex w-full relative"
@@ -78,7 +78,314 @@
             </div>
         </div>
     </section>
-
+    <section>
+      <section class="block">
+        <div
+          class="custom-container mx-auto relative h-[28rem]"
+        >
+          <div class="px-10 flex justify-center items-center absolute top-[-10%]">
+            <div class="rounded-[50px] bg-white py-14">
+              <div class="grid grid-cols-12 gap-5">
+                <div
+                  class="lg:col-span-6 col-span-12 lg:pl-[4rem] lg:pr-[0rem] flex justify-center items-center"
+                >
+                  <div>
+                    <h2
+                      class="leading-tight lg:text-5xl md:text-4xl sm:text-[36px] text-[25px] lg:text-left text-center text-[#0F132A] font-black Mulish-Black"
+                    >
+                      Tips and tricks on <br class="sm:flex hidden" />
+                      getting the best <br class="sm:flex hidden" />
+                      Domain Name
+                    </h2>
+                  </div>
+                </div>
+                <div class="lg:col-span-6 col-span-12 pl-12">
+                  <div class="lg:block flex justify-center">
+                    <div class="text-left pb-6">
+                      <p class="text-[#0F132A] text-lg Mulish-Black font-black">
+                        Keep your domain simple <br class="sm:flex hidden" />
+                        to stay memorable
+                      </p>
+                      <p class="font-light Mulish-light pt-1">
+                        Try to keep your domain length less
+                        <br class="sm:flex hidden" />
+                        than 15 character, include your brand
+                        <br class="sm:flex hidden" />
+                        name or the desired keywords.
+                      </p>
+                    </div>
+                  </div>
+                  <div class="lg:block flex justify-center">
+                    <div class="text-left pb-6">
+                      <p class="text-[#0F132A] text-lg Mulish-Black font-black">
+                        Use our Domain Search Tool
+                      </p>
+                      <p class="font-light Mulish-light pt-1">
+                        Get domain availabilities, prices, <br
+                          class="sm:flex hidden"
+                        />
+                        and even suggestions
+                      </p>
+                    </div>
+                  </div>
+                  <div class="lg:block flex justify-center">
+                    <div class="text-left pb-6">
+                      <p class="text-[#0F132A] text-lg Mulish-Black font-black">
+                        Reserve Your Domain name
+                      </p>
+                      <p class="font-light Mulish-light pt-1">
+                        Register with the extension that is suitable, <br class="sm:flex hidden" />
+                        by country, by business or title.<br class="sm:flex hidden" />
+                        Multiple domain registration is an option for a <br class="sm:flex hidden" />
+                        better search result and SEO ranking.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </section>
+    <section class="bg-[#5564AD] py-16">
+        <div class="container mx-auto">
+            <h3 class="text-center text-white leading-tight sm:text-4xl md:lg:text-5xl md:text-4xl sm:text-[36px] text-[36px] font-bold">
+                Why Host2media For Your <br class="sm:flex hidden" /> Domain name
+            </h3>
+            <p class="text-center text-white sm:text-xl text-sm pt-10 pb-5">
+              Host2Media offers domain registration with instant activation, and full DNS management.
+            </p>
+            <div class="grid grid-cols-6 lg:gap-15 gap-5 pt-5">
+              <!-- <div class="lg:col-span-2 col-span-0"></div> -->
+              <div
+                class="lg:col-span-2 col-span-12 pb-5 lg:block flex justify-center mx-auto"
+              >
+                <div>
+                  <div class="text-left">
+                    <p class="text-white font-black Mulish-Black text-lg">
+                      Experts you can trust
+                    </p>
+                    <p class="font-light pt-1 max-w-[250px] text-white">
+                      Host2Media support team is committed to your ongoing success and is always accessible via phone, email, and chat any assistance you may need.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="lg:col-span-2 col-span-12 pb-5 lg:block flex justify-center mx-auto"
+              >
+                <div>
+                  <div class="text-left">
+                    <p class="text-white font-black Mulish-Black text-lg">
+                      Domain Transfer in 2 steps
+                    </p>
+                    <p class="font-light pt-1 max-w-[250px] text-white">
+                      Group all your domains into a single account by transferring them to Host2Media and benefit from our advantages.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="lg:col-span-2 col-span-12 pb-5 lg:block flex justify-center mx-auto"
+              >
+                <div>
+                  <div class="text-left">
+                    <p class="text-white font-black Mulish-Black text-lg">
+                      Easy Domain Management
+                    </p>
+                    <p class="font-light pt-1 max-w-[250px] text-white">
+                      An easy to use control panel in your customer portal to manage your domains, edit DNS records,
+                      Domain locking , domain forwarding, and more.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <!-- <div class="lg:col-span-2 col-span-0"></div> -->
+            </div>
+        </div>
+    </section>
+    <section class="py-10">
+      <div class="container mx-auto">
+        <div class="grid grid-cols-12 lg:gap-10 gap-5">
+          <div class="col-span-6">
+            <div class="grid grid-cols-12 lg:gap-10 gap-5">
+              <div class="col-span-4 bg-white p-5 rounded-[30px] flex justify-center items-center h-[150px] text-center">
+                <div class="block">
+                  <img class="max-h-full w-auto" src="~/assets/images/fun-tld-logo.png" alt="fun-tid">
+                  <p class="text-center">$0.00/Year</p>
+                </div>
+              </div>
+              <div class="col-span-4 bg-white p-5 rounded-[30px] flex justify-center items-center h-[150px] text-center">
+                <div class="block">
+                  <img class="max-h-full w-auto" src="~/assets/images/site-tld-logo.png" alt="sitetld">
+                  <p class="text-center">$0.00/Year</p>
+                </div>
+              </div>
+              <div class="col-span-4 bg-white p-5 rounded-[30px] flex justify-center items-center h-[150px] text-center">
+                <div class="block">
+                  <img class="max-h-full w-auto" src="~/assets/images/blog-tld-logo.png" alt="blog-tld">
+                  <p class="text-center">$0.00/Year</p>
+                </div>
+              </div>
+              <div class="col-span-4 bg-white p-5 rounded-[30px] flex justify-center items-center h-[150px] text-center">
+                <div class="block">
+                  <img class="max-h-full w-auto" src="~/assets/images/store.png" alt="store">
+                  <p class="text-center">$0.00/Year</p>
+                </div>
+              </div>
+              <div class="col-span-4 bg-white p-5 rounded-[30px] flex justify-center items-center h-[150px] text-center">
+                <div class="block">
+                  <img class="max-h-full w-auto" src="~/assets/images/online-tld-logo.png" alt="outline-tld">
+                  <p class="text-center">$0.00/Year</p>
+                </div>
+              </div>
+              <div class="col-span-4 bg-white p-5 rounded-[30px] flex justify-center items-center h-[150px] text-center">
+                <div class="block">
+                  <img class="max-h-full w-auto" src="~/assets/images/me-tld-logo.png" alt="me-tid">
+                  <p class="text-center">$0.00/Year</p>
+                </div>
+              </div>
+              <div class="col-span-4 bg-white p-5 rounded-[30px] flex justify-center items-center h-[150px] text-center">
+                <div class="block">
+                  <img class="max-h-full w-auto" src="~/assets/images/shop-tld-logo.png" alt="shop-tld">
+                  <p class="text-center">$0.00/Year</p>
+                </div>
+              </div>
+              <div class="col-span-4 bg-white p-5 rounded-[30px] flex justify-center items-center h-[150px] text-center">
+                <div class="block">
+                  <img class="max-h-full w-auto" src="~/assets/images/cloud-tld-logo.png" alt="cloud-tld">
+                  <p class="text-center">$0.00/Year</p>
+                </div>
+              </div>
+              <div class="col-span-4 bg-white p-5 rounded-[30px] flex justify-center items-center h-[150px] text-center">
+                <div class="block">
+                  <img class="max-h-full w-auto" src="~/assets/images/co.png" alt="co">
+                  <p class="text-center">$0.00/Year</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-span-6 flex justify-center items-center">
+            <div class="block text-left">
+              <h2
+                class="leading-tight lg:text-5xl md:text-4xl sm:text-[36px] text-[25px] lg:text-left text-center text-[#0F132A] font-black"
+              >
+                Domain Pricing
+              </h2>
+              <p
+                class="lg:py-12 py-8 font-normal text-lg lg:text-left text-center"
+              >
+                We understand that you are looking for affordable domain prices. This is why we offer discounts on Most Popular Domains for your first year.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="pt-10">
+      <div class="container mx-auto">
+        <div class="text-center">
+          <h3 class="text-center text-[#0F132A] leading-tight sm:text-4xl md:lg:text-5xl md:text-4xl sm:text-[36px] text-[36px] font-bold">
+            Why Pay For a Domain <br class="sm:flex hidden" /> When You Can Get It For Free?
+          </h3>
+          <p class="text-center text-[#0F132A] sm:text-2xl text-sm pt-10 pb-5">
+            Get your FREE Domain Name with one of our web hosting Yearly plan
+          </p>
+        </div>
+        <div>
+          <div class="text-center justify-center flex pb-10">
+            <div class="bg-white rounded-[50px] p-2 flex">
+                <button class="bg-white text-[#0F132A] mx-3">
+                  Monthly
+                </button>
+                <button class="bg-[#0F132A] text-white rounded-[50px] py-2 px-4">
+                  Yearly
+                </button>
+            </div>
+          </div>
+          <div class="grid grid-cols-6 lg:gap-10 gap-5 pb-8">
+            <div class="col-span-1"></div>
+            <div class="col-span-2">
+              <div class="rounded-[30px] bg-white border border-[#e2e3e7]">
+                <div class="bg-[#0F132A] py-4 rounded-t-[30px]"></div>
+                <div class="px-5 text-center text-[#0F132A] pb-8">
+                  <p class="text-center sm:text-xl text-sm py-5">
+                    STARTUP
+                  </p>
+                  <p class="text-center sm:text-base text-sm pb-5">
+                    Begin with managed shared hosting, which offers an affordable price for new websites, including WordPress management
+                  </p>
+                  <p class="text-base font-black pb-3">Starting at</p>
+                  <p class="text-3xl font-black pb-5 Mulish-Black">$16.66/mo</p>
+                  <p class="text-[12px] px-5 py-2 w-fit mx-auto bg-[#0F132A] text-white rounded-[30px]">YOU SAVE 25% WITH YEARLY PLAN</p>
+                  <div class="pt-6 pb-16">
+                    <p class="mb-3"><strong class="Mulish-Black">1</strong> Website</p>
+                    <p class="mb-3">Disk Space : <strong class="Mulish-Black">15 GB</strong></p>
+                    <p class="mb-3">Bandwidth : <strong class="Mulish-Black">750 GB</strong></p>
+                    <p class="mb-3">Basic email : <strong class="Mulish-Black">5</strong></p>
+                    <p class="mb-3">Database : <strong class="Mulish-Black">3</strong></p>
+                    <p class="mb-3"><strong class="Mulish-Black">Free</strong> Domain Name(*)</p>
+                    <p class="mb-3"><strong class="Mulish-Black">Free</strong> SSL Certificates</p>
+                    <p class="mb-3"><strong class="Mulish-Black">Free</strong> Daily Backup(*)</p>
+                    <p class="mb-3"><strong class="Mulish-Black">Free</strong> Website Migration</p>
+                    <p class="mb-3"><strong class="Mulish-Black">1-click Wordpress</strong> install</p>
+                    <p class="mb-3"><strong class="Mulish-Black">Wordpress</strong> Management</p>
+                    <p class="mb-3"><strong class="Mulish-Black">Daily Malware Scan</strong></p>
+                    <p class="mb-3">Standard<strong class="Mulish-Black"> DDoS Protection</strong></p>
+                    <p class="mb-3"><strong class="Mulish-Black">24/7 Premium Support</strong></p>
+                  </div>
+                  <button
+                    class="rounded-[10px] bg-[#5564AD] text-white font-bold md:py-4 md:px-8 py-3 px-6 Mulish-ExtraBold w-full"
+                  >
+                    Add to Cart
+                  </button>
+                </div>
+              </div>
+            </div>
+            <div class="col-span-2">
+              <div class="rounded-[30px] bg-white border border-[#e2e3e7]">
+                <div class="bg-[#5564AD] py-4 rounded-t-[30px] "></div>
+                <div class="px-5 text-center text-[#0F132A] pb-8">
+                  <p class="text-center sm:text-xl text-sm py-5">
+                    CORPORATE
+                  </p>
+                  <p class="text-center sm:text-base text-sm pb-5">
+                    Begin with managed shared hosting, which offers an affordable price for new websites, including WordPress management
+                  </p>
+                  <p class="text-base font-black pb-3">Starting at</p>
+                  <p class="text-3xl font-black pb-5 Mulish-Black">$29.99/mo</p>
+                  <p class="text-[12px] px-5 py-2 w-fit mx-auto bg-[#0F132A] text-white rounded-[30px]">YOU SAVE 35% WITH YEARLY PLAN</p>
+                  <div class="pt-6 pb-7">
+                    <p class="mb-3"><strong class="Mulish-Black">5</strong> Website</p>
+                    <p class="mb-3">Disk Space : <strong class="Mulish-Black">60 GB</strong></p>
+                    <p class="mb-3">Bandwidth : <strong class="Mulish-Black">2500 GB</strong></p>
+                    <p class="mb-3">Basic email : <strong class="Mulish-Black">60</strong></p>
+                    <p class="mb-3">Database : <strong class="Mulish-Black">10</strong></p>
+                    <p class="mb-3"><strong class="Mulish-Black">Free</strong> Domain Name(*)</p>
+                    <p class="mb-3"><strong class="Mulish-Black">Free</strong> SSL Certificates</p>
+                    <p class="mb-3"><strong class="Mulish-Black">Free</strong> Daily Backup(*)</p>
+                    <p class="mb-3"><strong class="Mulish-Black">Free</strong> Website Migration</p>
+                    <p class="mb-3"><strong class="Mulish-Black">1-click Wordpress</strong> install</p>
+                    <p class="mb-3"><strong class="Mulish-Black">Wordpress</strong> Management</p>
+                    <p class="mb-3"><strong class="Mulish-Black">Fast Performance</strong></p>
+                    <p class="mb-3"><strong class="Mulish-Black">Daily Malware Scan</strong></p>
+                    <p class="mb-3">Standard<strong class="Mulish-Black"> DDoS Protection</strong></p>
+                    <p class="mb-3"><strong class="Mulish-Black">24/7 Premium Support</strong></p>
+                  </div>
+                  <button
+                    class="rounded-[10px] bg-[#5564AD] text-white font-bold md:py-4 md:px-8 py-3 px-6 Mulish-ExtraBold w-full"
+                  >
+                    Add to Cart
+                  </button>
+                </div>
+              </div>
+            </div>
+            <div class="col-span-1"></div>
+          </div>
+        </div>
+      </div>
+    </section>
     <section class="lg:pb-32 pb-10 block">
     <div
       class="custom-container mx-auto bg-white rounded-[50px]"
