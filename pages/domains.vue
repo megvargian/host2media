@@ -796,6 +796,22 @@ const toggleAccordion = (id: Number) => {
   icon?.classList.toggle("rotate-180");
 };
 
+useHead({
+  title: 'Host2Media - Find your perfect domain name',
+  meta: [
+    { name: 'title', content: 'Host2Media - Find your perfect domain name' },
+    { name: 'description', content: 'Check domain availability using our domain checker and buy a domain name with Host2Media for your online project today.' },
+    { name: 'robots', content: 'index, follow' },
+    { 'http-equiv': 'Content-Type', content: 'text/html; charset=utf-8' },
+    { name: 'language', content: 'English' },
+    { name: 'revisit-after', content: '7 days' },
+    { name: 'author', content: 'Host2Media' }
+  ],
+  link: [
+    { rel: 'canonical', href: 'https://www.host2media.com/domains' },
+    { rel: 'alternate', hreflang: 'x-default', href: 'https://www.host2media.com/domains' }
+  ]
+});
 const getResultFromWhois = async (name: string) => {
   const { data, refresh, error } = useFetch(
     `/api/whois/?apiKey=at_UBnljMwAUWbyMR34rPOj6aGIayY3q&domainName=${name}&credits=WHOIS`,

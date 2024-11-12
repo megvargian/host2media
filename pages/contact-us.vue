@@ -160,9 +160,7 @@
               <p class="text-[#0F132A] text-lg Mulish-Black font-black pb-4">
                 Telephone / WhatsApp
               </p>
-              <p class="text-[#0F132A]">
-                T: +961 (70) 153115
-              </p>
+              <p class="text-[#0F132A]">T: +961 (70) 153115</p>
             </div>
             <div class="lg:col-span-4 sm:col-span-6 col-span-12">
               <p class="text-[#0F132A] text-lg Mulish-Black font-black pb-4">
@@ -310,8 +308,12 @@
                   </div>
                 </div>
                 <div class="col-span-12 flex">
-                  <input class="mr-3" type="checkbox" required name="consent"
-                  v-model="contactFormData.receiveSalesCommunications"
+                  <input
+                    class="mr-3"
+                    type="checkbox"
+                    required
+                    name="consent"
+                    v-model="contactFormData.receiveSalesCommunications"
                   />
                   <label for="consent">
                     I give my consent to receiving sales communications related
@@ -390,30 +392,61 @@
                   </button>
                 </div>
                 <div class="col-span-12 text-left">
-                  <span class="text-green-700 font-bold">{{ responseMessageSuccess }}</span>
-                  <span class="text-red-800 font-bold">{{ responseMessageError }}</span>
+                  <span class="text-green-700 font-bold">{{
+                    responseMessageSuccess
+                  }}</span>
+                  <span class="text-red-800 font-bold">{{
+                    responseMessageError
+                  }}</span>
                 </div>
               </div>
             </form>
             <div v-else class="container-success-response">
-              <svg xmlns="http://www.w3.org/2000/svg" class="svg-success" viewBox="0 0 24 24">
-                <g stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10">
-                  <circle class="success-circle-outline" cx="12" cy="12" r="11.5"/>
-                  <circle class="success-circle-fill" cx="12" cy="12" r="11.5"/>
-                  <polyline class="success-tick" points="17,8.5 9.5,15.5 7,13"/>
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                class="svg-success"
+                viewBox="0 0 24 24"
+              >
+                <g
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-miterlimit="10"
+                >
+                  <circle
+                    class="success-circle-outline"
+                    cx="12"
+                    cy="12"
+                    r="11.5"
+                  />
+                  <circle
+                    class="success-circle-fill"
+                    cx="12"
+                    cy="12"
+                    r="11.5"
+                  />
+                  <polyline
+                    class="success-tick"
+                    points="17,8.5 9.5,15.5 7,13"
+                  />
                 </g>
               </svg>
             </div>
             <div v-if="sendSuccess">
               <p class="mb-4 text-center">
-                We appreciate you reaching out to us. Your message has been received, <br class="sm:flex hidden" />  and a member of our team will get back to you as soon as possible. <br class="sm:flex hidden" />If your inquiry is urgent, feel free to reach us directly at <br class="sm:flex hidden" />00961 (70) 153115 or support@host2media.com.
+                We appreciate you reaching out to us. Your message has been
+                received, <br class="sm:flex hidden" />
+                and a member of our team will get back to you as soon as
+                possible. <br class="sm:flex hidden" />If your inquiry is
+                urgent, feel free to reach us directly at
+                <br class="sm:flex hidden" />00961 (70) 153115 or
+                support@host2media.com.
               </p>
               <p class="mb-4 text-center">
-                At Host2Media, we're committed to providing top-notch hosting services,<br class="sm:flex hidden" /> and we're here to assist you with any questions or concerns.
+                At Host2Media, we're committed to providing top-notch hosting
+                services,<br class="sm:flex hidden" />
+                and we're here to assist you with any questions or concerns.
               </p>
-              <p class="mb-4 text-center">
-                Thank you for choosing Host2Media!
-              </p>
+              <p class="mb-4 text-center">Thank you for choosing Host2Media!</p>
             </div>
           </div>
         </div>
@@ -424,12 +457,29 @@
 
 <script setup lang="ts">
 const loading = ref(false);
-const responseMessageSuccess = ref('');
-const responseMessageError = ref('');
+const responseMessageSuccess = ref("");
+const responseMessageError = ref("");
 const sendSuccess = ref(false);
 const mail = useMail();
 const runTimeConfig = useRuntimeConfig();
 const { executeRecaptcha } = useGoogleRecaptcha();
+
+useHead({
+  title: 'Host2Media support - Contact us for assistance',
+  meta: [
+    { name: 'title', content: 'Host2Media support - Contact us for assistance' },
+    { name: 'description', content: 'Host2Media support team is here 24/7 for your needs! Feel free to reach out anytime for prompt and dependable support.' },
+    { name: 'robots', content: 'index, follow' },
+    { 'http-equiv': 'Content-Type', content: 'text/html; charset=utf-8' },
+    { name: 'language', content: 'English' },
+    { name: 'revisit-after', content: '7 days' },
+    { name: 'author', content: 'Host2Media' }
+  ],
+  link: [
+    { rel: 'canonical', href: 'https://www.host2media.com/contact-us' },
+    { rel: 'alternate', hreflang: 'x-default', href: 'https://www.host2media.com/contact-us' }
+  ]
+});
 
 const contactFormData = ref({
   name: "",
@@ -459,7 +509,9 @@ const contactFormData = ref({
   events: boolean;
 });
 const submitContactUsForm = async () => {
-  const { token, headerOptions } = await executeRecaptcha('submit_contact_form');
+  const { token, headerOptions } = await executeRecaptcha(
+    "submit_contact_form"
+  );
   // const { data, refresh, error } = useFetch('/api/recapv3', {
   //   method: 'POST',
   //   headers: {
@@ -479,7 +531,7 @@ const submitContactUsForm = async () => {
   //     hostname: string,
   //   }
   // }
-  if(token){
+  if (token) {
     try {
       loading.value = true;
       await mail.send({
@@ -501,14 +553,15 @@ const submitContactUsForm = async () => {
         `,
       });
       loading.value = false;
-      responseMessageSuccess.value = 'Submitted Succefully';
+      responseMessageSuccess.value = "Submitted Succefully";
       sendSuccess.value = true;
-    } catch (error){
-      responseMessageError.value = 'Something went wrong, Please try again later'
+    } catch (error) {
+      responseMessageError.value =
+        "Something went wrong, Please try again later";
       sendSuccess.value = false;
     }
   } else {
-    responseMessageError.value = 'Something went wrong, Please try again later'
+    responseMessageError.value = "Something went wrong, Please try again later";
     sendSuccess.value = false;
   }
 };
