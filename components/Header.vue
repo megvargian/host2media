@@ -42,6 +42,7 @@
       </nav>
       <nav
         class="py-5 flex flex-row justify-start items-center lg:px-16 md:px-16 sm:px-8"
+        :class="typeof route.name === 'string' && route.name.includes('domains') ?  'bg-[#5564ad]' : ''"
       >
         <NuxtLink to="/">
             <img class="lg:block hidden h-12 w-18" src="~/assets/images/logo.svg" />
@@ -49,7 +50,7 @@
         <ul
           class="basic-2/4 lg:flex hidden font-medium text-sm xl:text-lg pl-8"
           :class="
-            typeof route.name === 'string' && route.name.includes('contact-us')
+            typeof route.name === 'string' && (route.name.includes('contact-us') || route.name.includes('domains'))
                 ? 'text-white'
                 : 'text-[#0F132A]'
             "

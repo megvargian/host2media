@@ -49,32 +49,15 @@
               >
             </div>
             <div class="py-5 flex mx-auto justify-center">
-                <ul class="flex items-center justify-center">
+                <!-- <ul class="flex items-center justify-center">
                     <li class="text-white mx-4 text-center">
                         <p class="font-bold text-2xl">.com</p>
                         <span class="text-sm pt-3">$0.00</span>
                     </li>
-                    <li class="text-white mx-4 text-center">
-                        <p class="font-bold text-2xl">.com</p>
-                        <span class="text-sm pt-3">$0.00</span>
-                    </li>
-                    <li class="text-white mx-4 text-center">
-                        <p class="font-bold text-2xl">.com</p>
-                        <span class="text-sm pt-3">$0.00</span>
-                    </li>
-                    <li class="text-white mx-4 text-center">
-                        <p class="font-bold text-2xl">.com</p>
-                        <span class="text-sm pt-3">$0.00</span>
-                    </li>
-                    <li class="text-white mx-4 text-center">
-                        <p class="font-bold text-2xl">.com</p>
-                        <span class="text-sm pt-3">$0.00</span>
-                    </li>
-                    <li class="text-white mx-4 text-center">
-                        <p class="font-bold text-2xl">.com</p>
-                        <span class="text-sm pt-3">$0.00</span>
-                    </li>
-                </ul>
+                </ul> -->
+                <p class="text-center text-white sm:text-lg text-sm">
+                  With over 300 domain extensions available, you’re sure to find the perfect fit for your needs.
+                </p>
             </div>
         </div>
     </section>
@@ -213,55 +196,55 @@
               <div class="col-span-4 bg-white p-5 rounded-[30px] flex justify-center items-center h-[150px] text-center">
                 <div class="block">
                   <img class="max-h-full w-auto" src="~/assets/images/fun-tld-logo.png" alt="fun-tid">
-                  <p class="text-center">$0.00/Year</p>
+                  <p class="text-center">$12.00/Year</p>
                 </div>
               </div>
               <div class="col-span-4 bg-white p-5 rounded-[30px] flex justify-center items-center h-[150px] text-center">
                 <div class="block">
                   <img class="max-h-full w-auto" src="~/assets/images/site-tld-logo.png" alt="sitetld">
-                  <p class="text-center">$0.00/Year</p>
+                  <p class="text-center">$15.00/Year</p>
                 </div>
               </div>
               <div class="col-span-4 bg-white p-5 rounded-[30px] flex justify-center items-center h-[150px] text-center">
                 <div class="block">
-                  <img class="max-h-full w-auto" src="~/assets/images/blog-tld-logo.png" alt="blog-tld">
-                  <p class="text-center">$0.00/Year</p>
+                  <img class="max-h-full w-auto" src="~/assets/images/my-logo.png" alt="blog-tld">
+                  <p class="text-center">$9.00/Year</p>
                 </div>
               </div>
               <div class="col-span-4 bg-white p-5 rounded-[30px] flex justify-center items-center h-[150px] text-center">
                 <div class="block">
                   <img class="max-h-full w-auto" src="~/assets/images/store.png" alt="store">
-                  <p class="text-center">$0.00/Year</p>
+                  <p class="text-center">$9.00/Year</p>
                 </div>
               </div>
               <div class="col-span-4 bg-white p-5 rounded-[30px] flex justify-center items-center h-[150px] text-center">
                 <div class="block">
                   <img class="max-h-full w-auto" src="~/assets/images/online-tld-logo.png" alt="outline-tld">
-                  <p class="text-center">$0.00/Year</p>
+                  <p class="text-center">$8.00/Year</p>
                 </div>
               </div>
               <div class="col-span-4 bg-white p-5 rounded-[30px] flex justify-center items-center h-[150px] text-center">
                 <div class="block">
                   <img class="max-h-full w-auto" src="~/assets/images/me-tld-logo.png" alt="me-tid">
-                  <p class="text-center">$0.00/Year</p>
+                  <p class="text-center">$15.00/Year</p>
                 </div>
               </div>
               <div class="col-span-4 bg-white p-5 rounded-[30px] flex justify-center items-center h-[150px] text-center">
                 <div class="block">
                   <img class="max-h-full w-auto" src="~/assets/images/shop-tld-logo.png" alt="shop-tld">
-                  <p class="text-center">$0.00/Year</p>
+                  <p class="text-center">$6.00/Year</p>
                 </div>
               </div>
               <div class="col-span-4 bg-white p-5 rounded-[30px] flex justify-center items-center h-[150px] text-center">
                 <div class="block">
                   <img class="max-h-full w-auto" src="~/assets/images/cloud-tld-logo.png" alt="cloud-tld">
-                  <p class="text-center">$0.00/Year</p>
+                  <p class="text-center">$15.00/Year</p>
                 </div>
               </div>
               <div class="col-span-4 bg-white p-5 rounded-[30px] flex justify-center items-center h-[150px] text-center">
                 <div class="block">
-                  <img class="max-h-full w-auto" src="~/assets/images/co.png" alt="co">
-                  <p class="text-center">$0.00/Year</p>
+                  <img class="max-h-full w-auto" src="~/assets/images/space-logo.png" alt="co">
+                  <p class="text-center">$12.00/Year</p>
                 </div>
               </div>
             </div>
@@ -285,8 +268,108 @@
     </section>
     <section class="pt-10">
       <div class="container mx-auto">
+        <div class="text-center pb-8">
+          <h3 class="text-2xl font-black Mulish-Black">Domain Price List</h3>
+        </div>
+        <div class="max-w-[40rem] mx-auto flex">
+          <form
+            class="flex w-full relative"
+            data-netlify-recaptcha="true"
+          >
+            <button
+              type="submit"
+              :disabled="loading"
+              class="p-3 rounded-r absolute left-0"
+            >
+              <img
+                v-if="loading"
+                src="../assets/images/loading.svg"
+                class="animate-spin loading-spinner w-8 h-8 flex m-auto"
+                alt="loading"
+              />
+              <img v-else class="w-8 h-8" src="~/assets/images/white-search-logo.svg" />
+            </button>
+            <input
+              class="w-full rounded-lg border border-[#0F132A] text-base p-4 pl-14 text-[#0F132A] placeholder-[#0F132A] Mulish-light outline-none"
+              type="text"
+              placeholder="Look For Domain Extension"
+              v-model="searchDomain.name"
+              required
+            />
+          </form>
+        </div>
+        <div class="">
+          <div class="flex items-center justify-center py-8">
+            <div class="overflow-x-auto w-full max-w-4xl mx-auto">
+                <table class="w-full text-left border border-[#0F132A]">
+                    <thead>
+                        <tr class="bg-[#CAF0F8]">
+                            <th class="p-3">TLD</th>
+                            <th class="p-3">Register</th>
+                            <th class="p-3">Renew</th>
+                            <th class="p-3">Transfer</th>
+                            <th class="p-3">Restore</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr class="bg-[#F9F9F9]">
+                            <td class="p-3 font-black">.com</td>
+                            <td class="p-3">$0.00</td>
+                            <td class="p-3">$0.00</td>
+                            <td class="p-3">$0.00</td>
+                            <td class="p-3">$0.00</td>
+                        </tr>
+                        <tr class="bg-[#CAF0F8]">
+                            <td class="p-3 font-black">.org</td>
+                            <td class="p-3 text-red-600 font-bold">$0.00 <span class="line-through text-gray-[#CAF0F80">$9.99</span></td>
+                            <td class="p-3">$0.00</td>
+                            <td class="p-3">$0.00</td>
+                            <td class="p-3">$0.00</td>
+                        </tr>
+                        <tr class="bg-[#F9F9F9]">
+                            <td class="p-3 font-black">.com</td>
+                            <td class="p-3">$0.00</td>
+                            <td class="p-3">$0.00</td>
+                            <td class="p-3">$0.00</td>
+                            <td class="p-3">$0.00</td>
+                        </tr>
+                        <tr class="bg-[#CAF0F8]">
+                            <td class="p-3 font-black">.com</td>
+                            <td class="p-3">$0.00</td>
+                            <td class="p-3">$0.00</td>
+                            <td class="p-3">$0.00</td>
+                            <td class="p-3">$0.00</td>
+                        </tr>
+                        <tr class="bg-[#F9F9F9]">
+                            <td class="p-3 font-black">.com</td>
+                            <td class="p-3">$0.00</td>
+                            <td class="p-3">$0.00</td>
+                            <td class="p-3">$0.00</td>
+                            <td class="p-3">$0.00</td>
+                        </tr>
+                        <tr class="bg-[#CAF0F8]">
+                            <td class="p-3 font-black">.com</td>
+                            <td class="p-3">$0.00</td>
+                            <td class="p-3">$0.00</td>
+                            <td class="p-3">$0.00</td>
+                            <td class="p-3">$0.00</td>
+                        </tr>
+                    </tbody>
+                </table>
+                <div class="text-center flex justify-center items-center py-5">
+                  <img class="mx-3" src="~/assets/icons/left.svg" alt="left">
+                  <p>Showing 1 to 8 of 737 TLDs</p>
+                  <img class="mx-3" src="~/assets/icons/right.svg" alt="right">
+                </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="pt-10">
+      <div class="container mx-auto">
         <div class="text-center">
-          <h3 class="text-center text-[#0F132A] leading-tight sm:text-4xl md:lg:text-5xl md:text-4xl sm:text-[36px] text-[36px] font-bold">
+          <h3 class="text-center text-[#0F132A] leading-tight sm:text-4xl md:lg:text-5xl md:text-4xl sm:text-[36px] text-[36px] font-bold Mulish-Black">
             Why Pay For a Domain <br class="sm:flex hidden" /> When You Can Get It For Free?
           </h3>
           <p class="text-center text-[#0F132A] sm:text-2xl text-sm pt-10 pb-5">
