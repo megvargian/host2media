@@ -379,10 +379,10 @@
         <div>
           <div class="text-center justify-center flex pb-10">
             <div class="bg-white rounded-[50px] p-2 flex">
-                <button class="bg-white text-[#0F132A] mx-3">
+                <button @click="switchPlan('monthly')" :class="isMonthly ? 'bg-[#0F132A] text-white rounded-[50px] py-2 px-4' : 'bg-white text-[#0F132A] mx-3'">
                   Monthly
                 </button>
-                <button class="bg-[#0F132A] text-white rounded-[50px] py-2 px-4">
+                <button @click="switchPlan('yearly')" :class="isMonthly ? 'bg-white text-[#0F132A] mx-3' : 'bg-[#0F132A] text-white rounded-[50px] py-2 px-4'">
                   Yearly
                 </button>
             </div>
@@ -400,8 +400,8 @@
                     Begin with managed shared hosting, which offers an affordable price for new websites, including WordPress management
                   </p>
                   <p class="text-base font-black pb-3">Starting at</p>
-                  <p class="text-3xl font-black pb-5 Mulish-Black">$16.66/mo</p>
-                  <p class="text-[12px] px-5 py-2 w-fit mx-auto bg-[#0F132A] text-white rounded-[30px]">YOU SAVE 25% WITH YEARLY PLAN</p>
+                  <p class="text-3xl font-black pb-5 Mulish-Black">{{ isMonthly ? '$20.83/mo' : '$16.66/mo' }}</p>
+                  <p class="text-[12px] px-5 py-2 w-fit mx-auto bg-[#0F132A] text-white rounded-[30px]"><span>{{ !isMonthly ? 'YOU' : '' }}</span> SAVE 25% WITH YEARLY PLAN</p>
                   <div class="pt-6 pb-16">
                     <p class="mb-3"><strong class="Mulish-Black">1</strong> Website</p>
                     <p class="mb-3">Disk Space : <strong class="Mulish-Black">15 GB</strong></p>
@@ -437,8 +437,8 @@
                     Begin with managed shared hosting, which offers an affordable price for new websites, including WordPress management
                   </p>
                   <p class="text-base font-black pb-3">Starting at</p>
-                  <p class="text-3xl font-black pb-5 Mulish-Black">$29.99/mo</p>
-                  <p class="text-[12px] px-5 py-2 w-fit mx-auto bg-[#0F132A] text-white rounded-[30px]">YOU SAVE 35% WITH YEARLY PLAN</p>
+                  <p class="text-3xl font-black pb-5 Mulish-Black">{{ isMonthly ? '$40.99/mo' : '$29.99/mo' }}</p>
+                  <p class="text-[12px] px-5 py-2 w-fit mx-auto bg-[#0F132A] text-white rounded-[30px]"><span>{{ !isMonthly ? 'YOU' : '' }}</span> SAVE 35% WITH YEARLY PLAN</p>
                   <div class="pt-6 pb-7">
                     <p class="mb-3"><strong class="Mulish-Black">5</strong> Website</p>
                     <p class="mb-3">Disk Space : <strong class="Mulish-Black">60 GB</strong></p>
@@ -872,6 +872,7 @@ const searchDomain = ref({
 });
 const response = ref("");
 const isAvailibleMsg = ref("");
+const isMonthly = ref(false);
 const toggleAccordion = (id: Number) => {
   const content = document.getElementById(`content-${id}`);
   const icon = document.getElementById(`icon-${id}`);
@@ -938,4 +939,11 @@ const SubmitFormSearchDomain = async () => {
     await getResultFromWhois(searchDomain.value.name);
   }
 };
+const switchPlan = (plan: string) => {
+  if (plan === 'monthly'){
+    isMonthly.value = true;
+  } else {
+    isMonthly.value = false;
+  }
+}
 </script>
