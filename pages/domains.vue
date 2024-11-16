@@ -195,55 +195,59 @@
             <div class="grid grid-cols-12 lg:gap-10 gap-5">
               <div class="col-span-4 bg-white p-5 rounded-[30px] flex justify-center items-center h-[150px] text-center">
                 <div class="block">
-                  <img class="max-h-full w-auto" src="~/assets/images/fun-tld-logo.png" alt="fun-tid">
+                  <img class="max-h-full w-full" src="~/assets/images/fun-tld-logo.png" alt="fun-tid">
                   <p class="text-center">$12.00/Year</p>
                 </div>
               </div>
               <div class="col-span-4 bg-white p-5 rounded-[30px] flex justify-center items-center h-[150px] text-center">
                 <div class="block">
-                  <img class="max-h-full w-auto" src="~/assets/images/site-tld-logo.png" alt="sitetld">
+                  <img class="max-h-full w-full" src="~/assets/images/site-tld-logo.png" alt="sitetld">
                   <p class="text-center">$15.00/Year</p>
                 </div>
               </div>
               <div class="col-span-4 bg-white p-5 rounded-[30px] flex justify-center items-center h-[150px] text-center">
                 <div class="block">
-                  <img class="max-h-full w-auto" src="~/assets/images/my-logo.png" alt="blog-tld">
+                  <div class="flex items-center justify-center">
+                    <img class="max-h-full w-[56px]" src="~/assets/images/my-logo.png" alt="blog-tld">
+                  </div>
                   <p class="text-center">$9.00/Year</p>
                 </div>
               </div>
               <div class="col-span-4 bg-white p-5 rounded-[30px] flex justify-center items-center h-[150px] text-center">
                 <div class="block">
-                  <img class="max-h-full w-auto" src="~/assets/images/store.png" alt="store">
+                  <img class="max-h-full w-full" src="~/assets/images/store.png" alt="store">
                   <p class="text-center">$9.00/Year</p>
                 </div>
               </div>
               <div class="col-span-4 bg-white p-5 rounded-[30px] flex justify-center items-center h-[150px] text-center">
                 <div class="block">
-                  <img class="max-h-full w-auto" src="~/assets/images/online-tld-logo.png" alt="outline-tld">
+                  <img class="max-h-full w-full" src="~/assets/images/online-tld-logo.png" alt="outline-tld">
                   <p class="text-center">$8.00/Year</p>
                 </div>
               </div>
               <div class="col-span-4 bg-white p-5 rounded-[30px] flex justify-center items-center h-[150px] text-center">
                 <div class="block">
-                  <img class="max-h-full w-auto" src="~/assets/images/me-tld-logo.png" alt="me-tid">
+                  <img class="max-h-full w-full" src="~/assets/images/me-tld-logo.png" alt="me-tid">
                   <p class="text-center">$15.00/Year</p>
                 </div>
               </div>
               <div class="col-span-4 bg-white p-5 rounded-[30px] flex justify-center items-center h-[150px] text-center">
                 <div class="block">
-                  <img class="max-h-full w-auto" src="~/assets/images/shop-tld-logo.png" alt="shop-tld">
+                  <img class="max-h-full w-full" src="~/assets/images/shop-tld-logo.png" alt="shop-tld">
                   <p class="text-center">$6.00/Year</p>
                 </div>
               </div>
               <div class="col-span-4 bg-white p-5 rounded-[30px] flex justify-center items-center h-[150px] text-center">
                 <div class="block">
-                  <img class="max-h-full w-auto" src="~/assets/images/cloud-tld-logo.png" alt="cloud-tld">
+                  <img class="max-h-full w-full" src="~/assets/images/cloud-tld-logo.png" alt="cloud-tld">
                   <p class="text-center">$15.00/Year</p>
                 </div>
               </div>
               <div class="col-span-4 bg-white p-5 rounded-[30px] flex justify-center items-center h-[150px] text-center">
                 <div class="block">
-                  <img class="max-h-full w-auto" src="~/assets/images/space-logo.png" alt="co">
+                  <div class="flex justify-center items-center pt-3">
+                    <img class="max-h-full w-full block" src="~/assets/images/space-logo.png" alt="co">
+                  </div>
                   <p class="text-center">$12.00/Year</p>
                 </div>
               </div>
@@ -408,7 +412,7 @@
                     <p class="mb-3">Bandwidth : <strong class="Mulish-Black">750 GB</strong></p>
                     <p class="mb-3">Basic email : <strong class="Mulish-Black">5</strong></p>
                     <p class="mb-3">Database : <strong class="Mulish-Black">3</strong></p>
-                    <p class="mb-3"><strong class="Mulish-Black">Free</strong> Domain Name(*)</p>
+                    <p v-if="!isMonthly" class="mb-3"><strong class="Mulish-Black">Free</strong> Domain Name(*)</p>
                     <p class="mb-3"><strong class="Mulish-Black">Free</strong> SSL Certificates</p>
                     <p class="mb-3"><strong class="Mulish-Black">Free</strong> Daily Backup(*)</p>
                     <p class="mb-3"><strong class="Mulish-Black">Free</strong> Website Migration</p>
@@ -445,7 +449,7 @@
                     <p class="mb-3">Bandwidth : <strong class="Mulish-Black">2500 GB</strong></p>
                     <p class="mb-3">Basic email : <strong class="Mulish-Black">60</strong></p>
                     <p class="mb-3">Database : <strong class="Mulish-Black">10</strong></p>
-                    <p class="mb-3"><strong class="Mulish-Black">Free</strong> Domain Name(*)</p>
+                    <p  v-if="!isMonthly" class="mb-3"><strong class="Mulish-Black">Free</strong> Domain Name(*)</p>
                     <p class="mb-3"><strong class="Mulish-Black">Free</strong> SSL Certificates</p>
                     <p class="mb-3"><strong class="Mulish-Black">Free</strong> Daily Backup(*)</p>
                     <p class="mb-3"><strong class="Mulish-Black">Free</strong> Website Migration</p>

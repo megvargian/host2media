@@ -551,6 +551,9 @@ const submitContactUsForm = async () => {
           releaseNewProducts: ${contactFormData.value.releaseNewProducts},
           events: ${contactFormData.value.events},
         `,
+        headers: {
+          'Reply-To': `${contactFormData.value.email}`,
+        },
       });
       loading.value = false;
       responseMessageSuccess.value = "Submitted Succefully";
