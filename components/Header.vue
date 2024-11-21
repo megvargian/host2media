@@ -78,13 +78,13 @@
           class="hamburger hamburger--collapse block lg:mr-0 mr-5 lg:hidden"
           type="button"
         >
-          <div @click="activeHamburgerButton()" class="menu_mobile_nav">
-            <div class="hamburger_menu_icon">
-              <div class="line bg-[#5564AD]"></div>
-              <div class="line bg-[#5564AD] middle_line"></div>
-              <div class="line bg-[#5564AD]"></div>
+            <div @click="activeHamburgerButton()" class="menu_mobile_nav">
+                <div class="hamburger_menu_icon">
+                  <div class="line" :class="typeof route.name === 'string' && route.name.includes('domains') ? 'bg-[#F9F9F9]' : 'bg-[#5564AD]'"></div>
+                  <div class="line middle_line" :class="typeof route.name === 'string' && route.name.includes('domains') ? 'bg-[#F9F9F9]' : 'bg-[#5564AD]'"></div>
+                  <div class="line" :class="typeof route.name === 'string' && route.name.includes('domains') ? 'bg-[#F9F9F9]' : 'bg-[#5564AD]'"></div>
+                </div>
             </div>
-          </div>
         </button>
         <div id="menu_mobile" class="menu_on_mobile block lg:hidden h-[100dvh]">
           <div class="menu_on_mobile_wrapper h-[100dvh]">
@@ -94,7 +94,7 @@
                   <a class="block my-3 page_font animated_menu_el" @click="deactivateHamburgerButton('/')" >
                       <img class="w-[5rem] mx-auto" src="~/assets/images/h2m-mob.png" alt="host2media">
                   </a>
-                  <a class="block my-3 page_font animated_menu_el" href="#">
+                  <a class="block my-3 page_font animated_menu_el" @click="deactivateHamburgerButton('domains')">
                     <div class="menu_item text-white">Domains</div>
                   </a>
                   <a class="block my-3 page_font animated_menu_el" href="#">

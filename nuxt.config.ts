@@ -50,6 +50,15 @@ export default defineNuxtConfig({
       },
     },
   },
+  vite: {
+    css: {
+      preprocessorOptions: {
+        css: {
+          additionalData: "~/assets/style/swiper.css"
+        }
+      }
+    }
+  }
   // app: {
   //   head: {
   //     script: [

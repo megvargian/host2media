@@ -37,6 +37,9 @@ p{
   max-width : 1100px;
   margin: 0 auto;
 }
+.custom-height{
+	height: auto;
+}
 @media (min-width: 1536px) {
     .container {
         max-width: 1300px;
@@ -50,9 +53,27 @@ p{
 		margin: 0 20px;
 	}
 }
+@media(max-width: 805px){
+	.custom-height{
+		height: 65dvh;
+	}
+}
+@media(max-width: 640px){
+	.custom-height{
+		height: 50dvh;
+	}
+}
+@media(max-width: 557px){
+	.custom-height{
+		height: 64dvh;
+	}
+}
 @media(max-width: 460px){
 	.custom-mobile-position{
 		top: -2%;
+	}
+	.custom-height{
+		height: 70dvh;
 	}
 	.custom-margin-bottom{
 		margin-bottom: 10rem;
@@ -66,12 +87,20 @@ p{
 		margin-bottom: 8rem;
 	}
 }
+@media(max-width: 430px){
+	.custom-height{
+		height: 75dvh;
+	}
+}
 @media(max-width: 420px){
 	.custom-mobile-position{
 		top: -8%;
 	}
 	.custom-margin-bottom{
 		margin-bottom: 12rem;
+	}
+	.custom-height{
+		height: 85dvh;
 	}
 }
 @media(max-width: 400px){
@@ -83,6 +112,9 @@ p{
 	}
 }
 @media(max-width: 391px){
+	.custom-height{
+		height: 87dvh;
+	}
 	.custom-mobile-position{
 		top: -14%;
 	}
@@ -96,6 +128,9 @@ p{
 	}
 	.custom-margin-bottom{
 		margin-bottom: 19rem;
+	}
+	.custom-height{
+		height: 90dvh;
 	}
 }
 .hamburger{
@@ -119,7 +154,6 @@ p{
 	display: block;
 	height: 5px;
 	width: 100%;
-	background-color: #5564AD;
 	margin-bottom: 6px !important;
 	position: relative;
 	transform-origin: center;

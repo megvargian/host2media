@@ -1,7 +1,7 @@
 <template>
   <div>
-    <section class="bg-[#5564AD] py-16">
-        <div class="container mx-auto">
+    <section class="bg-[#5564AD] py-16 md:pt-16 sm:pt-10 pt-5">
+        <div class="lg:container sm:mx-auto mx-5">
             <h3 class="text-center text-white leading-tight sm:text-4xl md:lg:text-5xl md:text-4xl sm:text-[36px] text-[36px] font-bold">
                 Your Domain name is your online name
             </h3>
@@ -62,15 +62,15 @@
         </div>
     </section>
     <section>
-      <section class="block">
+      <section class="block custom-height">
         <div
           class="custom-container mx-auto relative h-[28rem]"
         >
-          <div class="px-10 flex justify-center items-center absolute top-[-10%]">
-            <div class="rounded-[50px] bg-white py-14">
+          <div class="px-10 flex justify-center items-center absolute top-[-10%] right-0 left-0">
+            <div class="rounded-[50px] bg-white py-14 md:px-0 px-5">
               <div class="grid grid-cols-12 gap-5">
                 <div
-                  class="lg:col-span-6 col-span-12 lg:pl-[4rem] lg:pr-[0rem] flex justify-center items-center"
+                  class="md:col-span-6 col-span-12 lg:pl-[4rem] lg:pr-[0rem] flex justify-center items-center"
                 >
                   <div>
                     <h2
@@ -82,8 +82,8 @@
                     </h2>
                   </div>
                 </div>
-                <div class="lg:col-span-6 col-span-12 pl-12">
-                  <div class="lg:block flex justify-center">
+                <div class="md:col-span-6 col-span-12 md:pl-12 md:pr-3 pr-0 pl-0">
+                  <div class="lg:block">
                     <div class="text-left pb-6">
                       <p class="text-[#0F132A] text-lg Mulish-Black font-black">
                         Keep your domain simple <br class="sm:flex hidden" />
@@ -98,7 +98,7 @@
                       </p>
                     </div>
                   </div>
-                  <div class="lg:block flex justify-center">
+                  <div class="lg:block">
                     <div class="text-left pb-6">
                       <p class="text-[#0F132A] text-lg Mulish-Black font-black">
                         Use our Domain Search Tool
@@ -111,7 +111,7 @@
                       </p>
                     </div>
                   </div>
-                  <div class="lg:block flex justify-center">
+                  <div class="lg:block">
                     <div class="text-left pb-6">
                       <p class="text-[#0F132A] text-lg Mulish-Black font-black">
                         Reserve Your Domain name
@@ -131,7 +131,7 @@
         </div>
       </section>
     </section>
-    <section class="bg-[#5564AD] py-16">
+    <section class="bg-[#5564AD] py-16 md:pt-24 sm:pt-32 lg:pt-16">
         <div class="container mx-auto">
             <h3 class="text-center text-white leading-tight sm:text-4xl md:lg:text-5xl md:text-4xl sm:text-[36px] text-[36px] font-bold">
                 Why Host2media For Your <br class="sm:flex hidden" /> Domain name
@@ -190,22 +190,22 @@
     </section>
     <section class="py-10">
       <div class="container mx-auto">
-        <div class="grid grid-cols-12 lg:gap-10 gap-5">
-          <div class="col-span-6">
+        <div class="grid grid-cols-12 lg:gap-10 gap-5 md:mx-0 mx-5">
+          <div class="md:col-span-6 col-span-12 order-2 lg:order-1">
             <div class="grid grid-cols-12 lg:gap-10 gap-5">
-              <div class="col-span-4 bg-white p-5 rounded-[30px] flex justify-center items-center h-[150px] text-center">
+              <div class="md:col-span-4 col-span-6 bg-white p-5 rounded-[30px] flex justify-center items-center h-[150px] text-center">
                 <div class="block">
                   <img class="max-h-full w-full" src="~/assets/images/fun-tld-logo.png" alt="fun-tid">
                   <p class="text-center">$12.00/Year</p>
                 </div>
               </div>
-              <div class="col-span-4 bg-white p-5 rounded-[30px] flex justify-center items-center h-[150px] text-center">
+              <div class="md:col-span-4 col-span-6 bg-white p-5 rounded-[30px] flex justify-center items-center h-[150px] text-center">
                 <div class="block">
                   <img class="max-h-full w-full" src="~/assets/images/site-tld-logo.png" alt="sitetld">
                   <p class="text-center">$15.00/Year</p>
                 </div>
               </div>
-              <div class="col-span-4 bg-white p-5 rounded-[30px] flex justify-center items-center h-[150px] text-center">
+              <div class="md:col-span-4 col-span-6 bg-white p-5 rounded-[30px] flex justify-center items-center h-[150px] text-center">
                 <div class="block">
                   <div class="flex items-center justify-center">
                     <img class="max-h-full w-[56px]" src="~/assets/images/my-logo.png" alt="blog-tld">
@@ -213,37 +213,37 @@
                   <p class="text-center">$9.00/Year</p>
                 </div>
               </div>
-              <div class="col-span-4 bg-white p-5 rounded-[30px] flex justify-center items-center h-[150px] text-center">
+              <div class="md:col-span-4 col-span-6 bg-white p-5 rounded-[30px] flex justify-center items-center h-[150px] text-center">
                 <div class="block">
                   <img class="max-h-full w-full" src="~/assets/images/store.png" alt="store">
                   <p class="text-center">$9.00/Year</p>
                 </div>
               </div>
-              <div class="col-span-4 bg-white p-5 rounded-[30px] flex justify-center items-center h-[150px] text-center">
+              <div class="md:col-span-4 col-span-6 bg-white p-5 rounded-[30px] flex justify-center items-center h-[150px] text-center">
                 <div class="block">
                   <img class="max-h-full w-full" src="~/assets/images/online-tld-logo.png" alt="outline-tld">
                   <p class="text-center">$8.00/Year</p>
                 </div>
               </div>
-              <div class="col-span-4 bg-white p-5 rounded-[30px] flex justify-center items-center h-[150px] text-center">
+              <div class="md:col-span-4 col-span-6 bg-white p-5 rounded-[30px] flex justify-center items-center h-[150px] text-center">
                 <div class="block">
                   <img class="max-h-full w-full" src="~/assets/images/me-tld-logo.png" alt="me-tid">
                   <p class="text-center">$15.00/Year</p>
                 </div>
               </div>
-              <div class="col-span-4 bg-white p-5 rounded-[30px] flex justify-center items-center h-[150px] text-center">
+              <div class="md:col-span-4 col-span-6 bg-white p-5 rounded-[30px] flex justify-center items-center h-[150px] text-center">
                 <div class="block">
                   <img class="max-h-full w-full" src="~/assets/images/shop-tld-logo.png" alt="shop-tld">
                   <p class="text-center">$6.00/Year</p>
                 </div>
               </div>
-              <div class="col-span-4 bg-white p-5 rounded-[30px] flex justify-center items-center h-[150px] text-center">
+              <div class="md:col-span-4 col-span-6 bg-white p-5 rounded-[30px] flex justify-center items-center h-[150px] text-center">
                 <div class="block">
                   <img class="max-h-full w-full" src="~/assets/images/cloud-tld-logo.png" alt="cloud-tld">
                   <p class="text-center">$15.00/Year</p>
                 </div>
               </div>
-              <div class="col-span-4 bg-white p-5 rounded-[30px] flex justify-center items-center h-[150px] text-center">
+              <div class="md:col-span-4 col-span-12 bg-white p-5 rounded-[30px] mx-auto flex justify-self-center md:justify-center items-center h-[150px] text-center">
                 <div class="block">
                   <div class="flex justify-center items-center pt-3">
                     <img class="max-h-full w-full block" src="~/assets/images/space-logo.png" alt="co">
@@ -253,8 +253,8 @@
               </div>
             </div>
           </div>
-          <div class="col-span-6 flex justify-center items-center">
-            <div class="block text-left">
+          <div class="md:col-span-6 col-span-12 flex justify-center items-center order-1 lg:order-2">
+            <div class="block md:text-left text-center">
               <h2
                 class="leading-tight lg:text-5xl md:text-4xl sm:text-[36px] text-[25px] lg:text-left text-center text-[#0F132A] font-black"
               >
@@ -270,7 +270,7 @@
         </div>
       </div>
     </section>
-    <section class="pt-10">
+    <section class="pt-10 md:mx-0 mx-5">
       <div class="container mx-auto">
         <div class="text-center pb-8">
           <h3 class="text-2xl font-black Mulish-Black">Domain Price List</h3>
@@ -305,7 +305,7 @@
         <div class="">
           <div class="flex items-center justify-center py-8">
             <div class="overflow-x-auto w-full max-w-4xl mx-auto">
-                <table class="w-full text-left border border-[#0F132A]">
+                <table class="w-full text-left border border-[#0F132A] hidden md:table">
                     <thead>
                         <tr class="bg-[#CAF0F8]">
                             <th class="p-3">TLD</th>
@@ -360,6 +360,65 @@
                         </tr>
                     </tbody>
                 </table>
+                <table class="w-full text-left border border-[#0F132A] md:hidden">
+                  <thead class="bg-[#CAF0F8]">
+                    <tr>
+                      <th class="p3">TLD</th>
+                      <th class="p3">Register</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <!-- Row 1 -->
+                    <tr class="group bg-[#F9F9F9]">
+                      <td class="p3 font-bold">.com</td>
+                      <td class="p3 flex items-center justify-between">
+                        <span>$20.85</span>
+                        <button
+                          class="transform transition-transform"
+                          :class="expandedRow === 0 ? 'rotate-180': ''"
+                          @click="toggleDetails(0)"
+                        >
+                          ▼
+                        </button>
+                      </td>
+                    </tr>
+                    <tr v-if="expandedRow === 0" class="bg-gray-50">
+                      <td></td>
+                      <td colspan="2" class="p3">
+                        <div class="space-y-1">
+                          <p>Renew: $20.85</p>
+                          <p>Transfer: $20.85</p>
+                          <p>Restore: $250</p>
+                        </div>
+                      </td>
+                    </tr>
+
+                    <!-- Row 2 -->
+                    <tr class="group bg-[#CAF0F8]">
+                      <td class="p3 font-bold">.com</td>
+                      <td class="p3 flex items-center justify-between">
+                        <span>$20.85</span>
+                        <button
+                          class="transform transition-transform"
+                          :class="expandedRow === 1 ? 'rotate-180': ''"
+                          @click="toggleDetails(1)"
+                        >
+                          ▼
+                        </button>
+                      </td>
+                    </tr>
+                    <tr v-if="expandedRow === 1" class="bg-gray-50">
+                      <td></td>
+                      <td colspan="2" class="p3">
+                        <div class="space-y-1">
+                          <p>Renew: $20.85</p>
+                          <p>Transfer: $20.85</p>
+                          <p>Restore: $250</p>
+                        </div>
+                      </td>
+                    </tr>
+                  </tbody>
+                </table>
                 <div class="text-center flex justify-center items-center py-5">
                   <img class="mx-3" src="~/assets/icons/left.svg" alt="left">
                   <p>Showing 1 to 8 of 737 TLDs</p>
@@ -370,8 +429,8 @@
         </div>
       </div>
     </section>
-    <section class="pt-10">
-      <div class="container mx-auto">
+    <section class="pt-10 md:mx-0 mx-5">
+      <div class="container mx-auto md:pb-0 pb-8">
         <div class="text-center">
           <h3 class="text-center text-[#0F132A] leading-tight sm:text-4xl md:lg:text-5xl md:text-4xl sm:text-[36px] text-[36px] font-bold Mulish-Black">
             Why Pay For a Domain <br class="sm:flex hidden" /> When You Can Get It For Free?
@@ -391,7 +450,7 @@
                 </button>
             </div>
           </div>
-          <div class="grid grid-cols-6 lg:gap-10 gap-5 pb-8">
+          <div class="grid grid-cols-6 lg:gap-10 gap-5 pb-8 md:flex hidden ">
             <div class="col-span-1"></div>
             <div class="col-span-2">
               <div class="rounded-[30px] bg-white border border-[#e2e3e7]">
@@ -470,6 +529,94 @@
             </div>
             <div class="col-span-1"></div>
           </div>
+          <swiper
+            space-between="40"
+            class="my-swiper md:!hidden"
+            @swiper="onSwiperReady"
+          >
+            <swiper-slide>
+              <div class="flex justify-center items-center">
+                  <div class="rounded-[30px] bg-white border border-[#e2e3e7]">
+                  <div class="bg-[#0F132A] py-4 rounded-t-[30px]"></div>
+                  <div class="px-5 text-center text-[#0F132A] pb-8">
+                    <p class="text-center sm:text-xl text-sm py-5">
+                      STARTUP
+                    </p>
+                    <p class="text-center sm:text-base text-sm pb-5">
+                      Begin with managed shared hosting, which offers an affordable price for new websites, including WordPress management
+                    </p>
+                    <p class="text-base font-black pb-3">Starting at</p>
+                    <p class="text-3xl font-black pb-5 Mulish-Black">{{ isMonthly ? '$20.83/mo' : '$16.66/mo' }}</p>
+                    <p class="text-[12px] px-5 py-2 w-fit mx-auto bg-[#0F132A] text-white rounded-[30px]"><span>{{ !isMonthly ? 'YOU' : '' }}</span> SAVE 25% WITH YEARLY PLAN</p>
+                    <div class="pt-6 pb-16">
+                      <p class="mb-3"><strong class="Mulish-Black">1</strong> Website</p>
+                      <p class="mb-3">Disk Space : <strong class="Mulish-Black">15 GB</strong></p>
+                      <p class="mb-3">Bandwidth : <strong class="Mulish-Black">750 GB</strong></p>
+                      <p class="mb-3">Basic email : <strong class="Mulish-Black">5</strong></p>
+                      <p class="mb-3">Database : <strong class="Mulish-Black">3</strong></p>
+                      <p v-if="!isMonthly" class="mb-3"><strong class="Mulish-Black">Free</strong> Domain Name(*)</p>
+                      <p class="mb-3"><strong class="Mulish-Black">Free</strong> SSL Certificates</p>
+                      <p class="mb-3"><strong class="Mulish-Black">Free</strong> Daily Backup(*)</p>
+                      <p class="mb-3"><strong class="Mulish-Black">Free</strong> Website Migration</p>
+                      <p class="mb-3"><strong class="Mulish-Black">1-click Wordpress</strong> install</p>
+                      <p class="mb-3"><strong class="Mulish-Black">Wordpress</strong> Management</p>
+                      <p class="mb-3"><strong class="Mulish-Black">Daily Malware Scan</strong></p>
+                      <p class="mb-3">Standard<strong class="Mulish-Black"> DDoS Protection</strong></p>
+                      <p class="mb-3"><strong class="Mulish-Black">24/7 Premium Support</strong></p>
+                    </div>
+                    <button
+                      class="rounded-[10px] bg-[#5564AD] text-white font-bold md:py-4 md:px-8 py-3 px-6 Mulish-ExtraBold w-full"
+                    >
+                      Add to Cart
+                    </button>
+                  </div>
+                </div>
+                <button @click="goToNextSlide()">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="34" height="34" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <polyline points="12 5 19 12 12 19"></polyline>
+                  </svg>
+                </button>
+              </div>
+            </swiper-slide>
+            <swiper-slide>
+              <div class="rounded-[30px] bg-white border border-[#e2e3e7]">
+                <div class="bg-[#5564AD] py-4 rounded-t-[30px] "></div>
+                <div class="px-5 text-center text-[#0F132A] pb-8">
+                  <p class="text-center sm:text-xl text-sm py-5">
+                    CORPORATE
+                  </p>
+                  <p class="text-center sm:text-base text-sm pb-5">
+                    Begin with managed shared hosting, which offers an affordable price for new websites, including WordPress management
+                  </p>
+                  <p class="text-base font-black pb-3">Starting at</p>
+                  <p class="text-3xl font-black pb-5 Mulish-Black">{{ isMonthly ? '$40.99/mo' : '$29.99/mo' }}</p>
+                  <p class="text-[12px] px-5 py-2 w-fit mx-auto bg-[#0F132A] text-white rounded-[30px]"><span>{{ !isMonthly ? 'YOU' : '' }}</span> SAVE 35% WITH YEARLY PLAN</p>
+                  <div class="pt-6 pb-7">
+                    <p class="mb-3"><strong class="Mulish-Black">5</strong> Website</p>
+                    <p class="mb-3">Disk Space : <strong class="Mulish-Black">60 GB</strong></p>
+                    <p class="mb-3">Bandwidth : <strong class="Mulish-Black">2500 GB</strong></p>
+                    <p class="mb-3">Basic email : <strong class="Mulish-Black">60</strong></p>
+                    <p class="mb-3">Database : <strong class="Mulish-Black">10</strong></p>
+                    <p  v-if="!isMonthly" class="mb-3"><strong class="Mulish-Black">Free</strong> Domain Name(*)</p>
+                    <p class="mb-3"><strong class="Mulish-Black">Free</strong> SSL Certificates</p>
+                    <p class="mb-3"><strong class="Mulish-Black">Free</strong> Daily Backup(*)</p>
+                    <p class="mb-3"><strong class="Mulish-Black">Free</strong> Website Migration</p>
+                    <p class="mb-3"><strong class="Mulish-Black">1-click Wordpress</strong> install</p>
+                    <p class="mb-3"><strong class="Mulish-Black">Wordpress</strong> Management</p>
+                    <p class="mb-3"><strong class="Mulish-Black">Fast Performance</strong></p>
+                    <p class="mb-3"><strong class="Mulish-Black">Daily Malware Scan</strong></p>
+                    <p class="mb-3">Standard<strong class="Mulish-Black"> DDoS Protection</strong></p>
+                    <p class="mb-3"><strong class="Mulish-Black">24/7 Premium Support</strong></p>
+                  </div>
+                  <button
+                    class="rounded-[10px] bg-[#5564AD] text-white font-bold md:py-4 md:px-8 py-3 px-6 Mulish-ExtraBold w-full"
+                  >
+                    Add to Cart
+                  </button>
+                </div>
+              </div>
+            </swiper-slide>
+          </swiper>
         </div>
       </div>
     </section>
@@ -870,6 +1017,10 @@
 </template>
 
 <script setup lang="ts">
+import 'swiper/css';
+import 'swiper/css/navigation';
+import { Swiper, SwiperSlide } from 'swiper/vue';
+const swiperRef = ref(null);
 const loading = ref(false);
 const searchDomain = ref({
   name: "",
@@ -877,13 +1028,23 @@ const searchDomain = ref({
 const response = ref("");
 const isAvailibleMsg = ref("");
 const isMonthly = ref(false);
+// Track which row is expanded
+const expandedRow = ref(-1);
+const toggleDetails = (rowIndex: number) => {
+  expandedRow.value = expandedRow.value === rowIndex ? 0 : rowIndex;
+};
+function onSwiperReady(swiperInstance: any) {
+  swiperRef.value = swiperInstance;
+}
+const goToNextSlide = () => {
+  swiperRef.value?.slideNext();
+}
 const toggleAccordion = (id: Number) => {
   const content = document.getElementById(`content-${id}`);
   const icon = document.getElementById(`icon-${id}`);
   content?.classList.toggle("hidden");
   icon?.classList.toggle("rotate-180");
 };
-
 useHead({
   title: 'Host2Media - Find your perfect domain name',
   meta: [
