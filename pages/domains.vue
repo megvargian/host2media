@@ -769,7 +769,7 @@
                     @click="toggleAccordion(1)"
                     class="w-full text-left flex justify-between items-center"
                 >
-                    <span class="font-bold text-base"
+                    <span class="font-bold sm:text-base text-sm"
                     >How can I register or Transfer a Domain name?</span
                     >
                     <svg
@@ -810,7 +810,7 @@
                     @click="toggleAccordion(2)"
                     class="w-full text-left flex justify-between items-center"
                 >
-                    <span class="font-bold text-base">Transfer a Domain name</span>
+                    <span class="font-bold sm:text-base text-sm">Transfer a Domain name</span>
                     <svg
                     class="w-4 h-4 transform transition-transform duration-200 icons"
                     id="icon-2"
@@ -864,7 +864,7 @@
                     @click="toggleAccordion(3)"
                     class="w-full text-left flex justify-between items-center"
                 >
-                    <span class="font-bold text-base"
+                    <span class="font-bold sm:text-base text-sm"
                     >Can I have an email without having a website?</span
                     >
                     <svg
@@ -898,7 +898,7 @@
                     @click="toggleAccordion(4)"
                     class="w-full text-left flex justify-between items-center"
                 >
-                    <span class="font-bold text-base"
+                    <span class="font-bold sm:text-base text-sm"
                     >Do I need a Domain name to have a web hosting and email
                     address?</span
                     >
@@ -939,7 +939,7 @@
                     @click="toggleAccordion(5)"
                     class="w-full text-left flex justify-between items-center"
                 >
-                    <span class="font-bold text-base"
+                    <span class="font-bold sm:text-base text-sm"
                     >Email without a domain name</span
                     >
                     <svg
@@ -981,7 +981,7 @@
                     @click="toggleAccordion(6)"
                     class="w-full text-left flex justify-between items-center"
                 >
-                    <span class="font-bold text-base"
+                    <span class="font-bold sm:text-base text-sm"
                     >Can I import my old host emails to host2media mail server?
                     </span>
                     <svg
