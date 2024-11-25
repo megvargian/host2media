@@ -64,9 +64,9 @@
     <section>
       <section class="block custom-height">
         <div
-          class="custom-container mx-auto relative h-[28rem]"
+          class="custom-container mx-auto custom-container-mobile relative h-[28rem]"
         >
-          <div class="px-10 flex justify-center items-center absolute top-[-10%] right-0 left-0">
+          <div class="px-3 flex justify-center items-center absolute top-[-10%] right-0 left-0">
             <div class="rounded-[50px] bg-white py-14 md:px-0 px-5">
               <div class="grid grid-cols-12 gap-5">
                 <div
@@ -76,9 +76,8 @@
                     <h2
                       class="leading-tight lg:text-5xl md:text-4xl sm:text-[36px] text-[25px] lg:text-left text-center text-[#0F132A] font-black Mulish-Black"
                     >
-                      Tips and tricks on <br class="sm:flex hidden" />
-                      getting the best <br class="sm:flex hidden" />
-                      Domain Name
+                      Tips and tricks on getting<br class="sm:flex hidden" />
+                      the best Domain Name<br class="sm:flex hidden" />
                     </h2>
                   </div>
                 </div>
