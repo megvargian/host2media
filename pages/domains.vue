@@ -74,7 +74,7 @@
                 >
                   <div>
                     <h2
-                      class="leading-tight lg:text-5xl md:text-4xl sm:text-[36px] text-[25px] lg:text-left text-center text-[#0F132A] font-black Mulish-Black"
+                      class="leading-tight lg:text-5xl md:text-4xl sm:text-[36px] text-[25px] lg:text-left text-center text-[#0F132A] font-black"
                     >
                       Tips and tricks on getting<br class="sm:flex hidden" />
                       the best Domain Name<br class="sm:flex hidden" />
