@@ -363,57 +363,67 @@
                 <table class="w-full text-left border border-[#0F132A] md:hidden">
                   <thead class="bg-[#CAF0F8]">
                     <tr>
-                      <th class="p3">TLD</th>
-                      <th class="p3">Register</th>
+                      <th class="p-4">TLD</th>
+                      <th class="p-4">Register</th>
                     </tr>
                   </thead>
                   <tbody>
                     <!-- Row 1 -->
                     <tr class="group bg-[#F9F9F9]">
-                      <td class="p3 font-bold">.com</td>
-                      <td class="p3 flex items-center justify-between">
+                      <td class="p-4 font-bold">.com</td>
+                      <td class="p-4 flex items-center justify-between">
                         <span>$20.85</span>
                         <button
+                          id="target-button-accordion-0"
                           class="transform transition-transform"
-                          :class="expandedRow === 0 ? 'rotate-180': ''"
                           @click="toggleDetails(0)"
                         >
                           ▼
                         </button>
                       </td>
                     </tr>
-                    <tr v-if="expandedRow === 0" class="bg-gray-50">
+                    <tr
+                      id="target-accordion-0"
+                      class="bg-gray-50 hidden">
                       <td></td>
-                      <td colspan="2" class="p3">
+                      <td colspan="2" class="p-4 pt-0">
                         <div class="space-y-1">
-                          <p>Renew: $20.85</p>
-                          <p>Transfer: $20.85</p>
-                          <p>Restore: $250</p>
+                          <p class="font-bold">Renew</p>
+                          <p>$20.85</p>
+                          <p class="font-bold">Transfer</p>
+                          <p>$20.85</p>
+                          <p class="font-bold">Restore</p>
+                          <p>$250</p>
                         </div>
                       </td>
                     </tr>
 
                     <!-- Row 2 -->
                     <tr class="group bg-[#CAF0F8]">
-                      <td class="p3 font-bold">.com</td>
-                      <td class="p3 flex items-center justify-between">
+                      <td class="p-4 font-bold">.com</td>
+                      <td class="p-4 flex items-center justify-between">
                         <span>$20.85</span>
                         <button
+                          id="target-button-accordion-1"
                           class="transform transition-transform"
-                          :class="expandedRow === 1 ? 'rotate-180': ''"
                           @click="toggleDetails(1)"
                         >
                           ▼
                         </button>
                       </td>
                     </tr>
-                    <tr v-if="expandedRow === 1" class="bg-gray-50">
+                    <tr
+                      id="target-accordion-1"
+                      class="bg-gray-50 hidden">
                       <td></td>
-                      <td colspan="2" class="p3">
+                      <td colspan="2" class="p-4">
                         <div class="space-y-1">
-                          <p>Renew: $20.85</p>
-                          <p>Transfer: $20.85</p>
-                          <p>Restore: $250</p>
+                          <p class="font-bold">Renew</p>
+                          <p>$20.85</p>
+                          <p class="font-bold">Transfer</p>
+                          <p>$20.85</p>
+                          <p class="font-bold">Restore</p>
+                          <p>$250</p>
                         </div>
                       </td>
                     </tr>
@@ -1031,7 +1041,10 @@ const isMonthly = ref(false);
 // Track which row is expanded
 const expandedRow = ref(-1);
 const toggleDetails = (rowIndex: number) => {
-  expandedRow.value = expandedRow.value === rowIndex ? 0 : rowIndex;
+  const content = document.getElementById(`target-accordion-${rowIndex}`);
+  const icon = document.getElementById(`target-button-accordion-${rowIndex}`);
+  content?.classList.toggle("hidden");
+  icon?.classList.toggle("rotate-180");
 };
 function onSwiperReady(swiperInstance: any) {
   swiperRef.value = swiperInstance;
