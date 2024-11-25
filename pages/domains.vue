@@ -74,7 +74,7 @@
                 >
                   <div>
                     <h2
-                      class="leading-5 lg:text-5xl md:text-4xl sm:text-[36px] text-[25px] lg:text-left text-center text-[#0F132A] font-black"
+                      class="leading-[1.25] lg:text-5xl md:text-4xl sm:text-[36px] text-[25px] lg:text-left text-center text-[#0F132A] font-black"
                     >
                       Tips and tricks on <br class="sm:flex hidden" />
                       getting the best <br class="sm:flex hidden" />
