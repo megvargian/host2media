@@ -67,7 +67,7 @@
           class="custom-container mx-auto custom-container-mobile relative h-[28rem]"
         >
           <div class="px-3 flex justify-center items-center absolute top-[-10%] right-0 left-0">
-            <div class="rounded-[50px] bg-white py-14 md:px-0 px-5">
+            <div id="secondElement" class="rounded-[50px] bg-white py-14 md:px-0 px-5">
               <div class="grid grid-cols-12 gap-5">
                 <div
                   class="md:col-span-6 col-span-12 lg:pl-[4rem] lg:pr-[0rem] flex justify-center items-center"
@@ -1038,8 +1038,17 @@ const searchDomain = ref({
 const response = ref("");
 const isAvailibleMsg = ref("");
 const isMonthly = ref(false);
-// Track which row is expanded
-const expandedRow = ref(-1);
+onMounted(() => {
+  const secondElement = document.getElementById("secondElement") as HTMLElement;
+  let parentELment = document.getElementsByClassName("custom-height")[0] as HTMLElement;
+  if (secondElement && parentELment) {
+    const height = secondElement.offsetHeight;
+    parentELment.style.height = height - 80 + "px";
+    window.addEventListener("resize", () => {
+      parentELment.style.height = height - 80 + "px";
+    });
+  }
+})
 const toggleDetails = (rowIndex: number) => {
   const content = document.getElementById(`target-accordion-${rowIndex}`);
   const icon = document.getElementById(`target-button-accordion-${rowIndex}`);
