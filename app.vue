@@ -5,6 +5,9 @@
 </template>
 <script setup lang="ts">
 useHead({
-  link: [{ rel: 'icon', type: 'image/png', href: '/favicon.png' }]
+  link: [{ rel: 'icon', type: 'image/png', href: '/favicon.png' }],
+  htmlAttrs: {
+    lang: "en",
+  },
 });
 </script>
