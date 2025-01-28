@@ -3,7 +3,7 @@
     <div class="w-full z-1 relative">
       <img
         class="w-full -z-1 sm:h-auto h-[200px]"
-        src="~/assets/images/contact-us-main.png"
+        src="~/assets/images/contact-us-main.webp"
         alt="banner"
       />
       <h1
