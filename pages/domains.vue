@@ -460,10 +460,10 @@
                 </button>
             </div>
           </div>
-          <div class="grid grid-cols-6 lg:gap-10 gap-5 pb-8 md:flex hidden ">
+          <div class="grid grid-cols-6 flex justify-center lg:gap-10 gap-5 pb-8 md:flex hidden ">
             <div class="col-span-1"></div>
             <div class="col-span-2">
-              <div class="rounded-[30px] bg-white border border-[#e2e3e7]">
+              <div class="rounded-[30px] bg-white border border-[#e2e3e7] max-w-[25rem]">
                 <div class="bg-[#0F132A] py-4 rounded-t-[30px]"></div>
                 <div class="px-5 text-center text-[#0F132A] pb-8">
                   <p class="text-center sm:text-xl text-sm py-5">
@@ -500,7 +500,7 @@
               </div>
             </div>
             <div class="col-span-2">
-              <div class="rounded-[30px] bg-white border border-[#e2e3e7]">
+              <div class="rounded-[30px] bg-white border border-[#e2e3e7] max-w-[25rem]">
                 <div class="bg-[#5564AD] py-4 rounded-t-[30px] "></div>
                 <div class="px-5 text-center text-[#0F132A] pb-8">
                   <p class="text-center sm:text-xl text-sm py-5">
