@@ -1,5 +1,5 @@
 <template>
-    <section class="bg-[#5564AD] w-full py-12">
+    <section class="bg-[#210863] w-full py-12">
         <div class="container mx-auto">
             <footer>
                 <div class="grid grid-cols-12 lg:gap-12 gap-5 text-white sm:mx-0 mx-5">
@@ -22,21 +22,21 @@
                                         Customer Portal
                                     </a>
                                 </li>
-                                <li class="sm:text-[0.75rem] sm:leading-4 text-sm font-light mb-2">
+                                <!-- <li class="sm:text-[0.75rem] sm:leading-4 text-sm font-light mb-2">
                                     <a>
                                         Status
                                     </a>
-                                </li>
+                                </li> -->
                                 <li class="sm:text-[0.75rem] sm:leading-4 text-sm font-light mb-2">
                                     <a>
                                         Host2Media Blog
                                     </a>
                                 </li>
-                                <li class="sm:text-[0.75rem] sm:leading-4 text-sm font-light mb-2">
+                                <!-- <li class="sm:text-[0.75rem] sm:leading-4 text-sm font-light mb-2">
                                     <a>
                                         Knowladge Base
                                     </a>
-                                </li>
+                                </li> -->
                             </ul>
                         </div>
                     </div>

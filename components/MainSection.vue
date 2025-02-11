@@ -1,21 +1,23 @@
 <template>
-  <section>
-    <div class="container mx-auto">
+  <section class="relative">
+    <img class="w-full h-full -z-1 hidden lg:block pt-[42px]" src="../assets//images/home-bg.png" alt="home-bg">
+    <img class="w-full h-full -z-1 block lg:hidden pt-[42px]" src="../assets//images/home-bg-mob.png" alt="home-bg">
+    <div class="container mx-auto z-1 absolute top-[22%] right-0 left-0 bottom-0">
       <div class="grid grid-cols-12 gap-4">
         <div class="col-span-12 flex justify-center items-center">
           <div>
             <h2
-              class="leading-tight sm:text-4xl md:lg:text-5xl md:text-4xl sm:text-[36px] text-[25px] text-center text-[36px] font-bold lg:py-16 pt-0 sm:pb-16 pb-5"
+              class="leading-tight sm:text-4xl md:lg:text-5xl md:text-4xl sm:text-[36px] text-[25px] text-center text-[36px] font-bold lg:py-16 pt-0 sm:pb-16 pb-5 text-white"
             >
               New Web Hosting, <br class="sm:flex hidden" />
               New Potential
             </h2>
             <p
-              class="sm:text-xl text-sm text-center sm:pt-8 sm:px-0 px-3"
+              class="sm:text-xl text-sm text-center sm:pt-8 sm:px-0 px-3 text-white"
             >
               Tap into the potential of managed Web Hosting
             </p>
-            <p class="sm:text-xl text-sm text-center sm:px-0 px-3">
+            <p class="sm:text-xl text-sm text-center sm:px-0 px-3 text-white">
               ensuring your website's speed, security, and constant availability.
             </p>
           </div>
@@ -32,13 +34,13 @@
   <section class="my-12 lg:pt-32 lg:mx-12 custom-margin-bottom">
     <div class="container mx-auto flex justify-center items-center pb-12">
       <h2
-        class="lg:text-5xl md:text-4xl sm:text-[36px] text-[25px] lg:text-left text-center sm:text-5xl md:text-4xl text-[36px] lg:text-left text-center font-black text-[#0F132A]"
+        class="lg:text-5xl md:text-4xl sm:text-[36px] text-[25px] lg:text-left text-center sm:text-5xl md:text-4xl text-[36px] lg:text-left text-center text-[#0F132A]"
       >
         The all-in-one solution to get online quickly
       </h2>
     </div>
     <div
-      class="w-full lg:rounded-3xl rounded-tl-[50px] rounded-bl-[50px] bg-[#5564AD] mt-10 relative lg:pt-32"
+      class="w-full lg:rounded-3xl rounded-tl-[50px] rounded-bl-[50px] bg-[#210863] mt-10 relative lg:pt-32"
     >
       <div
         class="container w-full mx-auto lg:absolute lg:right-0 lg:left-0 top-[-30%]"
@@ -251,7 +253,7 @@
       </div>
     </div>
     <section
-      class="w-full bg-[#5564AD] lg:pt-64 pt-[10rem] sm:mt-[25rem] lg:mt-0 mt-[10rem] custom-mobile-margin -z-10 text-white"
+      class="w-full bg-[#210863] lg:pt-64 pt-[10rem] sm:mt-[25rem] lg:mt-0 mt-[10rem] custom-mobile-margin -z-10 text-white"
     >
       <div class="custom-container mx-auto">
         <div class="grid grid-cols-12 lg:gap-10 gap-5">
