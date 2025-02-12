@@ -24,7 +24,7 @@
                 <button
                   type="submit"
                   :disabled="loading"
-                  class="bg-[#90A1FF] p-3 rounded-r absolute right-0"
+                  class="bg-[#5564AD] p-3 rounded-r absolute right-0"
                 >
                   <img
                     v-if="loading"

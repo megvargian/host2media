@@ -2,14 +2,23 @@
   <div
     class="w-full"
     :class="
-      typeof route.name === 'string' && (route.name.includes('contact-us') || currentRoute.name === 'index')
+      typeof route.name === 'string' &&
+      (route.name.includes('contact-us') || currentRoute.name === 'index')
         ? `absolute left-0 right-0 z-10`
         : ''
     "
   >
     <header>
       <nav>
-        <div class="w-full py-3 bg-[#210863]">
+        <div
+          class="w-full py-3 bg-[#210863]"
+          :class="
+            typeof route.name === 'string' &&
+            route.name.includes('domain')
+              ? `bg-[#5564AD]`
+              : 'bg-[#210863]'
+          "
+        >
           <div class="grid grid-cols-12 gap-5">
             <div class="col-span-6 hidden lg:block"></div>
             <div class="col-span-12 lg:col-span-6">
@@ -42,18 +51,28 @@
       </nav>
       <nav
         class="py-5 flex flex-row justify-start items-center lg:px-16 md:px-16 sm:px-8"
-        :class="typeof route.name === 'string' && route.name.includes('domains') ?  'bg-[#210863]' : ''"
+        :class="
+          typeof route.name === 'string' && route.name.includes('domains')
+            ? 'bg-[#210863]'
+            : ''
+        "
       >
         <NuxtLink to="/">
-            <img class="lg:block hidden h-12 w-18" src="~/assets/images/logo.svg" />
+          <img
+            class="lg:block hidden h-12 w-18"
+            src="~/assets/images/logo.svg"
+          />
         </NuxtLink>
         <ul
           class="basic-2/4 lg:flex hidden font-medium text-sm xl:text-lg pl-8"
           :class="
-            typeof route.name === 'string' && (route.name.includes('contact-us') || route.name.includes('domains') || currentRoute.name === 'index')
-                ? 'text-white'
-                : 'text-[#0F132A]'
-            "
+            typeof route.name === 'string' &&
+            (route.name.includes('contact-us') ||
+              route.name.includes('domains') ||
+              currentRoute.name === 'index')
+              ? 'text-white'
+              : 'text-[#0F132A]'
+          "
         >
           <li class="mx-2">
             <NuxtLink class="" to="domains"> Domains </NuxtLink>
@@ -78,23 +97,62 @@
           class="hamburger hamburger--collapse block lg:mr-0 mr-5 lg:hidden"
           type="button"
         >
-            <div @click="activeHamburgerButton()" class="menu_mobile_nav">
-                <div class="hamburger_menu_icon">
-                  <div class="line" :class="typeof route.name === 'string' && (route.name.includes('contact-us') || currentRoute.name === 'index') ? 'bg-[#F9F9F9]' : 'bg-[#210863]'"></div>
-                  <div class="line middle_line" :class="typeof route.name === 'string' && (route.name.includes('contact-us') || currentRoute.name === 'index') ? 'bg-[#F9F9F9]' : 'bg-[#210863]'"></div>
-                  <div class="line" :class="typeof route.name === 'string' && (route.name.includes('contact-us') || currentRoute.name === 'index') ? 'bg-[#F9F9F9]' : 'bg-[#210863]'"></div>
-                </div>
+          <div @click="activeHamburgerButton()" class="menu_mobile_nav">
+            <div class="hamburger_menu_icon">
+              <div
+                class="line"
+                :class="
+                  typeof route.name === 'string' &&
+                  (route.name.includes('contact-us') ||
+                    currentRoute.name === 'index')
+                    ? 'bg-[#F9F9F9]'
+                    : 'bg-[#210863]'
+                "
+              ></div>
+              <div
+                class="line middle_line"
+                :class="
+                  typeof route.name === 'string' &&
+                  (route.name.includes('contact-us') ||
+                    currentRoute.name === 'index')
+                    ? 'bg-[#F9F9F9]'
+                    : 'bg-[#210863]'
+                "
+              ></div>
+              <div
+                class="line"
+                :class="
+                  typeof route.name === 'string' &&
+                  (route.name.includes('contact-us') ||
+                    currentRoute.name === 'index')
+                    ? 'bg-[#F9F9F9]'
+                    : 'bg-[#210863]'
+                "
+              ></div>
             </div>
+          </div>
         </button>
         <div id="menu_mobile" class="menu_on_mobile block lg:hidden h-[100dvh]">
           <div class="menu_on_mobile_wrapper h-[100dvh]">
-            <div class="menu_on_mobile_inner_wrapper relative flex justify-center items-center h-[100dvh]">
+            <div
+              class="menu_on_mobile_inner_wrapper relative flex justify-center items-center h-[100dvh]"
+            >
               <div>
                 <ClientOnly>
-                  <a class="block my-3 page_font animated_menu_el" @click="deactivateHamburgerButton('/')" >
-                      <img class="w-[5rem] mx-auto" src="~/assets/images/h2m-mob.png" alt="host2media">
+                  <a
+                    class="block my-3 page_font animated_menu_el"
+                    @click="deactivateHamburgerButton('/')"
+                  >
+                    <img
+                      class="w-[5rem] mx-auto"
+                      src="~/assets/images/h2m-mob.png"
+                      alt="host2media"
+                    />
                   </a>
-                  <a class="block my-3 page_font animated_menu_el" @click="deactivateHamburgerButton('domains')">
+                  <a
+                    class="block my-3 page_font animated_menu_el"
+                    @click="deactivateHamburgerButton('domains')"
+                  >
                     <div class="menu_item text-white">Domains</div>
                   </a>
                   <a class="block my-3 page_font animated_menu_el" href="#">
@@ -109,7 +167,10 @@
                   <a class="block my-3 page_font animated_menu_el" href="#">
                     <div class="menu_item text-white">Dev Serices</div>
                   </a> -->
-                  <a class="block my-3 page_font animated_menu_el" @click="deactivateHamburgerButton('/contact-us')">
+                  <a
+                    class="block my-3 page_font animated_menu_el"
+                    @click="deactivateHamburgerButton('/contact-us')"
+                  >
                     <div class="menu_item text-white">Contact US</div>
                   </a>
                 </ClientOnly>
@@ -142,5 +203,5 @@ const deactivateHamburgerButton = (route: string) => {
   HtmlBody.classList.remove("hide_scroll");
   mobileMenu.classList.remove("active");
   router.push(route);
-}
+};
 </script>

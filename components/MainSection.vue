@@ -1,8 +1,18 @@
 <template>
   <section class="relative">
-    <img class="w-full h-full -z-1 hidden lg:block pt-[42px]" src="../assets//images/home-bg.png" alt="home-bg">
-    <img class="w-full h-full -z-1 block lg:hidden pt-[42px]" src="../assets//images/home-bg-mob.png" alt="home-bg">
-    <div class="container mx-auto z-1 absolute top-[22%] right-0 left-0 bottom-0">
+    <img
+      class="w-full h-full -z-1 hidden lg:block pt-[42px]"
+      src="../assets//images/home-bg.png"
+      alt="home-bg"
+    />
+    <img
+      class="w-full h-full -z-1 block lg:hidden pt-[42px]"
+      src="../assets//images/home-bg-mob.png"
+      alt="home-bg"
+    />
+    <div
+      class="container mx-auto z-1 absolute top-[22%] right-0 left-0 bottom-0"
+    >
       <div class="grid grid-cols-12 gap-4">
         <div class="col-span-12 flex justify-center items-center">
           <div>
@@ -18,7 +28,8 @@
               Tap into the potential of managed Web Hosting
             </p>
             <p class="sm:text-xl text-sm text-center sm:px-0 px-3 text-white">
-              ensuring your website's speed, security, and constant availability.
+              ensuring your website's speed, security, and constant
+              availability.
             </p>
           </div>
         </div>
@@ -484,7 +495,11 @@
         >
           <div>
             <div class="flex justify-start pl-10 items-center pb-3">
-              <img class="w-12 h-12" src="~/assets/icons/speed.svg" alt="speed" />
+              <img
+                class="w-12 h-12"
+                src="~/assets/icons/speed.svg"
+                alt="speed"
+              />
             </div>
             <div class="text-left">
               <p class="text-[#0F132A] font-black Mulish-Black text-lg">
@@ -504,7 +519,11 @@
         >
           <div>
             <div class="flex justify-start pl-10 items-center pb-3">
-              <img class="w-12 h-12" src="~/assets/icons/uptime.svg" alt="uptime" />
+              <img
+                class="w-12 h-12"
+                src="~/assets/icons/uptime.svg"
+                alt="uptime"
+              />
             </div>
             <div class="text-left">
               <p class="text-[#0F132A] font-black Mulish-Black text-lg">
@@ -524,7 +543,11 @@
         >
           <div>
             <div class="flex justify-start pl-10 items-center pb-3">
-              <img class="w-12 h-12" src="~/assets/icons/support.svg" alt="support" />
+              <img
+                class="w-12 h-12"
+                src="~/assets/icons/support.svg"
+                alt="support"
+              />
             </div>
             <div class="text-left">
               <p class="text-[#0F132A] font-black Mulish-Black text-lg">
@@ -567,7 +590,11 @@
         >
           <div>
             <div class="flex justify-start pl-10 items-center pb-3">
-              <img class="w-12 h-12" src="~/assets/icons/optimized.svg" alt="optimized" />
+              <img
+                class="w-12 h-12"
+                src="~/assets/icons/optimized.svg"
+                alt="optimized"
+              />
             </div>
             <div class="text-left">
               <p class="text-[#0F132A] font-black Mulish-Black text-lg">
@@ -679,7 +706,9 @@
                 @click="toggleAccordion(2)"
                 class="w-full text-left flex justify-between items-center"
               >
-                <span class="font-bold sm:text-base text-sm">Transfer a Domain name</span>
+                <span class="font-bold sm:text-base text-sm"
+                  >Transfer a Domain name</span
+                >
                 <svg
                   class="w-4 h-4 transform transition-transform duration-200 icons"
                   id="icon-2"
@@ -920,7 +949,10 @@ const getResultFromWhois = async (name: string) => {
     response.value = "Something went wrong please try again later";
     console.error(error.value);
   } else {
-    response.value = config.value.DomainInfo.domainAvailability.toLowerCase() === "available" ? 'Woah! this domain is' : 'Woops! this domain is ';
+    response.value =
+      config.value.DomainInfo.domainAvailability.toLowerCase() === "available"
+        ? "Woah! this domain is"
+        : "Woops! this domain is ";
     isAvailibleMsg.value =
       config.value.DomainInfo.domainAvailability.toLowerCase() === "available"
         ? "available"
