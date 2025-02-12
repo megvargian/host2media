@@ -100,7 +100,7 @@
     </div>
   </section>
   <section class="relative">
-    <div class="bg-[#5564AD] py-10">
+    <div class="bg-[#210863] py-10">
       <div class="container w-full mx-auto">
         <div class="grid grid-cols-12 gap-4 py-10">
           <div

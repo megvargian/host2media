@@ -51,7 +51,7 @@
               <img
                 class="md:w-12 md:h-12 w-8 h-8"
                 src="~/assets/icons/server.svg"
-                alt="server-icon"
+                alt="server"
               />
             </div>
             <p class="text-[#0F132A]">Web Hosting</p>
@@ -62,7 +62,7 @@
               <img
                 class="md:w-12 md:h-12 w-8 h-8"
                 src="~/assets/icons/domain.svg"
-                alt="domain-icon"
+                alt="domain"
               />
             </div>
             <p class="text-[#0F132A]">Domain name</p>
@@ -73,7 +73,7 @@
               <img
                 class="md:w-12 md:h-12 w-8 h-8"
                 src="~/assets/icons/email.svg"
-                alt="email-icon"
+                alt="email"
               />
             </div>
             <p class="text-[#0F132A]">Professional Email</p>
@@ -83,8 +83,8 @@
             <div class="flex justify-center items-center sm:pb-10 pb-5">
               <img
                 class="md:w-12 md:h-12 w-8 h-8"
-                src="~/assets/icons/lock.svg"
-                alt="lock-icon"
+                src="~/assets/icons/free-SSL.svg"
+                alt="free-SSL"
               />
             </div>
             <p class="text-[#0F132A]">SSL Certificates</p>
@@ -113,7 +113,7 @@
                 <button
                   type="submit"
                   :disabled="loading"
-                  class="bg-[#90A1FF] p-3 rounded-r absolute right-0"
+                  class="bg-[#5564AD] p-3 rounded-r absolute right-0"
                 >
                   <img
                     v-if="loading"
@@ -484,7 +484,7 @@
         >
           <div>
             <div class="flex justify-start pl-10 items-center pb-3">
-              <img class="w-12 h-12" src="~/assets/icons/sp.svg" alt="speed" />
+              <img class="w-12 h-12" src="~/assets/icons/speed.svg" alt="speed" />
             </div>
             <div class="text-left">
               <p class="text-[#0F132A] font-black Mulish-Black text-lg">
@@ -504,7 +504,7 @@
         >
           <div>
             <div class="flex justify-start pl-10 items-center pb-3">
-              <img class="w-12 h-12" src="~/assets/icons/ug.png" alt="ug" />
+              <img class="w-12 h-12" src="~/assets/icons/uptime.svg" alt="uptime" />
             </div>
             <div class="text-left">
               <p class="text-[#0F132A] font-black Mulish-Black text-lg">
@@ -524,7 +524,7 @@
         >
           <div>
             <div class="flex justify-start pl-10 items-center pb-3">
-              <img class="w-12 h-12" src="~/assets/icons/supp.svg" alt="supp" />
+              <img class="w-12 h-12" src="~/assets/icons/support.svg" alt="support" />
             </div>
             <div class="text-left">
               <p class="text-[#0F132A] font-black Mulish-Black text-lg">
@@ -567,7 +567,7 @@
         >
           <div>
             <div class="flex justify-start pl-10 items-center pb-3">
-              <img class="w-12 h-12" src="~/assets/icons/opt.svg" alt="opt" />
+              <img class="w-12 h-12" src="~/assets/icons/optimized.svg" alt="optimized" />
             </div>
             <div class="text-left">
               <p class="text-[#0F132A] font-black Mulish-Black text-lg">

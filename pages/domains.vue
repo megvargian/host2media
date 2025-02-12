@@ -1,6 +1,6 @@
 <template>
   <div>
-    <section class="bg-[#5564AD] py-16 md:pt-16 sm:pt-10 pt-5">
+    <section class="bg-[#210863] py-16 md:pt-16 sm:pt-10 pt-5">
         <div class="lg:container sm:mx-auto mx-5">
             <h3 class="text-center text-white leading-tight sm:text-4xl md:lg:text-5xl md:text-4xl sm:text-[36px] text-[36px] font-bold">
                 Your Domain name is your online name
@@ -131,7 +131,7 @@
         </div>
       </section>
     </section>
-    <section class="bg-[#5564AD] py-16 md:pt-24 sm:pt-32 lg:pt-16">
+    <section class="bg-[#210863] py-16 md:pt-24 sm:pt-32 lg:pt-16">
         <div class="container mx-auto">
             <h3 class="text-center text-white leading-tight sm:text-4xl md:lg:text-5xl md:text-4xl sm:text-[36px] text-[36px] font-bold">
                 Why Host2media For Your <br class="sm:flex hidden" /> Domain name
@@ -501,7 +501,7 @@
             </div>
             <div class="col-span-2">
               <div class="rounded-[30px] bg-white border border-[#e2e3e7] max-w-[25rem]">
-                <div class="bg-[#5564AD] py-4 rounded-t-[30px] "></div>
+                <div class="bg-[#210863] py-4 rounded-t-[30px] "></div>
                 <div class="px-5 text-center text-[#0F132A] pb-8">
                   <p class="text-center sm:text-xl text-sm py-5">
                     CORPORATE
@@ -590,7 +590,7 @@
             </swiper-slide>
             <swiper-slide>
               <div class="rounded-[30px] bg-white border border-[#e2e3e7]">
-                <div class="bg-[#5564AD] py-4 rounded-t-[30px] "></div>
+                <div class="bg-[#210863] py-4 rounded-t-[30px] "></div>
                 <div class="px-5 text-center text-[#0F132A] pb-8">
                   <p class="text-center sm:text-xl text-sm py-5">
                     CORPORATE
