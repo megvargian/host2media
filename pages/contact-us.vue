@@ -465,20 +465,31 @@ const runTimeConfig = useRuntimeConfig();
 const { executeRecaptcha } = useGoogleRecaptcha();
 
 useHead({
-  title: 'Host2Media support - Contact us for assistance',
+  title: "Host2Media support - Contact us for assistance",
   meta: [
-    { name: 'title', content: 'Host2Media support - Contact us for assistance' },
-    { name: 'description', content: 'Host2Media support team is here 24/7 for your needs! Feel free to reach out anytime for prompt and dependable support.' },
-    { name: 'robots', content: 'index, follow' },
-    { 'http-equiv': 'Content-Type', content: 'text/html; charset=utf-8' },
-    { name: 'language', content: 'English' },
-    { name: 'revisit-after', content: '7 days' },
-    { name: 'author', content: 'Host2Media' }
+    {
+      name: "title",
+      content: "Host2Media support - Contact us for assistance",
+    },
+    {
+      name: "description",
+      content:
+        "Host2Media support team is here 24/7 for your needs! Feel free to reach out anytime for prompt and dependable support.",
+    },
+    { name: "robots", content: "index, follow" },
+    { "http-equiv": "Content-Type", content: "text/html; charset=utf-8" },
+    { name: "language", content: "English" },
+    { name: "revisit-after", content: "7 days" },
+    { name: "author", content: "Host2Media" },
   ],
   link: [
-    { rel: 'canonical', href: 'https://www.host2media.com/contact-us' },
-    { rel: 'alternate', hreflang: 'x-default', href: 'https://www.host2media.com/contact-us' }
-  ]
+    { rel: "canonical", href: "https://www.host2media.com/contact-us" },
+    {
+      rel: "alternate",
+      hreflang: "x-default",
+      href: "https://www.host2media.com/contact-us",
+    },
+  ],
 });
 
 const contactFormData = ref({
@@ -552,7 +563,7 @@ const submitContactUsForm = async () => {
           events: ${contactFormData.value.events},
         `,
         headers: {
-          'Reply-To': `${contactFormData.value.email}`,
+          "Reply-To": `${contactFormData.value.email}`,
         },
       });
       loading.value = false;

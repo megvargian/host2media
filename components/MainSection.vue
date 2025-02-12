@@ -2,7 +2,7 @@
   <section class="relative">
     <img
       class="w-full h-full -z-1 hidden lg:block pt-[42px]"
-      src="../assets//images/home-bg.png"
+      src="../assets//images/home-bg.svg"
       alt="home-bg"
     />
     <img
