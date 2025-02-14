@@ -10,12 +10,12 @@
                 src="~/assets/images/footer-logo.svg"
                 alt="logo"
               />
-              <p class="text-[0.5rem] font-light Mulish-light mb-2">
+              <p class="text-[0.8rem] font-light Mulish-light mb-2">
                 Host2Media <br />
                 Makdesi 2034 1111 <br />
                 Hamra Beirut 07
               </p>
-              <p class="text-[0.5rem] font-light Mulish-light mb-2 pt-2">
+              <p class="text-[0.8rem] font-light Mulish-light mb-2 pt-2">
                 +961 3 821114 <br />
                 Office Hours: M-F, 9 am-16:30 CET
               </p>
