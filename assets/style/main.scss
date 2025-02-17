@@ -2,373 +2,374 @@
 @tailwind components;
 @tailwind utilities;
 
-
-html{
-    font-family: 'Mulish';
-    color: #0F132A;
-    background: #F9F9F9;
+html {
+  font-family: "Mulish";
+  color: #0f132a;
+  background: #f9f9f9;
 }
-h2{
-  font-family: 'Mulish-ExtraBold';
+h2 {
+  font-family: "Mulish-ExtraBold";
 }
-p{
-  font-family: 'Mulish-light';
+p {
+  font-family: "Mulish-light";
 }
-.Mulish-ExtraBold{
-  font-family: 'Mulish-ExtraBold';
+.Mulish-ExtraBold {
+  font-family: "Mulish-ExtraBold";
 }
-.Mulish-Black{
-  font-family: 'Mulish-Black';
+.Mulish-Black {
+  font-family: "Mulish-Black";
 }
-.Mulish-bold{
-  font-family: 'Mulish-bold';
+.Mulish-bold {
+  font-family: "Mulish-bold";
 }
-.Mulish-light{
-  font-family: 'Mulish-light';
+.Mulish-light {
+  font-family: "Mulish-light";
 }
-.Mulish-SemiBold{
-  font-family: 'Mulish-SemiBold';
+.Mulish-SemiBold {
+  font-family: "Mulish-SemiBold";
 }
-.custom-container{
+.custom-container {
   max-width: 1124px;
   margin: 0 auto;
 }
-.custom-sm-container{
-  max-width : 1100px;
+.custom-sm-container {
+  max-width: 1100px;
   margin: 0 auto;
 }
-.custom-height{
-	height: auto;
+.custom-height {
+  height: auto;
 }
 @media (min-width: 1536px) {
-    .container {
-        max-width: 1300px;
-    }
+  .container {
+    max-width: 1300px;
+  }
 }
-@media(max-width: 1024px){
-	.custom-container{
-		margin: 0 20px;
-	}
-	.custom-sm-container{
-		margin: 0 20px;
-	}
+@media (max-width: 1024px) {
+  .custom-container {
+    margin: 0 20px;
+  }
+  .custom-sm-container {
+    margin: 0 20px;
+  }
 }
-@media(max-width: 805px){
-	// .custom-height{
-	// 	height: 65dvh;
-	// }
+@media (max-width: 805px) {
+  // .custom-height{
+  // 	height: 65dvh;
+  // }
 }
-@media(max-width: 640px){
-	// .custom-height{
-	// 	height: 50dvh;
-	// }
-	.custom-container-mobile{
-		margin: 0 15px;
-	}
+@media (max-width: 640px) {
+  // .custom-height{
+  // 	height: 50dvh;
+  // }
+  .custom-container-mobile {
+    margin: 0 15px;
+  }
 }
-@media(max-width: 557px){
-	// .custom-height{
-	// 	height: 47dvh;
-	// }
+@media (max-width: 557px) {
+  // .custom-height{
+  // 	height: 47dvh;
+  // }
 }
-@media(max-width: 460px){
-	.custom-mobile-position{
-		top: -2%;
-	}
-	// .custom-height{
-	// 	height: 70dvh;
-	// }
-	.custom-margin-bottom{
-		margin-bottom: 10rem;
-	}
+@media (max-width: 460px) {
+  .custom-mobile-position {
+    top: -2%;
+  }
+  // .custom-height{
+  // 	height: 70dvh;
+  // }
+  .custom-margin-bottom {
+    margin-bottom: 10rem;
+  }
 }
-@media(max-width: 440px){
-	.custom-mobile-position{
-		top: -4%;
-	}
-	.custom-margin-bottom{
-		margin-bottom: 8rem;
-	}
-
+@media (max-width: 440px) {
+  .custom-mobile-position {
+    top: -4%;
+  }
+  .custom-margin-bottom {
+    margin-bottom: 8rem;
+  }
 }
-@media(max-width: 430px){
-	// .custom-height{
-	// 	height: 75dvh;
-	// }
+@media (max-width: 430px) {
+  // .custom-height{
+  // 	height: 75dvh;
+  // }
 }
-@media(max-width: 420px){
-	.custom-mobile-position{
-		top: -8%;
-	}
-	.custom-margin-bottom{
-		margin-bottom: 12rem;
-	}
-	// .custom-height{
-	// 	height: 85dvh;
-	// }
+@media (max-width: 420px) {
+  .custom-mobile-position {
+    top: -8%;
+  }
+  .custom-margin-bottom {
+    margin-bottom: 12rem;
+  }
+  // .custom-height{
+  // 	height: 85dvh;
+  // }
 }
-@media(max-width: 400px){
-	.custom-mobile-position{
-		top: -12%;
-	}
-	.custom-margin-bottom{
-		margin-bottom: 15rem;
-	}
+@media (max-width: 400px) {
+  .custom-mobile-position {
+    top: -12%;
+  }
+  .custom-margin-bottom {
+    margin-bottom: 15rem;
+  }
 }
-@media(max-width: 391px){
-	// .custom-height{
-	// 	height: 93dvh;
-	// }
-	.custom-mobile-position{
-		top: -14%;
-	}
-	.custom-margin-bottom{
-		margin-bottom: 17rem;
-	}
+@media (max-width: 391px) {
+  // .custom-height{
+  // 	height: 93dvh;
+  // }
+  .custom-mobile-position {
+    top: -14%;
+  }
+  .custom-margin-bottom {
+    margin-bottom: 17rem;
+  }
 }
-@media(max-width: 321px){
-	.custom-mobile-position{
-		top: -18%;
-	}
-	.custom-margin-bottom{
-		margin-bottom: 19rem;
-	}
-	// .custom-height{
-	// 	height: 90dvh;
-	// }
+@media (max-width: 321px) {
+  .custom-mobile-position {
+    top: -18%;
+  }
+  .custom-margin-bottom {
+    margin-bottom: 19rem;
+  }
+  // .custom-height{
+  // 	height: 90dvh;
+  // }
 }
-.hamburger{
-	padding: 0px!important;
-	position: relative;
-	margin-left: auto !important;
-	opacity: 1 !important;
-	background-color: transparent;
-	border: none;
-	margin-top: 1rem;
+.hamburger {
+  padding: 0px !important;
+  position: relative;
+  margin-left: auto !important;
+  opacity: 1 !important;
+  background-color: transparent;
+  border: none;
+  margin-top: 1rem;
 }
-.hamburger--collapse{
-	display: block;
+.hamburger--collapse {
+  display: block;
 }
-.hamburger_menu_icon{
-	position: relative;
-	width: 25px;
-	z-index: 15;
+.hamburger_menu_icon {
+  position: relative;
+  width: 25px;
+  z-index: 15;
 }
-.hamburger_menu_icon .line{
-	display: block;
-	height: 5px;
-	width: 100%;
-	margin-bottom: 6px !important;
-	position: relative;
-	transform-origin: center;
-	transition: cubic-bezier(0.32, 0.17, 0, 1) .5s;
-	border-radius: 20px;
+.hamburger_menu_icon .line {
+  display: block;
+  height: 5px;
+  width: 100%;
+  margin-bottom: 6px !important;
+  position: relative;
+  transform-origin: center;
+  transition: cubic-bezier(0.32, 0.17, 0, 1) 0.5s;
+  border-radius: 20px;
 }
-.menu_mobile_nav.active .hamburger_menu_icon .line:first-child{
-	transform: rotate(45deg) translate(5.5px, 5.5px);
-	background-color: #f9f9f9;
-	height: 5px;
+.menu_mobile_nav.active .hamburger_menu_icon .line:first-child {
+  transform: rotate(45deg) translate(5.5px, 5.5px);
+  background-color: #f9f9f9;
+  height: 5px;
 }
-.menu_mobile_nav.active .hamburger_menu_icon .middle_line{
-	transform: translateX(200px);
-	background-color: #f9f9f9;
-	height: 5px;
+.menu_mobile_nav.active .hamburger_menu_icon .middle_line {
+  transform: translateX(200px);
+  background-color: #f9f9f9;
+  height: 5px;
 }
-.menu_mobile_nav.active .hamburger_menu_icon .line:last-child{
-	transform: rotate(-45deg) translate(9.5px, -9.5px);
-	background-color: #f9f9f9;
-	height: 5px;
+.menu_mobile_nav.active .hamburger_menu_icon .line:last-child {
+  transform: rotate(-45deg) translate(9.5px, -9.5px);
+  background-color: #f9f9f9;
+  height: 5px;
 }
-.menu_on_mobile{
-	width: 100%;
-	height: 100vh;
-	position: fixed;
-	top: 0px;
-	right: 0px;
-	transform: translateX(100vw);
-	transition: cubic-bezier(0.32, 0.17, 0, 1) 1s;
+.menu_on_mobile {
+  width: 100%;
+  height: 100vh;
+  position: fixed;
+  top: 0px;
+  right: 0px;
+  transform: translateX(100vw);
+  transition: cubic-bezier(0.32, 0.17, 0, 1) 1s;
   // transition: all 2s cubic-bezier(0.5, 0, 0.1, 1);
-	background-color: #5564AD;
-	text-align: right;
-	font-size: 20px;
-	text-align: center;
-	z-index: 10;
-	padding: 0px 30px;
+  background-color: #5564ad;
+  text-align: right;
+  font-size: 20px;
+  text-align: center;
+  z-index: 10;
+  padding: 0px 30px;
 }
 @keyframes slider {
   0% {
-    transform: translate3d(120vw, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg);
+    transform: translate3d(120vw, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg)
+      rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg);
   }
-  20%{
-      transform: translate3d(80vw, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg);
-
+  20% {
+    transform: translate3d(80vw, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg)
+      rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg);
   }
-  40%{
-      transform: translate3d(60vw, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg);
+  40% {
+    transform: translate3d(60vw, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg)
+      rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg);
   }
-  60%{
-      transform: translate3d(40vw, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg);
-
+  60% {
+    transform: translate3d(40vw, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg)
+      rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg);
   }
-  80%{
-      transform: translate3d(20vw, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg);
-
+  80% {
+    transform: translate3d(20vw, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg)
+      rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg);
   }
-  100%{
-      transform: translate3d(0vw, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg);
-
+  100% {
+    transform: translate3d(0vw, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg)
+      rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg);
   }
 }
-.page_font{
-	font-size: 30px;
-	margin-bottom: 10px;
+.page_font {
+  font-size: 30px;
+  margin-bottom: 10px;
 }
-.search_icon{
-	margin-bottom: 15px;
-	padding-bottom: 20px;
-	margin-top: 10px;
+.search_icon {
+  margin-bottom: 15px;
+  padding-bottom: 20px;
+  margin-top: 10px;
 }
-.social_media{
-	font-size: 18px;
-	margin-bottom: 10px;
-	display: inline-block;
+.social_media {
+  font-size: 18px;
+  margin-bottom: 10px;
+  display: inline-block;
 }
-.menu_on_mobile.active{
-	transform: translateX(0%);
-	// transition: cubic-bezier(0.32, 0.17, 0, 1) 1s;
+.menu_on_mobile.active {
+  transform: translateX(0%);
+  // transition: cubic-bezier(0.32, 0.17, 0, 1) 1s;
   transition: all 2s cubic-bezier(0.5, 0, 0.1, 1);
-	position: fixed;
+  position: fixed;
 }
-body.hide_scroll{
-	overflow: hidden !important;
+body.hide_scroll {
+  overflow: hidden !important;
 }
 .loading-spinner {
-	color: #d1d5db;
-	fill: #fff;
+  color: #d1d5db;
+  fill: #fff;
 }
 
 .container-success-response {
-width: 150px;
-margin: 50px auto;
+  width: 150px;
+  margin: 50px auto;
 }
 .svg-success {
-display: inline-block;
-vertical-align: top;
-height: 150px;
-width: 150px;
-opacity: 1;
-overflow: visible;
+  display: inline-block;
+  vertical-align: top;
+  height: 150px;
+  width: 150px;
+  opacity: 1;
+  overflow: visible;
 
-@keyframes success-tick {
-	0% {
-	stroke-dashoffset: 16px;
-	opacity: 1
-	}
+  @keyframes success-tick {
+    0% {
+      stroke-dashoffset: 16px;
+      opacity: 1;
+    }
 
-	100% {
-	stroke-dashoffset: 31px;
-	opacity: 1
-	}
-}
+    100% {
+      stroke-dashoffset: 31px;
+      opacity: 1;
+    }
+  }
 
-@keyframes success-circle-outline {
-	0% {
-	stroke-dashoffset: 72px;
-	opacity: 1
-	}
+  @keyframes success-circle-outline {
+    0% {
+      stroke-dashoffset: 72px;
+      opacity: 1;
+    }
 
-	100% {
-	stroke-dashoffset: 0px;
-	opacity: 1
-	}
-}
+    100% {
+      stroke-dashoffset: 0px;
+      opacity: 1;
+    }
+  }
 
-@keyframes success-circle-fill {
-	0% {
-	opacity: 0;
-	}
+  @keyframes success-circle-fill {
+    0% {
+      opacity: 0;
+    }
 
-	100% {
-	opacity: 1;
-	}
-}
+    100% {
+      opacity: 1;
+    }
+  }
 
-.success-tick {
-	fill: none;
-	stroke-width: 1px;
-	stroke: #ffffff;
-	stroke-dasharray: 15px, 15px;
-	stroke-dashoffset: -14px;
-	animation: success-tick 450ms ease 1400ms forwards;
-	opacity: 0;
-}
+  .success-tick {
+    fill: none;
+    stroke-width: 1px;
+    stroke: #ffffff;
+    stroke-dasharray: 15px, 15px;
+    stroke-dashoffset: -14px;
+    animation: success-tick 450ms ease 1400ms forwards;
+    opacity: 0;
+  }
 
-.success-circle-outline {
-	fill: none;
-	stroke-width: 1px;
-	stroke: #81c038;
-	stroke-dasharray: 72px, 72px;
-	stroke-dashoffset: 72px;
-	animation: success-circle-outline 300ms ease-in-out 800ms forwards;
-	opacity: 0;
-}
+  .success-circle-outline {
+    fill: none;
+    stroke-width: 1px;
+    stroke: #81c038;
+    stroke-dasharray: 72px, 72px;
+    stroke-dashoffset: 72px;
+    animation: success-circle-outline 300ms ease-in-out 800ms forwards;
+    opacity: 0;
+  }
 
-.success-circle-fill {
-	fill: #81c038;
-	stroke: none;
-	opacity: 0;
-	animation: success-circle-fill 300ms ease-out 1100ms forwards;
-}
+  .success-circle-fill {
+    fill: #81c038;
+    stroke: none;
+    opacity: 0;
+    animation: success-circle-fill 300ms ease-out 1100ms forwards;
+  }
 
-.recaptcha-badge {
-  position: fixed;
-  bottom: 10px;
-  right: 10px;
-}
+  .recaptcha-badge {
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+  }
 
-// Can't animate stroke-dashoffset on IE 10 and 11, just show svg instead
-@media screen and (-ms-high-contrast: active), screen and (-ms-high-contrast: none) {
-	.success-tick {
-	stroke-dasharray: 0;
-	stroke-dashoffset: 0;
-	animation: none;
-	opacity: 1;
-	}
+  // Can't animate stroke-dashoffset on IE 10 and 11, just show svg instead
+  @media screen and (-ms-high-contrast: active),
+    screen and (-ms-high-contrast: none) {
+    .success-tick {
+      stroke-dasharray: 0;
+      stroke-dashoffset: 0;
+      animation: none;
+      opacity: 1;
+    }
 
-	.success-circle-outline {
-	stroke-dasharray: 0;
-	stroke-dashoffset: 0;
-	animation: none;
-	opacity: 1;
-	}
+    .success-circle-outline {
+      stroke-dasharray: 0;
+      stroke-dashoffset: 0;
+      animation: none;
+      opacity: 1;
+    }
 
-	.success-circle-fill {
-	animation: none;
-	opacity: 1;
-	}
-}
+    .success-circle-fill {
+      animation: none;
+      opacity: 1;
+    }
+  }
 }
 @font-face {
-  font-family: 'Mulish';
-  src: url('~/assets/fonts/Mulish-Regular.ttf') format('truetype');
+  font-family: "Mulish";
+  src: url("~/assets/fonts/Mulish-Regular.ttf") format("truetype");
 }
 @font-face {
-  font-family: 'Mulish-bold';
-  src: url('~/assets/fonts/Mulish-Bold.ttf') format('truetype');
+  font-family: "Mulish-bold";
+  src: url("~/assets/fonts/Mulish-Bold.ttf") format("truetype");
 }
 @font-face {
-  font-family: 'Mulish-light';
-  src: url('~/assets/fonts/Mulish-Light.ttf') format('truetype');
+  font-family: "Mulish-light";
+  src: url("~/assets/fonts/Mulish-Light.ttf") format("truetype");
 }
 @font-face {
-  font-family: 'Mulish-ExtraBold';
-  src: url('~/assets/fonts/Mulish-ExtraBold.ttf') format('truetype');
+  font-family: "Mulish-ExtraBold";
+  src: url("~/assets/fonts/Mulish-ExtraBold.ttf") format("truetype");
 }
 @font-face {
-  font-family: 'Mulish-Black';
-  src: url('~/assets/fonts/Mulish-Black.ttf') format('truetype');
+  font-family: "Mulish-Black";
+  src: url("~/assets/fonts/Mulish-Black.ttf") format("truetype");
 }
 @font-face {
-  font-family: 'Mulish-SemiBold';
-  src: url('~/assets/fonts/Mulish-SemiBold.ttf') format('truetype');
+  font-family: "Mulish-SemiBold";
+  src: url("~/assets/fonts/Mulish-SemiBold.ttf") format("truetype");
 }
