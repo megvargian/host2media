@@ -121,7 +121,7 @@
   </section>
   <section class="bg-white py-3 w-full">
     <div class="flex justify-center">
-      <p class="Mulish-light text-[0.6rem]">Copyright © 2024, Host2Media,</p>
+      <p class="Mulish-light text-[0.6rem]">Copyright © 2025, Host2Media,</p>
     </div>
   </section>
 </template>
