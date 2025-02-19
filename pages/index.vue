@@ -9,7 +9,7 @@ useHead({
     {
       name: "description",
       content:
-        "Host2Media provides web hosting, domain registration, managed WordPress hosting, business email, and more: 100% uptime guarantee and 24/7 support.",
+        "Host2Media provides reliable web hosting, domain registration, managed WordPress hosting, and business email solutions. Enjoy a 99.9% uptime guarantee and 24/7 expert support.",
     },
     { name: "robots", content: "index, follow" },
     { "http-equiv": "Content-Type", content: "text/html; charset=utf-8" },
