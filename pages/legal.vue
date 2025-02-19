@@ -2,10 +2,10 @@
     <section class="lg:px-16 md:px-16 sm:px-8">
         <div class="container">
             <div class="grid grid-cols-12 py-10">
-                <div class="col-span-3 relative">
+                <div class="lg:col-span-3 col-span-12 relative">
                     <div class="sticky top-0">
-                        <h2 class="uppercase text-left text-[#0F132A] font-black mb-8 Mulish-Black">Legal Argeements</h2>
-                        <ul class="font-bold">
+                        <h2 class="uppercase lg:text-left text-center text-[#0F132A] font-black mb-8 Mulish-Black">Legal Argeements</h2>
+                        <ul class="font-bold lg:text-left text-center lg:mb-0 mb-8">
                             <li @click="changeTabContent(1)" class="cursor-pointer hover:text-[#5564AD] mb-3 text-[#5564AD] text-base">
                                 <p>Terms Of Service</p>
                             </li>
@@ -63,7 +63,7 @@
                         </ul>
                     </div>
                 </div>
-                <div class="col-span-9 text-left text-[#0F132A]">
+                <div class="lg:col-span-9 col-span-12 text-left text-[#0F132A]">
                     <div class="tab-content tab-content-1">
                         <h1 class="text-xl font-black mb-4 Mulish-Black leading-none" >Host2Media Terms of Service</h1>
                         <p class="font-bold mb-4">Effective Date: [12 December 2024]</p>
