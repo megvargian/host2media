@@ -19,6 +19,28 @@
                 +961 3 821114 <br />
                 Office Hours: M-F, 9 am-16:30 CET
               </p>
+              <ul class="mt-3 flex justify-start">
+                <li class="mr-2">
+                  <a target="_blank" href="https://X.com/host2media">
+                    <img class="w-8 h-8" src="~/assets/icons/x.svg" alt="x">
+                  </a>
+                </li>
+                <li class="mr-2">
+                  <a target="_blank" href="https://Facebook.com/host2media">
+                    <img class="w-8 h-8" src="~/assets/icons/fb.svg" alt="facebook">
+                  </a>
+                </li>
+                <li class="mr-2">
+                  <a target="_blank" href="https://Linkedin.com/company/host2media">
+                    <img class="w-8 h-8" src="~/assets/icons/linkedIn.svg" alt="linkedIn">
+                  </a>
+                </li>
+                <li class="mr-2">
+                  <a target="_blank" href="https://Instagram.com/host2media">
+                    <img class="w-8 h-8" src="~/assets/icons/insta.svg" alt="instagram">
+                  </a>
+                </li>
+              </ul>
             </div>
           </div>
           <div class="lg:col-span-3 col-span-6">
