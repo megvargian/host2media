@@ -38,11 +38,11 @@
                 >
                   <a> Host2Media Blog </a>
                 </li>
-                <!-- <li class="sm:text-[0.75rem] sm:leading-4 text-sm font-light mb-2">
-                                    <a>
-                                        Knowladge Base
-                                    </a>
-                                </li> -->
+                <li class="sm:text-[0.75rem] sm:leading-4 text-sm font-light mb-2">
+                    <NuxtLink to="/about-us">
+                      About Us
+                    </NuxtLink>
+                </li>
               </ul>
             </div>
           </div>
@@ -60,26 +60,26 @@
                 >
                   <a> Domain name </a>
                 </li>
-                <li
+                <!-- <li
                   class="sm:text-[0.75rem] sm:leading-4 text-sm font-light mb-2"
                 >
                   <a> VPS </a>
-                </li>
+                </li> -->
                 <li
                   class="sm:text-[0.75rem] sm:leading-4 text-sm font-light mb-2"
                 >
                   <a> Professional Email </a>
                 </li>
-                <li
+                <!-- <li
                   class="sm:text-[0.75rem] sm:leading-4 text-sm font-light mb-2"
                 >
                   <a> Dev Services </a>
-                </li>
-                <li
+                </li> -->
+                <!-- <li
                   class="sm:text-[0.75rem] sm:leading-4 text-sm font-light mb-2"
                 >
                   <a> Reseller & Affiliate Program </a>
-                </li>
+                </li> -->
               </ul>
             </div>
           </div>

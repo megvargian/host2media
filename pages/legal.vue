@@ -68,6 +68,37 @@
                         <h1 class="text-xl font-black mb-4 Mulish-Black leading-none" >Host2Media Terms of Service</h1>
                         <p class="font-bold mb-4">Effective Date: [12 December 2024]</p>
                         <p class="mb-4">Welcome to Host2Media! These Terms of Service ("TOS") govern your access to and use of Host2Media’s services. By using our services, you agree to be bound by these terms. If you do not agree, please discontinue use immediately.</p>
+                        <ul class="list-decimal pl-5">
+                            <li class="marker:font-bold mb-4">
+                                <h3 class="text-basic font-bold mb-4 Mulish-black">Introduction</h3>
+                                <p>This agreement outlines the terms and conditions for using the services provided by Host2Media, including but not limited to web hosting, domain registration, and email hosting. These terms are legally binding and designed to protect both the company and the clients.</p>
+                            </li>
+                            <li class="marker:font-bold mb-4">
+                                <h3 class="text-basic font-bold mb-4 Mulish-black">Definitions and Interpretations</h3>
+                                <ul class="list-disc">
+                                    <li>
+                                        <p>"<strong>Company</strong>" refers to Host2Media, its affiliates, agents, and employees.</p>
+                                    </li>
+                                    <li>
+                                        <p>"<strong>Client/User</strong>" refers to the individual or organization using Host2Media services</p>
+                                    </li>
+                                    <li>
+                                        <p>"<strong>Services</strong>" include web hosting, email hosting, domain management, and other related offerings.</p>
+                                    </li>
+                                    <li>
+                                        <p>"<strong>Content</strong>"  means any files, applications, or data uploaded to Host2Media servers.</p>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="marker:font-bold mb-4">
+                                <h3 class="text-basic font-bold mb-4 Mulish-black">Acceptance of Terms</h3>
+                                <p>By accessing Host2Media services, you acknowledge that you have read, understood, and agreed to these terms. Host2Media reserves the right to modify the TOS at any time. Updated terms will be posted on our website with the revised effective date.</p>
+                            </li>
+                            <li class="marker:font-bold mb-4">
+                                <h3 class="text-basic font-bold mb-4 Mulish-black">Eligibility and User Responsibilities</h3>
+                                <p>Clients must be at least 18 years old or have legal authority to act on behalf of an organization. By registering, you confirm the accuracy of the provided information and agree to keep your account secure.</p>
+                            </li>
+                        </ul>
                     </div>
                     <div class="tab-content tab-content-2 hidden">
                         <h1 class="text-xl font-black mb-4 Mulish-Black leading-none" >Host2Media Terms of Service</h1>
