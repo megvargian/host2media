@@ -64,7 +64,7 @@
                     </div>
                 </div>
                 <div class="lg:col-span-9 col-span-12 text-left text-[#0F132A]">
-                    <div class="tab-content tab-content-1">
+                    <div class="tab-content sm:px-0 px-3 tab-content-1">
                         <h1 class="text-xl font-black mb-4 Mulish-Black leading-none" >Host2Media Terms of Service</h1>
                         <p class="font-bold mb-4">Effective Date: [12 December 2024]</p>
                         <p class="mb-4">Welcome to Host2Media! These Terms of Service ("TOS") govern your access to and use of Host2Media’s services. By using our services, you agree to be bound by these terms. If you do not agree, please discontinue use immediately.</p>
@@ -175,87 +175,87 @@
                             </li>
                         </ul>
                     </div>
-                    <div class="tab-content tab-content-2 hidden">
+                    <div class="tab-content sm:px-0 px-3 tab-content-2 hidden">
                         <h1 class="text-xl font-black mb-4 Mulish-Black leading-none" >Host2Media Terms of Service</h1>
                         <p class="font-bold mb-4">Effective Date: [11 December 2024]</p>
                         <p class="mb-4">Welcome to Host2Media! These Terms of Service ("TOS") govern your access to and use of Host2Media’s services. By using our services, you agree to be bound by these terms. If you do not agree, please discontinue use immediately.</p>
                     </div>
-                    <div class="tab-content tab-content-3 hidden">
+                    <div class="tab-content sm:px-0 px-3 tab-content-3 hidden">
                         <h1 class="text-xl font-black mb-4 Mulish-Black leading-none" >Host2Media Terms of Service</h1>
                         <p class="font-bold mb-4">Effective Date: [14 December 2024]</p>
                         <p class="mb-4">Welcome to Host2Media! These Terms of Service ("TOS") govern your access to and use of Host2Media’s services. By using our services, you agree to be bound by these terms. If you do not agree, please discontinue use immediately.</p>
                     </div>
-                    <div class="tab-content tab-content-4 hidden">
+                    <div class="tab-content sm:px-0 px-3 tab-content-4 hidden">
                         <h1 class="text-xl font-black mb-4 Mulish-Black leading-none" >Host2Media Terms of Service</h1>
                         <p class="font-bold mb-4">Effective Date: [14 December 2024]</p>
                         <p class="mb-4">Welcome to Host2Media! These Terms of Service ("TOS") govern your access to and use of Host2Media’s services. By using our services, you agree to be bound by these terms. If you do not agree, please discontinue use immediately.</p>
                     </div>
-                    <div class="tab-content tab-content-5 hidden">
+                    <div class="tab-content sm:px-0 px-3 tab-content-5 hidden">
                         <h1 class="text-xl font-black mb-4 Mulish-Black leading-none" >Host2Media Terms of Service</h1>
                         <p class="font-bold mb-4">Effective Date: [14 December 2024]</p>
                         <p class="mb-4">Welcome to Host2Media! These Terms of Service ("TOS") govern your access to and use of Host2Media’s services. By using our services, you agree to be bound by these terms. If you do not agree, please discontinue use immediately.</p>
                     </div>
-                    <div class="tab-content tab-content-6 hidden">
+                    <div class="tab-content sm:px-0 px-3 tab-content-6 hidden">
                         <h1 class="text-xl font-black mb-4 Mulish-Black leading-none" >Host2Media Terms of Service</h1>
                         <p class="font-bold mb-4">Effective Date: [14 December 2024]</p>
                         <p class="mb-4">Welcome to Host2Media! These Terms of Service ("TOS") govern your access to and use of Host2Media’s services. By using our services, you agree to be bound by these terms. If you do not agree, please discontinue use immediately.</p>
                     </div>
-                    <div class="tab-content tab-content-7 hidden">
+                    <div class="tab-content sm:px-0 px-3 tab-content-7 hidden">
                         <h1 class="text-xl font-black mb-4 Mulish-Black leading-none" >Host2Media Terms of Service</h1>
                         <p class="font-bold mb-4">Effective Date: [14 December 2024]</p>
                         <p class="mb-4">Welcome to Host2Media! These Terms of Service ("TOS") govern your access to and use of Host2Media’s services. By using our services, you agree to be bound by these terms. If you do not agree, please discontinue use immediately.</p>
                     </div>
-                    <div class="tab-content tab-content-8 hidden">
+                    <div class="tab-content sm:px-0 px-3 tab-content-8 hidden">
                         <h1 class="text-xl font-black mb-4 Mulish-Black leading-none" >Host2Media Terms of Service</h1>
                         <p class="font-bold mb-4">Effective Date: [14 December 2024]</p>
                         <p class="mb-4">Welcome to Host2Media! These Terms of Service ("TOS") govern your access to and use of Host2Media’s services. By using our services, you agree to be bound by these terms. If you do not agree, please discontinue use immediately.</p>
                     </div>
-                    <div class="tab-content tab-content-9 hidden">
+                    <div class="tab-content sm:px-0 px-3 tab-content-9 hidden">
                         <h1 class="text-xl font-black mb-4 Mulish-Black leading-none" >Host2Media Terms of Service</h1>
                         <p class="font-bold mb-4">Effective Date: [14 December 2024]</p>
                         <p class="mb-4">Welcome to Host2Media! These Terms of Service ("TOS") govern your access to and use of Host2Media’s services. By using our services, you agree to be bound by these terms. If you do not agree, please discontinue use immediately.</p>
                     </div>
-                    <div class="tab-content tab-content-10 hidden">
+                    <div class="tab-content sm:px-0 px-3 tab-content-10 hidden">
                         <h1 class="text-xl font-black mb-4 Mulish-Black leading-none" >Host2Media Terms of Service</h1>
                         <p class="font-bold mb-4">Effective Date: [14 December 2024]</p>
                         <p class="mb-4">Welcome to Host2Media! These Terms of Service ("TOS") govern your access to and use of Host2Media’s services. By using our services, you agree to be bound by these terms. If you do not agree, please discontinue use immediately.</p>
                     </div>
-                    <div class="tab-content tab-content-11 hidden">
+                    <div class="tab-content sm:px-0 px-3 tab-content-11 hidden">
                         <h1 class="text-xl font-black mb-4 Mulish-Black leading-none" >Host2Media Terms of Service</h1>
                         <p class="font-bold mb-4">Effective Date: [14 December 2024]</p>
                         <p class="mb-4">Welcome to Host2Media! These Terms of Service ("TOS") govern your access to and use of Host2Media’s services. By using our services, you agree to be bound by these terms. If you do not agree, please discontinue use immediately.</p>
                     </div>
-                    <div class="tab-content tab-content-12 hidden">
+                    <div class="tab-content sm:px-0 px-3 tab-content-12 hidden">
                         <h1 class="text-xl font-black mb-4 Mulish-Black leading-none" >Host2Media Terms of Service</h1>
                         <p class="font-bold mb-4">Effective Date: [14 December 2024]</p>
                         <p class="mb-4">Welcome to Host2Media! These Terms of Service ("TOS") govern your access to and use of Host2Media’s services. By using our services, you agree to be bound by these terms. If you do not agree, please discontinue use immediately.</p>
                     </div>
-                    <div class="tab-content tab-content-13 hidden">
+                    <div class="tab-content sm:px-0 px-3 tab-content-13 hidden">
                         <h1 class="text-xl font-black mb-4 Mulish-Black leading-none" >Host2Media Terms of Service</h1>
                         <p class="font-bold mb-4">Effective Date: [14 December 2024]</p>
                         <p class="mb-4">Welcome to Host2Media! These Terms of Service ("TOS") govern your access to and use of Host2Media’s services. By using our services, you agree to be bound by these terms. If you do not agree, please discontinue use immediately.</p>
                     </div>
-                    <div class="tab-content tab-content-14 hidden">
+                    <div class="tab-content sm:px-0 px-3 tab-content-14 hidden">
                         <h1 class="text-xl font-black mb-4 Mulish-Black leading-none" >Host2Media Terms of Service</h1>
                         <p class="font-bold mb-4">Effective Date: [14 December 2024]</p>
                         <p class="mb-4">Welcome to Host2Media! These Terms of Service ("TOS") govern your access to and use of Host2Media’s services. By using our services, you agree to be bound by these terms. If you do not agree, please discontinue use immediately.</p>
                     </div>
-                    <div class="tab-content tab-content-15 hidden">
+                    <div class="tab-content sm:px-0 px-3 tab-content-15 hidden">
                         <h1 class="text-xl font-black mb-4 Mulish-Black leading-none" >Host2Media Terms of Service</h1>
                         <p class="font-bold mb-4">Effective Date: [14 December 2024]</p>
                         <p class="mb-4">Welcome to Host2Media! These Terms of Service ("TOS") govern your access to and use of Host2Media’s services. By using our services, you agree to be bound by these terms. If you do not agree, please discontinue use immediately.</p>
                     </div>
-                    <div class="tab-content tab-content-16 hidden">
+                    <div class="tab-content sm:px-0 px-3 tab-content-16 hidden">
                         <h1 class="text-xl font-black mb-4 Mulish-Black leading-none" >Host2Media Terms of Service</h1>
                         <p class="font-bold mb-4">Effective Date: [14 December 2024]</p>
                         <p class="mb-4">Welcome to Host2Media! These Terms of Service ("TOS") govern your access to and use of Host2Media’s services. By using our services, you agree to be bound by these terms. If you do not agree, please discontinue use immediately.</p>
                     </div>
-                    <div class="tab-content tab-content-17 hidden">
+                    <div class="tab-content sm:px-0 px-3 tab-content-17 hidden">
                         <h1 class="text-xl font-black mb-4 Mulish-Black leading-none" >Host2Media Terms of Service</h1>
                         <p class="font-bold mb-4">Effective Date: [14 December 2024]</p>
                         <p class="mb-4">Welcome to Host2Media! These Terms of Service ("TOS") govern your access to and use of Host2Media’s services. By using our services, you agree to be bound by these terms. If you do not agree, please discontinue use immediately.</p>
                     </div>
-                    <div class="tab-content tab-content-18 hidden">
+                    <div class="tab-content sm:px-0 px-3 tab-content-18 hidden">
                         <h1 class="text-xl font-black mb-4 Mulish-Black leading-none" >Host2Media Terms of Service</h1>
                         <p class="font-bold mb-4">Effective Date: [14 December 2024]</p>
                         <p class="mb-4">Welcome to Host2Media! These Terms of Service ("TOS") govern your access to and use of Host2Media’s services. By using our services, you agree to be bound by these terms. If you do not agree, please discontinue use immediately.</p>

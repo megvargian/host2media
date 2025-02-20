@@ -49,6 +49,12 @@ Disallow: /
 User-agent: facebookexternalhit  # Facebook, Instagram, WhatsApp
 Allow: /
 
+User-agent: Facebot  # Facebook Bot
+Allow: /
+
+User-agent: FacebookBot  # Facebook's Main Crawler
+Allow: /
+
 User-agent: Twitterbot  # Twitter/X Bot
 Allow: /
 
@@ -56,13 +62,10 @@ User-agent: LinkedInBot  # LinkedIn Preview Bot
 Allow: /
 
 # 🚫 Block Certain Bots
-User-Agent: FacebookBot
+User-agent: Discordbot
 Disallow: *
 
-User-Agent: Discordbot
-Disallow: *
-
-User-Agent: Google-Extended  # Blocks Google's AI content scraping
+User-agent: Google-Extended  # Blocks Google's AI content scraping
 Disallow: *
 
 User-agent: Spinn3r
@@ -117,9 +120,6 @@ Crawl-delay: 2
 
 # ✅ Sitemap Location
 Sitemap: https://www.host2media.com/sitemap.xml
-
-
-
 
 #### Good Night ####
 #       , _ ,      #
