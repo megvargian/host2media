@@ -5,59 +5,59 @@
                 <div class="lg:col-span-3 col-span-12 relative">
                     <div class="sticky top-0">
                         <h2 class="uppercase lg:text-left text-center text-[#0F132A] font-black mb-8 Mulish-Black">Legal Argeements</h2>
-                        <ul class="font-bold lg:text-left text-center lg:mb-0 mb-8">
-                            <li @click="changeTabContent(1)" class="cursor-pointer hover:text-[#5564AD] mb-3 text-[#5564AD] text-base">
+                        <ul class="font-bold lg:text-left text-center lg:pb-0 pb-8">
+                            <li @click="changeTabContent(1)" class="cursor-pointer tab-button tab-button-1 hover:text-[#5564AD] mb-3 text-[#5564AD] text-base">
                                 <p>Terms Of Service</p>
                             </li>
-                            <li @click="changeTabContent(2)" class="cursor-pointer hover:text-[#5564AD] mb-3 text-base ">
+                            <li @click="changeTabContent(2)" class="cursor-pointer tab-button tab-button-2 hover:text-[#5564AD] mb-3 text-base ">
                                 <p>Acceptable Use Policy (AUP)</p>
                             </li>
-                            <li @click="changeTabContent(3)" class="cursor-pointer hover:text-[#5564AD] mb-3 text-base">
+                            <li @click="changeTabContent(3)" class="cursor-pointer tab-button tab-button-3 hover:text-[#5564AD] mb-3 text-base">
                                 <p>Abuse Policy</p>
                             </li>
-                            <li @click="changeTabContent(4)" class="cursor-pointer hover:text-[#5564AD] mb-3 text-base">
+                            <li @click="changeTabContent(4)" class="cursor-pointer tab-button tab-button-4 hover:text-[#5564AD] mb-3 text-base">
                                 <p>Anti-Spam Policy</p>
                             </li>
-                            <li @click="changeTabContent(5)" class="cursor-pointer hover:text-[#5564AD] mb-3 text-base">
+                            <li @click="changeTabContent(5)" class="cursor-pointer tab-button tab-button-5 hover:text-[#5564AD] mb-3 text-base">
                                 <p>Cookie Policy: Understanding Our Use of Cookies</p>
                             </li>
-                            <li @click="changeTabContent(6)" class="cursor-pointer hover:text-[#5564AD] mb-3 text-base">
+                            <li @click="changeTabContent(6)" class="cursor-pointer tab-button tab-button-6 hover:text-[#5564AD] mb-3 text-base">
                                 <p>Collaboration terms</p>
                             </li>
-                            <li @click="changeTabContent(7)" class="cursor-pointer hover:text-[#5564AD] mb-3 text-base">
+                            <li @click="changeTabContent(7)" class="cursor-pointer tab-button tab-button-7 hover:text-[#5564AD] mb-3 text-base">
                                 <p>Copyright Policy (DMCA Compliance)</p>
                             </li>
-                            <li @click="changeTabContent(8)" class="cursor-pointer hover:text-[#5564AD] mb-3 text-base">
+                            <li @click="changeTabContent(8)" class="cursor-pointer tab-button tab-button-8 hover:text-[#5564AD] mb-3 text-base">
                                 <p>Data Retention Policy</p>
                             </li>
-                            <li @click="changeTabContent(9)" class="cursor-pointer hover:text-[#5564AD] mb-3 text-base">
+                            <li @click="changeTabContent(9)" class="cursor-pointer tab-button tab-button-9 hover:text-[#5564AD] mb-3 text-base">
                                 <p>Fair Usage Policy</p>
                             </li>
-                            <li @click="changeTabContent(10)" class="cursor-pointer hover:text-[#5564AD] mb-3 text-base">
+                            <li @click="changeTabContent(10)" class="cursor-pointer tab-button tab-button-10 hover:text-[#5564AD] mb-3 text-base">
                                 <p>Migration Policy</p>
                             </li>
-                            <li @click="changeTabContent(11)" class="cursor-pointer hover:text-[#5564AD] mb-3 text-base">
+                            <li @click="changeTabContent(11)" class="cursor-pointer tab-button tab-button-11 hover:text-[#5564AD] mb-3 text-base">
                                 <p>Payment Policy</p>
                             </li>
-                            <li @click="changeTabContent(12)" class="cursor-pointer hover:text-[#5564AD] mb-3 text-base">
+                            <li @click="changeTabContent(12)" class="cursor-pointer tab-button tab-button-12 hover:text-[#5564AD] mb-3 text-base">
                                 <p>Privacy Policy</p>
                             </li>
-                            <li @click="changeTabContent(13)" class="cursor-pointer hover:text-[#5564AD] mb-3 text-base">
+                            <li @click="changeTabContent(13)" class="cursor-pointer tab-button tab-button-13 hover:text-[#5564AD] mb-3 text-base">
                                 <p>Refund Policy</p>
                             </li>
-                            <li @click="changeTabContent(14)" class="cursor-pointer hover:text-[#5564AD] mb-3 text-base">
+                            <li @click="changeTabContent(14)" class="cursor-pointer tab-button tab-button-14 hover:text-[#5564AD] mb-3 text-base">
                                 <p>Reseller Policy</p>
                             </li>
-                            <li @click="changeTabContent(15)" class="cursor-pointer hover:text-[#5564AD] mb-3 text-base">
+                            <li @click="changeTabContent(15)" class="cursor-pointer tab-button tab-button-15 hover:text-[#5564AD] mb-3 text-base">
                                 <p>Security Policy</p>
                             </li>
-                            <li @click="changeTabContent(16)" class="cursor-pointer hover:text-[#5564AD] mb-3 text-base">
+                            <li @click="changeTabContent(16)" class="cursor-pointer tab-button tab-button-16 hover:text-[#5564AD] mb-3 text-base">
                                 <p>Service Level Agreement (SLA)</p>
                             </li>
-                            <li @click="changeTabContent(17)" class="cursor-pointer hover:text-[#5564AD] mb-3 text-base">
+                            <li @click="changeTabContent(17)" class="cursor-pointer tab-button tab-button-17 hover:text-[#5564AD] mb-3 text-base">
                                 <p>Support Policy</p>
                             </li>
-                            <li @click="changeTabContent(18)" class="cursor-pointer hover:text-[#5564AD] mb-3 text-base">
+                            <li @click="changeTabContent(18)" class="cursor-pointer tab-button tab-button-18 hover:text-[#5564AD] mb-3 text-base">
                                 <p>Termination Policy</p>
                             </li>
                         </ul>
@@ -173,6 +173,141 @@
                                 <h3 class="text-basic font-bold mb-4 Mulish-black">User-Generated Content and Responsibilities</h3>
                                 <p>Clients are responsible for all content uploaded to their accounts. Host2Media is not liable for copyright violations or other issues resulting from hosted content.</p>
                             </li>
+                            <h2 class="font-black Mulish-Black text-base mb-4" >Privacy and Security</h2>
+                            <li class="marker:font-bold mb-4">
+                                <h3 class="text-basic font-bold mb-4 Mulish-black">Privacy Policy Reference</h3>
+                                <p>Host2Media’s Privacy Policy explains how personal data is collected, stored, and processed. By using our services, you agree to the terms outlined in the Privacy Policy.</p>
+                            </li>
+                            <li class="marker:font-bold mb-4">
+                                <h3 class="text-basic font-bold mb-4 Mulish-black"> Data Protection and Security Measures</h3>
+                                <p>Host2Media employs encryption, firewalls, and monitoring to protect client data. Clients are responsible for using strong passwords and keeping software updated.</p>
+                            </li>
+                            <li class="marker:font-bold mb-4">
+                                <h3 class="text-basic font-bold mb-4 Mulish-black">Data Retention Policy</h3>
+                                <p>Data is retained for a limited period after account termination, as specified in the Data Retention Policy. Backups are the client’s responsibility.</p>
+                            </li>
+                            <li class="marker:font-bold mb-4">
+                                <h3 class="text-basic font-bold mb-4 Mulish-black">Anti-Spam Policy</h3>
+                                <p>Sending unsolicited communications or spam is strictly prohibited. Violations may result in suspension or termination of services.</p>
+                            </li>
+                            <li class="marker:font-bold mb-4">
+                                <h3 class="text-basic font-bold mb-4 Mulish-black">Malware and Virus Prevention</h3>
+                                <p>Clients must ensure their accounts are free from malware and vulnerabilities. Host2Media reserves the right to suspend accounts spreading harmful content.</p>
+                            </li>
+                            <h2 class="font-black Mulish-Black text-base mb-4" >Termination and Disputes</h2>
+                            <li class="marker:font-bold mb-4">
+                                <h3 class="text-basic font-bold mb-4 Mulish-black">Account Termination and Suspension</h3>
+                                <p>Host2Media may suspend or terminate accounts for violations of these terms. Clients may request termination by contacting support or through their dashboard.</p>
+                            </li>
+                            <li class="marker:font-bold mb-4">
+                                <h3 class="text-basic font-bold mb-4 Mulish-black">Reseller Terms and Client Impact</h3>
+                                <p>If a reseller terminates their account, all associated client accounts may become Host2Media direct clients, as outlined in the Reseller Policy.</p>
+                            </li>
+                            <li class="marker:font-bold mb-4">
+                                <h3 class="text-basic font-bold mb-4 Mulish-black">Dispute Resolution and Arbitration</h3>
+                                <p>Disputes arising from these terms will be resolved through arbitration in accordance with applicable laws.</p>
+                            </li>
+                            <li class="marker:font-bold mb-4">
+                                <h3 class="text-basic font-bold mb-4 Mulish-black">Governing Law and Jurisdiction</h3>
+                                <p>These terms are governed by the laws of Lebanon. Disputes will be resolved in Lebanese courts.
+                                    <br>Liability and Disclaimers</p>
+                            </li>
+                            <li class="marker:font-bold mb-4">
+                                <h3 class="text-basic font-bold mb-4 Mulish-black">Limitation of Liability</h3>
+                                <p>Host2Media is not liable for damages resulting from service interruptions, data loss, or unauthorized access.</p>
+                            </li>
+                            <li class="marker:font-bold mb-4">
+                                <h3 class="text-basic font-bold mb-4 Mulish-black">Indemnification by Users</h3>
+                                <p>Clients agree to indemnify Host2Media against claims arising from their use of the services.</p>
+                            </li>
+                            <li class="marker:font-bold mb-4">
+                                <h3 class="text-basic font-bold mb-4 Mulish-black">Disclaimer of Warranties</h3>
+                                <p>Host2Media provides services "as is" without warranties of any kind, including implied warranties of merchantability or fitness for a particular purpose.</p>
+                            </li>
+                            <li class="marker:font-bold mb-4">
+                                <h3 class="text-basic font-bold mb-4 Mulish-black">Force Majeure Clause</h3>
+                                <p>Host2Media is not responsible for service interruptions caused by events beyond its control, such as natural disasters or internet outages.</p>
+                            </li>
+                            <h2 class="font-black Mulish-Black text-base mb-4" >Support and Maintenance</h2>
+                            <li class="marker:font-bold mb-4">
+                                <h3 class="text-basic font-bold mb-4 Mulish-black">Technical Support Policy</h3>
+                                <p>Support is provided as outlined in the Support Policy. Host2Media is not responsible for third-party applications or custom code issues.</p>
+                            </li>
+                            <li class="marker:font-bold mb-4">
+                                <h3 class="text-basic font-bold mb-4 Mulish-black">Scheduled Maintenance and Downtime</h3>
+                                <p>Maintenance periods will be announced in advance. Clients are encouraged to plan accordingly to avoid disruptions.</p>
+                            </li>
+                            <li class="marker:font-bold mb-4">
+                                <h3 class="text-basic font-bold mb-4 Mulish-black">Emergency Support and After-Hours Assistance</h3>
+                                <p>Emergency support is available for critical issues, such as server downtime. Fees may apply for after-hours assistance.</p>
+                            </li>
+                            <h2 class="font-black Mulish-Black text-base mb-4" >Miscellaneous</h2>
+                            <li class="marker:font-bold mb-4">
+                                <h3 class="text-basic font-bold mb-4 Mulish-black">Amendments to the TOS</h3>
+                                <p>Host2Media may update these terms at any time. Clients will be notified of significant changes via email or website announcements.
+                                </p>
+                            </li>
+                            <li class="marker:font-bold mb-4">
+                                <h3 class="text-basic font-bold mb-4 Mulish-black">Notices and Communications</h3>
+                                <p>Notices will be sent to the email address associated with the client’s account.</p>
+                            </li>
+                            <li class="marker:font-bold mb-4">
+                                <h3 class="text-basic font-bold mb-4 Mulish-black">Entire Agreement Clause</h3>
+                                <p>These terms constitute the entire agreement between the client and Host2Media, superseding any prior agreements.</p>
+                            </li>
+                            <li class="marker:font-bold mb-4">
+                                <h3 class="text-basic font-bold mb-4 Mulish-black">Severability Clause</h3>
+                                <p>If any provision of these terms is found to be invalid, the remaining provisions will remain in effect.</p>
+                            </li>
+                            <li class="marker:font-bold mb-4">
+                                <h3 class="text-basic font-bold mb-4 Mulish-black">HIPAA Disclaimer</h3>
+                                <p class="mb-4">Host2Media does not provide services that comply with the Health Insurance Portability and Accountability Act (HIPAA). Our hosting environment is not designed to process, store, or transmit electronic protected health information (ePHI) in a manner that meets HIPAA standards.
+                                    By using Host2Media services, you acknowledge and agree that:</p>
+                                <ul class="list-decimal mb-4 font-bold pl-4">
+                                    <li>
+                                        <p>Host2Media is not HIPAA compliant.</p>
+                                    </li>
+                                    <li>
+                                        <p>You are solely responsible for ensuring that your use of our services complies with all applicable data protection regulations, including HIPAA, if relevant.</p>
+                                    </li>
+                                    <li>
+                                        <p>Hosting or transmitting ePHI on Host2Media servers is strictly prohibited.</p>
+                                    </li>
+                                </ul>
+                                <p>If you require a HIPAA-compliant hosting environment, you must use a service specifically certified for HIPAA compliance. Host2Media disclaims all liability for any claims or damages arising from your failure to comply with HIPAA regulations.</p>
+                            </li>
+                            <li class="marker:font-bold mb-4">
+                                <h3 class="text-basic font-bold mb-4 Mulish-black">Excessive Server Resources</h3>
+                                <p class="mb-4">Clients are required to use server resources responsibly and within the limitations of their hosting plan. Excessive usage, including but not limited to high CPU, memory, or disk I/O consumption, may adversely impact other clients sharing the server.
+                                    <br>Host2Media’s Actions for Excessive Resource Usage:</p>
+                                <ul class="list-decimal mb-4 font-bold pl-4">
+                                    <li>
+                                        <p>Notification: Clients will be notified if their usage exceeds acceptable limits.</p>
+                                    </li>
+                                    <li>
+                                        <p>Temporary Suspension: Services may be temporarily suspended until the issue is resolved.</p>
+                                    </li>
+                                    <li>
+                                        <p>Upgrades: Clients may be required to upgrade to a higher-tier plan to accommodate their usage.</p>
+                                    </li>
+                                    <li>
+                                        <p>Account Termination: Repeated violations may result in permanent termination of the account.</p>
+                                    </li>
+                                </ul>
+                                <p class="mb-4 font-bold">Excessive resource usage includes but is not limited to:</p>
+                                <ul class="list-disc mb-4 font-bold pl-4">
+                                    <li>
+                                        <p>Running resource-heavy applications continuously.</p>
+                                    </li>
+                                    <li>
+                                        <p>Hosting large file repositories.</p>
+                                    </li>
+                                    <li>
+                                        <p>Unoptimized or poorly coded scripts that degrade server performance.</p>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li></li>
                         </ul>
                     </div>
                     <div class="tab-content sm:px-0 px-3 tab-content-2 hidden">
@@ -271,6 +406,12 @@ const changeTabContent = (n: number) => {
     for (let i = 0; i < allTabContent.length; i++) {
         allTabContent[i].classList.add('hidden');
     }
+    const allTabButtons = document.querySelectorAll('.tab-button');
+    for (let i = 0; i < allTabButtons.length; i++) {
+        allTabButtons[i].classList.remove('text-[#5564AD]');
+    }
+    const currentButton = document.querySelector('.tab-button-' + n) as HTMLElement;
+    currentButton.classList.add('text-[#5564AD]');
     const tagetContent = document.querySelector('.tab-content-' + n) as HTMLElement;
     tagetContent.classList.remove('hidden');
 }
