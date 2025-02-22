@@ -139,11 +139,10 @@
                 >{{ response }}
                 <span
                   class="font-bold"
-                  :class="
-                    isAvailibleMsg === 'available'
+                  :class="isAvailibleMsg === 'available'
                       ? 'text-green-600'
                       : 'text-red-800'
-                  "
+                    "
                   >{{ isAvailibleMsg }}</span
                 ></span
               >
@@ -175,7 +174,7 @@
             >
               <div>
                 <h2
-                  class="leading-tight lg:text-5xl md:text-4xl sm:text-[36px] text-[25px] lg:text-left text-center text-[#0F132A] font-black"
+                  class="Mulish-Black leading-tight lg:text-5xl md:text-4xl sm:text-[36px] text-[25px] lg:text-left text-center text-[#0F132A] font-black"
                 >
                   Host2Media <br class="sm:flex hidden" />
                   contributes to <br class="sm:flex hidden" />

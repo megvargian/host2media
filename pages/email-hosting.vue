@@ -161,7 +161,7 @@
                 </p>
                 <p class="text-base font-black pb-3">Starting at</p>
                 <p class="text-3xl font-black pb-5 Mulish-Black">
-                  {{ isMonthly ? "$20.83/mo" : "$4.5/mo" }}
+                  {{ isMonthly ? "$6.5/mo" : "$4.5/mo" }}
                 </p>
                 <div class="pt-6 pb-16">
                   <p class="mb-3">
@@ -224,7 +224,7 @@
                 </p>
                 <p class="text-base font-black pb-3">Starting at</p>
                 <p class="text-3xl font-black pb-5 Mulish-Black">
-                  {{ isMonthly ? "$40.99/mo" : "$5.5/mo" }}
+                  {{ isMonthly ? "$7.5/mo" : "$5.5/mo" }}
                 </p>
                 <div class="pt-6 pb-16">
                   <p class="mb-3">
@@ -293,7 +293,7 @@
                   </p>
                   <p class="text-base font-black pb-3">Starting at</p>
                   <p class="text-3xl font-black pb-5 Mulish-Black">
-                    {{ isMonthly ? "$20.83/mo" : "$4.5/mo" }}
+                    {{ isMonthly ? "$6.5/mo" : "$4.5/mo" }}
                   </p>
                   <div class="pt-6 pb-16">
                     <p class="mb-3">
@@ -372,7 +372,7 @@
                 </p>
                 <p class="text-base font-black pb-3">Starting at</p>
                 <p class="text-3xl font-black pb-5 Mulish-Black">
-                  {{ isMonthly ? "$40.99/mo" : "$5.5/mo" }}
+                  {{ isMonthly ? "$7.5/mo" : "$5.5/mo" }}
                 </p>
                 <div class="pt-6 pb-16">
                   <p class="mb-3">
@@ -1139,22 +1139,22 @@ import { Swiper, SwiperSlide } from "swiper/vue";
 const swiperRef = ref(null);
 const isMonthly = ref(false);
 function onSwiperReady(swiperInstance: any) {
-    swiperRef.value = swiperInstance;
+  swiperRef.value = swiperInstance;
 }
 const goToNextSlide = () => {
-    swiperRef.value?.slideNext();
+  swiperRef.value?.slideNext();
 };
 const switchPlan = (plan: string) => {
-    if (plan === "monthly") {
-        isMonthly.value = true;
-    } else {
-        isMonthly.value = false;
-    }
+  if (plan === "monthly") {
+    isMonthly.value = true;
+  } else {
+    isMonthly.value = false;
+  }
 };
 const toggleAccordion = (id: Number) => {
-    const content = document.getElementById(`content-${id}`);
-    const icon = document.getElementById(`icon-${id}`);
-    content?.classList.toggle("hidden");
-    icon?.classList.toggle("rotate-180");
+  const content = document.getElementById(`content-${id}`);
+  const icon = document.getElementById(`icon-${id}`);
+  content?.classList.toggle("hidden");
+  icon?.classList.toggle("rotate-180");
 };
 </script>

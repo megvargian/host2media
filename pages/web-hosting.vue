@@ -24,7 +24,7 @@
               >
                 <div>
                   <h2
-                    class="leading-tight lg:text-5xl md:text-4xl sm:text-[36px] text-[25px] lg:text-left text-center text-[#0F132A] font-black"
+                    class="Mulish-Black leading-tight lg:text-5xl md:text-4xl sm:text-[36px] text-[25px] lg:text-left text-center text-[#0F132A] font-black"
                   >
                     Host2Media <br class="sm:flex hidden" />
                     contributes to <br class="sm:flex hidden" />
@@ -1189,22 +1189,22 @@ import { Swiper, SwiperSlide } from "swiper/vue";
 const swiperRef = ref(null);
 const isMonthly = ref(false);
 function onSwiperReady(swiperInstance: any) {
-    swiperRef.value = swiperInstance;
+  swiperRef.value = swiperInstance;
 }
 const goToNextSlide = () => {
-    swiperRef.value?.slideNext();
+  swiperRef.value?.slideNext();
 };
 const switchPlan = (plan: string) => {
-    if (plan === "monthly") {
-        isMonthly.value = true;
-    } else {
-        isMonthly.value = false;
-    }
+  if (plan === "monthly") {
+    isMonthly.value = true;
+  } else {
+    isMonthly.value = false;
+  }
 };
 const toggleAccordion = (id: Number) => {
-    const content = document.getElementById(`content-${id}`);
-    const icon = document.getElementById(`icon-${id}`);
-    content?.classList.toggle("hidden");
-    icon?.classList.toggle("rotate-180");
+  const content = document.getElementById(`content-${id}`);
+  const icon = document.getElementById(`icon-${id}`);
+  content?.classList.toggle("hidden");
+  icon?.classList.toggle("rotate-180");
 };
 </script>
