@@ -3,7 +3,7 @@
     <section class="bg-[#210863] py-16 pb-64 md:pt-16 sm:pt-10 pt-5">
       <div class="lg:container sm:mx-auto mx-5">
         <h3
-          class="text-center text-white leading-tight sm:text-4xl md:lg:text-5xl md:text-4xl sm:text-[36px] text-[36px] font-bold"
+          class="Mulish-Black text-center text-white leading-tight sm:text-4xl md:lg:text-5xl md:text-4xl sm:text-[36px] text-[36px] font-bold"
         >
           Professional Email For Every Solution
         </h3>
