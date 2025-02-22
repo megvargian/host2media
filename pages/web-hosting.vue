@@ -14,7 +14,7 @@
     </section>
     <section class="md:pt-[30rem] pt-[30rem] z-1">
       <div
-        class="custom-container mx-auto z-2 absolute left-0 lg:bottom-[5%] md:bottom-[-25%] sm:bottom-[-30%] bottom-[-20%] right-0 bg-white rounded-[50px] mx-10"
+        class="custom-container mx-auto z-2 absolute left-0 lg:bottom-[5%] md:bottom-[-25%] sm:bottom-[-30%] bottom-[-20%] custom-mobile-position-web-hosting right-0 bg-white rounded-[50px] mx-10"
       >
         <div class="px-10 flex justify-center items-center">
           <div class="rounded-[50px] pt-10">
