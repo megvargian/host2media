@@ -67,6 +67,9 @@ p {
   .custom-mobile-position-email-hosting {
     bottom: 0%;
   }
+  .custom-translate-position {
+    transform: translateY(-7%);
+  }
 }
 @media (max-width: 557px) {
   // .custom-height{
@@ -105,6 +108,9 @@ p {
   // .custom-height{
   // 	height: 75dvh;
   // }
+  .custom-translate-position {
+    transform: translateY(-5%);
+  }
 }
 @media (max-width: 420px) {
   .custom-mobile-position {
