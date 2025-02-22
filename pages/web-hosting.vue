@@ -37,7 +37,7 @@
                     Host2Media to benefit from our fast hosting and top-notch
                     support.
                   </p>
-                  <div class="flex justify-center items-center">
+                  <div class="flex justify-start items-center ml-4">
                     <button
                       class="rounded-[10px] bg-[#5564AD] text-white text-sm font-bold py-4 px-8 Mulish-ExtraBold"
                     >

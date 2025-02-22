@@ -573,7 +573,7 @@
         </div>
       </div>
     </section>
-    <section class="lg:pb-16 block mt-16">
+    <section class="block mt-16">
       <div class="custom-container mx-auto bg-white rounded-[50px] sm:translate-y-[-8%] translate-y-[-10%] custom-translate-position">
         <div class="px-16">
           <div class="rounded-[50px] bg-white pt-16">
