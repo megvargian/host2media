@@ -2,9 +2,9 @@
   <div
     class="w-full"
     :class="typeof route.name === 'string' &&
-        (route.name.includes('contact-us') || currentRoute.name === 'index')
-        ? `absolute left-0 right-0 z-10`
-        : ''
+      (route.name.includes('contact-us') || currentRoute.name === 'index')
+      ? `absolute left-0 right-0 z-10`
+      : ''
       "
   >
     <header>
@@ -12,10 +12,11 @@
         <div
           class="w-full py-3 bg-[#210863]"
           :class="typeof route.name === 'string' &&
-              (route.name.includes('domain') ||
-                route.name.includes('web-hosting'))
-              ? `bg-[#5564AD]`
-              : 'bg-[#210863]'
+            (route.name.includes('domain') ||
+              route.name.includes('web-hosting') ||
+              route.name.includes('email-hosting'))
+            ? `bg-[#5564AD]`
+            : 'bg-[#210863]'
             "
         >
           <div class="grid grid-cols-12 gap-5">
@@ -51,9 +52,9 @@
       <nav
         class="py-5 flex flex-row justify-start items-center lg:px-16 md:px-16 sm:px-8"
         :class="typeof route.name === 'string' &&
-            (route.name.includes('domain') || route.name.includes('web-hosting'))
-            ? 'bg-[#210863]'
-            : ''
+          (route.name.includes('domain') || route.name.includes('web-hosting') || route.name.includes('email-hosting'))
+          ? 'bg-[#210863]'
+          : ''
           "
       >
         <NuxtLink to="/">
@@ -65,12 +66,13 @@
         <ul
           class="basic-2/4 lg:flex hidden font-medium text-sm xl:text-lg pl-8"
           :class="typeof route.name === 'string' &&
-              (route.name.includes('contact-us') ||
-                route.name.includes('domains') ||
-                route.name.includes('web-hosting') ||
-                currentRoute.name === 'index')
-              ? 'text-white'
-              : 'text-[#0F132A]'
+            (route.name.includes('contact-us') ||
+              route.name.includes('domains') ||
+              route.name.includes('web-hosting') ||
+              route.name.includes('email-hosting') ||
+              currentRoute.name === 'index')
+            ? 'text-white'
+            : 'text-[#0F132A]'
             "
         >
           <li class="mx-2">
@@ -80,14 +82,8 @@
             <NuxtLink class="" to="web-hosting"> Website Hosting </NuxtLink>
           </li>
           <li class="mx-2">
-            <a class="" href="#"> Professional Email </a>
+            <NuxtLink class="" to="email-hosting"> Professional Email </NuxtLink>
           </li>
-          <!-- <li class="mx-2">
-            <a class="" href="#"> Reseller Program </a>
-          </li>
-          <li class="mx-2">
-            <a class="" href="#"> Dev Serices </a>
-          </li> -->
           <li class="mx-2">
             <NuxtLink class="" to="contact-us"> Contact us </NuxtLink>
           </li>
@@ -101,31 +97,34 @@
               <div
                 class="line"
                 :class="typeof route.name === 'string' &&
-                    (route.name.includes('contact-us') ||
-                      currentRoute.name === 'index' ||
-                      route.name.includes('web-hosting'))
-                    ? 'bg-[#F9F9F9]'
-                    : 'bg-[#210863]'
+                  (route.name.includes('contact-us') ||
+                    currentRoute.name === 'index' ||
+                    route.name.includes('web-hosting') ||
+                    route.name.includes('email-hosting'))
+                  ? 'bg-[#F9F9F9]'
+                  : 'bg-[#210863]'
                   "
               ></div>
               <div
                 class="line middle_line"
                 :class="typeof route.name === 'string' &&
-                    (route.name.includes('contact-us') ||
-                      currentRoute.name === 'index' ||
-                      route.name.includes('web-hosting'))
-                    ? 'bg-[#F9F9F9]'
-                    : 'bg-[#210863]'
+                  (route.name.includes('contact-us') ||
+                    currentRoute.name === 'index' ||
+                    route.name.includes('web-hosting') ||
+                    route.name.includes('email-hosting'))
+                  ? 'bg-[#F9F9F9]'
+                  : 'bg-[#210863]'
                   "
               ></div>
               <div
                 class="line"
                 :class="typeof route.name === 'string' &&
-                    (route.name.includes('contact-us') ||
-                      currentRoute.name === 'index' ||
-                      route.name.includes('web-hosting'))
-                    ? 'bg-[#F9F9F9]'
-                    : 'bg-[#210863]'
+                  (route.name.includes('contact-us') ||
+                    currentRoute.name === 'index' ||
+                    route.name.includes('web-hosting') ||
+                    route.name.includes('email-hosting'))
+                  ? 'bg-[#F9F9F9]'
+                  : 'bg-[#210863]'
                   "
               ></div>
             </div>
@@ -160,15 +159,10 @@
                   >
                     <div class="menu_item text-white">Website Hosting</div>
                   </a>
-                  <a class="block my-3 page_font animated_menu_el" href="#">
+                  <a class="block my-3 page_font animated_menu_el"
+                    @click="deactivateHamburgerButton('email-hosting')">
                     <div class="menu_item text-white">Professional Email</div>
                   </a>
-                  <!-- <a class="block my-3 page_font animated_menu_el" href="#">
-                    <div class="menu_item text-white">Reseller Program</div>
-                  </a>
-                  <a class="block my-3 page_font animated_menu_el" href="#">
-                    <div class="menu_item text-white">Dev Serices</div>
-                  </a> -->
                   <a
                     class="block my-3 page_font animated_menu_el"
                     @click="deactivateHamburgerButton('/contact-us')"
