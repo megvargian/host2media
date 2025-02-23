@@ -84,7 +84,7 @@ p {
     top: -2%;
   }
   .custom-mobile-position-web-hosting {
-    bottom: -20%;
+    bottom: -10%;
   }
   .custom-mobile-position-email-hosting {
     bottom: -20%;
@@ -117,7 +117,7 @@ p {
     top: -8%;
   }
   .custom-mobile-position-web-hosting {
-    bottom: -30%;
+    bottom: -20%;
   }
   .custom-mobile-position-email-hosting {
     bottom: -20%;
@@ -151,13 +151,18 @@ p {
     top: -14%;
   }
   .custom-mobile-position-web-hosting {
-    bottom: -42%;
+    bottom: -25%;
   }
   .custom-mobile-position-email-hosting {
-    bottom: -32%;
+    bottom: -17%;
   }
   .custom-margin-bottom {
     margin-bottom: 17rem;
+  }
+}
+@media (max-width: 375px) {
+  .custom-mobile-position-web-hosting {
+    bottom: -35%;
   }
 }
 @media (max-width: 321px) {

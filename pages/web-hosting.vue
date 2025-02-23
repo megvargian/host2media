@@ -12,9 +12,9 @@
         </p>
       </div>
     </section>
-    <section class="md:pt-[30rem] pt-[30rem] z-1">
+    <section class="md:pt-[30rem] pt-[35rem] z-1">
       <div
-        class="custom-container mx-auto z-2 absolute left-0 lg:bottom-[5%] md:bottom-[-25%] sm:bottom-[-30%] bottom-[-20%] custom-mobile-position-web-hosting right-0 bg-white rounded-[50px] mx-10"
+        class="custom-container mx-auto z-2 absolute left-0 lg:bottom-[5%] md:bottom-[-25%] sm:bottom-[-20%] bottom-[0%] custom-mobile-position-web-hosting right-0 bg-white rounded-[50px] mx-10"
       >
         <div class="px-10 flex justify-center items-center">
           <div class="rounded-[50px] pt-10">
@@ -37,7 +37,7 @@
                     Host2Media to benefit from our fast hosting and top-notch
                     support.
                   </p>
-                  <div class="flex justify-start items-center ml-4">
+                  <div class="flex lg:justify-start justify-center items-center ml-4">
                     <button
                       class="rounded-[10px] bg-[#5564AD] text-white text-sm font-bold py-4 px-8 Mulish-ExtraBold"
                     >
