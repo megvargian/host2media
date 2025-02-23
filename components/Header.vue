@@ -102,6 +102,7 @@
                     currentRoute.name === 'index' ||
                     route.name.includes('web-hosting') ||
                     route.name.includes('email-hosting') ||
+                    route.name.includes('domains') ||
                     route.name.includes('login'))
                   ? 'bg-[#F9F9F9]'
                   : 'bg-[#210863]'
@@ -114,6 +115,7 @@
                     currentRoute.name === 'index' ||
                     route.name.includes('web-hosting') ||
                     route.name.includes('email-hosting') ||
+                    route.name.includes('domains') ||
                     route.name.includes('login'))
                   ? 'bg-[#F9F9F9]'
                   : 'bg-[#210863]'
@@ -126,6 +128,7 @@
                     currentRoute.name === 'index' ||
                     route.name.includes('web-hosting') ||
                     route.name.includes('email-hosting') ||
+                    route.name.includes('domains') ||
                     route.name.includes('login'))
                   ? 'bg-[#F9F9F9]'
                   : 'bg-[#210863]'
