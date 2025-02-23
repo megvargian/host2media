@@ -54,7 +54,7 @@
         :class="typeof route.name === 'string' &&
           (route.name.includes('domain') || route.name.includes('web-hosting') || route.name.includes('email-hosting'))
           ? 'bg-[#210863]'
-          : ''
+          : typeof route.name === 'string' && route.name.includes('login') ? 'bg-[#0F132A]' : ''
           "
       >
         <NuxtLink to="/">
@@ -70,6 +70,7 @@
               route.name.includes('domains') ||
               route.name.includes('web-hosting') ||
               route.name.includes('email-hosting') ||
+              route.name.includes('login') ||
               currentRoute.name === 'index')
             ? 'text-white'
             : 'text-[#0F132A]'
@@ -100,7 +101,8 @@
                   (route.name.includes('contact-us') ||
                     currentRoute.name === 'index' ||
                     route.name.includes('web-hosting') ||
-                    route.name.includes('email-hosting'))
+                    route.name.includes('email-hosting') ||
+                    route.name.includes('login'))
                   ? 'bg-[#F9F9F9]'
                   : 'bg-[#210863]'
                   "
@@ -111,7 +113,8 @@
                   (route.name.includes('contact-us') ||
                     currentRoute.name === 'index' ||
                     route.name.includes('web-hosting') ||
-                    route.name.includes('email-hosting'))
+                    route.name.includes('email-hosting') ||
+                    route.name.includes('login'))
                   ? 'bg-[#F9F9F9]'
                   : 'bg-[#210863]'
                   "
@@ -122,7 +125,8 @@
                   (route.name.includes('contact-us') ||
                     currentRoute.name === 'index' ||
                     route.name.includes('web-hosting') ||
-                    route.name.includes('email-hosting'))
+                    route.name.includes('email-hosting') ||
+                    route.name.includes('login'))
                   ? 'bg-[#F9F9F9]'
                   : 'bg-[#210863]'
                   "

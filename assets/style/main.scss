@@ -385,6 +385,23 @@ body.hide_scroll {
     }
   }
 }
+
+.custom-height-login {
+  height: calc(100dvh - 476px);
+  .main-section {
+    min-width: 22rem;
+  }
+}
+
+@media (max-width: 1024px) {
+  .custom-height-login {
+    height: auto;
+    .main-section {
+      min-width: auto;
+    }
+  }
+}
+
 @font-face {
   font-family: "Mulish";
   src: url("~/assets/fonts/Mulish-Regular.ttf") format("truetype");
