@@ -307,7 +307,172 @@
                                     </li>
                                 </ul>
                             </li>
-                            <li></li>
+                            <li class="marker:font-bold mb-4">
+                                <h3 class="text-basic font-bold mb-4 Mulish-black">LIMITATION OF LIABILITY</h3>
+                                <p class="mb-4 font-bold">
+                                    TO THE FULLEST EXTENT PERMITTED BY APPLICABLE LAW, HOST2MEDIA, ITS EMPLOYEES, AGENTS, AND AFFILIATES SHALL NOT BE LIABLE FOR ANY INDIRECT, INCIDENTAL, SPECIAL, CONSEQUENTIAL, OR PUNITIVE DAMAGES, INCLUDING BUT NOT LIMITED TO LOSS OF PROFITS, REVENUE, DATA, OR BUSINESS OPPORTUNITIES, ARISING OUT OF OR IN CONNECTION WITH YOUR USE OF THE SERVICES.
+                                </p>
+                                <p class="mb-4 font-bold">HOST2MEDIA’S TOTAL LIABILITY SHALL NOT EXCEED THE TOTAL AMOUNT PAID BY THE CLIENT FOR THE SERVICES DURING THE THREE (3) MONTHS IMMEDIATELY PRECEDING THE CLAIM. <br>
+                                    BY USING HOST2MEDIA SERVICES, YOU ACKNOWLEDGE THAT THIS LIMITATION OF LIABILITY IS AN ESSENTIAL PART OF THE AGREEMENT</p>
+                            </li>
+                            <li class="marker:font-bold mb-4">
+                                <h3 class="text-basic font-bold mb-4 Mulish-black"> LIMITED WARRANTY</h3>
+                                <p class="mb-4 font-bold">
+                                    HOST2MEDIA PROVIDES SERVICES "AS IS" AND "AS AVAILABLE" WITHOUT ANY WARRANTIES, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, OR NON-INFRINGEMENT.
+                                </p>
+                                <p class="mb-4 font-bold">HOST2MEDIA DOES NOT GUARANTEE THAT THE SERVICES WILL BE UNINTERRUPTED, ERROR-FREE, OR COMPLETELY SECURE. CLIENTS ASSUME ALL RISKS ASSOCIATED WITH USING HOST2MEDIA’S SERVICES, INCLUDING DATA LOSS OR CORRUPTION.</p>
+                            </li>
+                            <li class="marker:font-bold mb-4">
+                                <h3 class="text-basic font-bold mb-4 Mulish-black">Changes to the Agreement or the Services</h3>
+                                <p class="mb-4">Host2Media reserves the right to modify, add, or delete portions of this Agreement or its services at any time. Changes will be communicated via email or posted on our website.</p>
+                                <p class="font-bold">Client Acknowledgement of Changes:</p>
+                                <ul class="list-decimal mb-4 font-bold pl-4">
+                                    <li>
+                                        <p>Notification of Changes: Clients are responsible for reviewing updates to the Agreement.</p>
+                                    </li>
+                                    <li>
+                                        <p>Continued Use: Continued use of Host2Media services after changes are posted constitutes acceptance of the updated Agreement.</p>
+                                    </li>
+                                    <li>
+                                        <p>Opt-Out Option: If you do not agree to the updated terms, you must discontinue use of the services and terminate your account.</p>
+                                    </li>
+                                </ul>
+                                <p class="mb-4">Host2Media may also update, discontinue, or replace specific features or services at its discretion, with or without prior notice.</p>
+                            </li>
+                            <li class="marker:font-bold mb-4">
+                                <h3 class="text-basic font-bold mb-4 Mulish-black">Force Majeure</h3>
+                                <p class="mb-4">Host2Media shall not be held liable for delays or failures in performance caused by events beyond its reasonable control, including but not limited to:</p>
+                                <ul class="list-disc mb-4 font-bold pl-4">
+                                    <li>
+                                        <p>Natural disasters (e.g., earthquakes, floods).</p>
+                                    </li>
+                                    <li>
+                                        <p>Acts of war, terrorism, civil unrest, or armed conflict, whether declared or undeclared, including but not limited to invasions, military action, or blockades.</p>
+                                    </li>
+                                    <li>
+                                        <p>Government actions or regulations, including those imposed by local or foreign authorities.</p>
+                                    </li>
+                                    <li>
+                                        <p>Internet outages or infrastructure failures, including those affecting telecommunications networks or service providers.</p>
+                                    </li>
+                                    <li>
+                                        <p>Strikes, labor disputes, or workforce shortages affecting Host2Media or its partners.</p>
+                                    </li>
+                                    <li>
+                                        <p>Any event that causes death, illness, or serious injury to key personnel or partners, hindering the ability to perform services or meet obligations.</p>
+                                    </li>
+                                    <li>
+                                        <p>Any health-related crisis, epidemic, pandemic, or widespread illness that affects operations, travel, or public safety.</p>
+                                    </li>
+                                </ul>
+                                <p class="mb-4">Such events shall release Host2Media from its obligations for the duration of the disruption.</p>
+                            </li>
+                            <li class="marker:font-bold mb-4">
+                                <h3 class="text-basic font-bold mb-4 Mulish-black">Severability</h3>
+                                <p class="mb-4">If any provision of this Agreement is found to be unlawful, void, or unenforceable, the remaining provisions shall remain in full force and effect. Host2Media and the client agree to substitute the invalid provision with a valid one that closely matches the intent of the original.</p>
+                            </li>
+                            <li class="marker:font-bold mb-4">
+                                <h3 class="text-basic font-bold mb-4 Mulish-black">Backups and Data Loss</h3>
+                                <p>Host2Media’s backup services are provided as a courtesy and are not guaranteed. Clients are solely responsible for maintaining up-to-date backups of their data.</p>
+                                <p class="mb-4">Backup Limitations:</p>
+                                <ul class="list-disc mb-4 font-bold pl-4">
+                                    <li>
+                                        <p>Host2Media is not liable for data loss caused by server failures, hacking, or user error.</p>
+                                    </li>
+                                    <li>
+                                        <p>Regular backups are recommended to ensure data safety.</p>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="marker:font-bold mb-4">
+                                <h3 class="text-basic font-bold mb-4 Mulish-black">Disclaimer</h3>
+                                <p class="mb-4">Host2Media disclaims all responsibility for:</p>
+                                <ul class="list-decimal mb-4 font-bold pl-4">
+                                    <li>
+                                        <p>Actions of third parties, including hacking, phishing, or data breaches.</p>
+                                    </li>
+                                    <li>
+                                        <p>User errors or misconfigurations.</p>
+                                    </li>
+                                    <li>
+                                        <p>Incompatibility with third-party software or applications.</p>
+                                    </li>
+                                </ul>
+                                <p class="mb-4">Clients assume full responsibility for the consequences of using Host2Media services.</p>
+                            </li>
+                            <li class="marker:font-bold mb-4">
+                                <h3 class="text-basic font-bold mb-4 Mulish-black">Governing Law; Jurisdiction</h3>
+                                <p class="mb-4">These Terms are governed by the laws of Lebanon. Any disputes arising under this Agreement shall be subject to the exclusive jurisdiction of Lebanese courts. Clients agree to resolve disputes in Lebanese jurisdiction only.</p>
+                            </li>
+                            <li class="marker:font-bold mb-4">
+                                <h3 class="text-basic font-bold mb-4 Mulish-black">Arbitration</h3>
+                                <p class="mb-4">Disputes that cannot be resolved amicably shall be referred to arbitration under Lebanese law. The arbitration proceedings shall take place in Lebanon and will be conducted in, Arabic or English. The decision of the arbitrator will be final and binding.</p>
+                            </li>
+                            <li class="marker:font-bold mb-4">
+                                <h3 class="text-basic font-bold mb-4 Mulish-black">Indemnification</h3>
+                                <p class="mb-4">Clients agree to indemnify, defend, and hold Host2Media harmless from any claims, damages, or expenses (including attorney fees) arising from:</p>
+                                <ul class="list-decimal mb-4 font-bold pl-4">
+                                    <li>
+                                        <p>Use of services in violation of these Terms.</p>
+                                    </li>
+                                    <li>
+                                        <p>Intellectual property infringement by hosted content.</p>
+                                    </li>
+                                    <li>
+                                        <p>Violations of applicable laws or regulations.</p>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="marker:font-bold mb-4">
+                                <h3 class="text-basic font-bold mb-4 Mulish-black">Coupons</h3>
+                                <p class="mb-4">Host2Media may offer promotional coupons or discounts from time to time. These coupons:</p>
+                                <ul class="list-disc mb-4 font-bold pl-4">
+                                    <li>
+                                        <p>Must be used within the specified timeframe.</p>
+                                    </li>
+                                    <li>
+                                        <p>Cannot be redeemed for cash or applied retroactively</p>
+                                    </li>
+                                    <li>
+                                        <p>Are subject to change or cancellation without notice.</p>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="marker:font-bold mb-4">
+                                <h3 class="text-basic font-bold mb-4 Mulish-black"> Price Change</h3>
+                                <p class="mb-4">Host2Media reserves the right to update prices for its services. Price changes will be communicated at least 30 days in advance. Continued use of the service after the price change constitutes acceptance of the updated pricing.</p>
+                            </li>
+                            <li class="marker:font-bold mb-4">
+                                <h3 class="text-basic font-bold mb-4 Mulish-black">WordPress Plugins</h3>
+                                <p class="mb-4">If you install or use WordPress plugins developed by Automattic (e.g., Jetpack), you agree to:</p>
+                                <ul class="list-decimal mb-4 font-bold pl-4">
+                                    <li>
+                                        <p>The WordPress.com Terms of Service available at [https://en.wordpress.com/tos/].</p>
+                                    </li>
+                                    <li>
+                                        <p>The Automattic Privacy Policy available at [http://automattic.com/privacy/], which includes Automattic's collection and processing of data as outlined therein.</p>
+                                    </li>
+                                </ul>
+                                <p class="mb-4">By using such plugins, you acknowledge that Host2Media is not responsible for the operation, security, or performance of Automattic's products.</p>
+                                <h3 class="text-basic font-bold mb-4 Mulish-black">Prohibited Persons (Countries, Entities, and Individuals)</h3>
+                                <p class="font-bold mb-4">The services provided by Host2Media are subject to export control and economic sanctions laws and regulations administered or enforced by relevant international and national authorities, including but not limited to the United States Department of Commerce, the Department of Treasury’s Office of Foreign Assets Control (“OFAC”), the Department of State, and other applicable agencies (collectively, “Trade Laws”).</p>
+                                <p class="font-bold mb-4">By using Host2Media’s services, you agree that you will not use the services to export, re-export, or facilitate the transfer of software or technical data in violation of any applicable Trade Laws. Furthermore, you represent and warrant that:</p>
+                                <ul class="list-decimal mb-4 font-bold pl-4">
+                                    <li>
+                                        <p>You are not an individual, organization, or entity located in a country or territory that is subject to sanctions or embargoes administered by OFAC or other Trade Laws (including, but not limited to, Cuba, Iran, Syria, North Korea, or the Crimea, Donetsk People’s Republic, or Luhansk People’s Republic regions of Ukraine).</p>
+                                    </li>
+                                    <li>
+                                        <p>You are not designated as a Specially Designated National (“SDN”), Blocked Person, or otherwise listed as a prohibited party under Trade Laws, nor are you owned, controlled, or acting on behalf of such a person or entity.</p>
+                                    </li>
+                                    <li>
+                                        <p>You are not engaged in activities related to nuclear, missile, chemical, or biological weapons development or proliferation, which are prohibited under Trade Laws unless explicitly authorized by the relevant governmental authorities.</p>
+                                    </li>
+                                    <li>
+                                        <p>Unless explicitly authorized in writing, Host2Media prohibits the registration or use of its services in connection with any Country-Code Top Level Domain Name (“ccTLD”) associated with countries or territories subject to OFAC sanctions.</p>
+                                    </li>
+                                </ul>
+                                <p class="font-bold mb-4">The obligations under this section shall remain in effect even after the termination or expiration of your agreement with Host2Media or your use of the services.</p>
+                            </li>
                         </ul>
                     </div>
                     <div class="tab-content sm:px-0 px-3 tab-content-2 hidden">
