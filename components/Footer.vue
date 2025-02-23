@@ -58,7 +58,7 @@
                 <li
                   class="sm:text-[0.75rem] sm:leading-4 text-sm font-light mb-2"
                 >
-                  <a> Host2Media Blog </a>
+                  <a href="https://blog.host2media.com"> Host2Media Blog </a>
                 </li>
                 <li class="sm:text-[0.75rem] sm:leading-4 text-sm font-light mb-2">
                     <NuxtLink to="/about-us">
@@ -75,12 +75,12 @@
                 <li
                   class="sm:text-[0.75rem] sm:leading-4 text-sm font-light mb-2"
                 >
-                  <a> Website Hosting </a>
+                  <NuxtLink to="web-hosting"> Website Hosting </NuxtLink>
                 </li>
                 <li
                   class="sm:text-[0.75rem] sm:leading-4 text-sm font-light mb-2"
                 >
-                  <a> Domain name </a>
+                  <NuxtLink to="domains"> Domain name </NuxtLink>
                 </li>
                 <!-- <li
                   class="sm:text-[0.75rem] sm:leading-4 text-sm font-light mb-2"
@@ -90,7 +90,7 @@
                 <li
                   class="sm:text-[0.75rem] sm:leading-4 text-sm font-light mb-2"
                 >
-                  <a> Professional Email </a>
+                  <NuxtLink to="email-hosting"> Professional Email </NuxtLink>
                 </li>
                 <!-- <li
                   class="sm:text-[0.75rem] sm:leading-4 text-sm font-light mb-2"
