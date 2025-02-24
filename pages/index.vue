@@ -17,7 +17,7 @@ useHead({
     },
     {
       property: "og:image",
-      content: "~/assets/images/host2media-og.png",
+      content: "/host2media-og.png",
     },
     { property: "og:image:alt", content: "Host2Media Homepage Banner" },
     { property: "og:image:width", content: "1200" },
