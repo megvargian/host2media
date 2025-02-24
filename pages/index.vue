@@ -5,24 +5,34 @@
 useHead({
   title: "Host2Media",
   meta: [
-    { name: "title", content: "Host2Media" },
+    { property: "og:url", content: "https://www.host2media.com/" },
     {
-      name: "description",
-      content:
-        "Host2Media provides reliable web hosting, domain registration, managed WordPress hosting, and business email solutions. Enjoy a 99.9% uptime guarantee and 24/7 expert support.",
+      property: "og:title",
+      content: "Host2Media | Secure & Reliable Hosting",
     },
-    { name: "robots", content: "index, follow" },
-    { "http-equiv": "Content-Type", content: "text/html; charset=utf-8" },
-    { name: "language", content: "English" },
-    { name: "revisit-after", content: "5 days" },
-    { name: "author", content: "Host2Media" },
-  ],
-  link: [
-    { rel: "canonical", href: "https://www.host2media.com/" },
     {
-      rel: "alternate",
-      hreflang: "x-default",
-      href: "https://www.host2media.com/",
+      property: "og:description",
+      content:
+        "Host2Media provides reliable web hosting, domain registration, managed WordPress hosting, and business email solutions. Enjoy a 99.9% uptime guarantee and 24/7 expert support.",
+    },
+    {
+      property: "og:image",
+      content: "https://www.host2media.com/assets/images/host2media-og.png",
+    },
+    { property: "og:image:alt", content: "Host2Media Homepage Banner" },
+    { property: "og:image:width", content: "1200" },
+    { property: "og:image:height", content: "630" },
+    {
+      property: "og:site_name",
+      content: "Host2Media | Web Hosting Solutions",
+    },
+    { property: "og:updated_time", content: new Date().toISOString() },
+    { property: "og:locale", content: "en_US" },
+    { property: "og:type", content: "website" },
+    { property: "ia:markup_url", content: "https://www.host2media.com/" },
+    {
+      property: "ia:rules_url",
+      content: "https://www.host2media.com/legal",
     },
   ],
 });
