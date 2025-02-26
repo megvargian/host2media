@@ -4,7 +4,7 @@
             <div class="grid grid-cols-12 py-10">
                 <div class="lg:col-span-3 col-span-12 relative">
                     <div class="sticky top-0">
-                        <h2 class="uppercase lg:text-left text-center text-[#0F132A] font-black mb-8 Mulish-Black">Legal Argeements</h2>
+                        <h1 class="uppercase lg:text-left text-center text-[#0F132A] font-black mb-8 Mulish-Black">Legal Argeements</h1>
                         <ul class="font-bold lg:text-left text-center lg:pb-0 pb-8">
                             <li @click="changeTabContent(1)" class="cursor-pointer tab-button tab-button-1 hover:text-[#5564AD] mb-3 text-[#5564AD] text-base">
                                 <p>Terms Of Service</p>
@@ -65,7 +65,7 @@
                 </div>
                 <div class="lg:col-span-9 col-span-12 text-left text-[#0F132A]">
                     <div class="tab-content sm:px-0 px-3 tab-content-1">
-                        <h1 class="text-xl font-black mb-4 Mulish-Black leading-none" >Host2Media Terms of Service</h1>
+                        <h2 class="text-xl font-black mb-4 Mulish-Black leading-none" >Host2Media Terms of Service</h2>
                         <p class="font-bold mb-4">Effective Date: [12 December 2024]</p>
                         <p class="mb-4">Welcome to Host2Media! These Terms of Service ("TOS") govern your access to and use of Host2Media’s services. By using our services, you agree to be bound by these terms. If you do not agree, please discontinue use immediately.</p>
                         <ul class="list-decimal pl-5">
@@ -476,9 +476,172 @@
                         </ul>
                     </div>
                     <div class="tab-content sm:px-0 px-3 tab-content-2 hidden">
-                        <h1 class="text-xl font-black mb-4 Mulish-Black leading-none" >Host2Media Terms of Service</h1>
+                        <h2 class="text-xl font-black mb-4 Mulish-Black leading-none" >Anti-Spam Policy</h2>
                         <p class="font-bold mb-4">Effective Date: [11 December 2024]</p>
-                        <p class="mb-4">Welcome to Host2Media! These Terms of Service ("TOS") govern your access to and use of Host2Media’s services. By using our services, you agree to be bound by these terms. If you do not agree, please discontinue use immediately.</p>
+                        <p class="mb-4">Host2Media is committed to providing a reliable and spam-free hosting environment. This Anti-Spam Policy outlines the standards and rules for the use of our services to prevent spam and other forms of unsolicited communications. By using Host2Media’s services, you agree to comply with this policy. </p>
+                        <ul class="list-decimal pl-5">
+                            <li class="marker:font-bold mb-4">
+                                <h3 class="text-basic font-bold mb-4 Mulish-black">Definition of Spam</h3>
+                                <p class="mb-4">Spam refers to any unauthorized, unsolicited bulk or commercial email, message, or other electronic communication sent without the recipient’s consent. This includes, but is not limited to: </p>
+                                <ul class="list-disc">
+                                    <li>
+                                        <p>Bulk emails sent to multiple recipients without their permission.</p>
+                                    </li>
+                                    <li>
+                                        <p>Email or messages containing deceptive content or misleading subject lines.</p>
+                                    </li>
+                                    <li>
+                                        <p>Messages sent for phishing, fraud, or illegal activities.</p>
+                                    </li>
+                                    <li>
+                                        <p>Emails sent to harvested or purchased email lists.</p>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="marker:font-bold mb-4">
+                                <h3 class="text-basic font-bold mb-4 Mulish-black">Prohibited Activities</h3>
+                                <p class="mb-4">The following activities are strictly prohibited under this Anti-Spam Policy:</p>
+                                <ul class="list-none space-y-2">
+                                    <li class="before:content-['2.1'] flex justify-start before:mr-2 before:font-bold">
+                                        <h3 class="text-basic font-bold mb-2 Mulish-black">Sending Spam:</h3>
+                                    </li>
+                                    <ul class="list-disc pl-5">
+                                        <li>
+                                            <p>Using Host2Media’s services to send unsolicited emails or messages. </p>
+                                        </li>
+                                        <li>
+                                            <p>Hosting websites, email accounts, or services that promote or facilitate spam.</p>
+                                        </li>
+                                    </ul>
+                                    <li class="before:content-['2.2'] flex justify-start before:mr-2 before:font-bold">
+                                        <h3 class="text-basic font-bold mb-2 Mulish-black">Open Relays or Mail Bombing: </h3>
+                                    </li>
+                                    <ul class="list-disc pl-5">
+                                        <li>
+                                            <p>Operating open mail relays or sending excessive messages in a short time. </p>
+                                        </li>
+                                        <li>
+                                            <p>Using purchased, rented, or third-party email lists to send bulk communications.</p>
+                                        </li>
+                                    </ul>
+                                    <li class="before:content-['2.3'] flex justify-start before:mr-2 before:font-bold">
+                                        <h3 class="text-basic font-bold mb-2 Mulish-black">Open Relays or Mail Bombing:</h3>
+                                    </li>
+                                    <ul class="list-disc pl-5">
+                                        <li>
+                                            <p>Operating open mail relays or sending excessive messages in a short time.</p>
+                                        </li>
+                                        <li>
+                                            <p>Overloading servers with email traffic ("mail bombing").</p>
+                                        </li>
+                                    </ul>
+                                    <li class="before:content-['2.3'] flex justify-start before:mr-2 before:font-bold">
+                                        <h3 class="text-basic font-bold mb-2 Mulish-black">Phishing or Fraudulent Activities:</h3>
+                                    </li>
+                                    <ul class="list-disc pl-5">
+                                        <li>
+                                            <p>Sending emails that mimic legitimate entities to collect personal or financial information.</p>
+                                        </li>
+                                        <li>
+                                            <p>Hosting websites or services involved in phishing scams.</p>
+                                        </li>
+                                    </ul>
+                                </ul>
+                            </li>
+                            <li class="marker:font-bold mb-4">
+                                <h3 class="text-basic font-bold mb-4 Mulish-black">Resource Usage Limits </h3>
+                                <p class="mb-4">To ensure a spam-free environment, Host2Media enforces the following email sending limits: </p>
+                                <ul class="list-disc">
+                                    <li>
+                                        <p>Maximum emails per hour: 50 emails/hour </p>
+                                    </li>
+                                    <li>
+                                        <p>Maximum recipients per message: 10 recipients</p>
+                                    </li>
+                                    <li>
+                                        <p>Any attempts to exceed these limits may result in account suspension or termination.</p>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="marker:font-bold mb-4">
+                                <h3 class="text-basic font-bold mb-4 Mulish-black">Monitoring and Enforcement</h3>
+                                <ul class="list-none space-y-2">
+                                    <li class="before:content-['4.1'] flex justify-start before:mr-2 before:font-bold">
+                                        <h3 class="text-basic font-bold mb-2 Mulish-black">Monitoring:</h3>
+                                    </li>
+                                    <p class="mb-4">Host2Media actively monitors outgoing email traffic and reserves the right to investigate any activity that appears to violate this policy.</p>
+                                    <li class="before:content-['4.2'] flex justify-start before:mr-2 before:font-bold">
+                                        <h3 class="text-basic font-bold mb-2 Mulish-black">Violation Consequences:</h3>
+                                    </li>
+                                    <p class="mb-4">If a client is found to violate this Anti-Spam Policy, Host2Media may take the following actions: </p>
+                                    <ul class="list-decimal pl-5">
+                                        <li>
+                                            <p>Issue a warning and request immediate corrective action. </p>
+                                        </li>
+                                        <li>
+                                            <p>Suspend the client’s email services temporarily. </p>
+                                        </li>
+                                        <li>
+                                            <p>Terminate the client’s account for repeated or severe violations.</p>
+                                        </li>
+                                    </ul>
+                                    <li class="before:content-['4.3'] flex justify-start before:mr-2 before:font-bold">
+                                        <h3 class="text-basic font-bold mb-2 Mulish-black">Immediate Termination:</h3>
+                                    </li>
+                                    <p class="mb-4">Accounts involved in phishing, fraud, or malicious spam activities may be terminated immediately without notice.</p>
+                                </ul>
+                            </li>
+                            <li class="marker:font-bold mb-4">
+                                <h3 class="text-basic font-bold mb-4 Mulish-black">Reseller Responsibility</h3>
+                                <p class="mb-4">Resellers are responsible for ensuring that their clients comply with this Anti-Spam Policy. Violations by a reseller’s clients may result in: </p>
+                                <ul class="list-disc">
+                                    <li>
+                                        <p>Suspension or termination of the reseller’s account. </p>
+                                    </li>
+                                    <li>
+                                        <p>Notification to the reseller to take corrective action with their client. </p>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="marker:font-bold mb-4">
+                                <h3 class="text-basic font-bold mb-4 Mulish-black">Client Responsibilities </h3>
+                                <p class="mb-4">To comply with this Anti-Spam Policy, clients are responsible for: </p>
+                                <ul class="list-disc">
+                                    <li>
+                                        <p>Using opt-in email lists where recipients have explicitly agreed to receive communications. </p>
+                                    </li>
+                                    <li>
+                                        <p>Providing accurate sender identification and contact information in all emails (e.g., valid "From" address). </p>
+                                    </li>
+                                    <li>
+                                        <p>Including a clear and functional opt-out mechanism in every email to allow recipients to unsubscribe.  </p>
+                                    </li>
+                                    <li>
+                                        <p>Regularly reviewing email practices to ensure compliance with this policy and applicable anti-spam laws (e.g., CAN-SPAM Act, GDPR, or local regulations).  </p>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="marker:font-bold mb-4">
+                                <h3 class="text-basic font-bold mb-4 Mulish-black">Reporting Spam</h3>
+                                <p class="mb-4">If you suspect or receive spam originating from a Host2Media-hosted account, please report it to us at:
+                                    <br> Email: [Insert Abuse Email Address]</p>
+                                <p class="mb-4">Include the following details in your report: </p>
+                                <ul class="list-disc">
+                                    <li>
+                                        <p>The full headers and body of the email. </p>
+                                    </li>
+                                    <li>
+                                        <p>A brief description of the issue. </p>
+                                    </li>
+                                </ul>
+                                <p class="mb-4">Host2Media will investigate all spam reports and take appropriate action against violators. </p>
+                            </li>
+                            <li class="marker:font-bold mb-4">
+                                <h3 class="text-basic font-bold mb-4 Mulish-black"> Amendments to This Policy </h3>
+                                <p class="mb-4">Host2Media reserves the right to update this Anti-Spam Policy at any time to reflect changes in technology, law, or best practices. Updates will be communicated via email or posted on our website with a revised "Effective Date."</p>
+
+                            </li>
+                        </ul>
                     </div>
                     <div class="tab-content sm:px-0 px-3 tab-content-3 hidden">
                         <h1 class="text-xl font-black mb-4 Mulish-Black leading-none" >Host2Media Terms of Service</h1>
