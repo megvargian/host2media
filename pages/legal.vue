@@ -476,6 +476,471 @@
                         </ul>
                     </div>
                     <div class="tab-content sm:px-0 px-3 tab-content-2 hidden">
+                        <h2 class="text-xl font-black mb-4 Mulish-Black leading-none" >Acceptable Use Policy (AUP) for Host2Media</h2>
+                        <p class="font-bold mb-4">This Acceptable Use Policy (AUP) outlines the terms under which Host2Media services may be used. By using Host2Media’s services, you agree to comply with this AUP. Failure to comply may result in the suspension or termination of your services.</p>
+                        <ul class="list-decimal pl-5">
+                            <li class="marker:font-bold mb-4">
+                                <h3 class="text-basic font-bold mb-4 Mulish-black">Prohibited Uses</h3>
+                                <ul class="list-none space-y-2">
+                                    <li class="before:content-['2.1'] flex justify-start before:mr-2 before:font-bold">
+                                        <h3 class="text-basic font-bold mb-2 Mulish-black">Infringement of Intellectual Property Rights</h3>
+                                    </li>
+                                    <ul class="list-disc pl-5">
+                                        <li>
+                                            <p>You may not use Host2Media’s services to infringe upon another party’s intellectual property rights, including unauthorized copying, distribution, or use of copyrighted materials. Repeated violations may lead to account termination.  </p>
+                                        </li>
+                                        <li>
+                                            <p>For copyright infringement claims, Host2Media follows the Digital Millennium Copyright Act (DMCA) procedures. </p>
+                                        </li>
+                                    </ul>
+                                    <li class="before:content-['2.2'] flex justify-start before:mr-2 before:font-bold">
+                                        <h3 class="text-basic font-bold mb-2 Mulish-black">Use of Services for Backup/Storage  </h3>
+                                    </li>
+                                    <ul class="list-disc pl-5">
+                                        <li>
+                                            <p>Shared hosting accounts may not be used as backup or storage devices except for one cPanel backup of the same account.  </p>
+                                        </li>
+                                    </ul>
+                                </ul>
+                            </li>
+                            <li class="marker:font-bold mb-4">
+                                <p class="mb-4 flex">
+                                    <span class="text-basic font-bold Mulish-black mr-2">Unacceptable Material</span>
+                                    <span> The following types of content are strictly prohibited on Host2Media servers:</span>
+                                </p>
+                                <ul class="list-disc pl-5">
+                                    <li>
+                                        <p>Illegal content, including child sexual abuse material (CSAM).  </p>
+                                    </li>
+                                    <li>
+                                        <p>Scripts for IRC, anonymizers, brute force programs, or spam tools. </p>
+                                    </li>
+                                    <li>
+                                        <p>High-yield investment programs, Ponzi schemes, or related content. </p>
+                                    </li>
+                                    <li>
+                                        <p>Content promoting illegal activities or distributing pirated materials.  </p>
+                                    </li>
+                                    <li>
+                                        <p>Gambling, lottery, or related sites without proper licenses. </p>
+                                    </li>
+                                    <li>
+                                        <p>Online casinos, gambling-related content, or any other forms of gambling or betting.  </p>
+                                    </li>
+                                    <li>
+                                        <p>Content related to pyramid schemes, or any fraudulent schemes aimed at financial gain. </p>
+                                    </li>
+                                    <li>
+                                        <p>Content promoting or distributing illegal drugs, controlled substances, or substances that are illegal in the jurisdiction of the user. </p>
+                                    </li>
+                                    <li>
+                                        <p>Content related to weapons, explosives, or anything that can be used for harm or destruction.  </p>
+                                    </li>
+                                    <li>
+                                        <p>Content promoting terrorism, violence, or any form of extremist behavior or ideology.  </p>
+                                    </li>
+                                    <li>
+                                        <p>Sale or distribution of counterfeit or fake products, including but not limited to: perfumes, clothing, shoes, accessories, electronics, or any other goods that infringe on intellectual property rights or are falsely represented as genuine. </p>
+                                    </li>
+                                    <li>
+                                        <p>Any content that violates copyright, trademark, or intellectual property laws, including but not limited to:   </p>
+                                    </li>
+                                    <li>
+                                        <p>Movies, TV shows, videos, or any form of multimedia content that is copyrighted and distributed without authorization.   </p>
+                                    </li>
+                                    <li>
+                                        <p>Images, photos, logos, or artwork that are copyrighted or trademarked without the proper rights or permission to use. </p>
+                                    </li>
+                                    <li>
+                                        <p>Music, software, eBooks, and other digital content that infringe upon copyright laws.   </p>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="marker:font-bold mb-4">
+                                <h3 class="text-basic font-bold mb-4 Mulish-black"> Unacceptable Resource Usage </h3>
+                                <ul class="list-none space-y-2">
+                                    <li class="before:content-['3.1'] flex justify-start before:mr-2 before:font-bold">
+                                        <h3 class="text-basic font-bold mb-2 Mulish-black">Excessive Resource Consumption:</h3>
+                                    </li>
+                                    <ul class="list-disc pl-5">
+                                        <li>
+                                            <p>Users may not consume more than 25% of system resources for periods exceeding 90 seconds. Activities like CGI scripts, FTP, and PHP must comply with this limitation.  </p>
+                                        </li>
+                                    </ul>
+                                    <li class="before:content-['3.2'] flex justify-start before:mr-2 before:font-bold">
+                                        <h3 class="text-basic font-bold mb-2 Mulish-black">Inodes and File Usage</h3>
+                                    </li>
+                                    <ul class="list-disc pl-5">
+                                        <li>
+                                            <p>Shared accounts may not exceed 350,000 inodes. Accounts exceeding this limit may be suspended. Excessive file creation or deletion may also lead to account review or termination. </p>
+                                        </li>
+                                    </ul>
+                                    <li class="before:content-['3.3'] flex justify-start before:mr-2 before:font-bold">
+                                        <h3 class="text-basic font-bold mb-2 Mulish-black">Database Restrictions</h3>
+                                    </li>
+                                    <ul class="list-disc pl-5">
+                                        <li>
+                                            <p>Databases should be used in compliance with the shared hosting environment and should not cause undue strain on servers. </p>
+                                        </li>
+                                    </ul>
+                                </ul>
+                            </li>
+                            <li class="marker:font-bold mb-4">
+                                <h3 class="text-basic font-bold mb-4 Mulish-black">Zero Tolerance Spam Policy </h3>
+                                <ul class="list-disc pl-5">
+                                    <li>
+                                        <p>Host2Media strictly prohibits the sending of unsolicited commercial emails (spam) using its services. Accounts involved in spamming activities will be suspended immediately.  </p>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="marker:font-bold mb-4">
+                                <h3 class="text-basic font-bold mb-4 Mulish-black">Defamation Policy </h3>
+                                <ul class="list-disc pl-5">
+                                    <li>
+                                        <p>Host2Media does not allow the publication of defamatory content through its services. Users found in violation will face immediate action, including service termination.   </p>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="marker:font-bold mb-4">
+                                <h3 class="text-basic font-bold mb-4 Mulish-black">Email and Messaging Services  </h3>
+                                <ul class="list-disc pl-5">
+                                    <li>
+                                        <p>Users must not use email or messaging services provided by Host2Media for the distribution of spam, phishing attempts, or fraudulent communications. </p>
+                                    </li>
+                                    <li>
+                                        <p>Bulk email sending must comply with anti-spam laws, including obtaining proper consent from recipients.  </p>
+                                    </li>
+                                    <li>
+                                        <p>Host2Media reserves the right to monitor email accounts for abuse and restrict usage if necessary. </p>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="marker:font-bold mb-4">
+                                <h3 class="text-basic font-bold mb-4 Mulish-black">Domain Name Registration Policies </h3>
+                                <ul class="list-disc pl-5">
+                                    <li>
+                                        <p>Domain names registered through Host2Media must not be used for illegal activities, including trademark infringement, cybersquatting, or distributing malware.  </p>
+                                    </li>
+                                    <li>
+                                        <p>Users are responsible for maintaining up-to-date WHOIS information as required by ICANN regulations.  </p>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="marker:font-bold mb-4">
+                                <h3 class="text-basic font-bold mb-4 Mulish-black">Virtual Private Server (VPS) Usage </h3>
+                                <ul class="list-disc pl-5">
+                                    <li>
+                                        <p>VPS hosting clients must maintain the security of their server configurations and promptly apply updates to prevent vulnerabilities.   </p>
+                                    </li>
+                                    <li>
+                                        <p>Use of VPS for hosting malicious scripts, mining cryptocurrencies without authorization, or attacking other networks is prohibited.   </p>
+                                    </li>
+                                    <li>
+                                        <p>Resource allocations (CPU, RAM, bandwidth) must be used within the purchased limits.    </p>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="marker:font-bold mb-4">
+                                <h3 class="text-basic font-bold mb-4 Mulish-black">Security and Abuse Reporting </h3>
+                                <ul class="list-disc pl-5">
+                                    <li>
+                                        <p>Users must implement adequate security measures to protect their accounts and data, such as strong passwords and software updates.    </p>
+                                    </li>
+                                    <li>
+                                        <p>Unauthorized access or attempts to access other accounts or servers are strictly prohibited and will result in immediate suspension or termination.   </p>
+                                    </li>
+                                    <li>
+                                        <p>Suspected abuse or security breaches must be reported to Host2Media support immediately.     </p>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="marker:font-bold mb-4">
+                                <h3 class="text-basic font-bold mb-4 Mulish-black">Service Level Agreement (SLA) Compliance  </h3>
+                                <ul class="list-disc pl-5">
+                                    <li>
+                                        <p>Host2Media offers service availability expectations (e.g., uptime guarantees). Clients are responsible for complying with SLA guidelines to ensure uninterrupted services.     </p>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="marker:font-bold mb-4">
+                                <h3 class="text-basic font-bold mb-4 Mulish-black">Payment and Account Standing   </h3>
+                                <ul class="list-disc pl-5">
+                                    <li>
+                                        <p>All services provided by Host2Media must be paid for on time as per the terms outlined during purchase.      </p>
+                                    </li>
+                                    <li>
+                                        <p>Accounts with overdue invoices are subject to suspension or termination after the due date passes without resolution.       </p>
+                                    </li>
+                                    <li>
+                                        <p>Host2Media reserves the right to charge late fees or reactivation fees for suspended accounts.      </p>
+                                    </li>
+                                    <li>
+                                        <p>Refunds, where applicable, are governed by Host2Media’s refund policy. </p>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="marker:font-bold mb-4">
+                                <h3 class="text-basic font-bold mb-4 Mulish-black">Backups and Data Responsibility    </h3>
+                                <ul class="list-disc pl-5">
+                                    <li>
+                                        <p>Host2Media performs routine backups for shared hosting services, but users are ultimately responsible for maintaining their own backups.       </p>
+                                    </li>
+                                    <li>
+                                        <p>Host2Media is not liable for data loss due to user negligence or hardware failures.       </p>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="marker:font-bold mb-4">
+                                <h3 class="text-basic font-bold mb-4 Mulish-black">WordPress, Frameworks, and Security Compliance    </h3>
+                                <ul class="list-disc pl-5">
+                                    <li>
+                                        <p>Host2Media strictly prohibits the use of nulled or cracked plugins, themes, or any other software that violates copyright laws. Using such unauthorized or pirated software is a breach of this AUP.        </p>
+                                    </li>
+                                    <li>
+                                        <p>Accounts found to be using illegal or pirated software will be immediately suspended or terminated without prior notice.        </p>
+                                    </li>
+                                    <li>
+                                        <p>Clients are responsible for ensuring that all plugins, themes, and scripts installed on their accounts are properly licensed and up-to-date.         </p>
+                                    </li>
+                                    <li>
+                                        <p>Host2Media reserves the right to scan accounts for malware, viruses, or other malicious code. If an account is found to be infected or poses a security risk to other accounts or servers, it will be suspended immediately until the issue is resolved.        </p>
+                                    </li>
+                                    <li>
+                                        <p>Repeated instances of infected files or failure to address security vulnerabilities may result in permanent termination of the account.         </p>
+                                    </li>
+                                    <li>
+                                        <p>Host2Media recommends that clients use reputable security tools and regularly update their installations to avoid vulnerabilities.         </p>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="marker:font-bold mb-4">
+                                <h3 class="text-basic font-bold mb-4 Mulish-black">Enforcement and Violations   </h3>
+                                <ul class="list-disc pl-5">
+                                    <li>
+                                        <p>Violations of this AUP will result in corrective actions, including:</p>
+                                        <ul class="list-disc pl-5">
+                                            <li>
+                                                <p>Warning notifications.         </p>
+                                            </li>
+                                            <li>
+                                                <p>Suspension or termination of services.         </p>
+                                            </li>
+                                            <li>
+                                                <p>Legal action for serious breaches.          </p>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li>
+                                        <p>Host2Media reserves the right to review and remove content that violates this AUP.         </p>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="marker:font-bold mb-4">
+                                <h3 class="text-basic font-bold mb-4 Mulish-black">Amendments    </h3>
+                                <ul class="list-disc pl-5">
+                                    <li>
+                                        <p>Host2Media reserves the right to amend this AUP at any time. Changes will be effective upon publication on the Host2Media website. </p>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="marker:font-bold mb-4">
+                                <h3 class="text-basic font-bold mb-4 Mulish-black">Reporting Violations    </h3>
+                                <ul class="list-disc pl-5">
+                                    <li>
+                                        <p>To report a violation of this AUP, please contact Host2Media support at support@host2media.com.  </p>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="marker:font-bold mb-4">
+                                <p> <span class="text-basic font-bold mb-4 Mulish-black">Agreement</span> <span>By using Host2Media services, you agree to adhere to this AUP. This policy aims to ensure a secure, lawful, and efficient hosting environment for all users.</span> </p>
+                            </li>
+                            <li class="marker:font-bold mb-4">
+                                <h3 class="text-basic font-bold mb-4 Mulish-black">Privacy and Data Protection   </h3>
+                                <ul class="list-disc pl-5">
+                                    <li>
+                                        <p>Host2Media is committed to protecting user data in accordance with applicable laws and regulations.   </p>
+                                    </li>
+                                    <li>
+                                        <p>Users must comply with all data protection and privacy requirements, including obtaining consent before collecting personal data from individuals.   </p>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="marker:font-bold mb-4">
+                                <h3 class="text-basic font-bold mb-4 Mulish-black">Resource Monitoring    </h3>
+                                <ul class="list-disc pl-5">
+                                    <li>
+                                        <p>Host2Media reserves the right to monitor resource usage to maintain server performance and stability.    </p>
+                                    </li>
+                                    <li>
+                                        <p>Excessive resource consumption that disrupts other users may result in temporary or permanent restrictions.    </p>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="marker:font-bold mb-4">
+                                <h3 class="text-basic font-bold mb-4 Mulish-black">Prohibited Network Activities    </h3>
+                                <ul class="list-disc pl-5">
+                                    <li>
+                                        <p>Users are prohibited from engaging in activities that compromise network integrity, including but not limited to:     </p>
+                                        <ul class="list-disc pl-5">
+                                            <li>
+                                                <p>Distributed Denial of Service (DDoS) attacks.     </p>
+                                            </li>
+                                            <li>
+                                                <p>Port scanning or probing.   </p>
+                                            </li>
+                                            <li>
+                                                <p>Hosting or distributing botnets.     </p>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li>
+                                        <p>Violations may result in immediate suspension of services.    </p>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="marker:font-bold mb-4">
+                                <h3 class="text-basic font-bold mb-4 Mulish-black">Reseller Responsibilities and Payment Obligations   </h3>
+                                <ul class="list-disc pl-5">
+                                    <li>
+                                        <p>Resellers are responsible for ensuring their clients comply with this AUP and for monitoring their clients’ activities.     </p>
+                                    </li>
+                                    <li>
+                                        <p>Resellers must ensure timely payment for their services and are responsible for their clients’ account payments.     </p>
+                                    </li>
+                                    <li>
+                                        <p>Failure to address overdue payments for reseller accounts may result in suspension or termination of services for both the reseller and their clients.      </p>
+                                    </li>
+                                    <li>
+                                        <p>Host2Media may provide limited support to reseller clients hosted on Host2Media servers, but this support is not obligatory and may be subject to limitations or additional charges.      </p>
+                                    </li>
+                                    <li>
+                                        <p>Host2Media reserves the right to suspend reseller accounts for repeated violations or failure to manage client compliance effectively.    </p>
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="tab-content sm:px-0 px-3 tab-content-3 hidden">
+                        <h2 class="text-xl font-black mb-4 Mulish-Black leading-none" >Abuse Policy </h2>
+                        <p class="">Effective Date: [Insert Date] </p>
+                        <p class="font-bold mb-4">At Host2Media, we are dedicated to providing reliable and secure hosting services while ensuring a safe online environment for all our users. This Abuse Policy outlines the guidelines for identifying, reporting, and addressing abuse related to the use of our services. By using our services, you agree to comply with this policy. </p>
+                        <ul class="list-decimal pl-5">
+                            <li class="marker:font-bold mb-4">
+                                <h3 class="text-basic font-bold mb-4 Mulish-black"> Prohibited Activities</h3>
+                                <p class="mb-4">The following activities are strictly prohibited on Host2Media’s platform. Violations may result in account suspension, termination, or legal action: </p>
+                                <ul class="list-none space-y-2">
+                                    <li class="before:content-['1.1'] flex justify-start before:mr-2 before:font-bold">
+                                        <h3 class="text-basic font-bold mb-2 Mulish-black">Unauthorized Access and Hacking </h3>
+                                    </li>
+                                    <ul class="list-disc pl-5">
+                                        <li>
+                                            <p>Attempting to gain unauthorized access to accounts, systems, or networks.   </p>
+                                        </li>
+                                        <li>
+                                            <p>Engaging in any form of hacking, phishing, or exploitation of vulnerabilities.    </p>
+                                        </li>
+                                    </ul>
+                                    <li class="before:content-['1.2'] flex justify-start before:mr-2 before:font-bold">
+                                        <h3 class="text-basic font-bold mb-2 Mulish-black">Malware and Viruses</h3>
+                                    </li>
+                                    <ul class="list-disc pl-5">
+                                        <li>
+                                            <p>Uploading, distributing, or using malicious software, including viruses, trojans, worms, or ransomware.  </p>
+                                        </li>
+                                    </ul>
+                                    <li class="before:content-['1.3'] flex justify-start before:mr-2 before:font-bold">
+                                        <h3 class="text-basic font-bold mb-2 Mulish-black">Spam and Unsolicited Communications </h3>
+                                    </li>
+                                    <ul class="list-disc pl-5">
+                                        <li>
+                                            <p>Sending bulk unsolicited emails or other forms of spam, including marketing emails without recipient consent.  </p>
+                                        </li>
+                                        <li>
+                                            <p>Operating mail servers that facilitate spam or unsolicited communications.   </p>
+                                        </li>
+                                    </ul>
+                                    <li class="before:content-['1.4'] flex justify-start before:mr-2 before:font-bold">
+                                        <h3 class="text-basic font-bold mb-2 Mulish-black"> Intellectual Property Infringement  </h3>
+                                    </li>
+                                    <ul class="list-disc pl-5">
+                                        <li>
+                                            <p>Hosting or distributing content that violates intellectual property rights, including copyrighted material or pirated software.   </p>
+                                        </li>
+                                    </ul>
+                                    <li class="before:content-['1.5'] flex justify-start before:mr-2 before:font-bold">
+                                        <h3 class="text-basic font-bold mb-2 Mulish-black"> Illegal and Harmful Content  </h3>
+                                    </li>
+                                    <ul class="list-disc pl-5">
+                                        <li>
+                                            <p>Hosting or sharing content that is illegal, obscene, defamatory, or promotes violence, discrimination, or hate speech.    </p>
+                                        </li>
+                                        <li>
+                                            <p>Any content involving child exploitation or abuse, which will be immediately reported to the appropriate authorities.     </p>
+                                        </li>
+                                    </ul>
+                                    <li class="before:content-['1.5'] flex justify-start before:mr-2 before:font-bold">
+                                        <h3 class="text-basic font-bold mb-2 Mulish-black"> Resource Abuse   </h3>
+                                    </li>
+                                    <ul class="list-disc pl-5">
+                                        <li>
+                                            <p>Excessive use of server resources that negatively impacts the performance of other users.     </p>
+                                        </li>
+                                        <li>
+                                            <p>Hosting activities like cryptocurrency mining or running scripts that overload our systems.      </p>
+                                        </li>
+                                    </ul>
+                                </ul>
+                            </li>
+                            <li class="marker:font-bold mb-4">
+                                <h3 class="text-basic font-bold mb-4 Mulish-black"> Reporting Abuse </h3>
+                                <p class="mb-4">If you encounter any activity or content that violates this policy, please report it to Host2Media by providing the following details: </p>
+                                <ul class="list-disc pl-5">
+                                    <li>
+                                        <p>A description of the abuse, including relevant URLs or IP addresses.   </p>
+                                    </li>
+                                    <li>
+                                        <p>Screenshots or evidence supporting your claim (if applicable).    </p>
+                                    </li>
+                                    <li>
+                                        <p>Your contact information for follow-up (optional but recommended).    </p>
+                                    </li>
+                                </ul>
+                                <p class="mb-4"><strong>Contact Email for Abuse Reports:</strong> abuse@host2media.com </p>
+                                <p class="mb-4">We will acknowledge receipt of your report and investigate promptly. Please note that due to privacy considerations, we may not disclose the outcome of our investigation.  </p>
+                            </li>
+                            <li class="marker:font-bold mb-4">
+                                <h3 class="text-basic font-bold mb-4 Mulish-black"> Enforcement Actions  </h3>
+                                <p class="mb-4">Host2Media reserves the right to take appropriate actions against users found in violation of this policy, including but not limited to:   </p>
+                                <ul class="list-disc pl-5">
+                                    <li>
+                                        <p>Issuing a warning or notice to cease the abusive activity.   </p>
+                                    </li>
+                                    <li>
+                                        <p>Suspending or terminating the offending account without prior notice.    </p>
+                                    </li>
+                                    <li>
+                                        <p>Reporting illegal activities to law enforcement or relevant authorities.    </p>
+                                    </li>
+                                    <li>
+                                        <p>Recovering costs incurred due to abuse (e.g., for mitigating damages caused by resource abuse).    </p>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="marker:font-bold mb-4">
+                                <h3 class="text-basic font-bold mb-4 Mulish-black"> False Reporting  </h3>
+                                <p class="mb-4">Submitting false or malicious abuse reports is a violation of this policy and may result in account suspension or termination. Host2Media takes abuse reports seriously and expects users to act in good faith when reporting violations.    </p>
+                            </li>
+                            <li class="marker:font-bold mb-4">
+                                <h3 class="text-basic font-bold mb-4 Mulish-black">  Protection of Data and Privacy   </h3>
+                                <p class="mb-4">Host2Media is committed to protecting user data during the investigation and enforcement process. Abuse reports will be handled confidentially and shared only with necessary parties, such as law enforcement or affected users, as required.     </p>
+                            </li>
+                            <li class="marker:font-bold mb-4">
+                                <h3 class="text-basic font-bold mb-4 Mulish-black"> Changes to This Policy   </h3>
+                                <p class="mb-4">We may update this Abuse Policy from time to time to reflect changes in our practices or legal requirements. The revised policy will be posted on our website with a revised "Effective Date."     </p>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="tab-content sm:px-0 px-3 tab-content-4 hidden">
                         <h2 class="text-xl font-black mb-4 Mulish-Black leading-none" >Anti-Spam Policy</h2>
                         <p class="font-bold mb-4">Effective Date: [11 December 2024]</p>
                         <p class="mb-4">Host2Media is committed to providing a reliable and spam-free hosting environment. This Anti-Spam Policy outlines the standards and rules for the use of our services to prevent spam and other forms of unsolicited communications. By using Host2Media’s services, you agree to comply with this policy. </p>
@@ -643,20 +1108,99 @@
                             </li>
                         </ul>
                     </div>
-                    <div class="tab-content sm:px-0 px-3 tab-content-3 hidden">
-                        <h1 class="text-xl font-black mb-4 Mulish-Black leading-none" >Host2Media Terms of Service</h1>
-                        <p class="font-bold mb-4">Effective Date: [14 December 2024]</p>
-                        <p class="mb-4">Welcome to Host2Media! These Terms of Service ("TOS") govern your access to and use of Host2Media’s services. By using our services, you agree to be bound by these terms. If you do not agree, please discontinue use immediately.</p>
-                    </div>
-                    <div class="tab-content sm:px-0 px-3 tab-content-4 hidden">
-                        <h1 class="text-xl font-black mb-4 Mulish-Black leading-none" >Host2Media Terms of Service</h1>
-                        <p class="font-bold mb-4">Effective Date: [14 December 2024]</p>
-                        <p class="mb-4">Welcome to Host2Media! These Terms of Service ("TOS") govern your access to and use of Host2Media’s services. By using our services, you agree to be bound by these terms. If you do not agree, please discontinue use immediately.</p>
-                    </div>
                     <div class="tab-content sm:px-0 px-3 tab-content-5 hidden">
-                        <h1 class="text-xl font-black mb-4 Mulish-Black leading-none" >Host2Media Terms of Service</h1>
-                        <p class="font-bold mb-4">Effective Date: [14 December 2024]</p>
-                        <p class="mb-4">Welcome to Host2Media! These Terms of Service ("TOS") govern your access to and use of Host2Media’s services. By using our services, you agree to be bound by these terms. If you do not agree, please discontinue use immediately.</p>
+                        <h2 class="text-xl font-black mb-4 Mulish-Black leading-none" >Host2Media Cookie Policy: Understanding Our Use of Cookies</h2>
+                        <p class="">Effective Date: [Insert Date] </p>
+                        <ul class="list-decimal pl-5">
+                            <li class="marker:font-bold mb-4">
+                                <p class="mb-4">
+                                    <span class="text-basic font-bold mb-4 Mulish-black mr-2">Introduction</span>
+                                    <span>This Cookie Policy explains how Host2Media ("we," "our," or "us") uses cookies and similar technologies to recognize you when you visit our website ("Website"). It explains what these technologies are, why we use them, and your rights to control their use. </span>
+                                </p>
+                            </li>
+                            <li class="marker:font-bold mb-4">
+                                <p class="mb-4">
+                                    <span class="text-basic font-bold mb-4 Mulish-black mr-2"> What Are Cookies?</span>
+                                    <span>Cookies are small text files that are stored on your device (computer, smartphone, or other electronic device) when you visit a website. They are widely used to make websites work or to function more efficiently, as well as to provide information to the site owners.  </span>
+                                </p>
+                            </li>
+                            <li class="marker:font-bold mb-4">
+                                <p class="text-basic font-bold mb-4 Mulish-black">Types of Cookies We Use</p>
+                                <ul class="list-none space-y-2">
+                                    <li class="before:content-['3.1'] flex justify-start before:mr-2 before:font-bold">
+                                        <p class="mb-4">
+                                            <span class="text-basic font-bold mb-4 Mulish-black mr-2">Essential Cookies</span>
+                                            <span>These cookies are necessary for the operation of our Website. They include, for example, cookies that enable you to log into secure areas of the Website. </span>
+                                        </p>
+                                    </li>
+                                    <li class="before:content-['3.2'] flex justify-start before:mr-2 before:font-bold">
+                                        <p class="mb-4">
+                                            <span class="text-basic font-bold mb-4 Mulish-black mr-2">Performance and Analytics Cookies</span>
+                                            <span>hese cookies collect information about how you use our Website, such as which pages you visit most  </span>
+                                        </p>
+                                    </li>
+                                    <li class="before:content-['3.3'] flex justify-start before:mr-2 before:font-bold">
+                                        <p class="mb-4">
+                                            <span class="text-basic font-bold mb-4 Mulish-black mr-2">. Functionality Cookies </span>
+                                            <span>These cookies allow the Website to remember your choices (such as your username, language, or region) and provide enhanced, personalized features. </span>
+                                        </p>
+                                    </li>
+                                    <li class="before:content-['3.4'] flex justify-start before:mr-2 before:font-bold">
+                                        <p class="mb-4">
+                                            <span class="text-basic font-bold mb-4 Mulish-black mr-2">Advertising Cookies</span>
+                                            <span>We use cookies to deliver advertisements that are relevant to your interests. These cookies also help us measure the effectiveness of advertising campaigns. </span>
+                                        </p>
+                                    </li>
+                                    <li class="before:content-['3.5'] flex justify-start before:mr-2 before:font-bold">
+                                        <p class="mb-4">
+                                            <span class="text-basic font-bold mb-4 Mulish-black mr-2">Third-Party Cookies</span>
+                                            <span> Some cookies on our Website may be placed by third parties, such as analytics or advertising providers. These cookies are managed by the third parties and not by us.  </span>
+                                        </p>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="marker:font-bold mb-4">
+                                <p class="mb-4" > <strong class="text-basic font-bold mb-4 Mulish-black"> How We Use Cookies</strong> We use cookies to:  </p>
+                                <ul class="list-disc pl-5">
+                                    <li>
+                                        <p>Improve the functionality and performance of our Website.   </p>
+                                    </li>
+                                    <li>
+                                        <p>Understand how visitors use our Website.     </p>
+                                    </li>
+                                    <li>
+                                        <p>Personalize your experience on our Website.    </p>
+                                    </li>
+                                    <li>
+                                        <p>Provide targeted advertising.     </p>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="marker:font-bold mb-4">
+                                <p class="mb-4"><strong class="text-basic font-bold mb-4 Mulish-black">Your Choices</strong> You have the right to accept or reject cookies. You can exercise your cookie preferences by:    </p>
+                                <ul class="list-disc pl-5">
+                                    <li>
+                                        <p>Adjusting your browser settings to refuse cookies. Most web browsers allow you to control cookies through their settings.    </p>
+                                    </li>
+                                    <li>
+                                        <p>Using the cookie consent banner that appears when you first visit our Website to manage your cookie preferences.     </p>
+                                    </li>
+                                </ul>
+                                <p class="mb-4">Please note that disabling cookies may affect the functionality of the Website and your user experience. </p>
+                            </li>
+                            <li class="marker:font-bold mb-4">
+                                <p class="mb-4">
+                                    <span class="text-basic font-bold mb-4 Mulish-black mr-2">Third-Party Cookies</span>
+                                    <span>We may use third-party services, such as Google Analytics, to collect and process data about how visitors interact with our Website. These third-party providers may use cookies to track your online activities. For more information, please refer to their privacy and cookie policies. </span>
+                                </p>
+                            </li>
+                            <li class="marker:font-bold mb-4">
+                                <p class="mb-4">
+                                    <span class="text-basic font-bold mb-4 Mulish-black mr-2">Updates to This Policy</span>
+                                    <span>We may update this Cookie Policy from time to time to reflect changes to our practices or for other operational, legal, or regulatory reasons. The updated version will be posted on this page with a revised "Effective Date." </span>
+                                </p>
+                            </li>
+                        </ul>
                     </div>
                     <div class="tab-content sm:px-0 px-3 tab-content-6 hidden">
                         <h1 class="text-xl font-black mb-4 Mulish-Black leading-none" >Host2Media Terms of Service</h1>
