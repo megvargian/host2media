@@ -1202,7 +1202,6 @@
                             </li>
                         </ul>
                     </div>
-
                     <div class="tab-content sm:px-0 px-3 tab-content-6 hidden">
                         <h2 class="text-xl font-black mb-4 Mulish-Black leading-none" >Collaboration Terms</h2>
                         <ul class="list-decimal pl-5">
@@ -1531,12 +1530,104 @@
                             </li>
                         </ul>
                     </div>
-
                     <div class="tab-content sm:px-0 px-3 tab-content-7 hidden">
-                        <h1 class="text-xl font-black mb-4 Mulish-Black leading-none" >Host2Media Terms of Service</h1>
-                        <p class="font-bold mb-4">Effective Date: [14 December 2024]</p>
-                        <p class="mb-4">Welcome to Host2Media! These Terms of Service ("TOS") govern your access to and use of Host2Media’s services. By using our services, you agree to be bound by these terms. If you do not agree, please discontinue use immediately.</p>
+                        <h2 class="text-xl font-black mb-4 Mulish-Black leading-none" >Copyright Policy (DMCA Compliance) </h2>
+                        <p class="mb-4">Effective Date: [Insert Date] </p>
+                        <p class="mb-4">At Host2Media, we are committed to respecting the intellectual property rights of others and ensuring that our platform is not used for activities that infringe upon those rights. This Copyright Policy outlines how copyright infringement claims will be addressed. </p>
+                        <ul class="list-decimal pl-5">
+                            <li class="marker:font-bold mb-4">
+                                <h3 class="text-basic font-bold mb-4 Mulish-black"> Reporting Copyright Infringement</h3>
+                                <p class="mb-4">
+                                    If you believe that content hosted on our platform infringes your copyright, you may report it to us by submitting a written notification. To process your claim effectively, your notification must include:
+                                </p>
+                                <ul class="list-decimal pl-5 pb-4">
+                                    <li>
+                                        <p><strong>Identification of the copyrighted work </strong>that you claim has been infringed. If multiple works are covered by a single notification, you may provide a representative list.</p>
+                                    </li>
+                                    <li>
+                                        <p><strong>Identification of the infringing material </strong>and its location on our platform, including specific URLs or other details that allow us to locate the material. </p>
+                                    </li>
+                                    <li>
+                                        <p><strong>Your contact information, </strong>including your full name, mailing address, phone number, and email address. </p>
+                                    </li>
+                                    <li>
+                                        <p><strong>A statement </strong>confirming that you have a good faith belief that the use of the material is not authorized by the copyright owner, its agent, or applicable law. </p>
+                                    </li>
+                                    <li>
+                                        <p><strong>A statement, under penalty of perjury,</strong>that the information provided in your notification is accurate and that you are the copyright owner or authorized to act on behalf of the copyright owner. </p>
+                                    </li>
+                                    <li>
+                                        <p><strong>Your physical or electronic signature.</strong></p>
+                                    </li>
+                                </ul>
+                                <p class="">You can send your notification to us at:</p>
+                                <p class="">Email: [Insert Email Address]</p>
+                                <p class="mb-4">Phone: [Insert Phone Number]</p>
+                                <p class="mb-4">We will acknowledge receipt of your notification and promptly investigate the claim. </p>
+                            </li>
+                            <li class="marker:font-bold mb-4">
+                                <h3 class="text-basic font-bold mb-4 Mulish-black"> Host2Media’s Response to Copyright Notices </h3>
+                                <p class="mb-4">
+                                    Upon receiving a valid copyright infringement notification, Host2Media will:
+                                </p>
+                                <ul class="list-disc pl-5 pb-4">
+                                    <li>
+                                        <p>Remove or disable access to the infringing material. </p>
+                                    </li>
+                                    <li>
+                                        <p>Notify the user responsible for the material about the action taken. </p>
+                                    </li>
+                                    <li>
+                                        <p>Provide the user with an opportunity to submit a response or counter-notification as described below. </p>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="marker:font-bold mb-4">
+                                <h3 class="text-basic font-bold mb-4 Mulish-black">  Counter-Notification</h3>
+                                <p class="mb-4">
+                                    If you believe that the content removed or disabled by Host2Media was not infringing, you may submit a counter-notification. Your counter-notification must include:
+                                </p>
+                                <ul class="list-decimal pl-5 pb-4">
+                                    <li>
+                                        <p><strong>Identification of the material  </strong>that was removed or disabled and the location where it appeared before it was removed. </p>
+                                    </li>
+                                    <li>
+                                        <p><strong>A statement, under penalty of perjury,</strong> that you have a good faith belief that the material was removed or disabled as a result of a mistake or misidentification.  </p>
+                                    </li>
+                                    <li>
+                                        <p><strong>Your contact information, </strong>including your full name, mailing address, phone number, and email address. </p>
+                                    </li>
+                                    <li>
+                                        <p><strong>A statement </strong> that you consent to the jurisdiction of the courts in Lebanon and will accept service of process from the party who submitted the original infringement notice or their agent.</p>
+                                    </li>
+                                    <li>
+                                        <p><strong>Your physical or electronic signature. </strong></p>
+                                    </li>
+                                </ul>
+                                <p class="">Send your counter-notification to:</p>
+                                <p class="">Email: [Insert Email Address]</p>
+                                <p class="mb-4">Phone: [Insert Phone Number]</p>
+                                <p class="mb-4">If the counter-notification is valid, Host2Media may restore the removed content unless the original claimant provides evidence of legal action within 10 business days.  </p>
+                            </li>
+                            <li class="marker:font-bold mb-4">
+                                <h3 class="text-basic font-bold mb-4 Mulish-black">Repeat Infringers</h3>
+                                <p class="mb-4">Host2Media reserves the right to suspend or terminate accounts of users who repeatedly infringe upon intellectual property rights or violate this policy. </p>
+                            </li>
+                            <li class="marker:font-bold mb-4">
+                                <h3 class="text-basic font-bold mb-4 Mulish-black">Misrepresentation</h3>
+                                <p class="mb-4">Under applicable copyright laws, knowingly submitting false or fraudulent copyright infringement notifications or counter-notifications may result in liability for damages. Host2Media expects all parties to act in good faith when submitting claims or responses. </p>
+                            </li>
+                            <li class="marker:font-bold mb-4">
+                                <h3 class="text-basic font-bold mb-4 Mulish-black"> Third-Party Content Responsibility</h3>
+                                <p class="mb-4">Host2Media acts as a hosting provider and does not monitor or control user-generated content. Users are solely responsible for ensuring that their content complies with copyright laws. Claims of infringement should follow the procedures outlined in this policy. </p>
+                            </li>
+                            <li class="marker:font-bold mb-4">
+                                <h3 class="text-basic font-bold mb-4 Mulish-black">Amendments to This Policy </h3>
+                                <p class="mb-4">Host2Media reserves the right to modify this Copyright Policy at any time to reflect changes in applicable laws or our practices. Updates will be posted on our website with a revised "Effective Date."</p>
+                            </li>
+                        </ul>
                     </div>
+
                     <div class="tab-content sm:px-0 px-3 tab-content-8 hidden">
                         <h1 class="text-xl font-black mb-4 Mulish-Black leading-none" >Host2Media Terms of Service</h1>
                         <p class="font-bold mb-4">Effective Date: [14 December 2024]</p>
