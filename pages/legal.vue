@@ -1202,11 +1202,336 @@
                             </li>
                         </ul>
                     </div>
+
                     <div class="tab-content sm:px-0 px-3 tab-content-6 hidden">
-                        <h1 class="text-xl font-black mb-4 Mulish-Black leading-none" >Host2Media Terms of Service</h1>
-                        <p class="font-bold mb-4">Effective Date: [14 December 2024]</p>
-                        <p class="mb-4">Welcome to Host2Media! These Terms of Service ("TOS") govern your access to and use of Host2Media’s services. By using our services, you agree to be bound by these terms. If you do not agree, please discontinue use immediately.</p>
+                        <h2 class="text-xl font-black mb-4 Mulish-Black leading-none" >Collaboration Terms</h2>
+                        <ul class="list-decimal pl-5">
+                            <li class="marker:font-bold mb-4">
+                                <p class="mb-4">
+                                    <span class="text-basic font-bold mb-4 Mulish-black mr-2">Introduction</span>
+                                    <span>Host2Media, acting as either a collaborator or a hiring party, operates independently of any partnerships, joint ventures, or shared ownership arrangements. These Collaboration Terms outline the framework and conditions for any collaboration agreements involving Host2Media to ensure clarity of roles, protect all parties, and define responsibilities and limitations.</span>
+                                </p>
+                            </li>
+                            <li class="marker:font-bold mb-4">
+                                <p class="mb-4" > <strong class="text-basic font-bold mb-4 Mulish-black"> Representation and Ownership </strong> We use cookies to:  </p>
+                                <ul class="list-disc pl-5 pb-4">
+                                    <li>
+                                        <p>Host2Media retains full ownership and operational independence, managed and represented solely by Nadim Younes.    </p>
+                                    </li>
+                                    <li>
+                                        <p>Collaborators, resellers, or third parties may not claim or imply ownership, partnership, or representative authority over Host2Media.     </p>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="marker:font-bold mb-4">
+                                <p class="text-basic font-bold mb-4 Mulish-black">Host2Media as a Collaborator</p>
+                                <p class="mb-4">When Host2Media is hired as a collaborator: </p>
+                                <ul class="list-none space-y-2">
+                                    <li class="before:content-['3.1'] flex justify-start before:mr-2 before:font-bold">
+                                        <p class="mb-4">
+                                            <span class="text-basic font-bold mb-4 Mulish-black mr-2">Limited Scope of Collaboration </span>
+                                        </p>
+                                    </li>
+                                    <ul class="list-disc pl-5 pb-4">
+                                        <li>
+                                            <p>Host2Media’s role will be strictly limited to the specific tasks, work, or project section explicitly defined in the collaboration agreement.     </p>
+                                        </li>
+                                        <li>
+                                            <p>Host2Media is not responsible for delays, errors, or failures caused by the hiring party, their clients, or third parties.      </p>
+                                        </li>
+                                        <li>
+                                            <p>Once Host2Media completes the agreed work, the collaboration automatically terminates, and any additional changes or requests will require a new agreement or arrangement.       </p>
+                                        </li>
+                                    </ul>
+                                    <li class="before:content-['3.2'] flex justify-start before:mr-2 before:font-bold">
+                                        <p class="mb-4">
+                                            <span class="text-basic font-bold mb-4 Mulish-black mr-2">Independence of Operations </span>
+                                        </p>
+                                    </li>
+                                    <ul class="list-disc pl-5 pb-4">
+                                        <li>
+                                            <p>Host2Media operates independently and does not act as an employee of the hiring party or their client.      </p>
+                                        </li>
+                                        <li>
+                                            <p>Host2Media’s involvement does not obligate it to meet, follow up with, or provide support to the client unless explicitly stated in the agreement.       </p>
+                                        </li>
+                                        <li>
+                                            <p>Web hosting support is treated separately and does not fall under the scope of collaboration agreements unless otherwise specified.      </p>
+                                        </li>
+                                    </ul>
+                                    <li class="before:content-['3.3'] flex justify-start before:mr-2 before:font-bold">
+                                        <p class="mb-4">
+                                            <span class="text-basic font-bold mb-4 Mulish-black mr-2">Termination Rights  </span>
+                                        </p>
+                                    </li>
+                                    <ul class="list-disc pl-5 pb-4">
+                                        <li>
+                                            <p>Host2Media reserves the right to refuse any collaboration or project for any reason without justification.</p>
+                                        </li>
+                                        <li>
+                                            <p>Host2Media may terminate a collaboration at any time if:       </p>
+                                        </li>
+                                        <ul class="list-disc pl-5">
+                                            <li>
+                                                <p>Instructions were incorrectly provided.</p>
+                                            </li>
+                                            <li>
+                                                <p>Additional or unapproved changes are requested after work has commenced or been completed. </p>
+                                            </li>
+                                            <li>
+                                                <p>The project involves unethical practices or breaches legal or industry standards. </p>
+                                            </li>
+                                            <li>
+                                                <p>The hiring party fails to meet agreed timelines, payments, or obligations. </p>
+                                            </li>
+                                            <li>
+                                                <p>Host2Media identifies any risks, conflicts, or issues that could compromise its operations or reputation. </p>
+                                            </li>
+                                        </ul>
+                                    </ul>
+                                    <li class="before:content-['3.4'] flex justify-start before:mr-2 before:font-bold">
+                                        <p class="mb-4">
+                                            <span class="text-basic font-bold mb-4 Mulish-black mr-2">Limitations of Responsibility </span>
+                                        </p>
+                                    </li>
+                                    <ul class="list-disc pl-5 pb-4">
+                                        <li>
+                                            <p>Host2Media is not responsible for the hiring party’s client’s satisfaction, delivery issues, or miscommunication beyond its defined scope of work.       </p>
+                                        </li>
+                                        <li>
+                                            <p>Host2Media will not provide ongoing support, updates, or maintenance unless explicitly agreed upon in the initial collaboration agreement.       </p>
+                                        </li>
+                                        <li>
+                                            <p>Host2Media’s liability is limited to the specific tasks outlined in the agreement and does not extend to the client’s broader project or operations.     </p>
+                                        </li>
+                                    </ul>
+                                    <li class="before:content-['3.5'] flex justify-start before:mr-2 before:font-bold">
+                                        <p class="mb-4">
+                                            <span class="text-basic font-bold mb-4 Mulish-black mr-2">Legal Protections </span>
+                                        </p>
+                                    </li>
+                                    <ul class="list-disc pl-5 pb-4">
+                                        <li>
+                                            <p>Host2Media’s collaboration agreements do not establish an employment relationship. Host2Media retains the right to operate independently and make decisions in its best interest.       </p>
+                                        </li>
+                                        <li>
+                                            <p>Host2Media reserves the right to take legal action if falsely represented as an employee, partner, or co-owner by the hiring party or their client.        </p>
+                                        </li>
+                                    </ul>
+                                </ul>
+                            </li>
+                            <li class="marker:font-bold mb-4">
+                                <p class="text-basic font-bold mb-4 Mulish-black"> Host2Media Hiring a Collaborator</p>
+                                <p class="mb-4">When Host2Media hires a collaborator:  </p>
+                                <ul class="list-none space-y-2">
+                                    <li class="before:content-['4.1'] flex justify-start before:mr-2 before:font-bold">
+                                        <p class="mb-4">
+                                            <span class="text-basic font-bold mb-4 Mulish-black mr-2">Responsibilities of the Collaborator  </span>
+                                        </p>
+                                    </li>
+                                    <ul class="list-disc pl-5 pb-4">
+                                        <li>
+                                            <p>The collaborator must adhere strictly to the project requirements and deliverables as outlined in the agreement.      </p>
+                                        </li>
+                                        <li>
+                                            <p>The collaborator is responsible for direct communication with the client and ensuring timely delivery that meets the client’s specifications. </p>
+                                        </li>
+                                        <li>
+                                            <p>The collaborator is accountable for addressing any issues, delays, or corrections required to meet the agreed-upon standards.        </p>
+                                        </li>
+                                    </ul>
+                                    <li class="before:content-['4.2'] flex justify-start before:mr-2 before:font-bold">
+                                        <p class="mb-4">
+                                            <span class="text-basic font-bold mb-4 Mulish-black mr-2">Independence and Support  </span>
+                                        </p>
+                                    </li>
+                                    <ul class="list-disc pl-5 pb-4">
+                                        <li>
+                                            <p>Host2Media will provide initial instructions and oversight but is not responsible for micromanaging the collaborator’s workflow.       </p>
+                                        </li>
+                                        <li>
+                                            <p>The collaborator is expected to operate independently and resolve any challenges related to their scope of work.        </p>
+                                        </li>
+                                    </ul>
+                                    <li class="before:content-['3.3'] flex justify-start before:mr-2 before:font-bold">
+                                        <p class="mb-4">
+                                            <span class="text-basic font-bold mb-4 Mulish-black mr-2">Termination of Agreement  </span>
+                                        </p>
+                                    </li>
+                                    <ul class="list-disc pl-5 pb-4">
+                                        <li>
+                                            <p>Host2Media reserves the right to terminate the agreement with the collaborator if: </p>
+                                        </li>
+                                        <ul class="list-disc pl-5">
+                                            <li>
+                                                <p>They fail to meet deadlines or quality standards.</p>
+                                            </li>
+                                            <li>
+                                                <p>They breach confidentiality or the terms of the agreement. </p>
+                                            </li>
+                                            <li>
+                                                <p>They misrepresent themselves or their work to the client.  </p>
+                                            </li>
+                                        </ul>
+                                    </ul>
+                                    <li class="before:content-['4.4'] flex justify-start before:mr-2 before:font-bold">
+                                        <p class="mb-4">
+                                            <span class="text-basic font-bold mb-4 Mulish-black mr-2">Liability </span>
+                                        </p>
+                                    </li>
+                                    <ul class="list-disc pl-5 pb-4">
+                                        <li>
+                                            <p>The collaborator is fully responsible for their work’s quality, accuracy, and delivery.        </p>
+                                        </li>
+                                        <li>
+                                            <p>Host2Media is not liable for any claims, losses, or damages arising from the collaborator’s actions or omissions.        </p>
+                                        </li>
+                                    </ul>
+                                </ul>
+                            </li>
+                            <li class="marker:font-bold mb-4">
+                                <p class="text-basic font-bold mb-4 Mulish-black">  Reseller as Collaborator </p>
+                                <p class="mb-4">When a reseller collaborates with Host2Media:   </p>
+                                <ul class="list-none space-y-2">
+                                    <li class="before:content-['5.1'] flex justify-start before:mr-2 before:font-bold">
+                                        <p class="mb-4">
+                                            <span class="text-basic font-bold mb-4 Mulish-black mr-2">Reseller Responsibilities</span>
+                                        </p>
+                                    </li>
+                                    <ul class="list-disc pl-5 pb-4">
+                                        <li>
+                                            <p>Resellers are responsible for providing direct support to their clients, including managing communications, disputes, and technical assistance.       </p>
+                                        </li>
+                                        <li>
+                                            <p>Resellers must ensure their clients comply with Host2Media’s Terms of Service (TOS), Acceptable Use Policy (AUP), and other relevant policies.  </p>
+                                        </li>
+                                        <li>
+                                            <p>Resellers are responsible for handling billing, payments, and ensuring timely payment to Host2Media for all services resold.       </p>
+                                        </li>
+                                        <li>
+                                            <p>Resellers must ensure their clients adhere to all applicable laws, including data protection and intellectual property regulations.        </p>
+                                        </li>
+                                        <li>
+                                            <p>Resellers are required to advise their clients on security best practices, such as regular updates and maintaining secure credentials.        </p>
+                                        </li>
+                                    </ul>
+                                    <li class="before:content-['5.2'] flex justify-start before:mr-2 before:font-bold">
+                                        <p class="mb-4">
+                                            <span class="text-basic font-bold mb-4 Mulish-black mr-2">Host2Media Responsibilities   </span>
+                                        </p>
+                                    </li>
+                                    <ul class="list-disc pl-5 pb-4">
+                                        <li>
+                                            <p>Host2Media will provide a reliable hosting infrastructure, including servers and networks, and maintain the hosting environment to ensure uptime and performance.        </p>
+                                        </li>
+                                        <li>
+                                            <p>Host2Media may provide limited support to resellers’ clients on a case-by-case basis but is not obligated to do so unless agreed upon in writing.        </p>
+                                        </li>
+                                        <li>
+                                            <p>Host2Media will notify resellers of any service updates or issues that may affect their accounts or their clients’ services. </p>
+                                        </li>
+                                    </ul>
+                                    <li class="before:content-['5.3'] flex justify-start before:mr-2 before:font-bold">
+                                        <p class="mb-4">
+                                            <span class="text-basic font-bold mb-4 Mulish-black mr-2">Branding and White Labeling   </span>
+                                        </p>
+                                    </li>
+                                    <ul class="list-disc pl-5 pb-4">
+                                        <li>
+                                            <p>Resellers may operate under their own branding but must not misrepresent their relationship with Host2Media.  </p>
+                                        </li>
+                                        <li>
+                                            <p>Host2Media reserves the right to contact end clients if necessary to address policy violations or legal obligations.   </p>
+                                        </li>
+                                    </ul>
+                                    <li class="before:content-['5.4'] flex justify-start before:mr-2 before:font-bold">
+                                        <p class="mb-4">
+                                            <span class="text-basic font-bold mb-4 Mulish-black mr-2">Termination and Suspension  </span>
+                                        </p>
+                                    </li>
+                                    <ul class="list-disc pl-5 pb-4">
+                                        <li>
+                                            <p>Host2Media reserves the right to terminate a reseller’s account for non-payment, policy violations, or misuse of services.         </p>
+                                        </li>
+                                        <li>
+                                            <p>If a reseller’s account is terminated, all associated client accounts may also be suspended or terminated, and the reseller is responsible for notifying their clients.       </p>
+                                        </li>
+                                        <li>
+                                            <p>In cases where the reseller’s clients are transferred directly to Host2Media, the reseller must agree to this process, and Host2Media assumes no financial obligation toward the reseller for such accounts.        </p>
+                                        </li>
+                                    </ul>
+                                    <li class="before:content-['5.5'] flex justify-start before:mr-2 before:font-bold">
+                                        <p class="mb-4">
+                                            <span class="text-basic font-bold mb-4 Mulish-black mr-2">Liability and Limitations  </span>
+                                        </p>
+                                    </li>
+                                    <ul class="list-disc pl-5 pb-4">
+                                        <li>
+                                            <p>Host2Media is not liable for disputes between resellers and their clients or for any loss of data or revenue resulting from service interruptions.          </p>
+                                        </li>
+                                        <li>
+                                            <p>Resellers must maintain backups of their clients’ data, as Host2Media’s backups are for internal use only. </p>
+                                        </li>
+                                    </ul>
+                                </ul>
+                            </li>
+                            <li class="marker:font-bold mb-4">
+                                <p class="text-basic font-bold mb-4 Mulish-black"> General Provisions </p>
+                                <ul class="list-none space-y-2">
+                                    <li class="before:content-['6.1'] flex justify-start before:mr-2 before:font-bold">
+                                        <p class="mb-4">
+                                            <span class="text-basic font-bold mb-4 Mulish-black mr-2">Confidentiality </span>
+                                        </p>
+                                    </li>
+                                    <ul class="list-disc pl-5 pb-4">
+                                        <li>
+                                            <p>All parties must maintain confidentiality regarding proprietary information shared during collaborations. </p>
+                                        </li>
+                                        <li>
+                                            <p>Breaches of confidentiality will result in immediate termination and potential legal action. </p>
+                                        </li>
+                                    </ul>
+                                    <li class="before:content-['6.2'] flex justify-start before:mr-2 before:font-bold">
+                                        <p class="mb-4">
+                                            <span class="text-basic font-bold mb-4 Mulish-black mr-2"> Intellectual Property Rights   </span>
+                                        </p>
+                                    </li>
+                                    <ul class="list-disc pl-5 pb-4">
+                                        <li>
+                                            <p>Host2Media retains ownership of all intellectual property it creates during collaborations.        </p>
+                                        </li>
+                                        <li>
+                                            <p>Any shared intellectual property will be governed by the terms outlined in the collaboration agreement.        </p>
+                                        </li>
+                                    </ul>
+                                    <li class="before:content-['6.3'] flex justify-start before:mr-2 before:font-bold">
+                                        <p class="mb-4">
+                                            <span class="text-basic font-bold mb-4 Mulish-black mr-2"> Dispute Resolution </span>
+                                        </p>
+                                    </li>
+                                    <ul class="list-disc pl-5 pb-4">
+                                        <li>
+                                            <p>Disputes will first be addressed through good-faith negotiations.  </p>
+                                        </li>
+                                        <li>
+                                            <p>Unresolved disputes will be subject to the exclusive jurisdiction of the courts in Beirut, Lebanon. </p>
+                                        </li>
+                                    </ul>
+                                    <li class="before:content-['6.4'] flex justify-start before:mr-2 before:font-bold">
+                                        <p class="mb-4">
+                                            <span class="text-basic font-bold mb-4 Mulish-black mr-2">Final Authority  </span>
+                                        </p>
+                                    </li>
+                                    <ul class="list-disc pl-5">
+                                        <li>
+                                            <p>Host2Media retains the final authority to approve, modify, or reject any aspect of the collaboration agreement. </p>
+                                        </li>
+                                    </ul>
+                                </ul>
+                            </li>
+                        </ul>
                     </div>
+
                     <div class="tab-content sm:px-0 px-3 tab-content-7 hidden">
                         <h1 class="text-xl font-black mb-4 Mulish-Black leading-none" >Host2Media Terms of Service</h1>
                         <p class="font-bold mb-4">Effective Date: [14 December 2024]</p>
