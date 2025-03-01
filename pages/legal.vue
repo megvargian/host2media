@@ -1853,130 +1853,143 @@
                                             <p>Recommend upgrading to a plan with higher resource allocations.  </p>
                                         </li>
                                         <li>
-                                            <p>CPU and memory usage   </p>
-                                        </li>
-                                        <li>
-                                            <p>Email accounts and storage  </p>
-                                        </li>
-                                        <li>
-                                            <p>Database storage   </p>
+                                            <p>Temporarily suspend services until the issue is resolved.   </p>
                                         </li>
                                     </ul>
                                 </ul>
                             </li>
                             <li class="marker:font-bold mb-4">
-                                <h3 class="text-basic font-bold mb-4 Mulish-black">  Retention of Hosted Data </h3>
+                                <h3 class="text-basic font-bold mb-4 Mulish-black">   Prohibited Activities</h3>
+                                <p class="mb-4">
+                                    To maintain service quality and protect the shared hosting environment, the following activities are strictly prohibited:
+                                </p>
                                 <ul class="list-none space-y-2">
                                     <li class="before:content-['3.1'] flex justify-start before:mr-2 before:font-bold">
                                         <p class="mb-4">
-                                            <span class="text-basic font-bold mb-4 Mulish-black mr-2">Client Files and Content: </span>
+                                            <span class="text-basic font-bold mb-4 Mulish-black mr-2">Excessive Resource Usage: </span>
                                         </p>
                                     </li>
-                                    <p class="mb-4">Data hosted on our servers will be retained for the duration of the hosting plan. If the account is canceled or terminated, hosted data will be retained for up to 30 days after the termination date, after which it will be permanently deleted.</p>
+                                    <ul class="pl-5 pb-4 list-disc">
+                                        <li>
+                                            <p>Hosting large media files, backups, or archives that consume excessive disk space or bandwidth.</p>
+                                        </li>
+                                        <li>
+                                            <p>Running resource-intensive scripts or applications that degrade server performance.</p>
+                                        </li>
+                                    </ul>
                                     <li class="before:content-['3.2'] flex justify-start before:mr-2 before:font-bold">
                                         <p class="mb-4">
-                                            <span class="text-basic font-bold mb-4 Mulish-black mr-2">Backups: </span>
+                                            <span class="text-basic font-bold mb-4 Mulish-black mr-2">Abuse of Services: </span>
                                         </p>
                                     </li>
-                                    <p class="mb-4">System-generated backups are retained for a maximum of 7 days and are overwritten periodically. Clients are encouraged to maintain their own backups. </p>
+                                    <ul class="pl-5 pb-4 list-disc">
+                                        <li>
+                                            <p>Using hosting accounts primarily for file storage, file sharing, or backup purposes. </p>
+                                        </li>
+                                        <li>
+                                            <p>Running processes that consume excessive CPU, memory, or I/O resources. </p>
+                                        </li>
+                                    </ul>
+                                    <li class="before:content-['3.3'] flex justify-start before:mr-2 before:font-bold">
+                                        <p class="mb-4">
+                                            <span class="text-basic font-bold mb-4 Mulish-black mr-2">Email Abuse: </span>
+                                        </p>
+                                    </li>
+                                    <ul class="pl-5 pb-4 list-disc">
+                                        <li>
+                                            <p>Sending bulk emails, spam, or other unsolicited communications that exceed the limits specified in the plan.  </p>
+                                        </li>
+                                        <li>
+                                            <p>Hosting email accounts that significantly impact server performance. </p>
+                                        </li>
+                                    </ul>
+                                    <li class="before:content-['3.4'] flex justify-start before:mr-2 before:font-bold">
+                                        <p class="mb-4">
+                                            <span class="text-basic font-bold mb-4 Mulish-black mr-2">Violation of Policy Boundaries: </span>
+                                        </p>
+                                    </li>
+                                    <ul class="pl-5 pb-4 list-disc">
+                                        <li>
+                                            <p>Attempting to use resources beyond the limits of the purchased plan.  </p>
+                                        </li>
+                                        <li>
+                                            <p>Misusing hosting services in any way that affects the performance or availability of other clients' services.  </p>
+                                        </li>
+                                    </ul>
                                 </ul>
                             </li>
+
                             <li class="marker:font-bold mb-4">
-                                <h3 class="text-basic font-bold mb-4 Mulish-black">  Retention of Logs </h3>
+                                <h3 class="text-basic font-bold mb-4 Mulish-black">  Monitoring and Enforcement </h3>
                                 <ul class="list-none space-y-2">
                                     <li class="before:content-['4.1'] flex justify-start before:mr-2 before:font-bold">
                                         <p class="mb-4">
-                                            <span class="text-basic font-bold mb-4 Mulish-black mr-2">System Logs: </span>
+                                            <span class="text-basic font-bold mb-4 Mulish-black mr-2">Resource Monitoring: </span>
                                         </p>
                                     </li>
-                                    <p class="mb-4">Server and system logs, including access logs and error logs, are retained for 30 days for troubleshooting and security purposes.</p>
+                                    <p class="mb-4">4.1. Resource Monitoring:
+                                        Host2Media actively monitors server and resource usage to ensure compliance with this policy. Clients found exceeding resource limits or engaging in prohibited activities will be notified. </p>
                                     <li class="before:content-['4.2'] flex justify-start before:mr-2 before:font-bold">
                                         <p class="mb-4">
-                                            <span class="text-basic font-bold mb-4 Mulish-black mr-2">Security Logs:</span>
+                                            <span class="text-basic font-bold mb-4 Mulish-black mr-2">Action Against Violations:</span>
                                         </p>
                                     </li>
-                                    <p class="mb-4">Logs related to security incidents, such as unauthorized access attempts, are retained for  1 year for analysis and legal compliance. </p>
+                                    <p class="mb-4">If a client violates this policy, Host2Media may take the following actions: </p>
+                                    <ul class="pl-5 pb-4 list-decimal">
+                                        <li>
+                                            <p>Notify the client to reduce resource usage or adjust their activities. </p>
+                                        </li>
+                                        <li>
+                                            <p>Temporarily restrict access to affected services.  </p>
+                                        </li>
+                                        <li>
+                                            <p>Suspend or terminate the client’s account for repeated or severe violations.  </p>
+                                        </li>
+                                    </ul>
                                 </ul>
                             </li>
                             <li class="marker:font-bold mb-4">
-                                <h3 class="text-basic font-bold mb-4 Mulish-black"> Disposal of Data </h3>
-                                <ul class="list-none space-y-2">
-                                    <li class="before:content-['5.1'] flex justify-start before:mr-2 before:font-bold">
-                                        <p class="mb-4">
-                                            <span class="text-basic font-bold mb-4 Mulish-black mr-2">Automatic Deletion: </span>
-                                        </p>
-                                    </li>
-                                    <p class="mb-4">Data that is no longer required for operational, legal, or regulatory purposes will be automatically deleted or anonymized.</p>
-                                    <li class="before:content-['5.2'] flex justify-start before:mr-2 before:font-bold">
-                                        <p class="mb-4">
-                                            <span class="text-basic font-bold mb-4 Mulish-black mr-2">Secure Disposal:</span>
-                                        </p>
-                                    </li>
-                                    <p class="mb-4">When data is deleted, it is securely and permanently removed to prevent unauthorized recovery. </p>
-                                </ul>
+                                <h3 class="text-basic font-bold mb-4 Mulish-black">No Unlimited Services </h3>
+                                <p class="mb-4">Host2Media explicitly states that no service, feature, or package is offered on an "unlimited" basis. All services have specific, measurable limits to ensure fair and reliable resource usage. Marketing or promotion of any plan as "unlimited" by a client or reseller is strictly prohibited.</p>
                             </li>
                             <li class="marker:font-bold mb-4">
-                                <h3 class="text-basic font-bold mb-4 Mulish-black"> Client Rights and Responsibilities </h3>
+                                <h3 class="text-basic font-bold mb-4 Mulish-black"> Upgrades and Adjustments </h3>
                                 <ul class="list-none space-y-2">
                                     <li class="before:content-['6.1'] flex justify-start before:mr-2 before:font-bold">
                                         <p class="mb-4">
-                                            <span class="text-basic font-bold mb-4 Mulish-black mr-2">Access to Data: </span>
+                                            <span class="text-basic font-bold mb-4 Mulish-black mr-2">Upgrades: </span>
                                         </p>
                                     </li>
-                                    <p class="mb-4">Clients have the right to access their own data stored on Host2Media servers, such as their hosted files, databases, and email accounts, through their account dashboard or by contacting our support team. </p>
+                                    <p class="mb-4">Clients requiring additional resources may upgrade to a higher-tier plan by contacting Host2Media’s sales team. </p>
                                     <li class="before:content-['6.2'] flex justify-start before:mr-2 before:font-bold">
                                         <p class="mb-4">
                                             <span class="text-basic font-bold mb-4 Mulish-black mr-2">Responsibilities:</span>
                                         </p>
                                     </li>
-                                    <p class="mb-4">Clients are responsible for: </p>
-                                    <ul class="list-disc pl-5 pb-4">
-                                        <li>
-                                            <p>Maintaining their own backups of critical data.</p>
-                                        </li>
-                                        <li>
-                                            <p>Ensuring that personal or sensitive data hosted on our servers complies with applicable data protection laws.   </p>
-                                        </li>
-                                    </ul>
+                                    <p class="mb-4">Custom Plans:</p>
+                                    <p class="mb-4">Clients with unique resource needs can request a custom hosting plan tailored to their requirements.</p>
                                 </ul>
                             </li>
                             <li class="marker:font-bold mb-4">
-                                <h3 class="text-basic font-bold mb-4 Mulish-black">  Data Retention Exceptions</h3>
+                                <h3 class="text-basic font-bold mb-4 Mulish-black"> Client Responsibilities</h3>
                                 <p class="mb-4">
-                                    Host2Media may retain certain data beyond the standard retention periods in the following circumstances:
+                                    To ensure compliance with this Fair Usage Policy, clients are responsible for:
                                 </p>
                                 <ul class="list-decimal pl-5 pb-4">
                                     <li>
-                                        <p><strong>Legal Requirements:  </strong>To comply with legal or regulatory obligations.  </p>
+                                        <p>Regularly reviewing their resource usage through their account dashboard.   </p>
                                     </li>
                                     <li>
-                                        <p><strong>Dispute Resolution:</strong> To resolve disputes or enforce agreements.   </p>
+                                        <p>Managing hosted content and applications to stay within the limits of their plan.    </p>
                                     </li>
                                     <li>
-                                        <p><strong>Security Incidents: </strong> To investigate and mitigate security breaches or abuse. </p>
+                                        <p>Avoiding prohibited activities that impact server performance or other clients.  </p>
                                     </li>
-                                </ul>
-                            </li>
-                            <li class="marker:font-bold mb-4">
-                                <h3 class="text-basic font-bold mb-4 Mulish-black">  Data Access and Deletion Requests  </h3>
-                                <ul class="list-none space-y-2">
-                                    <li class="before:content-['8.1'] flex justify-start before:mr-2 before:font-bold">
-                                        <p class="mb-4">
-                                            <span class="text-basic font-bold mb-4 Mulish-black mr-2">Access Requests: </span>
-                                        </p>
-                                    </li>
-                                    <p class="mb-4">Clients may request assistance in accessing their own data if it is not readily available through their account.</p>
-                                    <li class="before:content-['8.2'] flex justify-start before:mr-2 before:font-bold">
-                                        <p class="mb-4">
-                                            <span class="text-basic font-bold mb-4 Mulish-black mr-2">Deletion Requests:</span>
-                                        </p>
-                                    </li>
-                                    <p class="mb-4">Clients may request the deletion of their personal data by contacting us. Requests will be reviewed and fulfilled in accordance with applicable legal obligations and this policy.</p>
                                 </ul>
                             </li>
                             <li class="marker:font-bold mb-4">
                                 <h3 class="text-basic font-bold mb-4 Mulish-black">Amendments to This Policy </h3>
-                                <p class="mb-4">Host2Media reserves the right to update this Data Retention Policy at any time to reflect changes in laws or operational practices. Updates will be communicated via email or posted on our website with a revised "Effective Date." </p>
+                                <p class="mb-4">Host2Media reserves the right to update this Fair Usage Policy at any time to reflect changes in services or operational requirements. Updates will be communicated via email or posted on our website with a revised "Effective Date."</p>
                             </li>
                         </ul>
                     </div>
