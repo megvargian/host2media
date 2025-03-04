@@ -1785,7 +1785,6 @@
                             </li>
                         </ul>
                     </div>
-
                     <div class="tab-content sm:px-0 px-3 tab-content-9 hidden">
                         <h2 class="text-xl font-black mb-4 Mulish-Black leading-none" >Fair Usage Policy   </h2>
                         <p class="mb-4">Effective Date: [Insert Date]  </p>
@@ -1994,15 +1993,308 @@
                         </ul>
                     </div>
                     <div class="tab-content sm:px-0 px-3 tab-content-10 hidden">
-                        <h1 class="text-xl font-black mb-4 Mulish-Black leading-none" >Host2Media Terms of Service</h1>
-                        <p class="font-bold mb-4">Effective Date: [14 December 2024]</p>
-                        <p class="mb-4">Welcome to Host2Media! These Terms of Service ("TOS") govern your access to and use of Host2Media’s services. By using our services, you agree to be bound by these terms. If you do not agree, please discontinue use immediately.</p>
+                        <h2 class="text-xl font-black mb-4 Mulish-Black leading-none" >Migration Policy </h2>
+                        <p class="mb-4">Effective Date: [Insert Date]  </p>
+                        <p class="mb-4">At Host2Media, we strive to make transitioning to our platform as seamless as possible. This Migration Policy outlines the terms, conditions, and scope of services for migrating websites, databases, emails, or other content to our hosting platform. By utilizing our migration services, you agree to the terms outlined in this policy.  </p>
+                        <ul class="list-decimal pl-5">
+                            <li class="marker:font-bold mb-4">
+                                <h3 class="text-basic font-bold mb-4 Mulish-black">Scope of Migration Services  </h3>
+                                <p class="mb-4">
+                                    Host2Media provides migration services to assist clients in transferring their data from a third-party hosting provider to our platform. These services include, but are not limited to:
+                                </p>
+                                <ul class="list-disc pl-5 pb-4">
+                                    <li>
+                                        <p><strong>Website Transfers:</strong> Moving files, databases, and configurations for websites. </p>
+                                    </li>
+                                    <li>
+                                        <p><strong>Email Account Transfers:</strong> Migrating email accounts, settings, and email messages. </p>
+                                    </li>
+                                    <li>
+                                        <p><strong>Database Transfers:</strong> Importing and exporting databases required for website functionality. </p>
+                                    </li>
+                                    <li>
+                                        <p><strong>Custom Applications:</strong> Migrating specific applications or plugins, as agreed upon in advance. </p>
+                                    </li>
+                                </ul>
+                                <p class="mb-4">The scope of services will be determined based on the client’s specific requirements and the limitations of the source hosting provider. </p>
+                            </li>
+                            <li class="marker:font-bold mb-4">
+                                <h3 class="text-basic font-bold mb-4 Mulish-black">  Eligibility for Migration Services  </h3>
+                                <p class="mb-4">Migration services are available under the following conditions: </p>
+                                <ul class="list-disc pl-5 pb-4">
+                                    <li>
+                                        <p>The client must have an active hosting plan with Host2Media. </p>
+                                    </li>
+                                    <li>
+                                        <p>The source hosting provider must allow access to the required data for migration. </p>
+                                    </li>
+                                    <li>
+                                        <p>Sufficient resources must be available on the client’s hosting plan with Host2Media to accommodate the migrated data.  </p>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="marker:font-bold mb-4">
+                                <h3 class="text-basic font-bold mb-4 Mulish-black">  Migration Limitations  </h3>
+                                <p class="mb-4">While we aim to provide a smooth migration process, the following limitations apply:  </p>
+                                <ul class="list-disc pl-5 pb-4">
+                                    <li>
+                                        <p><strong>Compatibility:</strong> Host2Media cannot guarantee that all content, applications, or configurations from the source provider will be fully compatible with our platform.  </p>
+                                    </li>
+                                    <li>
+                                        <p><strong>Data Integrity:</strong> Host2Media is not responsible for any data loss or corruption during the migration process. Clients are advised to maintain a backup of their data before the migration begins. </p>
+                                    </li>
+                                    <li>
+                                        <p><strong>Third-Party Restrictions:</strong> Certain hosting providers or applications may have restrictions that limit or prevent the migration process. </p>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="marker:font-bold mb-4">
+                                <h3 class="text-basic font-bold mb-4 Mulish-black">  Fees for Migration Services  </h3>
+                                <ul class="list-disc pl-5 pb-4">
+                                    <li>
+                                        <p>Host2Media offers complimentary migration services for specific hosting plans, subject to eligibility and scope.   </p>
+                                    </li>
+                                    <li>
+                                        <p>For complex migrations, such as large websites, databases, or custom applications, additional fees may apply. Clients will be informed of any charges prior to the migration process.  </p>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="marker:font-bold mb-4">
+                                <h3 class="text-basic font-bold mb-4 Mulish-black">Timeline for Migrations </h3>
+                                <p class="mb-4">The time required to complete a migration depends on factors such as the size of the data, the number of accounts, and the complexity of the configuration. Host2Media will provide an estimated timeline upon reviewing the client’s migration requirements. </p>
+                            </li>
+                            <li class="marker:font-bold mb-4">
+                                <h3 class="text-basic font-bold mb-4 Mulish-black">  Client Responsibilities  </h3>
+                                <p class="mb-4">Clients are required to:   </p>
+                                <ul class="list-disc pl-5 pb-4">
+                                    <li>
+                                        <p>Provide complete and accurate access credentials for the source hosting provider (e.g., FTP, cPanel, database credentials).    </p>
+                                    </li>
+                                    <li>
+                                        <p>Inform Host2Media of any specific configurations or customizations required for the migration.  </p>
+                                    </li>
+                                    <li>
+                                        <p>Review the migrated data upon completion and report any issues within 7 days.   </p>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="marker:font-bold mb-4">
+                                <h3 class="text-basic font-bold mb-4 Mulish-black">   Post-Migration Support  </h3>
+                                <p class="mb-4">After the migration is complete, Host2Media will provide support for:    </p>
+                                <ul class="list-disc pl-5 pb-4">
+                                    <li>
+                                        <p>Resolving migration-related technical issues.   </p>
+                                    </li>
+                                    <li>
+                                        <p>Verifying the functionality of migrated websites or email accounts.   </p>
+                                    </li>
+                                </ul>
+                                <p class="mb-4">Post-migration support is limited to issues directly related to the migration process and does not include unrelated technical support or development work.    </p>
+                            </li>
+                            <li class="marker:font-bold mb-4">
+                                <h3 class="text-basic font-bold mb-4 Mulish-black"> Data Privacy and Security  </h3>
+                                <p class="mb-4">Host2Media takes data privacy and security seriously. All client data provided for migration will be handled with confidentiality and used solely for the purpose of completing the migration. Upon completion, any credentials provided by the client will be deleted from our records.  </p>
+                            </li>
+                            <li class="marker:font-bold mb-4">
+                                <h3 class="text-basic font-bold mb-4 Mulish-black">Disclaimer</h3>
+                                <p class="mb-4">Host2Media is not responsible for:    </p>
+                                <ul class="list-disc pl-5 pb-4">
+                                    <li>
+                                        <p>Downtime during the migration process.   </p>
+                                    </li>
+                                    <li>
+                                        <p>Loss of data resulting from inaccurate credentials or insufficient backups provided by the client.    </p>
+                                    </li>
+                                    <li>
+                                        <p>Issues caused by third-party configurations, software, or restrictions from the source hosting provider. </p>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="marker:font-bold mb-4">
+                                <h3 class="text-basic font-bold mb-4 Mulish-black">Amendments to This Policy  </h3>
+                                <p class="mb-4">Host2Media reserves the right to update this Migration Policy at any time. Changes will be posted on our website with a revised "Effective Date." </p>
+                            </li>
+                        </ul>
                     </div>
                     <div class="tab-content sm:px-0 px-3 tab-content-11 hidden">
-                        <h1 class="text-xl font-black mb-4 Mulish-Black leading-none" >Host2Media Terms of Service</h1>
-                        <p class="font-bold mb-4">Effective Date: [14 December 2024]</p>
-                        <p class="mb-4">Welcome to Host2Media! These Terms of Service ("TOS") govern your access to and use of Host2Media’s services. By using our services, you agree to be bound by these terms. If you do not agree, please discontinue use immediately.</p>
+                        <h2 class="text-xl font-black mb-4 Mulish-Black leading-none" >Payment Policy </h2>
+                        <p class="mb-4">Effective Date: [Insert Date]  </p>
+                        <p class="mb-4">At Host2Media, we aim to provide clear and transparent guidelines regarding payments for our services. This Payment Policy outlines the terms and conditions for billing, payments, fees, and refunds. By using our services, you agree to the terms described herein. </p>
+                        <ul class="list-decimal pl-5">
+                            <li class="marker:font-bold mb-4">
+                                <h3 class="text-basic font-bold mb-4 Mulish-black">  Billing and Payment Terms  </h3>
+                                <ul class="list-none space-y-2">
+                                    <li class="before:content-['1.1'] flex justify-start before:mr-2 before:font-bold">
+                                        <p class="mb-4">
+                                            <span class="text-basic font-bold mb-4 Mulish-black mr-2">  Invoices:</span>
+                                        </p>
+                                    </li>
+                                    <ul class="list-disc pl-5 pb-4">
+                                        <li>
+                                            <p>All services are billed on either a monthly or annual basis, depending on the client’s chosen plan.    </p>
+                                        </li>
+                                        <li>
+                                            <p>Invoices will be issued via email or made available through your Host2Media account dashboard.     </p>
+                                        </li>
+                                    </ul>
+                                    <li class="before:content-['1.2'] flex justify-start before:mr-2 before:font-bold">
+                                        <p class="mb-4">
+                                            <span class="text-basic font-bold mb-4 Mulish-black mr-2">Payment Due Date: </span>
+                                        </p>
+                                    </li>
+                                    <ul class="list-disc pl-5 pb-4">
+                                        <li>
+                                            <p>Payments must be made on or before the due date stated on the invoice. </p>
+                                        </li>
+                                        <li>
+                                            <p>For recurring subscriptions, payments will be automatically billed according to the agreed schedule. </p>
+                                        </li>
+                                    </ul>
+                                    <li class="before:content-['1.3'] flex justify-start before:mr-2 before:font-bold">
+                                        <p class="mb-4">
+                                            <span class="text-basic font-bold mb-4 Mulish-black mr-2">Accepted Payment Methods:  </span>
+                                        </p>
+                                    </li>
+                                    <ul class="list-disc pl-5 pb-4">
+                                        <li>
+                                            <p><strong>Credit Cards:</strong> Payments made through Visa, MasterCard, or other supported credit cards. </p>
+                                        </li>
+                                        <li>
+                                            <p><strong>Cash:</strong> Payments made in person at our designated office. </p>
+                                        </li>
+                                        <li>
+                                            <p><strong>Money Transfer Apps:</strong> Payments via approved apps. Fees associated with these methods will be deducted from the refunded amount, if applicable. </p>
+                                        </li>
+                                        <li>
+                                            <p><strong>Bank Transfers:</strong> Bank transfer details will be provided upon request. Clients are responsible for any bank fees.</p>
+                                        </li>
+                                    </ul>
+                                    <li class="before:content-['1.4'] flex justify-start before:mr-2 before:font-bold">
+                                        <p class="mb-4">
+                                            <span class="text-basic font-bold mb-4 Mulish-black mr-2">Currency:  </span>
+                                        </p>
+                                    </li>
+                                    <p class="mb-4">All prices and payments are processed in USD </p>
+                                </ul>
+                            </li>
+                            <li class="marker:font-bold mb-4">
+                                <h3 class="text-basic font-bold mb-4 Mulish-black">Late Payments</h3>
+                                <ul class="list-none space-y-2">
+                                    <li class="before:content-['2.1'] flex justify-start before:mr-2 before:font-bold">
+                                        <p class="mb-4">
+                                            <span class="text-basic font-bold mb-4 Mulish-black mr-2"> Grace Period: </span>
+                                        </p>
+                                    </li>
+                                    <ul class="list-disc pl-5 pb-4">
+                                        <li>
+                                            <p>A grace period of 30 days is provided after the due date to make the payment. </p>
+                                        </li>
+                                    </ul>
+                                    <li class="before:content-['2.2'] flex justify-start before:mr-2 before:font-bold">
+                                        <p class="mb-4">
+                                            <span class="text-basic font-bold mb-4 Mulish-black mr-2">Late Fees: </span>
+                                        </p>
+                                    </li>
+                                    <ul class="list-disc pl-5 pb-4">
+                                        <li>
+                                            <p>Payments not received within the grace period will incur a late fee of $80 USD. </p>
+                                        </li>
+                                    </ul>
+                                    <li class="before:content-['2.3'] flex justify-start before:mr-2 before:font-bold">
+                                        <p class="mb-4">
+                                            <span class="text-basic font-bold mb-4 Mulish-black mr-2">Account Suspension:  </span>
+                                        </p>
+                                    </li>
+                                    <ul class="list-disc pl-5 pb-4">
+                                        <li>
+                                            <p>Services may be suspended or terminated if payment is not received within 15 days from the due date. </p>
+                                        </li>
+                                    </ul>
+                                </ul>
+                            </li>
+                            <li class="marker:font-bold mb-4">
+                                <h3 class="text-basic font-bold mb-4 Mulish-black"> Refunds</h3>
+                                <p class="mb-4">
+                                    Refunds are issued in accordance with the <strong>Refund Policy</strong>, subject to the following terms:
+                                </p>
+                                <ul class="list-decimal pl-5 pb-4">
+                                    <li>
+                                        <p>Refunds are available only for eligible services and payments made via credit cards, cash, or money transfer apps. </p>
+                                    </li>
+                                    <li>
+                                        <p>Non-refundable services include domain registrations, SSL certificates, setup fees, administrative fees, and third-party services.     </p>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="marker:font-bold mb-4">
+                                <h3 class="text-basic font-bold mb-4 Mulish-black">Auto-Renewals</h3>
+                                <ul class="list-none space-y-2">
+                                    <li class="before:content-['4.1'] flex justify-start before:mr-2 before:font-bold">
+                                        <p class="mb-4">
+                                            <span class="text-basic font-bold mb-4 Mulish-black mr-2">Automatic Billing: </span>
+                                        </p>
+                                    </li>
+                                    <ul class="pl-5 pb-4 list-disc">
+                                        <li>
+                                            <p>Services such as hosting plans and domain registrations are automatically renewed at the end of the billing cycle to ensure uninterrupted service. </p>
+                                        </li>
+                                    </ul>
+                                    <li class="before:content-['4.2'] flex justify-start before:mr-2 before:font-bold">
+                                        <p class="mb-4">
+                                            <span class="text-basic font-bold mb-4 Mulish-black mr-2">Cancellation of Auto-Renewal: </span>
+                                        </p>
+                                    </li>
+                                    <ul class="pl-5 pb-4 list-disc">
+                                        <li>
+                                            <p>Clients must disable auto-renewal through their account dashboard at least 15 days before the renewal date to avoid charges.  </p>
+                                        </li>
+                                    </ul>
+                                    <li class="before:content-['4.3'] flex justify-start before:mr-2 before:font-bold">
+                                        <p class="mb-4">
+                                            <span class="text-basic font-bold mb-4 Mulish-black mr-2">Refunds for Auto-Renewals:  </span>
+                                        </p>
+                                    </li>
+                                    <ul class="pl-5 pb-4 list-disc">
+                                        <li>
+                                            <p>Once auto-renewal is processed, payments are non-refundable.   </p>
+                                        </li>
+                                    </ul>
+                                </ul>
+                            </li>
+                            <li class="marker:font-bold mb-4">
+                                <h3 class="text-basic font-bold mb-4 Mulish-black">Taxes and Additional Charges </h3>
+                                <p class="mb-4">Clients are responsible for any applicable taxes, fees, or charges imposed by governmental authorities on services provided by Host2Media. These charges will be reflected on the invoice where applicable. </p>
+                            </li>
+                            <li class="marker:font-bold mb-4">
+                                <h3 class="text-basic font-bold mb-4 Mulish-black"> Failed Payments </h3>
+                                <p class="mb-4">If a payment fails due to insufficient funds, incorrect information, or any other reason: </p>
+                                <ul class="list-decimal pl-5 pb-4">
+                                    <li>
+                                        <p>The client will be notified immediately and given 3 days to resolve the issue.  </p>
+                                    </li>
+                                    <li>
+                                        <p>Services may be suspended until payment is successfully processed. </p>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="marker:font-bold mb-4">
+                                <h3 class="text-basic font-bold mb-4 Mulish-black"> Payment Disputes</h3>
+                                <ul class="list-decimal pl-5 pb-4">
+                                    <li>
+                                        <p>All payment disputes must be reported to Host2Media’s billing department within [Insert Number of Days 5 days of the transaction. </p>
+                                    </li>
+                                    <li>
+                                        <p>Filing a chargeback without contacting Host2Media may result in account suspension or termination. </p>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="marker:font-bold mb-4">
+                                <h3 class="text-basic font-bold mb-4 Mulish-black">Amendments to the Payment Policy  </h3>
+                                <p class="mb-4">Host2Media reserves the right to update this Payment Policy at any time. Changes will be posted on our website with a revised "Effective Date." Continued use of services constitutes acceptance of the updated terms. </p>
+                            </li>
+                        </ul>
                     </div>
+
                     <div class="tab-content sm:px-0 px-3 tab-content-12 hidden">
                         <h1 class="text-xl font-black mb-4 Mulish-Black leading-none" >Host2Media Terms of Service</h1>
                         <p class="font-bold mb-4">Effective Date: [14 December 2024]</p>
