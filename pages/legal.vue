@@ -2758,7 +2758,7 @@
                                     <p class="mb-4">
                                         If a reseller account is terminated, all associated client accounts will also be suspended or terminated. Resellers are responsible for notifying their clients in such cases.
                                     </p>
-                                    <li class="before:content-['2.4'] flex justify-start before:mr-2 before:font-bold">
+                                    <li class="before:content-['6.4'] flex justify-start before:mr-2 before:font-bold">
                                         <p class="mb-4">
                                             <span class="text-basic font-bold mb-4 Mulish-black mr-2">Transfer with Reseller and Client Approval:  </span>
                                         </p>
@@ -2776,7 +2776,7 @@
                             <li class="marker:font-bold mb-4">
                                 <h3 class="text-basic font-bold mb-4 Mulish-black"> Branding and White Labeling  </h3>
                                 <p class="mb-4">Resellers may operate under their own branding and are not required to disclose their relationship with Host2Media. However:   </p>
-                                <ul class="list-decimal pl-5 pb-4">
+                                <ul class="list-disc pl-5 pb-4">
                                     <li>
                                         <p>Host2Media reserves the right to contact end clients if required to address critical policy violations or legal obligations.  </p>
                                     </li>
@@ -2788,7 +2788,7 @@
                             <li class="marker:font-bold mb-4">
                                 <h3 class="text-basic font-bold mb-4 Mulish-black"> Prohibited Activities  </h3>
                                 <p class="mb-4">Resellers must ensure their clients do not engage in:  </p>
-                                <ul class="list-decimal pl-5 pb-4">
+                                <ul class="list-disc pl-5 pb-4">
                                     <li>
                                         <p>Hosting illegal or harmful content. </p>
                                     </li>
@@ -2868,24 +2868,796 @@
                         </ul>
                     </div>
                     <div class="tab-content sm:px-0 px-3 tab-content-15 hidden">
-                        <h1 class="text-xl font-black mb-4 Mulish-Black leading-none" >Host2Media Terms of Service</h1>
-                        <p class="font-bold mb-4">Effective Date: [14 December 2024]</p>
-                        <p class="mb-4">Welcome to Host2Media! These Terms of Service ("TOS") govern your access to and use of Host2Media’s services. By using our services, you agree to be bound by these terms. If you do not agree, please discontinue use immediately.</p>
+                        <h2 class="text-xl font-black mb-4 Mulish-Black leading-none" >Security Policy </h2>
+                        <p class="mb-4">Effective Date: [Insert Date]  </p>
+                        <p class="mb-4">At Host2Media, we prioritize the security of our clients' data and services. This Security Policy outlines the measures we take to protect your data, prevent unauthorized access, and ensure the integrity and availability of our services. By using Host2Media’s services, you agree to the terms of this policy. </p>
+                        <ul class="list-decimal pl-5">
+                            <li class="marker:font-bold mb-4">
+                                <h3 class="text-basic font-bold mb-4 Mulish-black">Scope of the Security Policy</h3>
+                                <p class="mb-4">This policy applies to all systems, networks, and services provided by Host2Media, including: </p>
+                                <ul class="list-disc pl-5 pb-4">
+                                    <li>
+                                        <p>Web hosting services.</p>
+                                    </li>
+                                    <li>
+                                        <p>Email hosting.</p>
+                                    </li>
+                                    <li>
+                                        <p>Domain services. </p>
+                                    </li>
+                                    <li>
+                                        <p>Data hosted or transmitted through Host2Media’s infrastructure. </p>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="marker:font-bold mb-4">
+                                <h3 class="text-basic font-bold mb-4 Mulish-black">Security Measures </h3>
+                                <p class="mb-4">
+                                    To ensure a secure hosting environment, Host2Media implements the following measures:
+                                </p>
+                                <ul class="list-none space-y-2">
+                                    <li class="before:content-['2.1'] flex justify-start before:mr-2 before:font-bold">
+                                        <p class="mb-4">
+                                            <span class="text-basic font-bold mb-4 Mulish-black mr-2">Physical Security: </span>
+                                        </p>
+                                    </li>
+                                    <ul class="list-disc pl-5 pb-4">
+                                        <li>
+                                            <p>Servers are located in secure data centers with 24/7 surveillance, access controls, and environmental monitoring systems.  </p>
+                                        </li>
+                                    </ul>
+                                    <li class="before:content-['2.2'] flex justify-start before:mr-2 before:font-bold">
+                                        <p class="mb-4">
+                                            <span class="text-basic font-bold mb-4 Mulish-black mr-2">Network Security: </span>
+                                        </p>
+                                    </li>
+                                    <ul class="list-disc pl-5 pb-4">
+                                        <li>
+                                            <p>Use of firewalls to block unauthorized access. </p>
+                                        </li>
+                                        <li>
+                                            <p>Regular network monitoring to detect and mitigate threats. </p>
+                                        </li>
+                                        <li>
+                                            <p>DDoS protection to defend against distributed denial-of-service attacks. </p>
+                                        </li>
+                                    </ul>
+                                    <li class="before:content-['2.3'] flex justify-start before:mr-2 before:font-bold">
+                                        <p class="mb-4">
+                                            <span class="text-basic font-bold mb-4 Mulish-black mr-2"> Data Encryption: </span>
+                                        </p>
+                                    </li>
+                                    <ul class="list-disc pl-5 pb-4">
+                                        <li>
+                                            <p>Encryption of sensitive data in transit using HTTPS/SSL protocols. </p>
+                                        </li>
+                                        <li>
+                                            <p>Secure storage of sensitive data (e.g., passwords) using industry-standard hashing algorithms. </p>
+                                        </li>
+                                    </ul>
+                                    <li class="before:content-['2.4'] flex justify-start before:mr-2 before:font-bold">
+                                        <p class="mb-4">
+                                            <span class="text-basic font-bold mb-4 Mulish-black mr-2">Access Control:  </span>
+                                        </p>
+                                    </li>
+                                    <ul class="list-disc pl-5 pb-4">
+                                        <li>
+                                            <p>Multi-factor authentication (MFA) for administrative access to servers and control panels. </p>
+                                        </li>
+                                        <li>
+                                            <p>Role-based access control to limit permissions to authorized personnel.</p>
+                                        </li>
+                                    </ul>
+                                    <li class="before:content-['2.5'] flex justify-start before:mr-2 before:font-bold">
+                                        <p class="mb-4">
+                                            <span class="text-basic font-bold mb-4 Mulish-black mr-2"> Malware Protection: </span>
+                                        </p>
+                                    </li>
+                                    <ul class="list-disc pl-5 pb-4">
+                                        <li>
+                                            <p>Regular scans for malware and vulnerabilities on hosted servers. </p>
+                                        </li>
+                                        <li>
+                                            <p>Quarantine and removal of malicious files.</p>
+                                        </li>
+                                    </ul>
+                                    <li class="before:content-['2.6'] flex justify-start before:mr-2 before:font-bold">
+                                        <p class="mb-4">
+                                            <span class="text-basic font-bold mb-4 Mulish-black mr-2"> Patching and Updates:  </span>
+                                        </p>
+                                    </li>
+                                    <ul class="list-disc pl-5 pb-4">
+                                        <li>
+                                            <p>Regular updates to server software, operating systems, and security tools to protect against known vulnerabilities. </p>
+                                        </li>
+                                    </ul>
+                                </ul>
+                            </li>
+                            <li class="marker:font-bold mb-4">
+                                <h3 class="text-basic font-bold mb-4 Mulish-black">Client Responsibilities</h3>
+                                <p class="mb-4">
+                                    While Host2Media implements robust security measures, clients are also responsible for maintaining the security of their accounts and hosted content. Client responsibilities include:
+                                </p>
+                                <ul class="list-none space-y-2">
+                                    <li class="before:content-['3.1'] flex justify-start before:mr-2 before:font-bold">
+                                        <p class="mb-4">
+                                            <span class="text-basic font-bold mb-4 Mulish-black mr-2">Password Security: </span>
+                                        </p>
+                                    </li>
+                                    <ul class="list-disc pl-5 pb-4">
+                                        <li>
+                                            <p>Use strong, unique passwords for all accounts.  </p>
+                                        </li>
+                                        <li>
+                                            <p>Change passwords regularly and avoid sharing credentials with unauthorized individuals. </p>
+                                        </li>
+                                    </ul>
+                                    <li class="before:content-['3.2'] flex justify-start before:mr-2 before:font-bold">
+                                        <p class="mb-4">
+                                            <span class="text-basic font-bold mb-4 Mulish-black mr-2">Keeping Software Updated: </span>
+                                        </p>
+                                    </li>
+                                    <ul class="list-disc pl-5 pb-4">
+                                        <li>
+                                            <p>Regularly update CMS platforms (e.g., WordPress), plugins, and themes to the latest versions. </p>
+                                        </li>
+                                        <li>
+                                            <p>Avoid using outdated or unsupported software. </p>
+                                        </li>
+                                    </ul>
+                                    <li class="before:content-['3.3'] flex justify-start before:mr-2 before:font-bold">
+                                        <p class="mb-4">
+                                            <span class="text-basic font-bold mb-4 Mulish-black mr-2"> Avoiding Nulled or Pirated Software: </span>
+                                        </p>
+                                    </li>
+                                    <ul class="list-disc pl-5 pb-4">
+                                        <li>
+                                            <p>Do not use cracked or pirated plugins, themes, or software, as they pose significant security risks.  </p>
+                                        </li>
+                                        <li>
+                                            <p>Host2Media reserves the right to suspend accounts found using unauthorized software. </p>
+                                        </li>
+                                    </ul>
+                                    <li class="before:content-['3.4'] flex justify-start before:mr-2 before:font-bold">
+                                        <p class="mb-4">
+                                            <span class="text-basic font-bold mb-4 Mulish-black mr-2"> Scanning and Backups:</span>
+                                        </p>
+                                    </li>
+                                    <ul class="list-disc pl-5 pb-4">
+                                        <li>
+                                            <p>Regularly scan your website and applications for vulnerabilities. </p>
+                                        </li>
+                                        <li>
+                                            <p>Maintain up-to-date backups of your data, stored separately from the hosting environment.  </p>
+                                        </li>
+                                    </ul>
+                                    <li class="before:content-['3.3'] flex justify-start before:mr-2 before:font-bold">
+                                        <p class="mb-4">
+                                            <span class="text-basic font-bold mb-4 Mulish-black mr-2"> Reporting Security Issues: </span>
+                                        </p>
+                                    </li>
+                                    <ul class="list-disc pl-5 pb-4">
+                                        <li>
+                                            <p>Promptly report any suspected security incidents or vulnerabilities to Host2Media.</p>
+                                        </li>
+                                    </ul>
+                                </ul>
+                            </li>
+                            <li class="marker:font-bold mb-4">
+                                <h3 class="text-basic font-bold mb-4 Mulish-black"> Monitoring and Incident Response</h3>
+                                <ul class="list-none space-y-2">
+                                    <li class="before:content-['4.1'] flex justify-start before:mr-2 before:font-bold">
+                                        <p class="mb-4">
+                                            <span class="text-basic font-bold mb-4 Mulish-black mr-2">Monitoring: </span>
+                                        </p>
+                                    </li>
+                                    <p class="mb-4">Host2Media continuously monitors its network and systems for suspicious activities, unauthorized access, and potential threats. </p>
+                                    <li class="before:content-['4.2'] flex justify-start before:mr-2 before:font-bold">
+                                        <p class="mb-4">
+                                            <span class="text-basic font-bold mb-4 Mulish-black mr-2">Incident Response:  </span>
+                                        </p>
+                                    </li>
+                                    <p class="mb">In the event of a security breach or attack, Host2Media will: </p>
+                                    <ul class="list-decimal pl-5 pb-4">
+                                        <li>
+                                            <p>Investigate the issue to identify the source and scope of the incident. </p>
+                                        </li>
+                                        <li>
+                                            <p>Notify affected clients within a reasonable timeframe.</p>
+                                        </li>
+                                        <li>
+                                            <p>Take immediate steps to mitigate the threat and restore affected services.</p>
+                                        </li>
+                                    </ul>
+                                </ul>
+                            </li>
+                            <li class="marker:font-bold mb-4">
+                                <h3 class="text-basic font-bold mb-4 Mulish-black">  Data Breach Notification </h3>
+                                <p class="mb-4">
+                                    If a data breach affecting client data occurs, Host2Media will:
+                                </p>
+                                <ul class="list-decimal pl-5 pb-4">
+                                    <li>
+                                        <p>Notify affected clients promptly, including details of the breach and recommended actions. </p>
+                                    </li>
+                                    <li>
+                                        <p>Cooperate with relevant authorities and provide support to clients in mitigating the impact of the breach. </p>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="marker:font-bold mb-4">
+                                <h3 class="text-basic font-bold mb-4 Mulish-black"> Prohibited Activities</h3>
+                                <p class="mb-4">To maintain a secure environment, the following activities are strictly prohibited: </p>
+                                <ul class="list-disc pl-5 pb-4">
+                                    <li>
+                                        <p>Hosting or distributing malware, viruses, or other harmful software.  </p>
+                                    </li>
+                                    <li>
+                                        <p>Attempting to gain unauthorized access to servers, networks, or other accounts. </p>
+                                    </li>
+                                    <li>
+                                        <p>Exploiting server vulnerabilities or engaging in hacking activities. </p>
+                                    </li>
+                                    <li>
+                                        <p>Conducting illegal activities that compromise the security or reputation of Host2Media. </p>
+                                    </li>
+                                </ul>
+                                <p class="mb-4">Accounts found engaging in these activities may be suspended or terminated immediately without prior notice. </p>
+                            </li>
+                            <li class="marker:font-bold mb-4">
+                                <h3 class="text-basic font-bold mb-4 Mulish-black">Limitations of Liability </h3>
+                                <p class="mb-4">Host2Media strives to provide a secure hosting environment but cannot guarantee absolute security. Clients acknowledge that: </p>
+                                <ul class="list-disc pl-5 pb-4">
+                                    <li>
+                                        <p>No system is immune to all risks, including cyberattacks or unforeseen vulnerabilities. </p>
+                                    </li>
+                                    <li>
+                                        <p>Host2Media is not liable for damages resulting from security incidents beyond its reasonable control. </p>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="marker:font-bold mb-4">
+                                <h3 class="text-basic font-bold mb-4 Mulish-black"> Amendments to This Policy </h3>
+                                <p class="mb-4">Host2Media reserves the right to update this Security Policy at any time to reflect advancements in technology, changes in legal requirements, or improvements to our security practices. Updates will be communicated via email or posted on our website with a revised "Effective Date." </p>
+                            </li>
+                        </ul>
                     </div>
                     <div class="tab-content sm:px-0 px-3 tab-content-16 hidden">
-                        <h1 class="text-xl font-black mb-4 Mulish-Black leading-none" >Host2Media Terms of Service</h1>
-                        <p class="font-bold mb-4">Effective Date: [14 December 2024]</p>
-                        <p class="mb-4">Welcome to Host2Media! These Terms of Service ("TOS") govern your access to and use of Host2Media’s services. By using our services, you agree to be bound by these terms. If you do not agree, please discontinue use immediately.</p>
+                        <h2 class="text-xl font-black mb-4 Mulish-Black leading-none" >Service Level Agreement (SLA)  </h2>
+                        <p class="mb-4">Effective Date: [Insert Date]  </p>
+                        <p class="mb-4">At Host2Media, we are committed to delivering reliable, high-quality hosting services. This Service Level Agreement (SLA) defines the service availability standards, outlines our responsibilities, and specifies the remedies available to clients if the service levels are not met. </p>
+                        <ul class="list-decimal pl-5">
+                            <li class="marker:font-bold mb-4">
+                                <h3 class="text-basic font-bold mb-4 Mulish-black"> Scope of the SLA</h3>
+                                <p class="mb-4">This SLA applies to all hosting services provided by Host2Media, including shared hosting, VPS hosting, and reseller hosting plans. It does not cover domain registrations, email-only plans, or third-party services.  </p>
+                            </li>
+                            <li class="marker:font-bold mb-4">
+                                <h3 class="text-basic font-bold mb-4 Mulish-black"> Uptime Guarantee</h3>
+                                <ul class="list-none space-y-2">
+                                    <li class="before:content-['2.1'] flex justify-start before:mr-2 before:font-bold">
+                                        <p class="mb-4">
+                                            <span class="text-basic font-bold mb-4 Mulish-black mr-2">Guaranteed Uptime:</span>
+                                        </p>
+                                    </li>
+                                    <p class="mb-4">
+                                        Host2Media guarantees a <strong>99.9% monthly uptime</strong> for its hosting services. Uptime is calculated on a calendar-month basis and refers to the availability of the hosting server and services.
+                                    </p>
+                                    <li class="before:content-['2.2'] flex justify-start before:mr-2 before:font-bold">
+                                        <p class="mb-4">
+                                            <span class="text-basic font-bold mb-4 Mulish-black mr-2">Downtime: </span>
+                                        </p>
+                                    </li>
+                                    <p class="mb-4">
+                                        Downtime refers to the unavailability of hosting services due to server or network issues, excluding scheduled maintenance or events outside Host2Media’s control (see Section 5).
+                                    </p>
+                                    <li class="before:content-['2.3'] flex justify-start before:mr-2 before:font-bold">
+                                        <p class="mb-4">
+                                            <span class="text-basic font-bold mb-4 Mulish-black mr-2"> Monitoring: </span>
+                                        </p>
+                                    </li>
+                                    <p class="mb-4">
+                                        Host2Media continuously monitors server and network performance to ensure uptime standards are met.
+                                    </p>
+                                </ul>
+                            </li>
+                            <li class="marker:font-bold mb-4">
+                                <h3 class="text-basic font-bold mb-4 Mulish-black">Scheduled Maintenance</h3>
+                                <ul class="list-none space-y-2">
+                                    <li class="before:content-['3.1'] flex justify-start before:mr-2 before:font-bold">
+                                        <p class="mb-4">
+                                            <span class="text-basic font-bold mb-4 Mulish-black mr-2">Maintenance Windows:</span>
+                                        </p>
+                                    </li>
+                                    <p class="mb-4">
+                                        Host2Media performs scheduled maintenance to enhance the reliability and performance of its services. Maintenance periods are communicated to clients at least 48 hours in advance via email or the Host2Media dashboard.
+                                    </p>
+                                    <li class="before:content-['3.2'] flex justify-start before:mr-2 before:font-bold">
+                                        <p class="mb-4">
+                                            <span class="text-basic font-bold mb-4 Mulish-black mr-2">Exclusions:</span>
+                                        </p>
+                                    </li>
+                                    <p class="mb-4">Downtime resulting from scheduled maintenance is excluded from uptime calculations.</p>
+                                </ul>
+                            </li>
+                            <li class="marker:font-bold mb-4">
+                                <h3 class="text-basic font-bold mb-4 Mulish-black"> Service Credits</h3>
+                                <p class="mb-4">If Host2Media fails to meet the <strong>99.9% uptime guarantee</strong>, clients may request service credits. Service credits are calculated as follows: </p>
+                                <ul class="list-disc pl-5 pb-4">
+                                    <li>
+                                        <p><strong>99.0% - 99.89% uptime:</strong> 5% credit of the monthly hosting fee.</p>
+                                    </li>
+                                    <li>
+                                        <p><strong>95.0% - 98.99% uptime:</strong> 10% credit of the monthly hosting fee. </p>
+                                    </li>
+                                    <li>
+                                        <p><strong>Below 95.0% uptime:</strong> 25% credit of the monthly hosting fee. </p>
+                                    </li>
+                                </ul>
+                                <ul class="list-none space-y-2">
+                                    <li class="before:content-['4.1'] flex justify-start before:mr-2 before:font-bold">
+                                        <p class="mb-4">
+                                            <span class="text-basic font-bold mb-4 Mulish-black mr-2">Claiming Service Credits:  </span>
+                                        </p>
+                                    </li>
+                                    <ul>
+                                        <li>
+                                            <p>Clients must submit a claim for service credits within 7 days of the end of the affected month. </p>
+                                        </li>
+                                        <li>
+                                            <p>Claims must include the specific dates and times of the downtime. </p>
+                                        </li>
+                                        <li>
+                                            <p>Host2Media will review and validate claims before issuing credits.  </p>
+                                        </li>
+                                    </ul>
+                                    <li class="before:content-['4.2'] flex justify-start before:mr-2 before:font-bold">
+                                        <p class="mb-4">
+                                            <span class="text-basic font-bold mb-4 Mulish-black mr-2">Service Credit Limitations:</span>
+                                        </p>
+                                    </li>
+                                    <ul class="list-disc pl-5 pb-4">
+                                        <li>
+                                            <p>Service credits are issued as account credits and cannot be exchanged for cash. </p>
+                                        </li>
+                                        <li>
+                                            <p>Total service credits cannot exceed the monthly hosting fee for the affected month. </p>
+                                        </li>
+                                    </ul>
+                                </ul>
+                            </li>
+                            <li class="marker:font-bold mb-4">
+                                <h3 class="text-basic font-bold mb-4 Mulish-black">Exclusions </h3>
+                                <p class="mb-4">
+                                    Host2Media is not responsible for downtime or disruptions caused by:
+                                </p>
+                                <ul class="list-decimal pl-5 pb-4">
+                                    <li>
+                                        <p><strong>Force Majeure Events:</strong> Including but not limited to natural disasters, acts of war, government actions, or internet outages beyond Host2Media’s control.  </p>
+                                    </li>
+                                    <li>
+                                        <p><strong>Client Actions:</strong> Misconfigurations, unauthorized access, or other actions by the client or their agents. </p>
+                                    </li>
+                                    <li>
+                                        <p><strong>Third-Party Applications:</strong> Issues caused by third-party software, plugins, or scripts used by the client.  </p>
+                                    </li>
+                                    <li>
+                                        <p><strong>Resource Overuse:</strong>  Downtime caused by excessive usage exceeding the allocated resources of the hosting plan.  </p>
+                                    </li>
+                                    <li>
+                                        <p><strong>Security Incidents:</strong> Malware infections or hacking attempts due to the client’s failure to maintain security best practices.  </p>
+                                    </li>
+                                    <li>
+                                        <p><strong>Maintenance:</strong>  Scheduled maintenance periods, as outlined in Section 3. </p>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="marker:font-bold mb-4">
+                                <h3 class="text-basic font-bold mb-4 Mulish-black">Client Responsibilities </h3>
+                                <p class="mb-4">
+                                    To ensure the reliability of services, clients are responsible for:
+                                </p>
+                                <ul class="list-decimal pl-5 pb-4">
+                                    <li>
+                                        <p>Monitoring and maintaining their own applications, websites, and content hosted on Host2Media servers. </p>
+                                    </li>
+                                    <li>
+                                        <p>Following best practices for securing their accounts and websites. </p>
+                                    </li>
+                                    <li>
+                                        <p>Ensuring timely payments to avoid service suspension.   </p>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="marker:font-bold mb-4">
+                                <h3 class="text-basic font-bold mb-4 Mulish-black"> Limitation of Liability </h3>
+                                <p class="mb-4">Service credits issued under this SLA are the sole and exclusive remedy for downtime or service interruptions. Host2Media’s total liability for any claims related to service availability is limited to the amount paid by the client for the affected month.  </p>
+                            </li>
+                            <li class="marker:font-bold mb-4">
+                                <h3 class="text-basic font-bold mb-4 Mulish-black"> Amendments to the SLA  </h3>
+                                <p class="mb-4">Host2Media reserves the right to amend this SLA at any time. Updates will be communicated via email or posted on the Host2Media website with a revised "Effective Date." Continued use of services constitutes acceptance of the updated SLA. </p>
+                            </li>
+                        </ul>
                     </div>
                     <div class="tab-content sm:px-0 px-3 tab-content-17 hidden">
-                        <h1 class="text-xl font-black mb-4 Mulish-Black leading-none" >Host2Media Terms of Service</h1>
-                        <p class="font-bold mb-4">Effective Date: [14 December 2024]</p>
-                        <p class="mb-4">Welcome to Host2Media! These Terms of Service ("TOS") govern your access to and use of Host2Media’s services. By using our services, you agree to be bound by these terms. If you do not agree, please discontinue use immediately.</p>
+                        <h2 class="text-xl font-black mb-4 Mulish-Black leading-none" >Support Policy  </h2>
+                        <p class="mb-4">Effective Date: [Insert Date]  </p>
+                        <p class="mb-4">At Host2Media, we are committed to providing reliable and professional support to ensure our clients have a smooth and satisfying experience with our services. This Support Policy outlines the scope, availability, and limitations of our technical support services. </p>
+                        <ul class="list-decimal pl-5">
+                            <li class="marker:font-bold mb-4">
+                                <h3 class="text-basic font-bold mb-4 Mulish-black">  Scope of Support</h3>
+                                <p class="mb-4">Host2Media offers support for the following areas: </p>
+                                <ul class="list-disc pl-5 pb-4">
+                                    <li>
+                                        <p><strong>Hosting Services:</strong> Assistance with server setup, cPanel access, and hosting environment configurations. </p>
+                                    </li>
+                                    <li>
+                                        <p><strong>Domain Services:</strong> Help with domain registration, DNS configuration, and transfers.</p>
+                                    </li>
+                                    <li>
+                                        <p><strong>Email Services:</strong> Troubleshooting email setup, delivery issues, and client configuration.</p>
+                                    </li>
+                                    <li>
+                                        <p><strong>Migration Services:</strong> Support for website, email, and database transfers as outlined in our Migration Policy.</p>
+                                    </li>
+                                    <li>
+                                        <p><strong>Account Management:</strong> Assistance with billing, account access, and plan upgrades or downgrades.</p>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="marker:font-bold mb-4">
+                                <h3 class="text-basic font-bold mb-4 Mulish-black">Methods of Support </h3>
+                                <p class="mb-4">Clients can access Host2Media support through the following channels:  </p>
+                                <ul class="list-disc pl-5 pb-4">
+                                    <li>
+                                        <p><strong>Email Support:</strong> [Insert Support Email Address] </p>
+                                    </li>
+                                    <li>
+                                        <p><strong>Live Chat Support:</strong> Available on our website during business hours. </p>
+                                    </li>
+                                    <li>
+                                        <p><strong>Phone Support:</strong> [Insert Support Phone Number], during designated support hours.</p>
+                                    </li>
+                                    <li>
+                                        <p><strong>Support Tickets:</strong> Submit a ticket through your Host2Media account dashboard for detailed inquiries. </p>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="marker:font-bold mb-4">
+                                <h3 class="text-basic font-bold mb-4 Mulish-black">Support Hours</h3>
+                                <p class="mb-4">Our support team is available during the following times:   </p>
+                                <ul class="list-disc pl-5 pb-4">
+                                    <li>
+                                        <p><strong>Business Hours:</strong> Monday to Friday, 9:00 AM to 4:30 PM CET </p>
+                                    </li>
+                                    <li>
+                                        <p><strong>After-Hours Support:</strong> Limited support for critical issues, such as server outages or downtime.  </p>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="marker:font-bold mb-4">
+                                <h3 class="text-basic font-bold mb-4 Mulish-black">Response Times</h3>
+                                <p class="mb-4">Host2Media aims to respond to support requests within the following timeframes: </p>
+                                <ul class="list-disc pl-5 pb-4">
+                                    <li>
+                                        <p><strong>Critical Issues:</strong>  Within 1 hour during business hours. </p>
+                                    </li>
+                                    <li>
+                                        <p><strong>High Priority Issues:</strong> Within 4 hours during business hours.   </p>
+                                    </li>
+                                    <li>
+                                        <p><strong>General Support:</strong> Within 24 hours.</p>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="marker:font-bold mb-4">
+                                <h3 class="text-basic font-bold mb-4 Mulish-black">Definitions of Support Priorities</h3>
+                                <p class="mb-1"><strong>Critical Issues:</strong></p>
+                                <p class="mb-1">Critical Issues are problems that severely impact the availability or functionality of your services and require immediate attention. These include:</p>
+                                <ul class="list-disc pl-5 pb-1">
+                                    <li>
+                                        <p>Server downtime affecting websites, email, or other services. </p>
+                                    </li>
+                                    <li>
+                                        <p>Data loss or risk of losing critical data due to server issues.</p>
+                                    </li>
+                                    <li>
+                                        <p>Security breaches or suspected hacking attempts. </p>
+                                    </li>
+                                    <li>
+                                        <p>DNS failures causing a domain to stop resolving. </p>
+                                    </li>
+                                </ul>
+                                <p class="mb-1"><strong>High Priority Issues:</strong></p>
+                                <p class="mb-1">High Priority Issues are significant problems affecting the functionality or performance of your services, but they do not cause complete unavailability. These include:</p>
+                                <ul class="list-disc pl-5 pb-1">
+                                    <li>
+                                        <p>Website errors such as broken links, database connection issues, or misconfigurations.  </p>
+                                    </li>
+                                    <li>
+                                        <p>Email issues, including problems with sending, receiving, or accessing accounts. </p>
+                                    </li>
+                                    <li>
+                                        <p>Resource overloading affecting website performance.  </p>
+                                    </li>
+                                    <li>
+                                        <p>SSL certificate issues, such as expiration or misconfigurations.</p>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="marker:font-bold mb-4">
+                                <h3 class="text-basic font-bold mb-4 Mulish-black">Limitations of Support </h3>
+                                <p class="mb-4">
+                                    Host2Media support is limited to the services we provide. The following are outside the scope of our support:
+                                </p>
+                                <ul class="list-disc pl-5 pb-4">
+                                    <li>
+                                        <p><strong>Third-Party Applications:</strong> Troubleshooting plugins, themes, or software not provided by Host2Media. </p>
+                                    </li>
+                                    <li>
+                                        <p><strong>Custom Development:</strong> Assistance with website coding, custom scripts, or design.  </p>
+                                    </li>
+                                    <li>
+                                        <p><strong> Client Devices:</strong> Configuring or troubleshooting devices like PCs, mobile phones, or tablets, except for email or hosting-related setup.   </p>
+                                    </li>
+                                    <li>
+                                        <p><strong>Security Incidents:</strong>  While we provide general guidance, resolving malware infections or hacking issues is the client's responsibility unless additional services are purchased. </p>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="marker:font-bold mb-4">
+                                <h3 class="text-basic font-bold mb-4 Mulish-black">Paid Support Services</h3>
+                                <p class="mb-4">
+                                    For issues or requests outside the scope of standard support, Host2Media offers paid support services, including:
+                                </p>
+                                <ul class="list-disc pl-5 pb-4">
+                                    <li>
+                                        <p>Website optimization and custom development assistance.</p>
+                                    </li>
+                                    <li>
+                                        <p>Malware removal and advanced security configurations. </p>
+                                    </li>
+                                    <li>
+                                        <p>Priority support for non-critical requests. </p>
+                                    </li>
+                                </ul>
+                                <p class="mb-4">
+                                    Clients will be informed of any applicable charges before these services are rendered.
+                                </p>
+                            </li>
+                            <li class="marker:font-bold mb-4">
+                                <h3 class="text-basic font-bold mb-4 Mulish-black">Client Responsibilities</h3>
+                                <p class="mb-4">
+                                    To ensure timely and effective support, clients are responsible for:
+                                </p>
+                                <ul class="list-disc pl-5 pb-4">
+                                    <li>
+                                        <p>Providing accurate and detailed information about the issue.</p>
+                                    </li>
+                                    <li>
+                                        <p>Maintaining up-to-date backups of their data. </p>
+                                    </li>
+                                    <li>
+                                        <p>Ensuring their contact information is accurate and up to date in their Host2Media account.</p>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="marker:font-bold mb-4">
+                                <h3 class="text-basic font-bold mb-4 Mulish-black"> Support Abuse</h3>
+                                <p class="mb-4">
+                                    Host2Media has a zero-tolerance policy for abuse toward our support staff. This includes, but is not limited to:
+                                </p>
+                                <ul class="list-disc pl-5 pb-4">
+                                    <li>
+                                        <p>Excessive or repetitive demands outside the scope of standard support. </p>
+                                    </li>
+                                    <li>
+                                        <p>Use of abusive, threatening, or inappropriate language. </p>
+                                    </li>
+                                </ul>
+                                <p class="mb-4">
+                                    Host2Media reserves the right to limit or terminate support services for clients who violate this policy.
+                                </p>
+                            </li>
+                            <li class="marker:font-bold mb-4">
+                                <h3 class="text-basic font-bold mb-4 Mulish-black">Disclaimer</h3>
+                                <p class="mb-4">While we strive to provide the highest level of support, Host2Media is not liable for delays, data loss, or damages resulting from issues beyond our control. Clients are encouraged to maintain their own backups and follow best practices for security and data management. </p>
+                            </li>
+                            <li class="marker:font-bold mb-4">
+                                <h3 class="text-basic font-bold mb-4 Mulish-black">Amendments to This Policy</h3>
+                                <p class="mb-4">Host2Media reserves the right to update this Support Policy at any time. Changes will be posted on our website with a revised "Effective Date." </p>
+                            </li>
+                        </ul>
                     </div>
                     <div class="tab-content sm:px-0 px-3 tab-content-18 hidden">
-                        <h1 class="text-xl font-black mb-4 Mulish-Black leading-none" >Host2Media Terms of Service</h1>
-                        <p class="font-bold mb-4">Effective Date: [14 December 2024]</p>
-                        <p class="mb-4">Welcome to Host2Media! These Terms of Service ("TOS") govern your access to and use of Host2Media’s services. By using our services, you agree to be bound by these terms. If you do not agree, please discontinue use immediately.</p>
+                        <h2 class="text-xl font-black mb-4 Mulish-Black leading-none" >Termination Policy</h2>
+                        <p class="mb-4">Effective Date: [Insert Date]  </p>
+                        <p class="mb-4">At Host2Media, we aim to provide high-quality services to our clients. However, certain circumstances may lead to the suspension or termination of services. This Termination Policy outlines the conditions under which services may be terminated, the rights and responsibilities of both Host2Media and the client, and the process for termination. </p>
+                        <ul class="list-decimal pl-5">
+                            <li class="marker:font-bold mb-4">
+                                <h3 class="text-basic font-bold mb-4 Mulish-black">Types of Termination</h3>
+                                <ul class="list-none space-y-2">
+                                    <li class="before:content-['1.1'] flex justify-start before:mr-2 before:font-bold">
+                                        <p class="mb-4">
+                                            <span class="text-basic font-bold mb-4 Mulish-black mr-2">Termination by Host2Media:</span>
+                                        </p>
+                                    </li>
+                                    <p class="mb-4">
+                                        Host2Media reserves the right to terminate services immediately or with notice under the following conditions:
+                                    </p>
+                                    <ul class="list-decimal pl-5 pb-4">
+                                        <li>
+                                            <p><strong>Non-Payment:</strong> Failure to pay outstanding invoices after the due date, including late fees. </p>
+                                        </li>
+                                        <li>
+                                            <p><strong>Violation of Policies: </strong> Breach of the Terms of Service (TOS), Acceptable Use Policy (AUP), or any other policy governing Host2Media services.  </p>
+                                        </li>
+                                        <li>
+                                            <p><strong>Illegal or Harmful Activities:</strong> Use of services for illegal activities, hosting prohibited content, or engaging in activities that harm Host2Media or its infrastructure.  </p>
+                                        </li>
+                                        <li>
+                                            <p><strong>Resource Abuse:</strong> Excessive use of server resources that negatively impacts other clients. </p>
+                                        </li>
+                                        <li>
+                                            <p><strong>Fraud or Misrepresentation:</strong> Providing false information during registration or using services for fraudulent purposes. </p>
+                                        </li>
+                                        <li>
+                                            <p><strong>Abuse Toward Staff:</strong> Abusive, threatening, or inappropriate behavior directed at Host2Media staff. </p>
+                                        </li>
+                                    </ul>
+                                    <li class="before:content-['1.2'] flex justify-start before:mr-2 before:font-bold">
+                                        <p class="mb-4">
+                                            <span class="text-basic font-bold mb-4 Mulish-black mr-2">Termination by the Client:</span>
+                                        </p>
+                                    </li>
+                                    <p class="mb-4">
+                                        Clients may terminate their services at any time by providing notice through their account dashboard or by contacting Host2Media’s support team.
+                                    </p>
+                                </ul>
+                            </li>
+                            <li class="marker:font-bold mb-4">
+                                <h3 class="text-basic font-bold mb-4 Mulish-black"> Notice of Termination</h3>
+                                <ul class="list-none space-y-2">
+                                    <li class="before:content-['2.1'] flex justify-start before:mr-2 before:font-bold">
+                                        <p class="mb-4">
+                                            <span class="text-basic font-bold mb-4 Mulish-black mr-2">By Host2Media: </span>
+                                        </p>
+                                    </li>
+                                    <ul class="list-disc pl-5 pb-4">
+                                        <li>
+                                            <p>In cases of policy violations or harmful activities, Host2Media reserves the right to terminate services without prior notice. </p>
+                                        </li>
+                                        <li>
+                                            <p>For other reasons, Host2Media will provide at least <strong>7 days</strong> notice before termination.</p>
+                                        </li>
+                                    </ul>
+                                    <li class="before:content-['2.2'] flex justify-start before:mr-2 before:font-bold">
+                                        <p class="mb-4">
+                                            <span class="text-basic font-bold mb-4 Mulish-black mr-2">By the Client:</span>
+                                        </p>
+                                    </li>
+                                    <ul class="list-disc pl-5 pb-4">
+                                        <li>
+                                            <p>Clients must provide at least <strong>15 days</strong> notice before the next billing cycle to avoid additional charges. </p>
+                                        </li>
+                                        <li>
+                                            <p>Termination requests can be submitted through the account dashboard or by contacting Host2Media. </p>
+                                        </li>
+                                    </ul>
+                                </ul>
+                            </li>
+                            <li class="marker:font-bold mb-4">
+                                <h3 class="text-basic font-bold mb-4 Mulish-black">Refunds Upon Termination</h3>
+                                <ul class="list-none space-y-2">
+                                    <li class="before:content-['3.1'] flex justify-start before:mr-2 before:font-bold">
+                                        <p class="mb-4">
+                                            <span class="text-basic font-bold mb-4 Mulish-black mr-2">Host2Media-Initiated Termination: </span>
+                                        </p>
+                                    </li>
+                                    <ul class="list-disc pl-5 pb-4">
+                                        <li>
+                                            <p>If services are terminated due to non-payment, policy violations, or abuse, no refunds will be issued.  </p>
+                                        </li>
+                                        <li>
+                                            <p>If Host2Media terminates services for reasons unrelated to the client’s actions, a pro-rated refund may be issued for prepaid unused services.  </p>
+                                        </li>
+                                    </ul>
+                                    <li class="before:content-['3.2'] flex justify-start before:mr-2 before:font-bold">
+                                        <p class="mb-4">
+                                            <span class="text-basic font-bold mb-4 Mulish-black mr-2">Client-Initiated Termination:</span>
+                                        </p>
+                                    </li>
+                                    <ul class="list-disc pl-5 pb-4">
+                                        <li>
+                                            <p>Refunds for terminated services will follow the terms outlined in the Refund Policy.  </p>
+                                        </li>
+                                        <li>
+                                            <p>Non-refundable services, such as domain registrations, SSL certificates, and third-party services, are not eligible for refunds.  </p>
+                                        </li>
+                                    </ul>
+                                </ul>
+                            </li>
+                            <li class="marker:font-bold mb-4">
+                                <h3 class="text-basic font-bold mb-4 Mulish-black">Data Retention After Termination</h3>
+                                <ul class="list-none space-y-2">
+                                    <li class="before:content-['4.1'] flex justify-start before:mr-2 before:font-bold">
+                                        <p class="mb-4">
+                                            <span class="text-basic font-bold mb-4 Mulish-black mr-2">Retention Period:  </span>
+                                        </p>
+                                    </li>
+                                    <ul class="list-disc pl-5 pb-4">
+                                        <li>
+                                            <p>Upon termination, client data will be retained for up to 30 days to allow for retrieval, after which it will be permanently deleted.  </p>
+                                        </li>
+                                        <li>
+                                            <p>Clients are responsible for downloading their data before termination or within the retention period. </p>
+                                        </li>
+                                    </ul>
+                                    <li class="before:content-['4.2'] flex justify-start before:mr-2 before:font-bold">
+                                        <p class="mb-4">
+                                            <span class="text-basic font-bold mb-4 Mulish-black mr-2">Data Access:</span>
+                                        </p>
+                                    </li>
+                                    <ul class="list-disc pl-5 pb-4">
+                                        <li>
+                                            <p>Access to data after termination will only be provided if all outstanding invoices have been settled. </p>
+                                        </li>
+                                    </ul>
+                                </ul>
+                            </li>
+                            <li class="marker:font-bold mb-4">
+                                <h3 class="text-basic font-bold mb-4 Mulish-black">Suspension vs. Termination</h3>
+                                <ul class="list-none space-y-2">
+                                    <li class="before:content-['5.1'] flex justify-start before:mr-2 before:font-bold">
+                                        <p class="mb-4">
+                                            <span class="text-basic font-bold mb-4 Mulish-black mr-2">Suspension:</span>
+                                        </p>
+                                    </li>
+                                    <ul class="list-disc pl-5 pb-4">
+                                        <li>
+                                            <p>Services may be temporarily suspended due to non-payment, excessive resource usage, or suspected policy violations. </p>
+                                        </li>
+                                        <li>
+                                            <p>Suspended accounts may be reactivated upon resolution of the issue. </p>
+                                        </li>
+                                    </ul>
+                                    <li class="before:content-['5.2'] flex justify-start before:mr-2 before:font-bold">
+                                        <p class="mb-4">
+                                            <span class="text-basic font-bold mb-4 Mulish-black mr-2">Termination: </span>
+                                        </p>
+                                    </li>
+                                    <ul class="list-disc pl-5 pb-4">
+                                        <li>
+                                            <p>Termination is permanent and involves the deletion of all hosted data and the closure of the client’s account. </p>
+                                        </li>
+                                    </ul>
+                                </ul>
+                            </li>
+                            <li class="marker:font-bold mb-4">
+                                <h3 class="text-basic font-bold mb-4 Mulish-black">Client Responsibilities</h3>
+                                <p class="mb-4">
+                                    Clients are responsible for:
+                                </p>
+                                <ul class="list-decimal pl-5 pb-4">
+                                    <li>
+                                        <p>Adhering to all Host2Media policies and terms. </p>
+                                    </li>
+                                    <li>
+                                        <p>Ensuring timely payment of invoices to avoid suspension or termination. </p>
+                                    </li>
+                                    <li>
+                                        <p>Maintaining backups of their data and retrieving it promptly in case of termination. </p>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="marker:font-bold mb-4">
+                                <h3 class="text-basic font-bold mb-4 Mulish-black">Appeals Process</h3>
+                                <p class="mb-4">If a client believes their account was terminated or suspended in error, they may submit an appeal by contacting Host2Media’s support team within 7 days of termination. Appeals will be reviewed on a case-by-case basis, and Host2Media’s decision will be final. </p>
+                            </li>
+                            <li class="marker:font-bold mb-4">
+                                <h3 class="text-basic font-bold mb-4 Mulish-black">Amendments to This Policy</h3>
+                                <p class="mb-4">Host2Media reserves the right to update this Termination Policy at any time to reflect changes in laws or operational practices. Updates will be communicated via email or posted on our website with a revised "Effective Date." </p>
+                            </li>
+                        </ul>
                     </div>
                 </div>
             </div>
