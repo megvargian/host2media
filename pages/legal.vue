@@ -1917,7 +1917,6 @@
                                     </ul>
                                 </ul>
                             </li>
-
                             <li class="marker:font-bold mb-4">
                                 <h3 class="text-basic font-bold mb-4 Mulish-black">  Monitoring and Enforcement </h3>
                                 <ul class="list-none space-y-2">
@@ -2294,21 +2293,579 @@
                             </li>
                         </ul>
                     </div>
-
                     <div class="tab-content sm:px-0 px-3 tab-content-12 hidden">
-                        <h1 class="text-xl font-black mb-4 Mulish-Black leading-none" >Host2Media Terms of Service</h1>
-                        <p class="font-bold mb-4">Effective Date: [14 December 2024]</p>
-                        <p class="mb-4">Welcome to Host2Media! These Terms of Service ("TOS") govern your access to and use of Host2Media’s services. By using our services, you agree to be bound by these terms. If you do not agree, please discontinue use immediately.</p>
+                        <h2 class="text-xl font-black mb-4 Mulish-Black leading-none" >Privacy Policy    </h2>
+                        <p class="mb-4">Effective Date: [Insert Date]  </p>
+                        <p class="mb-4">At Host2Media, we are committed to protecting the privacy and security of our users' personal information. This Privacy Policy explains how we collect, use, disclose, and safeguard your information when you visit our website, use our services, or interact with us in any way. By using our services, you agree to the practices described in this policy. </p>
+                        <ul class="list-decimal pl-5">
+                            <li class="marker:font-bold mb-4">
+                                <h3 class="text-basic font-bold mb-4 Mulish-black">   Information We Collect  </h3>
+                                <p class="mb-4">We may collect the following types of information: </p>
+                                <ul class="list-none space-y-2">
+                                    <li class="before:content-['1.1'] flex justify-start before:mr-2 before:font-bold">
+                                        <p class="mb-4">
+                                            <span class="text-basic font-bold mb-4 Mulish-black mr-2"> Personal Information:</span>
+                                        </p>
+                                    </li>
+                                    <ul class="list-disc pl-5 pb-4">
+                                        <li>
+                                            <p>Name, email address, phone number, billing address, and other contact details. </p>
+                                        </li>
+                                        <li>
+                                            <p>Identification information for verification purposes, if required.     </p>
+                                        </li>
+                                    </ul>
+                                    <li class="before:content-['1.2'] flex justify-start before:mr-2 before:font-bold">
+                                        <p class="mb-4">
+                                            <span class="text-basic font-bold mb-4 Mulish-black mr-2">Non-Personal Information:  </span>
+                                        </p>
+                                    </li>
+                                    <ul class="list-disc pl-5 pb-4">
+                                        <li>
+                                            <p>Browser type, operating system, IP address, device information, and usage data.    </p>
+                                        </li>
+                                        <li>
+                                            <p>Cookies and tracking technologies to analyze user behavior and improve our services.  </p>
+                                        </li>
+                                    </ul>
+                                    <li class="before:content-['1.3'] flex justify-start before:mr-2 before:font-bold">
+                                        <p class="mb-4">
+                                            <span class="text-basic font-bold mb-4 Mulish-black mr-2">Third-Party Information:   </span>
+                                        </p>
+                                    </li>
+                                    <ul class="list-disc pl-5 pb-4">
+                                        <li>
+                                            <p>Information obtained from third parties, such as partners or external tools, if authorized by you.    </p>
+                                        </li>
+                                    </ul>
+                                    <li class="before:content-['1.4'] flex justify-start before:mr-2 before:font-bold">
+                                        <p class="mb-4">
+                                            <span class="text-basic font-bold mb-4 Mulish-black mr-2"> Payment Information:   </span>
+                                        </p>
+                                    </li>
+                                    <p class="mb-4">Host2Media does not collect or store payment information such as credit card or bank account details. These details are securely processed and stored by our third-party payment gateway provider in compliance with industry-standard security protocols (e.g., PCI-DSS). For further information, please refer to the privacy policy of the payment gateway used during your transaction.</p>
+                                </ul>
+                            </li>
+                            <li class="marker:font-bold mb-4">
+                                <h3 class="text-basic font-bold mb-4 Mulish-black"> How We Use Your Information </h3>
+                                <p class="mb-4">
+                                    We use the collected information for the following purposes:
+                                </p>
+                                <ul class="list-disc pl-5 pb-4">
+                                    <li>
+                                        <p><strong>To Provide Services:</strong> Processing orders, setting up accounts, and delivering services.   </p>
+                                    </li>
+                                    <li>
+                                        <p><strong>To Communicate:</strong> Sending account-related updates, service notifications, or promotional materials (with your consent).    </p>
+                                    </li>
+                                    <li>
+                                        <p><strong>To Improve Services:</strong> Analyzing usage data to enhance website functionality and user experience.   </p>
+                                    </li>
+                                    <li>
+                                        <p><strong>For Security:</strong> Detecting, preventing, and mitigating fraudulent activities or unauthorized access.  </p>
+                                    </li>
+                                    <li>
+                                        <p><strong>To Comply with Legal Obligations:</strong> Meeting regulatory requirements or responding to legal requests.   </p>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="marker:font-bold mb-4">
+                                <h3 class="text-basic font-bold mb-4 Mulish-black">  How We Share Your Information  </h3>
+                                <p class="mb-4">Host2Media does not sell or rent your personal information to third parties. We may share information under the following circumstances: </p>
+                                <ul class="list-none space-y-2">
+                                    <li class="before:content-['3.1'] flex justify-start before:mr-2 before:font-bold">
+                                        <p class="mb-4">
+                                            <span class="text-basic font-bold mb-4 Mulish-black mr-2"> With Service Providers:
+                                            </span>
+                                        </p>
+                                    </li>
+                                    <p class="mb-4">Third-party vendors who assist us in delivering services, such as hosting providers or customer support tools.</p>
+                                    <li class="before:content-['3.2'] flex justify-start before:mr-2 before:font-bold">
+                                        <p class="mb-4">
+                                            <span class="text-basic font-bold mb-4 Mulish-black mr-2">For Legal Compliance: </span>
+                                        </p>
+                                    </li>
+                                    <p class="mb-4">If required by law or to protect our legal rights, we may disclose information to government authorities or legal entities.</p>
+                                    <li class="before:content-['3.3'] flex justify-start before:mr-2 before:font-bold">
+                                        <p class="mb-4">
+                                            <span class="text-basic font-bold mb-4 Mulish-black mr-2">In Business Transfers: </span>
+                                        </p>
+                                    </li>
+                                    <p class="mb-4">If Host2Media is involved in a merger, acquisition, or sale of assets, your information may be transferred as part of that transaction.</p>
+                                </ul>
+                            </li>
+                            <li class="marker:font-bold mb-4">
+                                <h3 class="text-basic font-bold mb-4 Mulish-black">Cookies and Tracking Technologies</h3>
+                                <p class="mb-4">
+                                    We use cookies and similar technologies to improve website performance, analyze usage, and deliver personalized content. By using our website, you consent to the use of cookies as described in our Cookie Policy. You may disable cookies through your browser settings, but this may affect your user experience.
+                                </p>
+                            </li>
+                            <li class="marker:font-bold mb-4">
+                                <h3 class="text-basic font-bold mb-4 Mulish-black">Data Retention</h3>
+                                <p class="mb-4">We retain your personal information only for as long as necessary to fulfill the purposes outlined in this Privacy Policy, comply with legal obligations, resolve disputes, and enforce our agreements. Once no longer required, your data will be securely deleted or anonymized. </p>
+                            </li>
+                            <li class="marker:font-bold mb-4">
+                                <h3 class="text-basic font-bold mb-4 Mulish-black">Security Measures</h3>
+                                <p class="mb-4">We implement technical, administrative, and physical safeguards to protect your information against unauthorized access, disclosure, or misuse. However, no system is entirely secure, and we cannot guarantee the absolute security of your data. </p>
+                            </li>
+                            <li class="marker:font-bold mb-4">
+                                <h3 class="text-basic font-bold mb-4 Mulish-black">  Your Rights</h3>
+                                <p class="mb-4">
+                                    Depending on your jurisdiction, you may have the following rights regarding your personal information:
+                                </p>
+                                <ul class="list-disc pl-5 pb-4">
+                                    <li>
+                                        <p><strong>Access:</strong> Request a copy of the personal information we hold about you.    </p>
+                                    </li>
+                                    <li>
+                                        <p><strong>Correction:</strong> Request corrections to inaccurate or incomplete information.    </p>
+                                    </li>
+                                    <li>
+                                        <p><strong>Deletion:</strong> Request the deletion of your data, subject to legal or contractual obligations.  </p>
+                                    </li>
+                                    <li>
+                                        <p><strong>Objection:</strong> Object to certain processing activities, such as direct marketing.   </p>
+                                    </li>
+                                    <li>
+                                        <p><strong>Data Portability:</strong> Request a copy of your data in a structured, machine-readable format.   </p>
+                                    </li>
+                                </ul>
+                                <p class="mb-4">To exercise these rights, contact us at [Insert Contact Email or Form]. </p>
+                            </li>
+                            <li class="marker:font-bold mb-4">
+                                <h3 class="text-basic font-bold mb-4 Mulish-black">International Data Transfers </h3>
+                                <p class="mb-4">If you are accessing our services from outside [Insert Country], your information may be transferred to, stored, and processed in a country with data protection laws different from your own. By using our services, you consent to such transfers.  </p>
+                            </li>
+                            <li class="marker:font-bold mb-4">
+                                <h3 class="text-basic font-bold mb-4 Mulish-black">Third-Party Links </h3>
+                                <p class="mb-4">Our website may contain links to third-party websites. We are not responsible for the privacy practices or content of these websites. We encourage you to review the privacy policies of those third parties.  </p>
+                            </li>
+                            <li class="marker:font-bold mb-4">
+                                <h3 class="text-basic font-bold mb-4 Mulish-black">Changes to This Privacy Policy </h3>
+                                <p class="mb-4">We may update this Privacy Policy from time to time. Any changes will be posted on this page with a revised "Effective Date." Continued use of our services after updates constitutes acceptance of the updated terms. </p>
+                            </li>
+                        </ul>
                     </div>
                     <div class="tab-content sm:px-0 px-3 tab-content-13 hidden">
-                        <h1 class="text-xl font-black mb-4 Mulish-Black leading-none" >Host2Media Terms of Service</h1>
-                        <p class="font-bold mb-4">Effective Date: [14 December 2024]</p>
-                        <p class="mb-4">Welcome to Host2Media! These Terms of Service ("TOS") govern your access to and use of Host2Media’s services. By using our services, you agree to be bound by these terms. If you do not agree, please discontinue use immediately.</p>
+                        <h2 class="text-xl font-black mb-4 Mulish-Black leading-none" >Refund Policy for Host2Media </h2>
+                        <p class="mb-4">Effective Date: [Insert Date]  </p>
+                        <ul class="list-decimal pl-5">
+                            <li class="marker:font-bold mb-4">
+                                <h3 class="text-basic font-bold mb-4 Mulish-black">   Overview  </h3>
+                                <p class="mb-4">At Host2Media, we strive to provide exceptional services to meet our clients' needs. This Refund Policy outlines the conditions under which refunds may or may not be issued. By using our services, you agree to the terms of this Refund Policy.</p>
+                            </li>
+                            <li class="marker:font-bold mb-4">
+                                <h3 class="text-basic font-bold mb-4 Mulish-black">Refundable services</h3>
+                                <p class="mb-4">
+                                    Refunds are available only for the following services and under specific conditions:
+                                </p>
+                                <ul class="list-disc pl-5 pb-4">
+                                    <li>
+                                        <p><strong>Shared Web Hosting:</strong>Refundable only if paid annually, within the first 30 days of the initial term.   </p>
+                                    </li>
+                                    <li>
+                                        <p><strong>Business Email Services:</strong> Refundable only if paid annually, within the first 30 days of the initial term. </p>
+                                    </li>
+                                </ul>
+                                <p class="mb-4">
+                                    Refund requests must be submitted within the 30-day money-back guarantee period.
+                                </p>
+                            </li>
+                            <li class="marker:font-bold mb-4">
+                                <h3 class="text-basic font-bold mb-4 Mulish-black">Non-Refundable Services</h3>
+                                <p class="mb-4">The following services are non-refundable under any circumstances: </p>
+                                <ul class="list-disc pl-5 pb-4">
+                                    <li>
+                                        <p><strong>Domain Names:</strong>Including registrations, renewals, and transfers.</p>
+                                    </li>
+                                    <li>
+                                        <p><strong>VPS Hosting Services.</strong></p>
+                                    </li>
+                                    <li>
+                                        <p><strong>SSL Certificates.</strong></p>
+                                    </li>
+                                    <li>
+                                        <p><strong>Third-Party Products or Services:</strong> This includes WordPress plugins, software, custom-built applications, or web development services.</p>
+                                    </li>
+                                    <li>
+                                        <p><strong>Setup Fees: </strong> Non-refundable once the setup process is initiated.</p>
+                                    </li>
+                                    <li>
+                                        <p><strong>Administrative Fees and Installation Fees.</strong></p>
+                                    </li>
+                                    <li>
+                                        <p><strong>Custom or On-Site Support at Client’s Location:</strong> Any technical support or assistance provided at the client’s physical location is non-refundable. This includes any associated service charges, labor costs, and transportation fees incurred for providing on-site services. These services are customized to address specific client needs and cannot be reused or resold, making them ineligible for refunds. </p>
+                                    </li>
+                                    <li>
+                                        <p><strong> Website Development Payments:</strong> The initial payment made toward any website development project is strictly non-refundable. Furthermore, once the project has been delivered and deemed completed, and the final payment has been made, no refunds will be issued. By submitting the final payment, the client confirms their acceptance of the project as delivered, and no further claims for refunds or revisions will be entertained. Website development services are tailored to the client’s unique requirements, rendering them non-refundable. </p>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="marker:font-bold mb-4">
+                                <h3 class="text-basic font-bold mb-4 Mulish-black">Requesting a Refund</h3>
+                                <p class="mb-4">
+                                    To request a refund, you must contact our Billing Department at <a href="maito:billing@host2media.com">billing@host2media.com</a> or by phone at <a href="mailto:+961 3 821114">+961 3 821114</a>
+                                </p>
+                                <ul class="list-disc pl-5 pb-4">
+                                    <li>
+                                        <p>Include your account details and a brief explanation for the cancellation.</p>
+                                    </li>
+                                    <li>
+                                        <p>Refunds will be processed within 10-15 business days after approval.</p>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="marker:font-bold mb-4">
+                                <h3 class="text-basic font-bold mb-4 Mulish-black">Refund Conditions and Limitations </h3>
+                                <ul class="list-disc pl-5 pb-4">
+                                    <li>
+                                        <p>Refunds apply only to annual plans for eligible services. </p>
+                                    </li>
+                                    <li>
+                                        <p>Monthly plans are not eligible for refunds under any circumstances. </p>
+                                    </li>
+                                    <li>
+                                        <p>Services set to auto-renew will not be refunded once renewed. Clients must disable auto-renewal in advance if they do not wish to continue a service. </p>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="marker:font-bold mb-4">
+                                <h3 class="text-basic font-bold mb-4 Mulish-black">Payment Method Restrictions</h3>
+                                <p class="mb-4">Refunds are available for the following payment methods, subject to the conditions below:</p>
+                                <ul class="list-disc pl-5 pb-4">
+                                    <li>
+                                        <p><strong>Credit Cards and Cash Payments:</strong> Refunds are applicable for payments made via credit card or cash. Clients must provide proof of payment where necessary for cash transactions. </p>
+                                    </li>
+                                    <li>
+                                        <p><strong>Money Transfer Apps:</strong> Refunds are applicable for payments made through money transfer apps However, any transfer fees or associated charges imposed by the app provider will be deducted from the refunded amount. Clients acknowledge that these deductions are beyond Host2Media's control and depend on the policies of the respective app. </p>
+                                    </li>
+                                    <li>
+                                        <p>Payments made through bank transfers, cryptocurrency, or checks are non-refundable.</p>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="marker:font-bold mb-4">
+                                <h3 class="text-basic font-bold mb-4 Mulish-black">Chargebacks and Disputes</h3>
+                                <ul class="list-disc pl-5 pb-4">
+                                    <li>
+                                        <p>Filing a chargeback or dispute without contacting Host2Media may result in immediate account suspension. </p>
+                                    </li>
+                                    <li>
+                                        <p>Clients are encouraged to reach out to our Billing Department to resolve any payment-related issues amicably. </p>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="marker:font-bold mb-4">
+                                <h3 class="text-basic font-bold mb-4 Mulish-black">Amendments to the Refund Policy</h3>
+                                <p class="mb-4">Host2Media reserves the right to modify this Refund Policy at any time. Changes will be posted on our website with a revised "Effective Date."</p>
+                            </li>
+                        </ul>
                     </div>
                     <div class="tab-content sm:px-0 px-3 tab-content-14 hidden">
-                        <h1 class="text-xl font-black mb-4 Mulish-Black leading-none" >Host2Media Terms of Service</h1>
-                        <p class="font-bold mb-4">Effective Date: [14 December 2024]</p>
-                        <p class="mb-4">Welcome to Host2Media! These Terms of Service ("TOS") govern your access to and use of Host2Media’s services. By using our services, you agree to be bound by these terms. If you do not agree, please discontinue use immediately.</p>
+                        <h2 class="text-xl font-black mb-4 Mulish-Black leading-none" >Reseller Policy </h2>
+                        <p class="mb-4">Effective Date: [Insert Date]  </p>
+                        <p class="mb-4">At Host2Media, we offer reseller hosting services to enable clients to resell our hosting services under their brand. This Reseller Policy outlines the terms, conditions, and responsibilities for both Host2Media and resellers. By using our reseller hosting services, you agree to the terms described in this policy. </p>
+                        <ul class="list-decimal pl-5">
+                            <li class="marker:font-bold mb-4">
+                                <h3 class="text-basic font-bold mb-4 Mulish-black">Scope of the Policy</h3>
+                                <p class="mb-4">This policy applies to all clients who use Host2Media’s reseller hosting services. It governs the relationship between Host2Media and resellers, as well as the resellers’ responsibilities toward their clients. </p>
+                            </li>
+                            <li class="marker:font-bold mb-4">
+                                <h3 class="text-basic font-bold mb-4 Mulish-black">Reseller Responsibilities</h3>
+                                <p class="mb-4">
+                                    As a reseller, you are responsible for the following:
+                                </p>
+                                <ul class="list-none space-y-2">
+                                    <li class="before:content-['2.1'] flex justify-start before:mr-2 before:font-bold">
+                                        <p class="mb-4">
+                                            <span class="text-basic font-bold mb-4 Mulish-black mr-2">Client Management: </span>
+                                        </p>
+                                    </li>
+                                    <ul class="list-disc pl-5 pb-4">
+                                        <li>
+                                            <p>Providing direct support to your clients. </p>
+                                        </li>
+                                        <li>
+                                            <p>Ensuring your clients comply with Host2Media’s Terms of Service (TOS), Acceptable Use Policy (AUP), and other relevant policies. </p>
+                                        </li>
+                                        <li>
+                                            <p>Handling all communications and disputes with your clients.  </p>
+                                        </li>
+                                    </ul>
+                                    <li class="before:content-['2.2'] flex justify-start before:mr-2 before:font-bold">
+                                        <p class="mb-4">
+                                            <span class="text-basic font-bold mb-4 Mulish-black mr-2">Billing and Payments: </span>
+                                        </p>
+                                    </li>
+                                    <ul class="list-disc pl-5 pb-4">
+                                        <li>
+                                            <p>Managing the billing and payment collection for your clients. </p>
+                                        </li>
+                                        <li>
+                                            <p>Ensuring timely payments to Host2Media for the services you resell.  </p>
+                                        </li>
+                                    </ul>
+                                    <li class="before:content-['2.3'] flex justify-start before:mr-2 before:font-bold">
+                                        <p class="mb-4">
+                                            <span class="text-basic font-bold mb-4 Mulish-black mr-2">Service Setup and Management:  </span>
+                                        </p>
+                                    </li>
+                                    <ul class="list-disc pl-5 pb-4">
+                                        <li>
+                                            <p>Setting up and managing your clients’ hosting accounts using the tools provided.</p>
+                                        </li>
+                                        <li>
+                                            <p>Monitoring and addressing your clients' resource usage to ensure compliance with Host2Media’s resource limits. </p>
+                                        </li>
+                                    </ul>
+                                    <li class="before:content-['2.4'] flex justify-start before:mr-2 before:font-bold">
+                                        <p class="mb-4">
+                                            <span class="text-basic font-bold mb-4 Mulish-black mr-2">Legal Compliance:  </span>
+                                        </p>
+                                    </li>
+                                    <ul class="list-disc pl-5 pb-4">
+                                        <li>
+                                            <p>Ensuring your clients adhere to all applicable laws and regulations, including data protection, copyright, and intellectual property laws. </p>
+                                        </li>
+                                    </ul>
+                                    <li class="before:content-['2.5'] flex justify-start before:mr-2 before:font-bold">
+                                        <p class="mb-4">
+                                            <span class="text-basic font-bold mb-4 Mulish-black mr-2">Security and Maintenance:</span>
+                                        </p>
+                                    </li>
+                                    <ul class="list-disc pl-5 pb-4">
+                                        <li>
+                                            <p>Advising your clients to follow security best practices, including regular updates of their software and maintaining secure passwords. </p>
+                                        </li>
+                                        <li>
+                                            <p>Addressing malware or vulnerabilities on your clients’ accounts promptly. </p>
+                                        </li>
+                                    </ul>
+                                </ul>
+                            </li>
+                            <li class="marker:font-bold mb-4">
+                                <h3 class="text-basic font-bold mb-4 Mulish-black">Host2Media’s Responsibilities</h3>
+                                <p class="mb-4">
+                                    Host2Media will provide the following support and services to resellers:
+                                </p>
+                                <ul class="list-none space-y-2">
+                                    <li class="before:content-['3.1'] flex justify-start before:mr-2 before:font-bold">
+                                        <p class="mb-4">
+                                            <span class="text-basic font-bold mb-4 Mulish-black mr-2">Hosting Infrastructure:</span>
+                                        </p>
+                                    </li>
+                                    <ul class="list-disc pl-5 pb-4">
+                                        <li>
+                                            <p>Reliable hosting infrastructure, including servers, networks, and data centers. </p>
+                                        </li>
+                                        <li>
+                                            <p>Monitoring and maintenance of the hosting environment to ensure uptime and performance. </p>
+                                        </li>
+                                    </ul>
+                                    <li class="before:content-['3.2'] flex justify-start before:mr-2 before:font-bold">
+                                        <p class="mb-4">
+                                            <span class="text-basic font-bold mb-4 Mulish-black mr-2">Limited End-Client Support: </span>
+                                        </p>
+                                    </li>
+                                    <ul class="list-disc pl-5 pb-4">
+                                        <li>
+                                            <p>Host2Media may provide limited support directly to your clients on a case-by-case basis. Such support is not guaranteed and may incur additional charges. </p>
+                                        </li>
+                                        <li>
+                                            <p>Resellers remain primarily responsible for supporting their clients.   </p>
+                                        </li>
+                                    </ul>
+                                    <li class="before:content-['3.3'] flex justify-start before:mr-2 before:font-bold">
+                                        <p class="mb-4">
+                                            <span class="text-basic font-bold mb-4 Mulish-black mr-2">Communication:   </span>
+                                        </p>
+                                    </li>
+                                    <ul class="list-disc pl-5 pb-4">
+                                        <li>
+                                            <p>Prompt notification of service updates, maintenance, or issues that may affect reseller accounts or their clients. </p>
+                                        </li>
+                                    </ul>
+                                </ul>
+                            </li>
+                            <li class="marker:font-bold mb-4">
+                                <h3 class="text-basic font-bold mb-4 Mulish-black"> Resource Usage</h3>
+                                <ul class="list-none space-y-2">
+                                    <li class="before:content-['4.1'] flex justify-start before:mr-2 before:font-bold">
+                                        <p class="mb-4">
+                                            <span class="text-basic font-bold mb-4 Mulish-black mr-2">Fair Usage:</span>
+                                        </p>
+                                    </li>
+                                    <p class="mb-4">Resellers and their clients must use resources (e.g., bandwidth, disk space, CPU) within the limits of their hosting plans. Excessive usage may result in account suspension or additional charges.</p>
+                                    <li class="before:content-['4.2'] flex justify-start before:mr-2 before:font-bold">
+                                        <p class="mb-4">
+                                            <span class="text-basic font-bold mb-4 Mulish-black mr-2">Resource Allocation: </span>
+                                        </p>
+                                    </li>
+                                    <p class="mb">Resellers are responsible for ensuring that their clients’ accounts do not exceed the resource limits set in the reseller plan.</p>
+                                </ul>
+                            </li>
+                            <li class="marker:font-bold mb-4">
+                                <h3 class="text-basic font-bold mb-4 Mulish-black">  Billing and Payments</h3>
+                                <ul class="list-none space-y-2">
+                                    <li class="before:content-['5.1'] flex justify-start before:mr-2 before:font-bold">
+                                        <p class="mb-4">
+                                            <span class="text-basic font-bold mb-4 Mulish-black mr-2">Reseller Payments:
+                                            </span>
+                                        </p>
+                                    </li>
+                                    <p class="mb-4">Resellers are responsible for timely payment of their reseller hosting plan and any additional services used by their clients.</p>
+                                    <li class="before:content-['5.2'] flex justify-start before:mr-2 before:font-bold">
+                                        <p class="mb-4">
+                                            <span class="text-basic font-bold mb-4 Mulish-black mr-2">Client Non-Payment: </span>
+                                        </p>
+                                    </li>
+                                    <p class="mb">Host2Media will not intervene in billing disputes between resellers and their clients. Non-payment by a reseller’s client does not exempt the reseller from paying Host2Media.</p>
+                                </ul>
+                            </li>
+                            <li class="marker:font-bold mb-4">
+                                <h3 class="text-basic font-bold mb-4 Mulish-black"> Termination and Suspension</h3>
+                                <ul class="list-none space-y-2">
+                                    <li class="before:content-['6.1'] flex justify-start before:mr-2 before:font-bold">
+                                        <p class="mb-4">
+                                            <span class="text-basic font-bold mb-4 Mulish-black mr-2">Termination by Host2Media: </span>
+                                        </p>
+                                    </li>
+                                    <p class="mb-4">
+                                        Host2Media reserves the right to terminate a reseller account under the following conditions:
+                                    </p>
+                                    <ul class="list-disc pl-5 pb-4">
+                                        <li>
+                                            <p>Non-payment of invoices. </p>
+                                        </li>
+                                        <li>
+                                            <p>Violation of Host2Media’s policies by the reseller or their clients. </p>
+                                        </li>
+                                        <li>
+                                            <p>Abuse of services, including spamming or resource overuse. </p>
+                                        </li>
+                                    </ul>
+                                    <li class="before:content-['6.2'] flex justify-start before:mr-2 before:font-bold">
+                                        <p class="mb-4">
+                                            <span class="text-basic font-bold mb-4 Mulish-black mr-2">Suspension of Client Accounts: </span>
+                                        </p>
+                                    </li>
+                                    <p class="mb-4">If a reseller’s client violates Host2Media’s policies or causes harm to the hosting environment, Host2Media may suspend the offending account. The reseller will be notified of the suspension.</p>
+                                    <li class="before:content-['6.3'] flex justify-start before:mr-2 before:font-bold">
+                                        <p class="mb-4">
+                                            <span class="text-basic font-bold mb-4 Mulish-black mr-2">Reseller Termination Impact:  </span>
+                                        </p>
+                                    </li>
+                                    <p class="mb-4">
+                                        If a reseller account is terminated, all associated client accounts will also be suspended or terminated. Resellers are responsible for notifying their clients in such cases.
+                                    </p>
+                                    <li class="before:content-['2.4'] flex justify-start before:mr-2 before:font-bold">
+                                        <p class="mb-4">
+                                            <span class="text-basic font-bold mb-4 Mulish-black mr-2">Transfer with Reseller and Client Approval:  </span>
+                                        </p>
+                                    </li>
+                                    <ul class="list-disc pl-5 pb-4">
+                                        <li>
+                                            <p>If the reseller wishes to terminate their account and has obtained approval from their clients for a direct transfer to Host2Media, those clients will be onboarded as Host2Media direct clients. </p>
+                                        </li>
+                                        <li>
+                                            <p>In this case, the reseller acknowledges and agrees that Host2Media assumes no liability or financial obligation toward the reseller for these transferred accounts. </p>
+                                        </li>
+                                    </ul>
+                                </ul>
+                            </li>
+                            <li class="marker:font-bold mb-4">
+                                <h3 class="text-basic font-bold mb-4 Mulish-black"> Branding and White Labeling  </h3>
+                                <p class="mb-4">Resellers may operate under their own branding and are not required to disclose their relationship with Host2Media. However:   </p>
+                                <ul class="list-decimal pl-5 pb-4">
+                                    <li>
+                                        <p>Host2Media reserves the right to contact end clients if required to address critical policy violations or legal obligations.  </p>
+                                    </li>
+                                    <li>
+                                        <p>Any promotional materials, logos, or trademarks provided by Host2Media must not be altered without prior approval. </p>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="marker:font-bold mb-4">
+                                <h3 class="text-basic font-bold mb-4 Mulish-black"> Prohibited Activities  </h3>
+                                <p class="mb-4">Resellers must ensure their clients do not engage in:  </p>
+                                <ul class="list-decimal pl-5 pb-4">
+                                    <li>
+                                        <p>Hosting illegal or harmful content. </p>
+                                    </li>
+                                    <li>
+                                        <p>Spamming or sending unsolicited communications.  </p>
+                                    </li>
+                                    <li>
+                                        <p>Violating copyright or intellectual property laws.</p>
+                                    </li>
+                                    <li>
+                                        <p>Using nulled or pirated software. </p>
+                                    </li>
+                                </ul>
+                                <p class="mb-4">Host2Media reserves the right to take action against any violations, including immediate suspension or termination of offending accounts. </p>
+                            </li>
+                            <li class="marker:font-bold mb-4">
+                                <h3 class="text-basic font-bold mb-4 Mulish-black"> Data Retention and Backups </h3>
+                                <ul class="list-none space-y-2">
+                                    <li class="before:content-['9.1'] flex justify-start before:mr-2 before:font-bold">
+                                        <p class="mb-4">
+                                            <span class="text-basic font-bold mb-4 Mulish-black mr-2">Reseller Backups:</span>
+                                        </p>
+                                    </li>
+                                    <p class="mb-4">
+                                        Resellers are responsible for maintaining backups of their clients’ data. Host2Media’s system backups are for internal use and disaster recovery only.
+                                    </p>
+                                    <li class="before:content-['9.2'] flex justify-start before:mr-2 before:font-bold">
+                                        <p class="mb-4">
+                                            <span class="text-basic font-bold mb-4 Mulish-black mr-2">Data Retention After Termination: </span>
+                                        </p>
+                                    </li>
+                                    <p class="mb-4">
+                                        Upon account termination, data associated with the reseller and their clients will be retained for up to <strong>30 days</strong>, after which it will be permanently deleted.
+                                    </p>
+                                </ul>
+                            </li>
+                            <li class="marker:font-bold mb-4">
+                                <h3 class="text-basic font-bold mb-4 Mulish-black">Limitation of Liability </h3>
+                                <p class="mb-4">Host2Media is not liable for: </p>
+                                <ul class="list-decimal pl-5 pb-4">
+                                    <li>
+                                        <p>Disputes between the reseller and their clients. </p>
+                                    </li>
+                                    <li>
+                                        <p>Loss of data or revenue resulting from service interruptions or account suspensions. </p>
+                                    </li>
+                                    <li>
+                                        <p>Any actions or omissions by the reseller that affect their clients. </p>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="marker:font-bold mb-4">
+                                <h3 class="text-basic font-bold mb-4 Mulish-black"> Amendments to This Policy</h3>
+                                <p class="mb-4">Host2Media reserves the right to update this Reseller Policy at any time. Updates will be communicated via email or posted on our website with a revised "Effective Date."</p>
+                            </li>
+                            <li class="marker:font-bold mb-4">
+                                <h3 class="text-basic font-bold mb-4 Mulish-black">Partnership and Collaboration </h3>
+                                <ul class="list-none space-y-2">
+                                    <li class="before:content-['12.1'] flex justify-start before:mr-2 before:font-bold">
+                                        <p class="mb-4">
+                                            <span class="text-basic font-bold mb-4 Mulish-black mr-2">Partnership Disclaimer</span>
+                                        </p>
+                                    </li>
+                                    <p class="mb-4">
+                                        <strong>Representation and Ownership</strong> Host2Media is solely owned, managed, and represented by Nadim Younes. No partnerships, joint ventures, or ownership agreements exist with any reseller or third party. Resellers are independent entities and are strictly prohibited from representing themselves as partners or co-owners of Host2Media in any capacity.
+                                    </p>
+                                    <li class="before:content-['3.2'] flex justify-start before:mr-2 before:font-bold">
+                                        <p class="mb-4">
+                                            <span class="text-basic font-bold mb-4 Mulish-black mr-2">Representation and Ownership </span>
+                                        </p>
+                                    </li>
+                                    <p class="mb-4">
+                                        <strong>Collaboration Agreements</strong> All agreements with resellers are classified as collaborations, not partnerships or joint ventures. These agreements define the independent responsibilities of each party and do not grant resellers authority to act on behalf of, represent, or legally bind Host2Media or Nadim Younes beyond the terms explicitly outlined in the agreement.
+                                    </p>
+                                </ul>
+                            </li>
+                        </ul>
                     </div>
                     <div class="tab-content sm:px-0 px-3 tab-content-15 hidden">
                         <h1 class="text-xl font-black mb-4 Mulish-Black leading-none" >Host2Media Terms of Service</h1>
