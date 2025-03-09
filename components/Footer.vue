@@ -50,11 +50,6 @@
                 <li class="sm:text-[0.75rem] text-sm font-light mb-2">
                   <a> Customer Portal </a>
                 </li>
-                <!-- <li class="sm:text-[0.75rem] sm:leading-4 text-sm font-light mb-2">
-                                    <a>
-                                        Status
-                                    </a>
-                                </li> -->
                 <li
                   class="sm:text-[0.75rem] sm:leading-4 text-sm font-light mb-2"
                 >
@@ -82,26 +77,11 @@
                 >
                   <NuxtLink to="domains"> Domain name </NuxtLink>
                 </li>
-                <!-- <li
-                  class="sm:text-[0.75rem] sm:leading-4 text-sm font-light mb-2"
-                >
-                  <a> VPS </a>
-                </li> -->
                 <li
                   class="sm:text-[0.75rem] sm:leading-4 text-sm font-light mb-2"
                 >
                   <NuxtLink to="email-hosting"> Professional Email </NuxtLink>
                 </li>
-                <!-- <li
-                  class="sm:text-[0.75rem] sm:leading-4 text-sm font-light mb-2"
-                >
-                  <a> Dev Services </a>
-                </li> -->
-                <!-- <li
-                  class="sm:text-[0.75rem] sm:leading-4 text-sm font-light mb-2"
-                >
-                  <a> Reseller & Affiliate Program </a>
-                </li> -->
               </ul>
             </div>
           </div>
@@ -112,27 +92,27 @@
                 <li
                   class="sm:text-[0.75rem] sm:leading-4 text-sm font-light mb-2"
                 >
-                  <a> Terms Of Service </a>
+                  <NuxtLink to="/legal?tab=1"> Terms Of Service </NuxtLink>
                 </li>
                 <li
                   class="sm:text-[0.75rem] sm:leading-4 text-sm font-light mb-2"
                 >
-                  <a> Privacy Policy </a>
+                  <NuxtLink to="/legal?tab=12"> Privacy Policy </NuxtLink>
                 </li>
                 <li
                   class="sm:text-[0.75rem] sm:leading-4 text-sm font-light mb-2"
                 >
-                  <a> Cookie Settings </a>
+                  <NuxtLink to="/legal?tab=5"> Cookie Settings </NuxtLink>
                 </li>
                 <li
                   class="sm:text-[0.75rem] sm:leading-4 text-sm font-light mb-2"
                 >
-                  <a> Acceptable Use Policy </a>
+                  <NuxtLink to="/legal?tab=2"> Acceptable Use Policy </NuxtLink>
                 </li>
                 <li
                   class="sm:text-[0.75rem] sm:leading-4 text-sm font-light mb-2"
                 >
-                  <a> Report Abuse </a>
+                  <NuxtLink to="/legal?tab=3"> Report Abuse </NuxtLink>
                 </li>
               </ul>
             </div>

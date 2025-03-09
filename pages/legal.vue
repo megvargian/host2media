@@ -3665,6 +3665,7 @@
     </section>
 </template>
 <script setup lang="ts">
+const route = useRoute();
 const changeTabContent = (n: number) => {
     const allTabContent = document.querySelectorAll('.tab-content');
     for (let i = 0; i < allTabContent.length; i++) {
@@ -3679,5 +3680,16 @@ const changeTabContent = (n: number) => {
     const tagetContent = document.querySelector('.tab-content-' + n) as HTMLElement;
     tagetContent.classList.remove('hidden');
 }
-
+const tab = route.query.tab ?? '';
+watch(
+    () => route.query?.tab,
+    (newtab, oldQuery) => {
+        changeTabContent(Number(newtab))
+    }
+)
+onMounted(() => {
+    if (tab) {
+        changeTabContent(Number(tab))
+    }
+})
 </script>
