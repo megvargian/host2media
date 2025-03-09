@@ -1110,7 +1110,7 @@
                     </div>
                     <div class="tab-content sm:px-0 px-3 tab-content-5 hidden">
                         <h2 class="text-xl font-black mb-4 Mulish-Black leading-none" >Host2Media Cookie Policy: Understanding Our Use of Cookies</h2>
-                        <p class="">Effective Date: [Insert Date] </p>
+                        <p class="">Effective Date: [12 December 2024] </p>
                         <ul class="list-decimal pl-5">
                             <li class="marker:font-bold mb-4">
                                 <p class="mb-4">
