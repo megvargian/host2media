@@ -305,8 +305,8 @@
                 </h3>
                 <p>
                   Services are auto-renewed unless canceled in advance.
-                  Cancellation requests must be submitted at least [Insert Days]
-                  days before the next billing cycle.
+                  Cancellation requests must be submitted at least two months
+                  before the next billing cycle.
                 </p>
               </li>
               <li class="marker:font-bold mb-4">
@@ -1711,7 +1711,7 @@
             <h2 class="text-xl font-black mb-4 Mulish-Black leading-none">
               Abuse Policy
             </h2>
-            <p class="">Effective Date: [Insert Date]</p>
+            <p class="">Effective Date: [12 December 2024]]</p>
             <p class="font-bold mb-4">
               At Host2Media, we are dedicated to providing reliable and secure
               hosting services while ensuring a safe online environment for all
@@ -2242,7 +2242,7 @@
                 <p class="mb-4">
                   If you suspect or receive spam originating from a
                   Host2Media-hosted account, please report it to us at: <br />
-                  Email: [Insert Abuse Email Address]
+                  Email: abuse@host2media.com
                 </p>
                 <p class="mb-4">
                   Include the following details in your report:
@@ -3150,8 +3150,8 @@
                   </li>
                 </ul>
                 <p class="">You can send your notification to us at:</p>
-                <p class="">Email: [Insert Email Address]</p>
-                <p class="mb-4">Phone: [Insert Phone Number]</p>
+                <p class="">Email: legal@host2media.com</p>
+                <p class="mb-4">Phone: +961 3 821114</p>
                 <p class="mb-4">
                   We will acknowledge receipt of your notification and promptly
                   investigate the claim.
@@ -3230,8 +3230,8 @@
                   </li>
                 </ul>
                 <p class="">Send your counter-notification to:</p>
-                <p class="">Email: [Insert Email Address]</p>
-                <p class="mb-4">Phone: [Insert Phone Number]</p>
+                <p class="">Email: support@host2media.com</p>
+                <p class="mb-4">Phone: +961 3 821114</p>
                 <p class="mb-4">
                   If the counter-notification is valid, Host2Media may restore
                   the removed content unless the original claimant provides
@@ -3289,7 +3289,7 @@
             <h2 class="text-xl font-black mb-4 Mulish-Black leading-none">
               Data Retention Policy
             </h2>
-            <p class="mb-4">Effective Date: [Insert Date]</p>
+            <p class="mb-4">Effective Date: [12 December 2024]</p>
             <p class="mb-4">
               At Host2Media, we value the privacy and security of your data.
               This Data Retention Policy outlines how we collect, store, manage,
@@ -3592,7 +3592,7 @@
             <h2 class="text-xl font-black mb-4 Mulish-Black leading-none">
               Fair Usage Policy
             </h2>
-            <p class="mb-4">Effective Date: [Insert Date]</p>
+            <p class="mb-4">Effective Date: [12 December 2024]</p>
             <p class="mb-4">
               At Host2Media, we are committed to providing reliable,
               high-quality hosting services to all clients. This Fair Usage
@@ -3950,7 +3950,7 @@
             <h2 class="text-xl font-black mb-4 Mulish-Black leading-none">
               Migration Policy
             </h2>
-            <p class="mb-4">Effective Date: [Insert Date]</p>
+            <p class="mb-4">Effective Date: [12 December 2024]</p>
             <p class="mb-4">
               At Host2Media, we strive to make transitioning to our platform as
               seamless as possible. This Migration Policy outlines the terms,
@@ -4201,7 +4201,7 @@
             <h2 class="text-xl font-black mb-4 Mulish-Black leading-none">
               Payment Policy
             </h2>
-            <p class="mb-4">Effective Date: [Insert Date]</p>
+            <p class="mb-4">Effective Date: [12 December 2024]</p>
             <p class="mb-4">
               At Host2Media, we aim to provide clear and transparent guidelines
               regarding payments for our services. This Payment Policy outlines
@@ -4495,8 +4495,7 @@
                   <li>
                     <p>
                       All payment disputes must be reported to Host2Media’s
-                      billing department within [Insert Number of Days 5 days of
-                      the transaction.
+                      billing department within 5 days of the transaction.
                     </p>
                   </li>
                   <li>
@@ -4524,7 +4523,7 @@
             <h2 class="text-xl font-black mb-4 Mulish-Black leading-none">
               Privacy Policy
             </h2>
-            <p class="mb-4">Effective Date: [Insert Date]</p>
+            <p class="mb-4">Effective Date: [12 December 2024]</p>
             <p class="mb-4">
               At Host2Media, we are committed to protecting the privacy and
               security of our users' personal information. This Privacy Policy
@@ -4756,7 +4755,7 @@
                   data.
                 </p>
               </li>
-              <li class="marker:font-bold mb-4">
+              <!-- <li class="marker:font-bold mb-4">
                 <h3 class="text-basic font-bold mb-4 Mulish-black">
                   Your Rights
                 </h3>
@@ -4800,17 +4799,16 @@
                   To exercise these rights, contact us at [Insert Contact Email
                   or Form].
                 </p>
-              </li>
+              </li> -->
               <li class="marker:font-bold mb-4">
                 <h3 class="text-basic font-bold mb-4 Mulish-black">
                   International Data Transfers
                 </h3>
                 <p class="mb-4">
-                  If you are accessing our services from outside [Insert
-                  Country], your information may be transferred to, stored, and
-                  processed in a country with data protection laws different
-                  from your own. By using our services, you consent to such
-                  transfers.
+                  If you are accessing our services from outside Lebanon, your
+                  information may be transferred to, stored, and processed in a
+                  country with data protection laws different from your own. By
+                  using our services, you consent to such transfers.
                 </p>
               </li>
               <li class="marker:font-bold mb-4">
@@ -4841,7 +4839,7 @@
             <h2 class="text-xl font-black mb-4 Mulish-Black leading-none">
               Refund Policy for Host2Media
             </h2>
-            <p class="mb-4">Effective Date: [Insert Date]</p>
+            <p class="mb-4">Effective Date: [12 December 2024]</p>
             <ul class="list-decimal pl-5">
               <li class="marker:font-bold mb-4">
                 <h3 class="text-basic font-bold mb-4 Mulish-black">Overview</h3>
@@ -5077,7 +5075,7 @@
             <h2 class="text-xl font-black mb-4 Mulish-Black leading-none">
               Reseller Policy
             </h2>
-            <p class="mb-4">Effective Date: [Insert Date]</p>
+            <p class="mb-4">Effective Date: [12 December 2024]</p>
             <p class="mb-4">
               At Host2Media, we offer reseller hosting services to enable
               clients to resell our hosting services under their brand. This
@@ -5632,7 +5630,7 @@
             <h2 class="text-xl font-black mb-4 Mulish-Black leading-none">
               Security Policy
             </h2>
-            <p class="mb-4">Effective Date: [Insert Date]</p>
+            <p class="mb-4">Effective Date: [12 December 2024]</p>
             <p class="mb-4">
               At Host2Media, we prioritize the security of our clients' data and
               services. This Security Policy outlines the measures we take to
@@ -6077,7 +6075,7 @@
             <h2 class="text-xl font-black mb-4 Mulish-Black leading-none">
               Service Level Agreement (SLA)
             </h2>
-            <p class="mb-4">Effective Date: [Insert Date]</p>
+            <p class="mb-4">Effective Date: [12 December 2024]</p>
             <p class="mb-4">
               At Host2Media, we are committed to delivering reliable,
               high-quality hosting services. This Service Level Agreement (SLA)
@@ -6374,7 +6372,7 @@
             <h2 class="text-xl font-black mb-4 Mulish-Black leading-none">
               Support Policy
             </h2>
-            <p class="mb-4">Effective Date: [Insert Date]</p>
+            <p class="mb-4">Effective Date: [12 December 2024]</p>
             <p class="mb-4">
               At Host2Media, we are committed to providing reliable and
               professional support to ensure our clients have a smooth and
@@ -6436,8 +6434,7 @@
                 <ul class="list-disc pl-5 pb-4">
                   <li>
                     <p>
-                      <strong>Email Support:</strong> [Insert Support Email
-                      Address]
+                      <strong>Email Support:</strong> support@host2media.com
                     </p>
                   </li>
                   <li>
@@ -6448,8 +6445,8 @@
                   </li>
                   <li>
                     <p>
-                      <strong>Phone Support:</strong> [Insert Support Phone
-                      Number], during designated support hours.
+                      <strong>Phone Support:</strong> +961 3 821114, during
+                      designated support hours.
                     </p>
                   </li>
                   <li>
@@ -6712,7 +6709,7 @@
             <h2 class="text-xl font-black mb-4 Mulish-Black leading-none">
               Termination Policy
             </h2>
-            <p class="mb-4">Effective Date: [Insert Date]</p>
+            <p class="mb-4">Effective Date: [12 December 2024]</p>
             <p class="mb-4">
               At Host2Media, we aim to provide high-quality services to our
               clients. However, certain circumstances may lead to the suspension
