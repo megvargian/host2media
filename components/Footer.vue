@@ -48,7 +48,7 @@
               <p class="text-lg font-black pb-3">Links</p>
               <ul>
                 <li class="sm:text-[0.75rem] text-sm font-light mb-2">
-                  <a> Customer Portal </a>
+                  <NuxtLink to="/login"> Customer Portal </NuxtLink>
                 </li>
                 <li
                   class="sm:text-[0.75rem] sm:leading-4 text-sm font-light mb-2"
