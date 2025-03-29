@@ -42,7 +42,7 @@
                 <li
                   class="mx-2 Mulish-light font-semibold text-[0.75rem] lg:pr-32"
                 >
-                  <a href="#"> Customer Portal </a>
+                  <NuxtLink to="/login"> Customer Portal </NuxtLink>
                 </li>
               </ul>
             </div>

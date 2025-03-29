@@ -1,1 +1,131 @@
+#  _    _           _   ___  __  __          _ _
+# | |  | |         | | |__ \|  \/  |        | (_)
+# | |__| | ___  ___| |_   ) | \  / | ___  __| |_  __ _
+# |  __  |/ _ \/ __| __| / /| |\/| |/ _ \/ _` | |/ _` |
+# | |  | | (_) \__ \ |_ / /_| |  | |  __/ (_| | | (_| |
+# |_|  |_|\___/|___/\__|____|_|  |_|\___|\__,_|_|\__,_|
+#
+#
+# 📌 Host2Media Robots.txt File
+# 🔒 Copyright © 2025 Host2Media. All Rights Reserved.
+#
+# This file governs how web crawlers and bots interact with our website.
+# Unauthorized scraping, automated data collection, or excessive crawling is strictly prohibited. 🚫
+# Only trusted search engines and essential services are permitted to access our content.
+#
+# ⚠️ **Warning:** Violation of these terms may result in IP bans, legal action, or other security measures.
+#
+# 📩 For inquiries regarding access permissions, please contact: support@host2media.com
+#
 
+# ✅ Block ALL Bots by Default (Except Those Explicitly Allowed)
+User-agent: *
+Disallow: /
+
+# ✅ Allow Trusted Search Engines (For Text Content, But Not Images)
+User-agent: Googlebot
+Allow: /
+
+User-agent: Bingbot
+Allow: /
+
+User-agent: DuckDuckBot
+Allow: /
+
+User-agent: Yahoo! Slurp
+Allow: /
+
+User-agent: Baiduspider
+Allow: /
+
+User-agent: YandexBot
+Allow: /
+
+# 🚫 BLOCK GOOGLE IMAGES (Prevents Logos, Icons & Images from Appearing in Search)
+User-agent: Googlebot-Image
+Disallow: /
+
+# ✅ Allow Social Media Crawlers (For Previews Only)
+User-agent: facebookexternalhit  # Facebook, Instagram, WhatsApp
+Allow: /
+
+User-agent: Facebot  # Facebook Bot
+Allow: /
+
+User-agent: FacebookBot  # Facebook's Main Crawler
+Allow: /
+
+User-agent: Twitterbot  # Twitter/X Bot
+Allow: /
+
+User-agent: LinkedInBot  # LinkedIn Preview Bot
+Allow: /
+
+# 🚫 Block Certain Bots
+User-agent: Discordbot
+Disallow: *
+
+User-agent: Google-Extended  # Blocks Google's AI content scraping
+Disallow: *
+
+User-agent: Spinn3r
+Disallow: /
+
+User-agent: AdsBot-Google-Mobile
+Disallow: /
+
+# ✅ Allow Essential Web Tools
+User-agent: Cloudflare-AlwaysOnline  # Cloudflare Cache Bot
+Allow: /
+
+User-agent: GTmetrix  # GTmetrix Performance Bot
+Allow: /
+
+User-agent: Googlebot-Mobile  # Google Mobile Crawler (For Text, Not Images)
+Allow: /
+
+# 🚫 Block Unwanted Bots (Scrapers, SEO Crawlers, and Spam)
+User-agent: AhrefsBot
+Disallow: /
+
+User-agent: SemrushBot
+Disallow: /
+
+User-agent: MJ12bot  # Majestic SEO Bot
+Disallow: /
+
+User-agent: DotBot  # Scraper Bot
+Disallow: /
+
+User-agent: BLEXBot  # Data Scraper
+Disallow: /
+
+User-agent: MegaIndex  # SEO Crawler
+Disallow: /
+
+# 🚫 Block Blog (Hosted Externally)
+Disallow: /blog/
+
+# ✅ Allow Important Pages for Indexing
+Allow: /domains
+Allow: /web-hosting
+Allow: /professional-email
+Allow: /contact-us
+Allow: /about-us
+Allow: /legal
+Allow: /customer-portal
+
+# ⏳ Set Crawl-Delay (Prevents Server Overload)
+Crawl-delay: 2
+
+# ✅ Sitemap Location
+Sitemap: https://www.host2media.com/sitemap.xml
+
+#### Good Night ####
+#       , _ ,      #
+#      ( o o )     #
+#     /'` ' `'\    #
+#     |'''''''|    #
+#     |\\'''//|    #
+#     ==="""===    #
+####################
