@@ -5075,14 +5075,12 @@
             <h2 class="text-xl font-black mb-4 Mulish-Black leading-none">
               Reseller Policy
             </h2>
-            <p class="mb-4">Effective Date: [12 December 2024]</p>
+            <p class="mb-4">Effective Date: [28 April 2025]</p>
+            <h3 class="text-basic font-bold mb-4 Mulish-black">
+              Update Note:
+            </h3>
             <p class="mb-4">
-              At Host2Media, we offer reseller hosting services to enable
-              clients to resell our hosting services under their brand. This
-              Reseller Policy outlines the terms, conditions, and
-              responsibilities for both Host2Media and resellers. By using our
-              reseller hosting services, you agree to the terms described in
-              this policy.
+              This policy was updated to clarify the responsibilities of clients and external collaborators regarding the licensing and legality of website content, including images, text, and designs.
             </p>
             <ul class="list-decimal pl-5">
               <li class="marker:font-bold mb-4">
@@ -5621,6 +5619,20 @@
                     resellers authority to act on behalf of, represent, or
                     legally bind Host2Media or Nadim Younes beyond the terms
                     explicitly outlined in the agreement.
+                  </p>
+                  <li
+                    class="before:content-['3.3'] flex justify-start before:mr-2 before:font-bold"
+                  >
+                    <p class="mb-4">
+                      <span class="text-basic font-bold mb-4 Mulish-black mr-2"
+                        >Content Responsibility of Collaborators
+                      </span>
+                    </p>
+                  </li>
+                  <p class="mb-4">
+                    When Host2Media collaborates with third-party developers, designers, or external agencies on behalf of clients, the responsibility for securing valid licenses for all website content (including but not limited to text, images, designs, and multimedia) lies solely with the client and/or the third-party collaborator. <br>
+                    Host2Media is not responsible for verifying, securing, or guaranteeing the legality or originality of any content provided by external collaborators. <br>
+                    Clients acknowledge that they are ultimately responsible for ensuring that all materials published on their websites comply with copyright, intellectual property, and related laws.
                   </p>
                 </ul>
               </li>
