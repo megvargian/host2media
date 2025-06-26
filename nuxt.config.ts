@@ -1,6 +1,23 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
   compatibilityDate: "2024-04-03",
+  head: {
+    script: [
+      {
+        src: 'https://www.googletagmanager.com/gtag/js?id=G-99W8W5FNQH',
+        async: true
+      },
+      {
+        children: `
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+          gtag('config', 'G-99W8W5FNQH');
+        `,
+        type: 'text/javascript'
+      }
+    ]
+  },
   devtools: { enabled: false },
   css: ["~/assets/style/main.scss"],
   postcss: {
